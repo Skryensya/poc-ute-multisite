@@ -15,7 +15,8 @@ FROM node:22-alpine AS run
 WORKDIR /app
 ENV NODE_ENV=production HOST=0.0.0.0 PORT=1337
 COPY --from=build --chown=node:node /app ./
-RUN mkdir -p public/uploads .tmp && chown -R node:node public/uploads .tmp
+# Strapi escribe en /app (database/migrations), uploads y .tmp como usuario node.
+RUN mkdir -p public/uploads .tmp database/migrations && chown node:node /app && chown -R node:node public/uploads .tmp database
 USER node
 EXPOSE 1337
 # Secretos y DATABASE_* se inyectan en runtime. El seed NO corre al arrancar: `node scripts/seed.js`.
