@@ -1,0 +1,13 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careers",
+  "info": { "singularName": "career", "pluralName": "careers", "displayName": "Career" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "duration": { "type": "string" },
+    "degree": { "type": "string" },
+    "sites": { "type": "relation", "relation": "manyToMany", "target": "api::site.site" }
+  }
+}
