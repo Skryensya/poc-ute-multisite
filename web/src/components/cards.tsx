@@ -3,8 +3,8 @@ import type { Announcement, Career, Course, Professor, SiteRef } from "@/lib/typ
 
 const date = new Intl.DateTimeFormat("es-CL", { dateStyle: "long", timeZone: "UTC" });
 const short = (n: string) => n.replace("Facultad de ", "").replace("Universidad Tecnológica del Este", "Universidad");
-const card = "rounded-2xl border border-slate-200 bg-white shadow-sm";
-const chip = "rounded-full bg-slate-100 px-2.5 py-0.5 text-xs text-slate-600";
+const card = "card";
+const chip = "rounded-(--r-btn) bg-slate-100 px-2.5 py-0.5 text-xs text-slate-600";
 
 /** Un mismo registro de Strapi en varios sitios: se indica dónde más aparece. Si es exclusivo, no se muestra nada. */
 export function SharedBadge({ sites, current, onImage }: { sites: SiteRef[]; current: string; onImage?: boolean }) {
@@ -12,7 +12,7 @@ export function SharedBadge({ sites, current, onImage }: { sites: SiteRef[]; cur
   if (others.length === 0) return null;
   return (
     <span title={sites.map((s) => s.name).join(", ")}
-      className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium ${onImage ? "bg-white/95 text-primary shadow" : "bg-soft text-primary"}`}>
+      className={`inline-flex items-center gap-1 rounded-(--r-btn) px-2.5 py-0.5 text-xs font-medium ${onImage ? "bg-white/95 text-primary shadow" : "bg-soft text-primary"}`}>
       <span aria-hidden="true">⇄</span>{`También en ${others.map((s) => short(s.name)).join(" y ")}`}
     </span>
   );
@@ -33,7 +33,7 @@ export function CareerCard({ career, current }: { career: Career; current: strin
           <div className="absolute left-3 top-3"><SharedBadge sites={career.sites} current={current} onImage /></div>
         </div>
         <div className="flex flex-1 flex-col gap-2 p-5">
-          <h3 className="text-lg font-semibold leading-snug text-primary">{career.name}</h3>
+          <h3 className="font-display text-lg font-semibold leading-snug text-primary">{career.name}</h3>
           <p className="line-clamp-2 text-sm text-slate-600">{career.description}</p>
           <div className="mt-auto flex flex-wrap gap-1.5 pt-2">
             {[career.duration, career.modality].filter(Boolean).map((t) => <span key={t} className={chip}>{t}</span>)}
@@ -51,8 +51,8 @@ export function ProfessorCard({ professor: p, current }: { professor: Professor;
   return (
     <li className={`flex gap-4 p-5 ${card}`}>
       {p.photoUrl
-        ? <img src={p.photoUrl} alt={p.name} loading="lazy" className="h-20 w-20 shrink-0 rounded-full object-cover ring-2 ring-soft" />
-        : <div className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-soft text-xl font-bold text-primary" aria-hidden="true">{initialsOf(p.name)}</div>}
+        ? <img src={p.photoUrl} alt={p.name} loading="lazy" className="h-20 w-20 shrink-0 rounded-(--r-avatar) object-cover ring-2 ring-soft" />
+        : <div className="grid h-20 w-20 shrink-0 place-items-center rounded-(--r-avatar) bg-soft text-xl font-bold text-primary" aria-hidden="true">{initialsOf(p.name)}</div>}
       <div className="min-w-0 space-y-1">
         <h3 className="font-semibold leading-snug">{p.name}</h3>
         {p.title && <p className="text-xs font-medium text-primary">{p.title}</p>}
@@ -70,7 +70,7 @@ export function AnnouncementCard({ item, current, featured }: { item: Announceme
       <Photo src={item.imageUrl} alt={item.title} className={`h-48 w-full ${featured ? "md:h-auto md:w-1/2" : ""}`} />
       <div className={`space-y-2 p-5 ${featured ? "md:flex md:w-1/2 md:flex-col md:justify-center md:p-8" : ""}`}>
         <div className="flex flex-wrap items-center gap-2 text-xs">
-          {item.category && <span className="rounded-full bg-soft px-2.5 py-0.5 font-semibold text-primary">{item.category}</span>}
+          {item.category && <span className="rounded-(--r-btn) bg-soft px-2.5 py-0.5 font-semibold text-primary">{item.category}</span>}
           <time className="text-slate-500" dateTime={item.date}>{date.format(new Date(item.date))}</time>
         </div>
         <h3 className={`font-semibold leading-snug ${featured ? "text-2xl" : ""}`}>{item.title}</h3>

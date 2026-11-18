@@ -4,3 +4,24 @@
   --color-primary: var(--primary);
   --color-soft: var(--secondary);
 }
+
+/* Cada tema define fuente, radios y fondo; los componentes solo usan estas variables. */
+[data-theme="classic"] { --font-display: Georgia, "Times New Roman", serif; --r-card: 0.5rem; --r-btn: 0.375rem; --r-avatar: 9999px; --page: #fff; }
+[data-theme="tech"] { --font-display: ui-sans-serif, system-ui, sans-serif; --font-eyebrow: ui-monospace, SFMono-Regular, Menlo, monospace; --r-card: 0.125rem; --r-btn: 0.125rem; --r-avatar: 0.25rem; --page: #f1f5f9; }
+[data-theme="editorial"] { --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; --r-card: 1.75rem; --r-btn: 9999px; --r-avatar: 9999px; --page: color-mix(in srgb, var(--secondary) 40%, #fff); }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+.font-display { font-family: var(--font-display); }
+.eyebrow { font-family: var(--font-eyebrow, inherit); }
+
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: var(--r-card); box-shadow: 0 1px 2px rgb(0 0 0 / 0.05); }
+[data-theme="tech"] .card { border-left: 3px solid var(--primary); box-shadow: none; }
+[data-theme="editorial"] .card { border-color: transparent; box-shadow: 0 14px 34px -16px color-mix(in srgb, var(--primary) 45%, transparent); }
+
+.section-title { font-family: var(--font-display); }
+[data-theme="classic"] .section-title::after { content: ""; display: block; width: 3rem; height: 3px; margin-top: 0.5rem; background: var(--primary); }
+[data-theme="tech"] .section-title::before { content: ""; display: inline-block; width: 0.45rem; height: 1.05em; margin-right: 0.6rem; vertical-align: -0.12em; background: var(--primary); }
+[data-theme="editorial"] .section-title { font-style: italic; font-size: 2.25rem; line-height: 1.1; }

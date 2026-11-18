@@ -26,6 +26,10 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     expect(e).toContain("Facultad de Ingeniería"); expect(e).toContain("#007EA7");
     expect(a).toContain("Facultad de Artes"); expect(a).toContain("#B5523B");
   });
+  it("cada sitio tiene su propio tema visual", async () => {
+    const [u, e, a] = await page("/");
+    expect(u).toContain('data-theme="classic"'); expect(e).toContain('data-theme="tech"'); expect(a).toContain('data-theme="editorial"');
+  });
   it("carreras: compartidas en los asignados; exclusivas aisladas", async () => {
     const [u, e, a] = await page("/carreras");
     for (const b of [u, e, a]) expect(b).toContain("Innovación y Tecnología Creativa");

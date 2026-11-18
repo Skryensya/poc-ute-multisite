@@ -5,7 +5,12 @@ const BASE = (process.env.CMS_URL || 'http://localhost:1337').replace(/\/$/, '')
 const TOKEN = process.env.CMS_TOKEN;
 if (!TOKEN) { console.error('Falta CMS_TOKEN (token API full-access)'); process.exit(1); }
 
-const img = (seed, w = 800, h = 500) => `https://picsum.photos/seed/ute-${seed}/${w}/${h}`;
+// Fotos de Pexels (licencia libre), una por tema: el ID identifica la foto; se recorta al tamaño pedido.
+const img = (id, w = 800, h = 500) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}&h=${h}&fit=crop`;
+const CAREER_IMG = { // carrera → foto
+  'ingenieria-civil-informatica': 7988086, 'ingenieria-civil-industrial': 40382472, 'ingenieria-electronica': 9242271,
+  diseno: 8546649, 'licenciatura-en-artes-visuales': 14595876, 'licenciatura-en-musica': 4513456, 'innovacion-y-tecnologia-creativa': 5207240,
+};
 const face = (g, n) => `https://randomuser.me/api/portraits/${g}/${n}.jpg`;
 const U = 'university', E = 'engineering', A = 'arts';
 
@@ -13,15 +18,15 @@ const SITES = [
   { slug: U, name: 'Universidad Tecnológica del Este', title: 'Universidad Tecnológica del Este',
     tagline: 'Conocimiento, tecnología y creación desde 1966',
     description: 'Una universidad pública comprometida con la excelencia académica, la investigación y la vinculación con la sociedad. Dos facultades, un solo campus y una comunidad que se atreve a crear.',
-    heroImage: img('campus', 1600, 700), email: 'contacto@ute.allison.sh', address: 'Av. Universidad 1500, Campus Central',
+    heroImage: img(7972518, 1600, 700), email: 'contacto@ute.allison.sh', address: 'Av. Universidad 1500, Campus Central',
     primaryColor: '#1F3A8A', secondaryColor: '#E8EDFB' },
   { slug: E, name: 'Facultad de Ingeniería', title: 'Facultad de Ingeniería', tagline: 'Formamos profesionales para construir el futuro',
     description: 'Formamos profesionales en tecnología e innovación, con laboratorios propios, vínculo con la industria y una fuerte cultura de proyectos.',
-    heroImage: img('ingenieria', 1600, 700), email: 'ingenieria@ute.allison.sh', address: 'Edificio Torre Ingeniería, Campus Central',
+    heroImage: img(3861960, 1600, 700), email: 'ingenieria@ute.allison.sh', address: 'Edificio Torre Ingeniería, Campus Central',
     primaryColor: '#007EA7', secondaryColor: '#EAF7FB' },
   { slug: A, name: 'Facultad de Artes', title: 'Facultad de Artes', tagline: 'Un espacio para crear, expresar y pensar',
     description: 'Un espacio de creación, expresión y pensamiento crítico para las artes visuales, el diseño y la música, con talleres abiertos y una galería propia.',
-    heroImage: img('artes', 1600, 700), email: 'artes@ute.allison.sh', address: 'Casa de las Artes, Campus Norte',
+    heroImage: img(1604991, 1600, 700), email: 'artes@ute.allison.sh', address: 'Casa de las Artes, Campus Norte',
     primaryColor: '#B5523B', secondaryColor: '#FBEFEA' },
 ];
 
@@ -71,26 +76,26 @@ const PROFESSORS = [
 ];
 
 const ANNOUNCEMENTS = [
-  { title: 'Postulaciones abiertas para el año académico 2027', date: '2026-11-02', category: 'Admisión', imageUrl: img('admision'), sites: [U, E, A],
+  { title: 'Postulaciones abiertas para el año académico 2027', date: '2026-11-02', category: 'Admisión', imageUrl: img(7972512), sites: [U, E, A],
     description: 'Ya puedes postular a todas nuestras carreras. El proceso cierra el 15 de enero e incluye becas de excelencia y de continuidad.' },
-  { title: 'Feria de Innovación y Tecnología Creativa', date: '2026-11-12', category: 'Evento', imageUrl: img('feria'), sites: [E, A],
+  { title: 'Feria de Innovación y Tecnología Creativa', date: '2026-11-12', category: 'Evento', imageUrl: img(8721342), sites: [E, A],
     description: 'Estudiantes de Ingeniería y Artes presentan juntos sus proyectos interdisciplinarios en el hall central. Entrada liberada.' },
-  { title: 'Nueva infraestructura para laboratorios de ingeniería', date: '2026-10-20', category: 'Infraestructura', imageUrl: img('laboratorios'), sites: [E],
+  { title: 'Nueva infraestructura para laboratorios de ingeniería', date: '2026-10-20', category: 'Infraestructura', imageUrl: img(3912373), sites: [E],
     description: 'Inauguramos nuevos laboratorios de electrónica y computación para estudiantes de la Facultad.' },
-  { title: 'Equipo de Ingeniería gana el campeonato nacional de robótica', date: '2026-10-08', category: 'Logros', imageUrl: img('robotica'), sites: [E, U],
+  { title: 'Equipo de Ingeniería gana el campeonato nacional de robótica', date: '2026-10-08', category: 'Logros', imageUrl: img(2517330), sites: [E, U],
     description: 'Estudiantes de Ingeniería Electrónica se quedaron con el primer lugar entre 24 universidades.' },
-  { title: 'Exposición anual de estudiantes de Artes Visuales', date: '2026-10-28', category: 'Cultura', imageUrl: img('exposicion'), sites: [A],
+  { title: 'Exposición anual de estudiantes de Artes Visuales', date: '2026-10-28', category: 'Cultura', imageUrl: img(17907844), sites: [A],
     description: 'Más de 60 obras de estudiantes se exhiben en la galería de la Facultad durante todo noviembre.' },
-  { title: 'Temporada de conciertos de la Orquesta Universitaria', date: '2026-11-05', category: 'Cultura', imageUrl: img('orquesta'), sites: [A, U],
+  { title: 'Temporada de conciertos de la Orquesta Universitaria', date: '2026-11-05', category: 'Cultura', imageUrl: img(4028878), sites: [A, U],
     description: 'Cuatro conciertos gratuitos en el auditorio central, con obras de compositores y compositoras de la Facultad.' },
-  { title: 'La Universidad celebra 60 años', date: '2026-09-15', category: 'Institucional', imageUrl: img('aniversario'), sites: [U],
+  { title: 'La Universidad celebra 60 años', date: '2026-09-15', category: 'Institucional', imageUrl: img(17893014), sites: [U],
     description: 'Una semana de actividades abiertas a la comunidad para celebrar seis décadas de historia universitaria.' },
 ];
 
 // Páginas editables por sitio: `nosotros` completa; las demás aportan título e introducción de cada sección.
 const PAGES = {
   [U]: {
-    nosotros: { title: 'Sobre la Universidad', imageUrl: img('nosotros-ute', 1200, 800),
+    nosotros: { title: 'Sobre la Universidad', imageUrl: img(7972518, 1200, 800),
       intro: 'Desde 1966 formamos personas que transforman su entorno a través del conocimiento, la tecnología y la creación.',
       stats: [{ value: '60', label: 'años de historia' }, { value: '2', label: 'facultades' }, { value: '12.000', label: 'estudiantes' }, { value: '7', label: 'carreras de pregrado' }],
       values: [
@@ -103,7 +108,7 @@ const PAGES = {
     profesores: { title: 'Cuerpo académico', intro: 'Académicos de ambas facultades que combinan docencia, investigación y trabajo con la comunidad.' },
     anuncios: { title: 'Noticias y anuncios', intro: 'Admisión, actividades y logros de toda la comunidad universitaria.' } },
   [E]: {
-    nosotros: { title: 'Sobre la Facultad de Ingeniería', imageUrl: img('nosotros-ingenieria', 1200, 800),
+    nosotros: { title: 'Sobre la Facultad de Ingeniería', imageUrl: img(3912373, 1200, 800),
       intro: 'Formamos ingenieras e ingenieros que diseñan, construyen y mejoran los sistemas que hacen funcionar al país.',
       stats: [{ value: '3', label: 'carreras de ingeniería' }, { value: '14', label: 'laboratorios' }, { value: '92%', label: 'empleabilidad al primer año' }, { value: '80+', label: 'empresas con convenio' }],
       values: [
@@ -115,7 +120,7 @@ const PAGES = {
     profesores: { title: 'Académicos de Ingeniería', intro: 'Doctores y magísteres con experiencia en investigación aplicada y en la industria.' },
     anuncios: { title: 'Noticias de la Facultad', intro: 'Laboratorios, logros de estudiantes y actividades de Ingeniería.' } },
   [A]: {
-    nosotros: { title: 'Sobre la Facultad de Artes', imageUrl: img('nosotros-artes', 1200, 800),
+    nosotros: { title: 'Sobre la Facultad de Artes', imageUrl: img(5104713, 1200, 800),
       intro: 'Un espacio abierto para crear, expresarse y pensar críticamente a través de las artes visuales, el diseño y la música.',
       stats: [{ value: '4', label: 'carreras artísticas' }, { value: '12', label: 'talleres abiertos' }, { value: '30+', label: 'exposiciones al año' }, { value: '1', label: 'galería propia' }],
       values: [
@@ -153,7 +158,7 @@ async function main() {
   const set = (arr, map) => ({ set: arr.map((k) => map[k]) });
 
   for (const { malla, prefix, sites, ...c } of CAREERS) {
-    ids.career[c.slug] = await upsert('careers', 'slug', c.slug, { ...c, imageUrl: img(c.slug), sites: set(sites, ids.site) });
+    ids.career[c.slug] = await upsert('careers', 'slug', c.slug, { ...c, imageUrl: img(CAREER_IMG[c.slug]), sites: set(sites, ids.site) });
     for (const [i, ramos] of malla.entries()) {
       for (const [j, name] of ramos.entries()) {
         const code = `${prefix}-${(i + 1) * 100 + j + 1}`;

@@ -18,6 +18,9 @@ cms/    Strapi (src/api/{site,career,course,professor,announcement}, scripts/see
 docs/   architecture.md, dokploy.md
 ```
 
+## Imágenes del contenido
+Las fotos del seed son de [Pexels](https://www.pexels.com) (licencia libre) y los retratos de [randomuser.me](https://randomuser.me); cada registro guarda solo la URL. Para cambiarlas, edita el campo `imageUrl` / `photoUrl` en Strapi o el mapa del seed y vuelve a ejecutarlo.
+
 ## Imágenes Docker (contexto = raíz del repo)
 ```bash
 docker build -f web/Dockerfile -t ute-web .
