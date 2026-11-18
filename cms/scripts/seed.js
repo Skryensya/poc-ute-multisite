@@ -15,6 +15,9 @@ const face = (g, n) => `https://randomuser.me/api/portraits/${g}/${n}.jpg`;
 const U = 'university', E = 'engineering', A = 'arts';
 const EVENTS = require('./data/events.json'); // 100 eventos (parodias de la agenda UC), ver data/
 const NEWS = require('./data/news.json'); // noticias con etiquetas
+const PROFESSOR_BODIES = require('./data/professor-bodies.json'); // perfil de cada profesor (por nombre)
+const COURSE_DETAILS = require('./data/course-details.json'); // descripción y contenidos de cada ramo (por código)
+const slugify = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70).replace(/-$/, '');
 
 const SITES = [
   { slug: U, name: 'Universidad Tecnológica del Este', title: 'Universidad Tecnológica del Este',
@@ -182,14 +185,13 @@ async function main() {
     for (const [i, ramos] of malla.entries()) {
       for (const [j, name] of ramos.entries()) {
         const code = `${prefix}-${(i + 1) * 100 + j + 1}`;
-        await upsert('courses', 'code', code, { code, name, semester: i + 1, credits: Math.round(30 / ramos.length), career: set([c.slug], ids.career) });
+        await upsert('courses', 'code', code, { code, name, ...COURSE_DETAILS[code], semester: i + 1, credits: Math.round(30 / ramos.length), career: set([c.slug], ids.career) });
       }
     }
   }
   for (const { careers, sites, ...p } of PROFESSORS) {
-    await upsert('professors', 'name', p.name, { ...p, careers: set(careers, ids.career), sites: set(sites, ids.site) });
+    await upsert('professors', 'name', p.name, { ...p, slug: slugify(p.name), body: PROFESSOR_BODIES[p.name], careers: set(careers, ids.career), sites: set(sites, ids.site) });
   }
-  const slugify = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70).replace(/-$/, '');
   const allNews = NEWS.map((n, i) => {
     const { imageId, ...rest } = n;
     return { ...rest, slug: n.slug ?? slugify(n.title), imageUrl: imageId ? img(imageId) : photoFor(n.tags, n.sites, i) };

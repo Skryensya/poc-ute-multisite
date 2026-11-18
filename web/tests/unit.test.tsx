@@ -43,8 +43,8 @@ const home = {
   about,
   events: [{ documentId: "e1", slug: "concierto", title: "Concierto de invierno", description: "x", startsAt: "2027-03-02T21:00:00.000Z", endsAt: null, eventType: "Concierto", place: "Casa de las Artes", online: false, free: true, price: "", audience: ["Público en general"], tags: ["Música"], unit: null, imageUrl: null, sites: [refs.arts, refs.university] }],
   careers: [{ documentId: "c1", slug: "diseno", name: "Diseño", description: "d", overview: null, duration: "10 semestres", degree: "Diseñador", modality: null, imageUrl: null, sites: [refs.arts, refs.university] }],
-  professors: [{ documentId: "p1", name: "Javiera Núñez", title: "Dra.", specialty: "Pintura", bio: null, photoUrl: null, sites: [refs.arts] }],
-  announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Extensión", tags: ["Exposiciones"], imageUrl: null, sites: [refs.arts] }],
+  professors: [{ documentId: "p1", slug: "javiera-nunez", name: "Javiera Núñez", title: "Dra.", specialty: "Pintura", bio: null, photoUrl: null, sites: [refs.arts] }],
+  announcements: [{ documentId: "a1", slug: "exposicion-anual", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Extensión", tags: ["Exposiciones"], imageUrl: null, sites: [refs.arts] }],
 };
 
 describe("hidratación de React Query", () => {

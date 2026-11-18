@@ -4,7 +4,7 @@ import { useState } from "react";
 import { extraOf } from "@/lib/extras";
 import { qk } from "@/lib/queries";
 import { HUB, siteUrl, type Tenant } from "@/lib/tenants";
-import type { Announcement, Career, CareerDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, Professor, SiteInfo } from "@/lib/types";
+import type { Announcement, Career, CareerDetail, CourseDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, Professor, ProfessorDetail, SiteInfo } from "@/lib/types";
 import { useContent } from "./useContent";
 import Hero from "./Hero";
 import Prose from "./Prose";
@@ -263,6 +263,67 @@ export function ProfessorsView({ slug }: { slug: string }) {
         <Searchable items={list} text={(p) => `${p.name} ${p.title} ${p.specialty}`} label="Buscar por nombre o especialidad" empty="No encontramos profesores con esa búsqueda." noun={["profesor", "profesores"]}>
           {(shown) => <Grid cols="md:grid-cols-2">{shown.map((p) => <ProfessorCard key={p.documentId} professor={p} current={slug} />)}</Grid>}
         </Searchable>
+      </section>
+    </>
+  );
+}
+
+export function ProfessorDetailView({ slug, professorSlug }: { slug: string; professorSlug: string }) {
+  const p = useContent<ProfessorDetail>(qk.professor(slug, professorSlug), "professor", professorSlug)!;
+  return (
+    <>
+      <PageTitle title={p.name} subtitle={[p.title, p.specialty].filter(Boolean).join(" · ")} crumbs={[["/profesores", "Profesores"]]} />
+      <section className="mx-auto grid max-w-6xl gap-8 px-4 py-10 lg:grid-cols-3">
+        <div className="lg:col-span-2">{p.body ? <Prose text={p.body} /> : p.bio && <p className="text-lg text-slate-700">{p.bio}</p>}</div>
+        <aside className="card h-fit p-6">
+          {p.photoUrl && <img src={p.photoUrl} alt={p.name} className="mx-auto mb-4 h-40 w-40 rounded-full object-cover ring-4 ring-soft" />}
+          <dl className="divide-y divide-slate-100">
+            {p.title && <Fact label="Grado" value={p.title} />}
+            {p.specialty && <Fact label="Especialidad" value={p.specialty} />}
+          </dl>
+          {!!p.careers?.length && (
+            <div className="pt-3"><p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Dicta en</p>
+              <ul className="mt-1 space-y-1">{p.careers.map((c) => <li key={c.slug}><Link href={`/carreras/${c.slug}`} className="text-sm font-medium text-primary hover:underline">{c.name}</Link></li>)}</ul></div>
+          )}
+          <div className="pt-3"><SharedBadge sites={p.sites} current={slug} path={`/profesores/${p.slug}`} /></div>
+        </aside>
+      </section>
+      {p.related.length > 0 && <Section title="Colegas en las mismas carreras"><Grid cols="md:grid-cols-2">{p.related.map((r) => <ProfessorCard key={r.documentId} professor={r} current={slug} />)}</Grid></Section>}
+    </>
+  );
+}
+
+export function CourseDetailView({ slug, code }: { slug: string; code: string }) {
+  const c = useContent<CourseDetail>(qk.course(slug, code), "course", code)!;
+  return (
+    <>
+      <PageTitle title={c.name} subtitle={c.description} crumbs={[["/carreras", "Carreras"], [`/carreras/${c.career.slug}`, c.career.name]]} />
+      <section className="mx-auto grid max-w-6xl gap-8 px-4 py-10 lg:grid-cols-3">
+        <div className="space-y-6 lg:col-span-2">
+          {!!c.topics?.length && (
+            <div>
+              <h2 className="section-title mb-4 text-xl font-bold">Contenidos</h2>
+              <ul className="list-disc space-y-1.5 pl-5 text-slate-700 marker:text-primary">{c.topics.map((t) => <li key={t}>{t}</li>)}</ul>
+            </div>
+          )}
+          {c.mates.length > 0 && (
+            <div>
+              <h2 className="section-title mb-4 text-xl font-bold">{`Otros ramos del semestre ${c.semester}`}</h2>
+              <ul className="card divide-y divide-slate-100">
+                {c.mates.map((m) => <li key={m.code} className="flex justify-between gap-3 px-5 py-3 text-sm"><Link href={`/ramos/${m.code.toLowerCase()}`} className="font-medium text-primary hover:underline">{m.name}</Link><span className="text-xs text-slate-500">{`${m.credits} cr.`}</span></li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+        <aside className="card h-fit p-6">
+          <dl className="divide-y divide-slate-100">
+            <Fact label="Código" value={c.code} />
+            <Fact label="Semestre" value={String(c.semester)} />
+            {c.credits != null && <Fact label="Créditos" value={String(c.credits)} />}
+            <Fact label="Carrera" value={c.career.name} />
+          </dl>
+          <p className="pt-3"><Link href={`/carreras/${c.career.slug}`} className="text-sm font-medium text-primary hover:underline">Ver el plan de estudios completo →</Link></p>
+        </aside>
       </section>
     </>
   );

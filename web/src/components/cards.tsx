@@ -81,24 +81,25 @@ export function CareerCard({ career, current }: { career: Career; current: strin
 const initialsOf = (name: string) => name.split(" ").filter((w) => /^[A-ZÁÉÍÓÚÑ]/.test(w) && !/^(Dra?|Mg)\.?$/.test(w)).slice(0, 2).map((w) => w[0]).join("");
 
 export function ProfessorCard({ professor: p, current }: { professor: Professor; current: string }) {
+  const t = target(p.sites, current, `/profesores/${p.slug}`);
   return (
-    <li className="card flex gap-4 p-5">
+    <li className="card relative flex gap-4 p-5 transition hover:shadow-md motion-reduce:transition-none focus-within:ring-2 focus-within:ring-primary">
       {p.photoUrl
         ? <img src={p.photoUrl} alt={p.name} loading="lazy" className="h-20 w-20 shrink-0 rounded-full object-cover ring-2 ring-soft" />
         : <div className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-soft text-xl font-bold text-primary" aria-hidden="true">{initialsOf(p.name)}</div>}
       <div className="min-w-0 space-y-1">
-        <h3 className="font-semibold leading-snug">{p.name}</h3>
+        <h3 className="font-semibold leading-snug"><Stretch {...t} className="outline-none">{p.name}</Stretch></h3>
         {p.title && <p className="text-xs font-medium text-primary">{p.title}</p>}
         {p.specialty && <p className="text-sm text-slate-700">{p.specialty}</p>}
         {p.bio && <p className="line-clamp-3 text-sm text-slate-500">{p.bio}</p>}
         {!!p.careers?.length && (
           <p className="pt-1 text-xs text-slate-500">Dicta en{" "}
             {p.careers.map((c, i) => (
-              <span key={c.slug}>{i > 0 && ", "}<Link href={`/carreras/${c.slug}`} className="font-medium text-primary hover:underline">{c.name}</Link></span>
+              <span key={c.slug}>{i > 0 && ", "}<Link href={`/carreras/${c.slug}`} className="relative z-10 font-medium text-primary hover:underline">{c.name}</Link></span>
             ))}
           </p>
         )}
-        <div className="pt-1"><SharedBadge sites={p.sites} current={current} path="/profesores" /></div>
+        <div className="pt-1"><SharedBadge sites={p.sites} current={current} path={`/profesores/${p.slug}`} /></div>
       </div>
     </li>
   );
@@ -166,7 +167,7 @@ export function Malla({ courses }: { courses: Course[] }) {
                 <ul className="divide-y divide-slate-100 text-sm">
                   {list.map((c) => (
                     <li key={c.code} className="flex justify-between gap-3 px-4 py-2.5">
-                      <span>{c.name}<span className="block text-xs text-slate-400">{c.code}</span></span>
+                      <span><Link href={`/ramos/${c.code.toLowerCase()}`} className="hover:text-primary hover:underline">{c.name}</Link><span className="block text-xs text-slate-400">{c.code}</span></span>
                       <span className="shrink-0 text-xs text-slate-500">{`${c.credits} cr.`}</span>
                     </li>
                   ))}

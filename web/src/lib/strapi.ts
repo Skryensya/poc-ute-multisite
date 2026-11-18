@@ -1,7 +1,7 @@
 import { cache } from "react";
 import { HUB, siteUrl, tenants, type Tenant } from "./tenants";
 import type {
-  Announcement, Career, CareerDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, PageInfo, Professor, Site, SiteInfo, SiteLink, StrapiList,
+  Announcement, Career, CareerDetail, CourseDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, PageInfo, Professor, ProfessorDetail, Site, SiteInfo, SiteLink, StrapiList,
 } from "./types";
 
 // Solo servidor: STRAPI_URL (red privada) y STRAPI_API_TOKEN nunca llegan al navegador.
@@ -28,7 +28,7 @@ const bySite = (slug: string, limit?: number) => ({
 });
 
 const CAREER = ["slug", "name", "description", "duration", "degree", "modality", "imageUrl"];
-const PROFESSOR = ["name", "title", "specialty", "bio", "photoUrl"];
+const PROFESSOR = ["slug", "name", "title", "specialty", "bio", "photoUrl"];
 
 export async function getSite(slug: string): Promise<Site> {
   const { data } = await strapi<StrapiList<Site>>("sites", {
@@ -94,6 +94,32 @@ export async function getEvent(site: string, slug: string): Promise<EventDetail 
   const upcoming = await getEvents(site, { upcoming: true });
   const related = upcoming.filter((e) => e.slug !== slug && shares(e.tags, data[0].tags)).slice(0, 3);
   return { ...data[0], related };
+}
+
+/** Ficha de un profesor de este sitio (el central ve todos), con los colegas que comparten alguna de sus carreras. */
+export async function getProfessor(site: string, slug: string): Promise<ProfessorDetail | null> {
+  const { data } = await strapi<StrapiList<Professor>>("professors", {
+    ...bySite(site, 1), "filters[slug][$eq]": slug, ...fields([...PROFESSOR, "body"]),
+    ...fields(["name", "slug"], "populate[careers][fields]"), ...(site === HUB ? {} : { "populate[careers][filters][sites][slug][$eq]": site }),
+  });
+  if (!data[0]) return null;
+  const mine = new Set((data[0].careers ?? []).map((c) => c.slug));
+  const related = (await getProfessors(site)).filter((p) => p.slug !== slug && p.careers?.some((c) => mine.has(c.slug))).slice(0, 4);
+  return { ...data[0], related };
+}
+
+/** Ficha de un ramo (por código en minúsculas); existe solo si su carrera existe en este sitio. */
+export async function getCourse(site: string, code: string): Promise<CourseDetail | null> {
+  const { data } = await strapi<StrapiList<Omit<CourseDetail, "mates">>>("courses", {
+    "filters[code][$eqi]": code, ...(site === HUB ? {} : { "filters[career][sites][slug][$eq]": site }),
+    ...fields(["code", "name", "semester", "credits", "description", "topics"]), ...fields(["name", "slug"], "populate[career][fields]"),
+  });
+  if (!data[0]) return null;
+  const { data: mates } = await strapi<StrapiList<CourseDetail["mates"][number]>>("courses", {
+    "filters[career][slug][$eq]": data[0].career.slug, "filters[semester][$eq]": String(data[0].semester),
+    ...fields(["code", "name", "semester", "credits"]), "pagination[pageSize]": "20",
+  });
+  return { ...data[0], mates: mates.filter((m) => m.code !== data[0].code) };
 }
 
 /** Detalle de una carrera del sitio, con malla curricular y solo los profesores de este sitio. null si no existe aquí. */

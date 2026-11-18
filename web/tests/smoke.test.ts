@@ -55,6 +55,19 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     expect(e).toContain("Robótica"); expect(a).toContain("Exposiciones"); // etiquetas propias de cada facultad
     expect((await get("/anuncios", UTE2)).status).toBe(308);
   });
+  it("profesores y ramos tienen su propia página (single)", async () => {
+    expect((await page("/profesores"))[1]).toContain("/profesores/felipe-araya-soto");
+    const d = await get("/profesores/felipe-araya-soto", UTE2);
+    expect(d.status).toBe(200); expect(d.body).toContain("Trayectoria"); expect(d.body).toContain("Colegas en las mismas carreras");
+    expect((await get("/profesores/felipe-araya-soto", UTE3)).status).toBe(404); // profesor exclusivo de Ingeniería
+    expect((await get("/profesores/felipe-araya-soto", UTE1)).status).toBe(200); // el sitio central agrega todos
+    expect((await get("/carreras/ingenieria-civil-informatica", UTE2)).body).toContain("/ramos/inf-101");
+    const c = await get("/ramos/inf-101", UTE2);
+    expect(c.status).toBe(200); expect(c.body).toContain("Contenidos"); expect(c.body).toContain("Otros ramos del semestre 1");
+    expect((await get("/ramos/inf-101", UTE3)).status).toBe(404); // el ramo es de una carrera de Ingeniería
+    expect((await get("/ramos/inf-101", UTE1)).status).toBe(200);
+    expect((await get("/ramos/no-existe", UTE2)).status).toBe(404);
+  });
   it("cada noticia tiene su página con cuerpo, autor y relacionadas", async () => {
     const slug = "nueva-infraestructura-para-laboratorios-de-ingenieria";
     expect((await page("/noticias"))[1]).toContain(`/noticias/${slug}`);

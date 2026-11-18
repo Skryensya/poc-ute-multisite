@@ -1,15 +1,48 @@
 {
   "kind": "collectionType",
   "collectionName": "professors",
-  "info": { "singularName": "professor", "pluralName": "professors", "displayName": "Professor" },
-  "options": { "draftAndPublish": true },
+  "info": {
+    "singularName": "professor",
+    "pluralName": "professors",
+    "displayName": "Professor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": {
-    "name": { "type": "string", "required": true },
-    "title": { "type": "string" },
-    "specialty": { "type": "string" },
-    "bio": { "type": "text" },
-    "photoUrl": { "type": "string" },
-    "careers": { "type": "relation", "relation": "manyToMany", "target": "api::career.career", "inversedBy": "professors" },
-    "sites": { "type": "relation", "relation": "manyToMany", "target": "api::site.site" }
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "photoUrl": {
+      "type": "string"
+    },
+    "careers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::career.career",
+      "inversedBy": "professors"
+    },
+    "sites": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::site.site"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "body": {
+      "type": "richtext"
+    }
   }
 }

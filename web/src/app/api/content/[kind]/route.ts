@@ -1,5 +1,5 @@
 import { hostFrom, resolveTenant } from "@/lib/tenants";
-import { getAnnouncements, getCareer, getCareers, getEvent, getEvents, getHome, getNewsItem, getPage, getProfessors, getSiteInfo } from "@/lib/strapi";
+import { getAnnouncements, getCareer, getCareers, getCourse, getEvent, getEvents, getHome, getNewsItem, getPage, getProfessor, getProfessors, getSiteInfo } from "@/lib/strapi";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +16,8 @@ export async function GET(req: Request, { params }: { params: Promise<{ kind: st
     careers: () => getCareers(tenant),
     professors: () => getProfessors(tenant),
     announcements: () => getAnnouncements(tenant),
+    professor: () => (/^[a-z0-9-]+$/.test(slug) ? getProfessor(tenant, slug) : Promise.resolve(null)),
+    course: () => (/^[a-z0-9-]+$/.test(slug) ? getCourse(tenant, slug) : Promise.resolve(null)),
     newsItem: () => (/^[a-z0-9-]+$/.test(slug) ? getNewsItem(tenant, slug) : Promise.resolve(null)),
     events: () => getEvents(tenant, { upcoming: true }),
     event: () => (/^[a-z0-9-]+$/.test(slug) ? getEvent(tenant, slug) : Promise.resolve(null)),

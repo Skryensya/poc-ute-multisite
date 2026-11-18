@@ -1,0 +1,2765 @@
+{
+ "INF-101": {
+  "description": "Introduce el cálculo diferencial de una variable, con énfasis en límites, continuidad, derivadas y sus aplicaciones al análisis de funciones. Entrega el lenguaje matemático base para modelar el cambio en los cursos de ingeniería informática posteriores.",
+  "topics": [
+   "Límites y continuidad de funciones",
+   "Derivadas y reglas de derivación",
+   "Aplicaciones de la derivada",
+   "Análisis gráfico de funciones"
+  ]
+ },
+ "INF-102": {
+  "description": "Estudia vectores, matrices, sistemas de ecuaciones lineales y los fundamentos de la geometría analítica en el plano y el espacio. Sirve de base para representar datos, gráficos y transformaciones utilizadas en computación.",
+  "topics": [
+   "Vectores en el plano y espacio",
+   "Matrices y determinantes",
+   "Sistemas de ecuaciones lineales",
+   "Rectas, planos y cónicas"
+  ]
+ },
+ "INF-103": {
+  "description": "Desarrolla las bases de la lógica algorítmica y la programación estructurada mediante la resolución guiada de problemas simples. Constituye el primer contacto práctico del estudiante con la escritura, prueba y depuración de programas.",
+  "topics": [
+   "Variables, tipos y expresiones",
+   "Estructuras de control básicas",
+   "Funciones y modularización del código",
+   "Depuración y pruebas elementales"
+  ]
+ },
+ "INF-104": {
+  "description": "Presenta el campo de la ingeniería civil informática, sus áreas de especialización, su metodología de trabajo y su rol en la sociedad. Orienta al estudiante sobre el perfil profesional y las competencias que se desarrollarán a lo largo de la carrera.",
+  "topics": [
+   "Historia y campos de la informática",
+   "Perfil profesional del ingeniero",
+   "Metodologías básicas de trabajo",
+   "Ética y responsabilidad inicial"
+  ]
+ },
+ "INF-105": {
+  "description": "Desarrolla la capacidad de redactar textos académicos y técnicos claros, así como de exponer ideas en forma oral ante un auditorio. Es transversal a la carrera, porque los informes, propuestas y presentaciones son parte habitual del ejercicio profesional.",
+  "topics": [
+   "Estructura de textos académicos",
+   "Redacción de informes técnicos",
+   "Técnicas de exposición oral",
+   "Citación y uso de fuentes"
+  ]
+ },
+ "INF-201": {
+  "description": "Continúa el estudio del cálculo con integrales definidas e indefinidas, técnicas de integración y series de potencias. Estos contenidos permiten modelar acumulaciones y aproximar funciones, herramientas usadas en métodos numéricos y simulación.",
+  "topics": [
+   "Integrales definidas e indefinidas",
+   "Técnicas de integración",
+   "Sucesiones y series numéricas",
+   "Series de potencias y Taylor"
+  ]
+ },
+ "INF-202": {
+  "description": "Profundiza en espacios vectoriales, transformaciones lineales, valores propios y diagonalización de matrices. Estos conceptos sustentan algoritmos de aprendizaje automático, gráficos por computador y análisis de grandes volúmenes de datos.",
+  "topics": [
+   "Espacios vectoriales y subespacios",
+   "Transformaciones lineales y núcleo",
+   "Valores y vectores propios",
+   "Diagonalización y descomposiciones matriciales"
+  ]
+ },
+ "INF-203": {
+  "description": "Introduce el paradigma orientado a objetos mediante clases, herencia, polimorfismo y encapsulamiento, aplicados al desarrollo de programas de complejidad media. Es la base de las asignaturas de ingeniería de software y diseño de sistemas de la carrera.",
+  "topics": [
+   "Clases, objetos y encapsulamiento",
+   "Herencia y polimorfismo",
+   "Interfaces y abstracción",
+   "Manejo de excepciones y pruebas"
+  ]
+ },
+ "INF-204": {
+  "description": "Estudia los principios de la mecánica clásica: cinemática, dinámica de partículas, trabajo, energía y conservación del momento. Proporciona el razonamiento físico necesario para comprender sistemas de medición, robótica y simulaciones de movimiento.",
+  "topics": [
+   "Cinemática y dinámica de partículas",
+   "Trabajo, energía y potencia",
+   "Conservación del momento lineal",
+   "Movimiento rotacional y oscilaciones"
+  ]
+ },
+ "INF-205": {
+  "description": "Aborda lógica proposicional, teoría de conjuntos, relaciones, combinatoria y grafos, que son el fundamento formal de la computación. Sus contenidos se requieren para diseñar algoritmos, demostrar propiedades de programas y analizar estructuras de datos.",
+  "topics": [
+   "Lógica proposicional y predicados",
+   "Teoría de conjuntos y relaciones",
+   "Combinatoria y principio de inclusión",
+   "Grafos y árboles"
+  ]
+ },
+ "INF-301": {
+  "description": "Extiende el cálculo a varias variables, abordando derivadas parciales, integrales múltiples y campos vectoriales. Estos contenidos son necesarios para modelar fenómenos tridimensionales y comprender los métodos de optimización del aprendizaje automático.",
+  "topics": [
+   "Funciones de varias variables",
+   "Derivadas parciales y gradiente",
+   "Integrales dobles y triples",
+   "Campos vectoriales e integración"
+  ]
+ },
+ "INF-302": {
+  "description": "Estudia la organización de la información en memoria mediante listas, pilas, colas, árboles y tablas de dispersión, junto con sus operaciones y costos asociados. Permite seleccionar la estructura adecuada para resolver problemas de manera eficiente.",
+  "topics": [
+   "Listas, pilas y colas",
+   "Árboles binarios y balanceados",
+   "Tablas de dispersión",
+   "Análisis de costos de operaciones"
+  ]
+ },
+ "INF-303": {
+  "description": "Estudia campos eléctricos y magnéticos, circuitos de corriente continua y alterna, e inducción electromagnética. Estos fundamentos permiten comprender el funcionamiento del hardware, la electrónica de los equipos y las redes de comunicación.",
+  "topics": [
+   "Campo y potencial eléctrico",
+   "Circuitos de corriente continua",
+   "Campo magnético e inducción",
+   "Circuitos de corriente alterna"
+  ]
+ },
+ "INF-304": {
+  "description": "Introduce la teoría de probabilidad, las variables aleatorias y las distribuciones más usadas, junto con la estadística descriptiva. Entrega herramientas para cuantificar la incertidumbre en el análisis de datos y la evaluación del rendimiento de sistemas.",
+  "topics": [
+   "Axiomas y probabilidad condicional",
+   "Variables aleatorias discretas y continuas",
+   "Distribuciones de probabilidad comunes",
+   "Estadística descriptiva y muestral"
+  ]
+ },
+ "INF-305": {
+  "description": "Describe la organización del computador en conjunto de instrucciones, unidad de control, jerarquía de memoria y entrada y salida. Permite entender cómo el hardware ejecuta el software, clave para optimizar programas y diseñar sistemas eficientes.",
+  "topics": [
+   "Conjunto de instrucciones y lenguaje máquina",
+   "Unidad de control y datapath",
+   "Jerarquía de memoria y caché",
+   "Entrada, salida e interrupciones"
+  ]
+ },
+ "INF-401": {
+  "description": "Estudia ecuaciones diferenciales ordinarias de primer y segundo orden, sistemas lineales y sus métodos de resolución analítica. Estos modelos describen la evolución de sistemas dinámicos y se emplean en simulación, control automático y estudio de procesos.",
+  "topics": [
+   "Ecuaciones de primer orden",
+   "Ecuaciones lineales de segundo orden",
+   "Sistemas de ecuaciones diferenciales",
+   "Transformada de Laplace básica"
+  ]
+ },
+ "INF-402": {
+  "description": "Analiza técnicas de diseño de algoritmos como divide y vencerás, programación dinámica y algoritmos voraces, junto con la notación asintótica. Permite evaluar la eficiencia de una solución y reconocer los límites prácticos de la computación.",
+  "topics": [
+   "Notación asintótica y análisis",
+   "Divide y vencerás y recursión",
+   "Programación dinámica y voraz",
+   "Clases P, NP y reducciones"
+  ]
+ },
+ "INF-403": {
+  "description": "Introduce el modelo relacional, el diseño de esquemas mediante modelos entidad-relación y el lenguaje SQL para consultar y manipular datos. Es requisito de casi todas las asignaturas de desarrollo, ya que las aplicaciones necesitan persistir información.",
+  "topics": [
+   "Modelo conceptual entidad-relación",
+   "Modelo relacional y normalización",
+   "Lenguaje SQL y consultas",
+   "Transacciones e integridad de datos"
+  ]
+ },
+ "INF-404": {
+  "description": "Estudia la gestión de procesos, hilos, memoria, sistemas de archivos y sincronización en los sistemas operativos modernos. Entrega una comprensión de cómo los programas comparten los recursos del computador, necesaria para desarrollar software confiable.",
+  "topics": [
+   "Procesos e hilos",
+   "Planificación de la CPU",
+   "Gestión de memoria virtual",
+   "Sistemas de archivos y sincronización"
+  ]
+ },
+ "INF-405": {
+  "description": "Desarrolla la comprensión lectora de textos técnicos en inglés, con énfasis en documentación de software, manuales y artículos especializados. Permite acceder a la bibliografía actualizada de la disciplina, cuya mayor parte se publica en ese idioma.",
+  "topics": [
+   "Vocabulario técnico de computación",
+   "Lectura de documentación de software",
+   "Lectura de artículos especializados",
+   "Redacción breve en inglés"
+  ]
+ },
+ "INF-501": {
+  "description": "Introduce el ciclo de vida del software, la captura de requisitos, la especificación y los modelos de proceso de desarrollo. Permite participar en la construcción de sistemas siguiendo prácticas de ingeniería que reducen el riesgo de fallas.",
+  "topics": [
+   "Ciclo de vida del software",
+   "Captura y especificación de requisitos",
+   "Modelos de proceso de desarrollo",
+   "Gestión de configuración y versiones"
+  ]
+ },
+ "INF-502": {
+  "description": "Estudia la arquitectura de redes por capas, los protocolos de Internet, el direccionamiento IP, el enrutamiento y los servicios de aplicación. Es fundamental para diseñar, configurar y diagnosticar las comunicaciones de cualquier sistema distribuido.",
+  "topics": [
+   "Modelo de capas y protocolos",
+   "Direccionamiento IP y subredes",
+   "Enrutamiento y capa de transporte",
+   "Servicios de aplicación y seguridad básica"
+  ]
+ },
+ "INF-503": {
+  "description": "Aborda el levantamiento de procesos organizacionales, el modelamiento de casos de uso y el diseño lógico de sistemas de información. Permite traducir necesidades del negocio en especificaciones técnicas que guíen la implementación.",
+  "topics": [
+   "Levantamiento de procesos organizacionales",
+   "Modelado de casos de uso",
+   "Diseño lógico de sistemas",
+   "Especificación de interfaces de usuario"
+  ]
+ },
+ "INF-504": {
+  "description": "Estudia métodos numéricos para resolver ecuaciones no lineales, sistemas lineales, interpolación e integración aproximada, junto con el análisis de sus errores. Estos métodos son la base de los algoritmos de simulación y cálculo científico.",
+  "topics": [
+   "Errores de redondeo y truncamiento",
+   "Raíces de ecuaciones no lineales",
+   "Interpolación y aproximación",
+   "Integración numérica aproximada"
+  ]
+ },
+ "INF-505": {
+  "description": "Introduce los conceptos básicos de la economía, como oferta, demanda, costos, flujo de caja y evaluación de inversiones. Permite fundamentar económicamente las decisiones técnicas y comunicarlas en el contexto de una organización.",
+  "topics": [
+   "Oferta, demanda y mercados",
+   "Estructura de costos",
+   "Flujo de caja y valor presente",
+   "Evaluación económica de proyectos"
+  ]
+ },
+ "INF-601": {
+  "description": "Profundiza en el diseño, la implementación y el mantenimiento de software mediante patrones de diseño, pruebas automatizadas e integración continua. Prepara al estudiante para desarrollar proyectos de mayor complejidad en equipos de trabajo reales.",
+  "topics": [
+   "Patrones de diseño de software",
+   "Pruebas automatizadas y cobertura",
+   "Integración y entrega continua",
+   "Refactorización y mantenibilidad"
+  ]
+ },
+ "INF-602": {
+  "description": "Estudia los principios de los sistemas formados por múltiples computadores que se comunican por red, incluyendo comunicación entre procesos, consistencia y tolerancia a fallas. Es clave para diseñar servicios escalables y confiables.",
+  "topics": [
+   "Comunicación entre procesos",
+   "Sincronización y relojes lógicos",
+   "Consistencia y replicación de datos",
+   "Tolerancia a fallas y consenso"
+  ]
+ },
+ "INF-603": {
+  "description": "Aborda los principios de usabilidad, la investigación con usuarios y el diseño centrado en las personas para productos digitales. Permite evaluar y mejorar interfaces de forma sistemática, considerando la accesibilidad y la experiencia real de uso.",
+  "topics": [
+   "Principios de usabilidad",
+   "Investigación con usuarios",
+   "Diseño centrado en las personas",
+   "Evaluación heurística y accesibilidad"
+  ]
+ },
+ "INF-604": {
+  "description": "Estudia la estimación puntual y por intervalos, las pruebas de hipótesis y el análisis de regresión lineal simple y múltiple. Estos métodos permiten extraer conclusiones válidas a partir de muestras y evaluar la significancia de los resultados.",
+  "topics": [
+   "Estimación puntual y por intervalos",
+   "Pruebas de hipótesis paramétricas",
+   "Regresión lineal simple y múltiple",
+   "Diagnóstico de supuestos del modelo"
+  ]
+ },
+ "INF-605": {
+  "description": "Asignatura elegida por el estudiante dentro de la oferta de formación general, que complementa la formación técnica con contenidos de otras disciplinas. Sus temas dependen del curso seleccionado y su evaluación se rige por el programa vigente.",
+  "topics": [
+   "Contenidos definidos por el curso elegido",
+   "Selección dentro de la oferta institucional",
+   "Evaluación según el programa vigente",
+   "Complemento a la formación técnica"
+  ]
+ },
+ "INF-701": {
+  "description": "Introduce la búsqueda heurística, la representación del conocimiento, la planificación y el razonamiento bajo incertidumbre en sistemas inteligentes. Proporciona el marco conceptual de los cursos de aprendizaje automático y del diseño de agentes.",
+  "topics": [
+   "Búsqueda heurística y adversarial",
+   "Representación del conocimiento",
+   "Planificación automática de acciones",
+   "Razonamiento bajo incertidumbre"
+  ]
+ },
+ "INF-702": {
+  "description": "Aborda la construcción de aplicaciones para navegadores y dispositivos móviles, incluyendo arquitectura cliente-servidor, interfaces responsivas y consumo de APIs. Permite llevar a producción productos digitales orientados al usuario final.",
+  "topics": [
+   "Arquitectura cliente-servidor moderna",
+   "Interfaces web responsivas",
+   "Desarrollo de aplicaciones móviles",
+   "Consumo y diseño de APIs"
+  ]
+ },
+ "INF-703": {
+  "description": "Estudia la planificación, estimación, control de alcance, cronograma y riesgos en proyectos de tecnologías de información. Entrega metodologías ágiles y predictivas para coordinar equipos y cumplir objetivos de calidad, costo y plazo.",
+  "topics": [
+   "Planificación y estimación de proyectos",
+   "Gestión del alcance y cronograma",
+   "Gestión de riesgos en proyectos",
+   "Metodologías ágiles y predictivas"
+  ]
+ },
+ "INF-704": {
+  "description": "Estudia los modelos formales de computación, como autómatas finitos, gramáticas y máquinas de Turing, junto con las nociones de decidibilidad. Permite comprender qué problemas pueden resolverse algorítmicamente y fundamenta el diseño de compiladores.",
+  "topics": [
+   "Autómatas finitos y expresiones regulares",
+   "Lenguajes libres de contexto",
+   "Máquinas de Turing",
+   "Decidibilidad e indecidibilidad"
+  ]
+ },
+ "INF-705": {
+  "description": "Asignatura de especialización elegida por el estudiante dentro de la oferta de electivos profesionales del programa. Permite profundizar en un área de interés de la informática, y sus contenidos se definen en cada periodo académico.",
+  "topics": [
+   "Contenidos definidos por la oferta vigente",
+   "Selección según área de interés",
+   "Profundización en un área informática",
+   "Evaluación según el programa vigente"
+  ]
+ },
+ "INF-801": {
+  "description": "Estudia algoritmos de aprendizaje supervisado y no supervisado, la evaluación de modelos y los problemas de sobreajuste y generalización. Permite diseñar sistemas que extraen patrones a partir de datos, con aplicaciones en predicción y clasificación.",
+  "topics": [
+   "Aprendizaje supervisado y regresión",
+   "Aprendizaje no supervisado",
+   "Evaluación y validación de modelos",
+   "Sobreajuste y regularización"
+  ]
+ },
+ "INF-802": {
+  "description": "Aborda los principios de confidencialidad, integridad y disponibilidad, junto con las amenazas, vulnerabilidades y mecanismos criptográficos de protección de sistemas. Entrega criterios para diseñar, auditar y responder a incidentes en organizaciones.",
+  "topics": [
+   "Principios de seguridad de la información",
+   "Criptografía aplicada y certificados",
+   "Análisis de amenazas y vulnerabilidades",
+   "Respuesta a incidentes de seguridad"
+  ]
+ },
+ "INF-803": {
+  "description": "Estudia los modelos de servicio en la nube, la virtualización, los contenedores y la orquestación de aplicaciones escalables. Permite diseñar, desplegar y operar sistemas que aprovechan la elasticidad de la infraestructura remota.",
+  "topics": [
+   "Modelos de servicio en la nube",
+   "Virtualización y contenedores",
+   "Orquestación y escalamiento automático",
+   "Costos y operación de servicios"
+  ]
+ },
+ "INF-804": {
+  "description": "Aborda el diseño de la estructura de sistemas de software, incluyendo estilos arquitectónicos, atributos de calidad y documentación de decisiones. Permite evaluar alternativas de diseño que afectan la escalabilidad, la mantenibilidad y el costo de un sistema.",
+  "topics": [
+   "Estilos y patrones arquitectónicos",
+   "Atributos de calidad del sistema",
+   "Evaluación de alternativas de diseño",
+   "Documentación de decisiones arquitectónicas"
+  ]
+ },
+ "INF-805": {
+  "description": "Asignatura de especialización elegida por el estudiante dentro de la oferta de electivos profesionales de la carrera. Permite profundizar en un tema de interés, y su programa detallado se publica antes de cada periodo de inscripción.",
+  "topics": [
+   "Contenidos definidos por la oferta vigente",
+   "Selección según área de interés",
+   "Profundización en un tema aplicado",
+   "Evaluación según el programa vigente"
+  ]
+ },
+ "INF-901": {
+  "description": "Estudia el diseño de pipelines de datos, los procesos de extracción, transformación y carga, y el almacenamiento para análisis en almacenes de datos. Permite construir la infraestructura que alimenta los modelos analíticos de una organización.",
+  "topics": [
+   "Pipelines de extracción y carga",
+   "Modelado de almacenes de datos",
+   "Calidad y gobierno de datos",
+   "Procesamiento de datos a gran escala"
+  ]
+ },
+ "INF-902": {
+  "description": "Aborda los procesos de gestión de servicios de tecnologías de información, como incidentes, cambios, niveles de servicio y continuidad operativa. Entrega marcos de referencia reconocidos para operar la infraestructura tecnológica de forma estable y medible.",
+  "topics": [
+   "Gestión de incidentes y problemas",
+   "Gestión de cambios y liberaciones",
+   "Acuerdos de nivel de servicio",
+   "Continuidad operativa y recuperación"
+  ]
+ },
+ "INF-903": {
+  "description": "Analiza los dilemas éticos del ejercicio de la ingeniería informática, incluyendo privacidad, sesgos algorítmicos, responsabilidad profesional y normativa vigente. Entrega criterios para decidir con fundamento en contextos técnicos y sociales complejos.",
+  "topics": [
+   "Principios de ética profesional",
+   "Privacidad y protección de datos",
+   "Sesgos y equidad algorítmica",
+   "Responsabilidad y normativa profesional"
+  ]
+ },
+ "INF-904": {
+  "description": "Asignatura de especialización avanzada, seleccionada por el estudiante dentro de la oferta de electivos profesionales de noveno semestre. Su programa lo define el área académica responsable y se aprueba según el reglamento vigente.",
+  "topics": [
+   "Contenidos definidos por la oferta vigente",
+   "Selección según área de interés",
+   "Profundización avanzada en un área",
+   "Evaluación según el reglamento vigente"
+  ]
+ },
+ "INF-905": {
+  "description": "Experiencia de trabajo supervisada en una organización del sector, con una jornada mínima definida por el reglamento de prácticas de la carrera. El estudiante aplica sus competencias en un contexto real y entrega un informe evaluado por un docente tutor.",
+  "topics": [
+   "Inserción en una organización",
+   "Supervisión por tutor y empresa",
+   "Aplicación de competencias técnicas",
+   "Informe final de práctica"
+  ]
+ },
+ "INF-1001": {
+  "description": "Aborda la identificación de oportunidades, la validación de propuestas de valor y la construcción de modelos de negocio para productos tecnológicos. Permite evaluar la viabilidad de una iniciativa propia y presentarla ante potenciales socios o inversionistas.",
+  "topics": [
+   "Identificación de oportunidades de negocio",
+   "Validación de propuestas de valor",
+   "Modelo de negocio tecnológico",
+   "Presentación de la iniciativa"
+  ]
+ },
+ "INF-1002": {
+  "description": "Estudia los procedimientos para evaluar controles internos, seguridad, continuidad y cumplimiento normativo en los sistemas de información de una organización. Entrega el marco metodológico para planificar una auditoría, reunir evidencia y emitir un informe.",
+  "topics": [
+   "Marcos de control de TI",
+   "Planificación de auditorías informáticas",
+   "Evaluación de controles y evidencia",
+   "Informe de hallazgos y recomendaciones"
+  ]
+ },
+ "INF-1003": {
+  "description": "Corresponde al primer tramo del proceso de titulación, en el que el estudiante formula un problema de ingeniería, define sus objetivos y elabora la propuesta de proyecto con apoyo de un profesor guía. Se evalúa el avance y la calidad de la propuesta.",
+  "topics": [
+   "Formulación del problema de ingeniería",
+   "Definición de objetivos y alcance",
+   "Elaboración de la propuesta",
+   "Seguimiento con profesor guía"
+  ]
+ },
+ "INF-1101": {
+  "description": "Asignatura de especialización avanzada, elegida por el estudiante dentro de la oferta de electivos profesionales de undécimo semestre. Su propósito es complementar el perfil del egresado, y su programa se publica al inicio de cada periodo académico.",
+  "topics": [
+   "Contenidos definidos por la oferta vigente",
+   "Selección según perfil de egreso",
+   "Profundización avanzada en un área",
+   "Evaluación según el programa vigente"
+  ]
+ },
+ "INF-1102": {
+  "description": "Corresponde al segundo tramo del proceso de titulación, en el que el estudiante desarrolla la solución propuesta, documenta sus resultados y los valida con los actores involucrados. Se realiza bajo la guía de un profesor y culmina con un informe de avance.",
+  "topics": [
+   "Desarrollo de la solución propuesta",
+   "Documentación técnica de resultados",
+   "Validación con actores involucrados",
+   "Informe de avance del proyecto"
+  ]
+ },
+ "INF-1103": {
+  "description": "Práctica de carácter integrador, en la que el estudiante aplica de manera conjunta los conocimientos de la carrera en un proyecto con una organización externa. Se evalúa mediante un informe y una presentación ante una comisión académica.",
+  "topics": [
+   "Integración de competencias de la carrera",
+   "Proyecto con organización externa",
+   "Seguimiento por tutor académico",
+   "Informe y presentación final"
+  ]
+ },
+ "INF-1201": {
+  "description": "Reúne a los estudiantes de último año en sesiones de discusión sobre temas de investigación, avances de proyectos y casos de práctica profesional. Permite revisar la metodología de trabajo y preparar la presentación del proyecto de título.",
+  "topics": [
+   "Discusión de avances de proyectos",
+   "Revisión metodológica de proyectos",
+   "Casos de práctica profesional",
+   "Preparación de la defensa del proyecto"
+  ]
+ },
+ "INF-1202": {
+  "description": "Corresponde al trabajo final de la carrera, en el que el estudiante desarrolla de forma autónoma una solución de ingeniería informática a un problema real. Culmina con un documento escrito y una defensa oral ante una comisión, requisitos para optar al título.",
+  "topics": [
+   "Desarrollo autónomo de la solución",
+   "Documento técnico final",
+   "Defensa oral ante comisión",
+   "Requisitos para optar al título"
+  ]
+ },
+ "IND-101": {
+  "description": "Introduce el cálculo diferencial de una variable, con énfasis en límites, derivadas y su aplicación a la optimización de funciones. Entrega el lenguaje matemático necesario para modelar costos, demanda y variables de producción en la ingeniería industrial.",
+  "topics": [
+   "Límites y continuidad",
+   "Derivadas y reglas de derivación",
+   "Optimización de funciones",
+   "Análisis gráfico de funciones"
+  ]
+ },
+ "IND-102": {
+  "description": "Estudia vectores, matrices, sistemas de ecuaciones lineales y geometría analítica básica. Estos contenidos sirven de base para modelar restricciones de producción, resolver sistemas de balance y comprender los métodos de optimización lineal.",
+  "topics": [
+   "Vectores y operaciones básicas",
+   "Matrices y determinantes",
+   "Sistemas de ecuaciones lineales",
+   "Rectas y planos en el espacio"
+  ]
+ },
+ "IND-103": {
+  "description": "Presenta el campo de la ingeniería industrial, sus áreas de especialización, su metodología de trabajo y su rol en la productividad de las organizaciones. Orienta al estudiante sobre el perfil profesional y las competencias que desarrollará durante la carrera.",
+  "topics": [
+   "Historia y campos de la disciplina",
+   "Perfil profesional del ingeniero industrial",
+   "Productividad en las organizaciones",
+   "Ética y responsabilidad inicial"
+  ]
+ },
+ "IND-104": {
+  "description": "Estudia la estructura de la materia, las reacciones químicas, la estequiometría y las propiedades de las soluciones. Proporciona el conocimiento básico para comprender los procesos de transformación de materiales y la seguridad en plantas industriales.",
+  "topics": [
+   "Estructura atómica y tabla periódica",
+   "Enlaces químicos y compuestos",
+   "Estequiometría y reacciones",
+   "Soluciones y propiedades coligativas"
+  ]
+ },
+ "IND-105": {
+  "description": "Desarrolla la redacción de textos académicos y técnicos claros, así como la capacidad de exponer ideas ante un auditorio. Es transversal a la carrera, porque los informes de gestión, propuestas y presentaciones son parte del trabajo del ingeniero.",
+  "topics": [
+   "Estructura de textos académicos",
+   "Redacción de informes de gestión",
+   "Técnicas de exposición oral",
+   "Citación y uso de fuentes"
+  ]
+ },
+ "IND-201": {
+  "description": "Continúa el estudio del cálculo con integrales definidas e indefinidas, técnicas de integración y series numéricas. Estos contenidos permiten modelar acumulaciones, como la producción total en un periodo, y aproximar funciones complejas.",
+  "topics": [
+   "Integrales definidas e indefinidas",
+   "Técnicas de integración",
+   "Sucesiones y series numéricas",
+   "Aplicaciones de la integral"
+  ]
+ },
+ "IND-202": {
+  "description": "Profundiza en espacios vectoriales, transformaciones lineales y valores propios, junto con la resolución de sistemas grandes de ecuaciones. Estos conceptos sustentan la programación lineal, el análisis de redes y los modelos de decisión multivariables.",
+  "topics": [
+   "Espacios vectoriales y subespacios",
+   "Transformaciones lineales y núcleo",
+   "Valores y vectores propios",
+   "Resolución de sistemas grandes"
+  ]
+ },
+ "IND-203": {
+  "description": "Estudia la cinemática, la dinámica de partículas, el trabajo y la energía, junto con la conservación del momento lineal. Permite comprender el comportamiento de máquinas, equipos de transporte y sistemas de manejo de materiales utilizados en la industria.",
+  "topics": [
+   "Cinemática y dinámica básica",
+   "Trabajo, energía y potencia",
+   "Conservación del momento lineal",
+   "Equilibrio de cuerpos rígidos"
+  ]
+ },
+ "IND-204": {
+  "description": "Introduce la representación gráfica de piezas y sistemas mediante proyecciones ortogonales, cortes, acotación y normas de dibujo. Permite interpretar y comunicar diseños de productos, instalaciones y líneas de producción con precisión.",
+  "topics": [
+   "Proyecciones ortogonales de piezas",
+   "Cortes y secciones",
+   "Acotación y normas de dibujo",
+   "Representación asistida por computador"
+  ]
+ },
+ "IND-205": {
+  "description": "Introduce la lógica algorítmica y la programación con un lenguaje de propósito general, aplicadas a la resolución de problemas de cálculo e ingeniería. Entrega herramientas para automatizar cálculos, procesar datos de producción y construir modelos sencillos.",
+  "topics": [
+   "Variables, estructuras y ciclos",
+   "Funciones y procedimientos",
+   "Manejo de archivos de datos",
+   "Automatización de cálculos de ingeniería"
+  ]
+ },
+ "IND-301": {
+  "description": "Extiende el cálculo a funciones de varias variables, con derivadas parciales, optimización multivariable e integrales múltiples. Estos contenidos permiten modelar sistemas en los que intervienen simultáneamente costos, tiempos y recursos.",
+  "topics": [
+   "Funciones de varias variables",
+   "Derivadas parciales y gradiente",
+   "Optimización de funciones multivariables",
+   "Integrales dobles y aplicaciones"
+  ]
+ },
+ "IND-302": {
+  "description": "Introduce la teoría de probabilidad, las variables aleatorias y sus distribuciones, junto con la estadística descriptiva. Entrega las herramientas para cuantificar la variabilidad de los procesos productivos y tomar decisiones bajo incertidumbre.",
+  "topics": [
+   "Probabilidad y eventos",
+   "Variables aleatorias discretas y continuas",
+   "Distribuciones de probabilidad comunes",
+   "Estadística descriptiva y muestral"
+  ]
+ },
+ "IND-303": {
+  "description": "Estudia el comportamiento de consumidores y empresas, la formación de precios en distintos mercados y la teoría de costos de producción. Permite analizar decisiones de precio, inversión y competencia en el entorno de las organizaciones.",
+  "topics": [
+   "Teoría del consumidor y demanda",
+   "Costos y función de producción",
+   "Estructuras de mercado",
+   "Equilibrio de mercado y precios"
+  ]
+ },
+ "IND-304": {
+  "description": "Introduce los principios de la contabilidad financiera y de costos, incluyendo el registro de transacciones, los estados financieros y el análisis básico de costos. Permite interpretar la situación económica de una empresa y su efecto en la gestión.",
+  "topics": [
+   "Registro de transacciones contables",
+   "Estados financieros básicos",
+   "Clasificación y análisis de costos",
+   "Interpretación de indicadores financieros"
+  ]
+ },
+ "IND-305": {
+  "description": "Estudia la estructura interna de los materiales metálicos, cerámicos y poliméricos, y su relación con sus propiedades mecánicas. Entrega criterios para seleccionar materiales según los requerimientos de diseño, costo y desempeño de los procesos industriales.",
+  "topics": [
+   "Estructura interna de los materiales",
+   "Propiedades mecánicas y ensayos",
+   "Materiales metálicos, cerámicos y poliméricos",
+   "Criterios de selección de materiales"
+  ]
+ },
+ "IND-401": {
+  "description": "Estudia la estimación de parámetros, los intervalos de confianza, las pruebas de hipótesis y el análisis de regresión lineal. Estos métodos permiten validar mejoras de procesos y evaluar si las diferencias observadas en datos industriales son significativas.",
+  "topics": [
+   "Estimación de parámetros",
+   "Intervalos de confianza",
+   "Pruebas de hipótesis",
+   "Regresión lineal simple y múltiple"
+  ]
+ },
+ "IND-402": {
+  "description": "Estudia el funcionamiento agregado de la economía, incluyendo producto, inflación, empleo, política monetaria y política fiscal. Permite comprender el contexto en el que operan las empresas y anticipar el efecto de cambios en las condiciones económicas.",
+  "topics": [
+   "Producto, ingreso y empleo",
+   "Inflación y política monetaria",
+   "Política fiscal y gasto público",
+   "Economía abierta y tipo de cambio"
+  ]
+ },
+ "IND-403": {
+  "description": "Analiza los tipos de procesos de manufactura, sus flujos de materiales y las tecnologías empleadas para transformar insumos en productos terminados. Permite evaluar alternativas de producción según su capacidad, costo y calidad.",
+  "topics": [
+   "Tipos de procesos de manufactura",
+   "Flujo de materiales y capacidad",
+   "Tecnologías de transformación",
+   "Evaluación de calidad de procesos"
+  ]
+ },
+ "IND-404": {
+  "description": "Estudia las leyes de la termodinámica, los ciclos de potencia y refrigeración, y los balances de energía en sistemas abiertos y cerrados. Permite evaluar el consumo energético de equipos y procesos, aspecto clave para la eficiencia de las plantas.",
+  "topics": [
+   "Leyes de la termodinámica",
+   "Balances de energía en sistemas",
+   "Ciclos de potencia y refrigeración",
+   "Eficiencia energética de procesos"
+  ]
+ },
+ "IND-405": {
+  "description": "Desarrolla la comprensión lectora de textos técnicos en inglés, con énfasis en manuales de equipos, normas internacionales y artículos de gestión. Permite acceder a la bibliografía especializada, en gran parte publicada en ese idioma.",
+  "topics": [
+   "Vocabulario técnico industrial",
+   "Lectura de manuales de equipos",
+   "Lectura de normas internacionales",
+   "Redacción breve en inglés"
+  ]
+ },
+ "IND-501": {
+  "description": "Introduce la modelación matemática de problemas de decisión mediante programación lineal, con resolución gráfica y por el método simplex. Entrega herramientas para asignar recursos escasos de forma óptima en producción, transporte y planificación.",
+  "topics": [
+   "Modelación de problemas de decisión",
+   "Programación lineal y región factible",
+   "Método simplex de solución",
+   "Análisis de sensibilidad básico"
+  ]
+ },
+ "IND-502": {
+  "description": "Estudia los sistemas de costeo por órdenes y por procesos, la determinación del costo unitario y la elaboración de presupuestos operativos. Permite fundamentar precios, controlar gastos y evaluar la rentabilidad de productos y actividades.",
+  "topics": [
+   "Sistemas de costeo por órdenes",
+   "Costeo por procesos y actividades",
+   "Costo unitario y punto de equilibrio",
+   "Elaboración de presupuestos operativos"
+  ]
+ },
+ "IND-503": {
+  "description": "Aborda el estudio del trabajo, incluyendo el análisis de métodos, la medición de tiempos y el diseño de puestos de trabajo. Permite identificar actividades que no agregan valor y proponer mejoras que aumenten la productividad y la seguridad.",
+  "topics": [
+   "Análisis y diagramas de métodos",
+   "Medición de tiempos de trabajo",
+   "Diseño de puestos de trabajo",
+   "Mejora de productividad y seguridad"
+  ]
+ },
+ "IND-504": {
+  "description": "Estudia los procesos de reclutamiento, evaluación de desempeño, capacitación y clima laboral en las organizaciones. Entrega herramientas para liderar equipos de trabajo, comprender la motivación y contribuir a la gestión del talento.",
+  "topics": [
+   "Reclutamiento y selección de personal",
+   "Evaluación del desempeño",
+   "Capacitación y desarrollo del talento",
+   "Clima laboral y motivación"
+  ]
+ },
+ "IND-505": {
+  "description": "Asignatura de libre elección que el estudiante cursa dentro del plan de formación general. Permite ampliar su perspectiva sobre áreas ajenas a la ingeniería y complementar su formación con contenidos transversales.",
+  "topics": [
+   "Oferta semestral de cursos",
+   "Selección libre del estudiante",
+   "Programa definido por cada curso",
+   "Reconocimiento de créditos académicos"
+  ]
+ },
+ "IND-601": {
+  "description": "Profundiza en métodos de optimización como programación entera, no lineal y dinámica aplicados a problemas de decisión. Permite formular y resolver modelos que apoyan la asignación de recursos en sistemas productivos y logísticos.",
+  "topics": [
+   "Programación entera y mixta",
+   "Programación no lineal",
+   "Programación dinámica aplicada",
+   "Análisis de sensibilidad y dualidad"
+  ]
+ },
+ "IND-602": {
+  "description": "Aborda la gestión financiera de las empresas, incluyendo estructura de capital, política de dividendos y decisiones de financiamiento. Entrega herramientas para evaluar el impacto económico de las decisiones operativas y estratégicas.",
+  "topics": [
+   "Estructura de capital",
+   "Política de dividendos",
+   "Costo de capital",
+   "Decisiones de financiamiento empresarial"
+  ]
+ },
+ "IND-603": {
+  "description": "Estudia el diseño y control de procesos productivos y de servicios, con énfasis en capacidad, flujo de materiales e inventarios. Es base para diseñar sistemas operativos eficientes y vincular la planificación con la ejecución.",
+  "topics": [
+   "Diseño de procesos productivos",
+   "Gestión de capacidad instalada",
+   "Control de inventarios",
+   "Indicadores de desempeño operacional"
+  ]
+ },
+ "IND-604": {
+  "description": "Examina la planificación del transporte, almacenamiento y distribución de bienes entre proveedor y cliente final. Permite diseñar redes logísticas y evaluar estrategias de abastecimiento que reduzcan costos y tiempos de entrega.",
+  "topics": [
+   "Diseño de redes logísticas",
+   "Gestión de almacenamiento y distribución",
+   "Estrategias de abastecimiento",
+   "Indicadores de servicio al cliente"
+  ]
+ },
+ "IND-605": {
+  "description": "Introduce procesos estocásticos, como cadenas de Markov, procesos de Poisson y teoría de colas, para describir sistemas con incertidumbre. Sirve para analizar tiempos de espera y confiabilidad en sistemas de servicio.",
+  "topics": [
+   "Cadenas de Markov",
+   "Procesos de Poisson",
+   "Teoría de colas",
+   "Modelos de confiabilidad"
+  ]
+ },
+ "IND-701": {
+  "description": "Presenta los principios y herramientas para medir, controlar y mejorar la calidad de productos y procesos, como cartas de control y muestreo de aceptación. Se aplica para asegurar especificaciones y reducir la variabilidad productiva.",
+  "topics": [
+   "Cartas de control estadístico",
+   "Muestreo de aceptación",
+   "Análisis de capacidad de procesos",
+   "Mejora continua de calidad"
+  ]
+ },
+ "IND-702": {
+  "description": "Enseña a construir modelos computacionales de sistemas productivos y de servicios, a validarlos y a analizar escenarios alternativos. Permite evaluar decisiones de diseño sin intervenir en la operación real de la organización.",
+  "topics": [
+   "Construcción de modelos de simulación",
+   "Generación de variables aleatorias",
+   "Validación y verificación de modelos",
+   "Análisis de escenarios alternativos"
+  ]
+ },
+ "IND-703": {
+  "description": "Introduce los conceptos de mercado, segmentación, posicionamiento y mezcla de marketing, junto con el comportamiento del consumidor. Permite coordinar la producción con las decisiones comerciales de la empresa.",
+  "topics": [
+   "Segmentación y posicionamiento de mercado",
+   "Comportamiento del consumidor",
+   "Mezcla de marketing",
+   "Investigación de mercados"
+  ]
+ },
+ "IND-704": {
+  "description": "Desarrolla métodos para comparar alternativas de inversión considerando el valor del dinero en el tiempo, la tasa de interés y el riesgo. Constituye una base indispensable para evaluar proyectos y decisiones económicas.",
+  "topics": [
+   "Valor del dinero en el tiempo",
+   "Equivalencia de flujos de caja",
+   "Comparación de alternativas de inversión",
+   "Depreciación e impuestos"
+  ]
+ },
+ "IND-705": {
+  "description": "Trata la identificación, evaluación y control de riesgos laborales en procesos industriales, conforme a la normativa vigente de seguridad y salud en el trabajo. Entrega criterios para diseñar espacios de trabajo seguros.",
+  "topics": [
+   "Identificación de peligros laborales",
+   "Evaluación de riesgos industriales",
+   "Medidas de control preventivo",
+   "Gestión de seguridad organizacional"
+  ]
+ },
+ "IND-801": {
+  "description": "Estudia la planificación agregada, la programación maestra de producción y la planificación de requerimientos de materiales. Permite coordinar demanda, capacidad e inventarios para cumplir compromisos de entrega con costos controlados.",
+  "topics": [
+   "Planificación agregada de producción",
+   "Programa maestro de producción",
+   "Planificación de requerimientos de materiales",
+   "Secuenciación y programación de tareas"
+  ]
+ },
+ "IND-802": {
+  "description": "Analiza cómo las organizaciones generan, evalúan e implementan nuevas ideas, productos y modelos de negocio. Aporta criterios para gestionar equipos y portafolios de proyectos orientados a la creación de valor.",
+  "topics": [
+   "Procesos de generación de ideas",
+   "Evaluación de portafolios de innovación",
+   "Modelos de negocio innovadores",
+   "Gestión de equipos creativos"
+  ]
+ },
+ "IND-803": {
+  "description": "Introduce el análisis estadístico y el modelamiento de datos orientados a la toma de decisiones, incluyendo regresión, pruebas de hipótesis y visualización. Permite transformar información operacional en evidencia útil para la gestión.",
+  "topics": [
+   "Análisis exploratorio de datos",
+   "Modelos de regresión aplicados",
+   "Pruebas de hipótesis estadísticas",
+   "Visualización de resultados"
+  ]
+ },
+ "IND-804": {
+  "description": "Revisa los principios generales del derecho del trabajo y del derecho comercial aplicables a la actividad empresarial. Entrega criterios para reconocer obligaciones contractuales, laborales y societarias en el ejercicio profesional.",
+  "topics": [
+   "Contrato de trabajo y obligaciones",
+   "Principios del derecho comercial",
+   "Formas societarias empresariales",
+   "Responsabilidad contractual y laboral"
+  ]
+ },
+ "IND-805": {
+  "description": "Asignatura electiva del área profesional cuya oferta de cursos se define cada periodo académico. El estudiante selecciona una opción acorde a sus intereses, que se evalúa según el programa del curso elegido.",
+  "topics": [
+   "Oferta de cursos por periodo",
+   "Selección según intereses de especialización",
+   "Evaluación según programa del curso",
+   "Reconocimiento de créditos profesionales"
+  ]
+ },
+ "IND-901": {
+  "description": "Desarrolla la formulación y evaluación de proyectos de inversión, incluyendo estudios de mercado, técnico, económico y financiero. Es el marco en que el ingeniero integra conocimientos previos para recomendar la viabilidad de una iniciativa.",
+  "topics": [
+   "Estudio de mercado y técnico",
+   "Flujo de caja del proyecto",
+   "Indicadores de rentabilidad VAN y TIR",
+   "Análisis de riesgo y sensibilidad"
+  ]
+ },
+ "IND-902": {
+  "description": "Examina el análisis del entorno, la formulación de estrategias y los sistemas de control de gestión en organizaciones complejas. Contribuye a que el futuro profesional participe en decisiones de alto nivel y alinee las operaciones con metas de largo plazo.",
+  "topics": [
+   "Análisis del entorno competitivo",
+   "Formulación de estrategias organizacionales",
+   "Sistemas de control de gestión",
+   "Cuadro de mando integral"
+  ]
+ },
+ "IND-903": {
+  "description": "Analiza el impacto ambiental y social de los procesos productivos, junto con herramientas de producción más limpia y evaluación del ciclo de vida. Permite proponer mejoras que reduzcan consumos, emisiones y residuos.",
+  "topics": [
+   "Evaluación del ciclo de vida",
+   "Producción más limpia",
+   "Gestión de residuos industriales",
+   "Indicadores de desempeño sustentable"
+  ]
+ },
+ "IND-904": {
+  "description": "Asignatura electiva de especialización profesional en la que el estudiante escoge un curso de la oferta vigente según sus intereses. Su contenido depende del programa seleccionado, informado al inicio del periodo académico.",
+  "topics": [
+   "Oferta de cursos vigente",
+   "Elección según trayectoria profesional",
+   "Contenidos según programa seleccionado",
+   "Evaluación conforme al reglamento académico"
+  ]
+ },
+ "IND-905": {
+  "description": "Experiencia de trabajo supervisada en una organización del sector productivo o de servicios, bajo la guía de un tutor académico y de un supervisor en terreno. Permite aplicar en contextos reales los conocimientos adquiridos.",
+  "topics": [
+   "Inserción en organización real",
+   "Supervisión de tutor académico",
+   "Informe de actividades desarrolladas",
+   "Evaluación de desempeño profesional"
+  ]
+ },
+ "IND-1001": {
+  "description": "Presenta metodologías para planificar, ejecutar y controlar proyectos, incluyendo alcance, cronograma, costos y riesgos. Es una competencia transversal que el ingeniero aplica al liderar iniciativas de mejora y de inversión.",
+  "topics": [
+   "Planificación de alcance y cronograma",
+   "Control de costos del proyecto",
+   "Gestión de riesgos del proyecto",
+   "Metodologías ágiles y tradicionales"
+  ]
+ },
+ "IND-1002": {
+  "description": "Trabaja las habilidades de negociación, comunicación y conducción de equipos en contextos organizacionales. Prepara al estudiante para influir en decisiones, resolver conflictos y dirigir personas en el ejercicio profesional.",
+  "topics": [
+   "Estrategias de negociación",
+   "Comunicación efectiva en equipos",
+   "Resolución de conflictos organizacionales",
+   "Estilos de liderazgo profesional"
+  ]
+ },
+ "IND-1003": {
+  "description": "Espacio de trabajo guiado en el que el estudiante define el tema de su memoria o proyecto de título y elabora el marco conceptual y la propuesta metodológica. Los avances se revisan periódicamente con un profesor guía.",
+  "topics": [
+   "Definición del problema de estudio",
+   "Revisión de antecedentes bibliográficos",
+   "Propuesta metodológica del trabajo",
+   "Seguimiento con profesor guía"
+  ]
+ },
+ "IND-1101": {
+  "description": "Asignatura electiva de profundización dentro del área profesional, que el estudiante elige entre los cursos ofrecidos en el periodo. Su contenido se define en el programa de cada curso y su aprobación se rige por el reglamento.",
+  "topics": [
+   "Oferta de cursos del periodo",
+   "Elección de profundización profesional",
+   "Contenidos según programa del curso",
+   "Evaluación conforme al reglamento"
+  ]
+ },
+ "IND-1102": {
+  "description": "Continuación del Taller de Titulación I, orientada a desarrollar, validar y documentar la solución propuesta en el trabajo de título. El estudiante presenta resultados parciales y finales a una comisión y ajusta su informe.",
+  "topics": [
+   "Desarrollo y validación de solución",
+   "Análisis de resultados obtenidos",
+   "Redacción del informe final",
+   "Presentación ante comisión evaluadora"
+  ]
+ },
+ "IND-1103": {
+  "description": "Práctica de integración en la que el estudiante aplica en una organización real un conjunto de conocimientos de la carrera, bajo supervisión académica y en terreno. Su evaluación considera el desempeño y un informe técnico final.",
+  "topics": [
+   "Integración de competencias de la carrera",
+   "Participación en proyecto organizacional",
+   "Supervisión académica y en terreno",
+   "Informe técnico de resultados"
+  ]
+ },
+ "IND-1201": {
+  "description": "Instancia colectiva en la que los estudiantes exponen avances de sus trabajos de título y reciben retroalimentación de pares y académicos. Se discuten criterios de calidad para la investigación aplicada antes de la entrega formal.",
+  "topics": [
+   "Exposición de avances de titulación",
+   "Retroalimentación entre pares",
+   "Criterios de calidad investigativa",
+   "Entrega formal de informe"
+  ]
+ },
+ "IND-1202": {
+  "description": "Trabajo final individual en el que el estudiante desarrolla y documenta una solución a un problema de ingeniería industrial, con metodología explícita y resultados verificables. Se evalúa mediante informe escrito y defensa oral.",
+  "topics": [
+   "Desarrollo de solución de ingeniería",
+   "Metodología explícita y verificable",
+   "Informe escrito final",
+   "Defensa oral ante comisión"
+  ]
+ },
+ "ELE-101": {
+  "description": "Introduce los conceptos de límite, continuidad, derivada e integral de funciones de una variable real. Es la base matemática para el análisis de circuitos, señales y fenómenos de cambio que se estudian en la carrera.",
+  "topics": [
+   "Límites y continuidad de funciones",
+   "Derivadas y sus aplicaciones",
+   "Integrales definidas e indefinidas",
+   "Funciones reales de variable real"
+  ]
+ },
+ "ELE-102": {
+  "description": "Desarrolla los fundamentos del álgebra vectorial, matrices, sistemas de ecuaciones lineales y geometría analítica en el plano y el espacio. Entrega herramientas formales para representar magnitudes físicas y resolver sistemas de ingeniería.",
+  "topics": [
+   "Vectores en el plano y espacio",
+   "Matrices y determinantes",
+   "Sistemas de ecuaciones lineales",
+   "Geometría analítica básica"
+  ]
+ },
+ "ELE-103": {
+  "description": "Presenta el campo de la ingeniería electrónica, sus áreas de aplicación y el perfil profesional de la carrera. Introduce además el método de trabajo universitario, la lectura técnica y el uso de herramientas básicas de medición.",
+  "topics": [
+   "Áreas de la ingeniería electrónica",
+   "Perfil profesional y ética",
+   "Método de trabajo universitario",
+   "Herramientas básicas de medición"
+  ]
+ },
+ "ELE-104": {
+  "description": "Estudia el movimiento de partículas y sólidos, las leyes de Newton, el trabajo, la energía y la conservación del momentum. Proporciona el razonamiento físico necesario para comprender sistemas mecánicos vinculados a la electrónica.",
+  "topics": [
+   "Cinemática y dinámica de partículas",
+   "Trabajo, energía y potencia",
+   "Conservación del momentum lineal",
+   "Dinámica de sólidos rígidos"
+  ]
+ },
+ "ELE-105": {
+  "description": "Desarrolla habilidades para redactar textos académicos y técnicos, y para exponer ideas con claridad ante un auditorio. Es un apoyo transversal para la elaboración de informes, presentaciones y trabajos de título.",
+  "topics": [
+   "Redacción de textos académicos",
+   "Estructura de informes técnicos",
+   "Exposición oral de ideas",
+   "Citación y uso de fuentes"
+  ]
+ },
+ "ELE-201": {
+  "description": "Continúa el estudio del cálculo con integración múltiple, series de potencias y funciones de varias variables. Estos contenidos son necesarios para modelar campos eléctricos y magnéticos y analizar señales continuas.",
+  "topics": [
+   "Integrales dobles y triples",
+   "Series de potencias y Taylor",
+   "Funciones de varias variables",
+   "Campos vectoriales básicos"
+  ]
+ },
+ "ELE-202": {
+  "description": "Estudia espacios vectoriales, transformaciones lineales, valores propios y diagonalización de matrices. Aporta el lenguaje matemático para representar sistemas lineales, analizar su estabilidad y procesar señales.",
+  "topics": [
+   "Espacios vectoriales y bases",
+   "Transformaciones lineales entre espacios",
+   "Valores y vectores propios",
+   "Diagonalización de matrices"
+  ]
+ },
+ "ELE-203": {
+  "description": "Trata los fenómenos de electricidad y magnetismo, incluyendo campo eléctrico, potencial, inducción y ondas electromagnéticas. Constituye el fundamento físico para entender componentes, circuitos y sistemas de comunicación.",
+  "topics": [
+   "Campo y potencial eléctrico",
+   "Campo magnético y corrientes",
+   "Fenómenos de inducción electromagnética",
+   "Ondas electromagnéticas básicas"
+  ]
+ },
+ "ELE-204": {
+  "description": "Introduce la lógica de programación, las estructuras de control, las funciones y el manejo de datos mediante un lenguaje de propósito general. Permite automatizar cálculos y escribir programas para el análisis de sistemas técnicos.",
+  "topics": [
+   "Lógica algorítmica y diagramas de flujo",
+   "Estructuras de control y funciones",
+   "Manejo de arreglos y archivos",
+   "Depuración de programas básicos"
+  ]
+ },
+ "ELE-205": {
+  "description": "Presenta las leyes fundamentales de los circuitos de corriente continua y el análisis de redes resistivas mediante métodos de nodos y mallas. Es la base para comprender cualquier circuito electrónico estudiado posteriormente.",
+  "topics": [
+   "Leyes de Kirchhoff y Ohm",
+   "Análisis de nodos y mallas",
+   "Teoremas de redes lineales",
+   "Circuitos de primer orden"
+  ]
+ },
+ "ELE-301": {
+  "description": "Estudia ecuaciones diferenciales ordinarias de primer y segundo orden, sus métodos de solución y las transformadas de Laplace. Estas herramientas permiten modelar la respuesta transitoria de circuitos y sistemas dinámicos.",
+  "topics": [
+   "Ecuaciones de primer orden",
+   "Ecuaciones lineales de segundo orden",
+   "Transformada de Laplace",
+   "Sistemas de ecuaciones diferenciales"
+  ]
+ },
+ "ELE-302": {
+  "description": "Analiza circuitos en régimen sinusoidal permanente, la potencia en corriente alterna y el acoplamiento magnético. Permite diseñar y verificar redes que operan con señales alternas, habituales en sistemas de potencia y comunicaciones.",
+  "topics": [
+   "Régimen sinusoidal permanente",
+   "Fasores e impedancia compleja",
+   "Potencia en corriente alterna",
+   "Circuitos con acoplamiento magnético"
+  ]
+ },
+ "ELE-303": {
+  "description": "Estudia el funcionamiento de diodos, transistores bipolares y amplificadores básicos, con polarización y análisis de pequeña señal. Es la base para diseñar etapas de amplificación y acondicionamiento de señales electrónicas.",
+  "topics": [
+   "Diodos y circuitos rectificadores",
+   "Polarización de transistores bipolares",
+   "Amplificadores de pequeña señal",
+   "Análisis de respuesta en frecuencia"
+  ]
+ },
+ "ELE-304": {
+  "description": "Introduce los sistemas de numeración, el álgebra de Boole y la simplificación de funciones lógicas. Presenta además los circuitos combinacionales básicos, fundamento para diseñar la lógica que controla sistemas digitales.",
+  "topics": [
+   "Sistemas de numeración binaria",
+   "Álgebra de Boole y simplificación",
+   "Circuitos lógicos combinacionales",
+   "Compuertas lógicas básicas"
+  ]
+ },
+ "ELE-305": {
+  "description": "Aborda los conceptos de probabilidad, variables aleatorias, distribuciones y estimación de parámetros con datos experimentales. Permite evaluar la incertidumbre de mediciones y tomar decisiones técnicas con respaldo estadístico.",
+  "topics": [
+   "Probabilidad y variables aleatorias",
+   "Distribuciones de probabilidad comunes",
+   "Estimación de parámetros",
+   "Pruebas de hipótesis básicas"
+  ]
+ },
+ "ELE-401": {
+  "description": "Estudia señales continuas y discretas, sistemas lineales e invariantes en el tiempo, y su representación mediante convolución y transformadas de Fourier. Es fundamental para el diseño de sistemas de procesamiento y control.",
+  "topics": [
+   "Clasificación de señales y sistemas",
+   "Convolución y respuesta impulsional",
+   "Series y transformada de Fourier",
+   "Muestreo de señales continuas"
+  ]
+ },
+ "ELE-402": {
+  "description": "Profundiza en amplificadores con realimentación, amplificadores operacionales y etapas de salida de potencia. Permite diseñar circuitos analógicos más complejos, con estabilidad y desempeño especificados por el fabricante.",
+  "topics": [
+   "Realimentación en amplificadores",
+   "Amplificadores operacionales aplicados",
+   "Etapas de salida de potencia",
+   "Estabilidad y compensación de circuitos"
+  ]
+ },
+ "ELE-403": {
+  "description": "Trata los circuitos secuenciales, los flip-flops, los contadores y las máquinas de estados finitos. Entrega el método para diseñar sistemas digitales que almacenan información y cambian de estado según reglas temporizadas.",
+  "topics": [
+   "Flip-flops y registros",
+   "Contadores síncronos y asíncronos",
+   "Máquinas de estados finitos",
+   "Diseño de sistemas secuenciales"
+  ]
+ },
+ "ELE-404": {
+  "description": "Estudia las ecuaciones de Maxwell aplicadas a líneas de transmisión, guías de onda y antenas. Permite analizar la propagación de señales y el comportamiento de dispositivos de radiofrecuencia.",
+  "topics": [
+   "Ecuaciones de Maxwell aplicadas",
+   "Líneas de transmisión",
+   "Guías de onda básicas",
+   "Fundamentos de antenas"
+  ]
+ },
+ "ELE-405": {
+  "description": "Desarrolla la comprensión lectora y la producción escrita de textos técnicos de la ingeniería electrónica en idioma inglés. Permite acceder a manuales, hojas de datos y literatura científica actualizada.",
+  "topics": [
+   "Lectura de hojas de datos",
+   "Vocabulario técnico especializado",
+   "Redacción de textos técnicos",
+   "Comprensión de literatura científica"
+  ]
+ },
+ "ELE-501": {
+  "description": "Presenta la arquitectura de los microcontroladores, su programación y su interfaz con periféricos. Es una competencia central para desarrollar sistemas embebidos y dispositivos de control autónomos.",
+  "topics": [
+   "Arquitectura de microcontroladores",
+   "Programación de periféricos",
+   "Interrupciones y temporizadores",
+   "Interfaz con sensores y actuadores"
+  ]
+ },
+ "ELE-502": {
+  "description": "Introduce el modelado de sistemas dinámicos lineales, la función de transferencia y el análisis de respuesta temporal y frecuencial. Constituye la base para diseñar controladores que regulan variables en procesos industriales.",
+  "topics": [
+   "Modelado de sistemas dinámicos",
+   "Función de transferencia",
+   "Respuesta temporal y frecuencial",
+   "Análisis de estabilidad básica"
+  ]
+ },
+ "ELE-503": {
+  "description": "Estudia la modulación analógica y digital, la transmisión de información y el efecto del ruido en un enlace de comunicación. Permite diseñar sistemas que transmiten datos y voz con calidad y eficiencia espectral.",
+  "topics": [
+   "Modulación analógica de amplitud y frecuencia",
+   "Modulación digital de señales",
+   "Ruido en sistemas de comunicación",
+   "Análisis de enlaces de transmisión"
+  ]
+ },
+ "ELE-504": {
+  "description": "Trata los principios de medición, los transductores y el acondicionamiento de señales para adquisición de datos. Permite seleccionar instrumentos, calibrarlos y estimar la incertidumbre de las mediciones realizadas.",
+  "topics": [
+   "Principios de medición electrónica",
+   "Transductores y sensores",
+   "Acondicionamiento de señales",
+   "Adquisición y conversión de datos"
+  ]
+ },
+ "ELE-505": {
+  "description": "Aborda métodos numéricos para resolver ecuaciones no lineales, sistemas lineales, interpolación e integración aproximada. Son herramientas necesarias cuando los modelos de ingeniería no admiten soluciones analíticas cerradas.",
+  "topics": [
+   "Solución de ecuaciones no lineales",
+   "Métodos para sistemas lineales",
+   "Interpolación y ajuste de datos",
+   "Integración numérica aproximada"
+  ]
+ },
+ "ELE-601": {
+  "description": "Profundiza en el diseño de controladores en espacio de estados, así como en la controlabilidad y la observabilidad de sistemas. Permite diseñar reguladores multivariables y estimadores para sistemas electrónicos y mecatrónicos.",
+  "topics": [
+   "Representación en espacio de estados",
+   "Controlabilidad y observabilidad",
+   "Diseño de reguladores realimentados",
+   "Diseño de observadores de estado"
+  ]
+ },
+ "ELE-602": {
+  "description": "Estudia el diseño de sistemas computacionales dedicados, integrando hardware, software de tiempo real y restricciones de consumo. Prepara al estudiante para desarrollar productos electrónicos que ejecutan una función específica.",
+  "topics": [
+   "Arquitecturas de sistemas embebidos",
+   "Sistemas operativos de tiempo real",
+   "Gestión de consumo energético",
+   "Pruebas de hardware y software"
+  ]
+ },
+ "ELE-603": {
+  "description": "Trata el diseño y análisis de filtros digitales, la transformada discreta de Fourier y su implementación en procesadores especializados. Sus contenidos se aplican en audio, imágenes, comunicaciones y medición digital.",
+  "topics": [
+   "Transformada discreta de Fourier",
+   "Diseño de filtros digitales FIR",
+   "Diseño de filtros digitales IIR",
+   "Implementación en procesadores digitales"
+  ]
+ },
+ "ELE-604": {
+  "description": "Estudia convertidores estáticos de energía, como rectificadores, convertidores CC-CC e inversores, y sus aplicaciones en control de motores. Permite diseñar etapas que transforman y regulan la energía eléctrica con alta eficiencia.",
+  "topics": [
+   "Rectificadores controlados y no controlados",
+   "Convertidores de corriente continua",
+   "Inversores de voltaje",
+   "Control de conmutación y pérdidas"
+  ]
+ },
+ "ELE-605": {
+  "description": "Asignatura de libre elección que el estudiante cursa dentro del plan de formación general de la carrera. Amplía su perspectiva hacia áreas distintas de la ingeniería, con contenidos transversales a su formación profesional.",
+  "topics": [
+   "Oferta semestral de cursos",
+   "Selección libre del estudiante",
+   "Programa definido por cada curso",
+   "Reconocimiento de créditos académicos"
+  ]
+ },
+ "ELE-701": {
+  "description": "Revisa las redes de telecomunicaciones, sus arquitecturas, protocolos de transmisión y medios físicos de comunicación. Permite evaluar la capacidad, cobertura y calidad de servicio de sistemas que transportan voz y datos.",
+  "topics": [
+   "Arquitecturas de redes de telecomunicaciones",
+   "Protocolos de transmisión de datos",
+   "Medios físicos de comunicación",
+   "Calidad de servicio en redes"
+  ]
+ },
+ "ELE-702": {
+  "description": "Estudia la organización de sensores distribuidos, sus protocolos de comunicación inalámbrica y la gestión energética de los nodos. Es útil para diseñar sistemas de monitoreo en terreno con restricciones de alcance y de energía.",
+  "topics": [
+   "Topologías de redes de sensores",
+   "Protocolos inalámbricos de bajo consumo",
+   "Gestión energética de nodos",
+   "Agregación y transmisión de datos"
+  ]
+ },
+ "ELE-703": {
+  "description": "Introduce la cinemática, la dinámica y el control de robots manipuladores y móviles, junto con sus sistemas de percepción. Permite integrar sensores, actuadores y algoritmos de control en sistemas robóticos.",
+  "topics": [
+   "Cinemática de manipuladores",
+   "Dinámica y control de robots",
+   "Sistemas de percepción sensorial",
+   "Planificación de trayectorias básica"
+  ]
+ },
+ "ELE-704": {
+  "description": "Trata el diseño de placas de circuito impreso, desde el esquema eléctrico hasta el ruteo, considerando integridad de señal y normas de fabricación. Permite materializar físicamente los diseños electrónicos del estudiante.",
+  "topics": [
+   "Captura de esquemáticos electrónicos",
+   "Ruteo y disposición de componentes",
+   "Integridad de señal básica",
+   "Preparación para fabricación"
+  ]
+ },
+ "ELE-705": {
+  "description": "Asignatura electiva de especialización profesional en la que el estudiante elige un curso de la oferta del periodo según sus intereses. El contenido depende del programa del curso seleccionado y su evaluación se rige por el reglamento.",
+  "topics": [
+   "Oferta de cursos del periodo",
+   "Selección según intereses de especialización",
+   "Contenidos según programa seleccionado",
+   "Evaluación conforme al reglamento académico"
+  ]
+ },
+ "ELE-801": {
+  "description": "Estudia la conexión de dispositivos físicos a redes de datos, incluyendo protocolos de comunicación, plataformas en la nube y seguridad en la transmisión. Permite diseñar soluciones de monitoreo y control remoto en tiempo real.",
+  "topics": [
+   "Conectividad de dispositivos físicos",
+   "Plataformas de datos en la nube",
+   "Seguridad en transmisión de datos",
+   "Monitoreo y control remoto"
+  ]
+ },
+ "ELE-802": {
+  "description": "Aborda el diseño de sistemas de control para procesos industriales, incluyendo controladores lógicos programables, redes industriales y supervisión. Permite automatizar líneas de producción con criterios de seguridad y confiabilidad.",
+  "topics": [
+   "Controladores lógicos programables",
+   "Redes de comunicación industrial",
+   "Sistemas de supervisión y adquisición",
+   "Seguridad de procesos automatizados"
+  ]
+ },
+ "ELE-803": {
+  "description": "Presenta metodologías para planificar, ejecutar y controlar proyectos técnicos, con énfasis en cronograma, presupuesto y gestión de riesgos. Entrega herramientas para coordinar equipos y cumplir objetivos técnicos y económicos.",
+  "topics": [
+   "Planificación de cronograma técnico",
+   "Control presupuestario de proyectos",
+   "Gestión de riesgos técnicos",
+   "Coordinación de equipos de ingeniería"
+  ]
+ },
+ "ELE-804": {
+  "description": "Asignatura electiva de especialización en la que el estudiante escoge un curso de la oferta vigente según su trayectoria. Su contenido se especifica en el programa del curso y la aprobación se rige por el reglamento académico.",
+  "topics": [
+   "Oferta de cursos vigente",
+   "Elección según trayectoria profesional",
+   "Contenidos según programa del curso",
+   "Evaluación conforme al reglamento"
+  ]
+ },
+ "ELE-805": {
+  "description": "Experiencia de trabajo supervisada en una empresa del sector electrónico, de telecomunicaciones o de automatización, bajo la guía de un tutor académico. Permite aplicar los conocimientos de la carrera en un entorno profesional real.",
+  "topics": [
+   "Inserción en empresa del sector",
+   "Supervisión de tutor académico",
+   "Aplicación de competencias técnicas",
+   "Informe final de práctica"
+  ]
+ },
+ "ELE-901": {
+  "description": "Analiza los principios éticos del ejercicio de la ingeniería, la responsabilidad frente a la sociedad y el medio ambiente, y los códigos de conducta profesional. Prepara al estudiante para evaluar dilemas técnicos con criterios fundamentados.",
+  "topics": [
+   "Principios éticos de la ingeniería",
+   "Responsabilidad social y ambiental",
+   "Códigos de conducta profesional",
+   "Análisis de dilemas técnicos"
+  ]
+ },
+ "ELE-902": {
+  "description": "Asignatura electiva de profundización profesional que el estudiante selecciona entre los cursos disponibles en el periodo. Su contenido queda definido por el programa de cada curso y su aprobación se rige por el reglamento.",
+  "topics": [
+   "Oferta de cursos del periodo",
+   "Elección de profundización profesional",
+   "Contenidos según programa del curso",
+   "Evaluación conforme al reglamento"
+  ]
+ },
+ "ELE-903": {
+  "description": "Espacio de trabajo guiado en el que el estudiante define el tema de su trabajo de título y elabora el marco conceptual y la propuesta metodológica. Los avances se revisan periódicamente con un profesor guía y en sesiones grupales.",
+  "topics": [
+   "Definición del problema técnico",
+   "Revisión de antecedentes bibliográficos",
+   "Propuesta metodológica del trabajo",
+   "Seguimiento con profesor guía"
+  ]
+ },
+ "ELE-1001": {
+  "description": "Instancia colectiva en la que los estudiantes exponen avances de sus trabajos de título y reciben retroalimentación de pares y académicos. Se discuten criterios de calidad técnica y rigor metodológico antes de la entrega formal.",
+  "topics": [
+   "Exposición de avances de titulación",
+   "Retroalimentación entre pares",
+   "Criterios de calidad técnica",
+   "Entrega formal de informe"
+  ]
+ },
+ "ELE-1002": {
+  "description": "Trabajo final individual en el que el estudiante desarrolla y documenta una solución a un problema de ingeniería electrónica, con metodología explícita y resultados verificables. Se evalúa mediante informe escrito y defensa oral.",
+  "topics": [
+   "Desarrollo de solución electrónica",
+   "Metodología explícita y verificable",
+   "Informe escrito final",
+   "Defensa oral ante comisión"
+  ]
+ },
+ "DIS-101": {
+  "description": "Introduce los principios de composición, jerarquía visual, color, tipografía y forma que sustentan la práctica del diseño. Entrega un vocabulario común y ejercicios de observación que sirven de base para los proyectos posteriores.",
+  "topics": [
+   "Principios de composición visual",
+   "Jerarquía y contraste visual",
+   "Teoría básica del color",
+   "Fundamentos de tipografía y forma"
+  ]
+ },
+ "DIS-102": {
+  "description": "Desarrolla la habilidad de representar objetos y espacios mediante bocetos, perspectiva y proyecciones a mano alzada. Esta competencia permite comunicar ideas de diseño en las etapas tempranas de un proyecto.",
+  "topics": [
+   "Bocetos a mano alzada",
+   "Perspectiva y proyecciones",
+   "Representación de volúmenes",
+   "Croquis de ideas de diseño"
+  ]
+ },
+ "DIS-103": {
+  "description": "Recorre las principales corrientes artísticas y de diseño desde la antigüedad hasta el siglo XX, analizando su contexto social y técnico. Aporta referentes críticos que orientan las decisiones formales y conceptuales de la carrera.",
+  "topics": [
+   "Corrientes artísticas principales",
+   "Movimientos del diseño moderno",
+   "Contexto social y técnico",
+   "Análisis crítico de referentes"
+  ]
+ },
+ "DIS-104": {
+  "description": "Introduce los fundamentos del proceso proyectual mediante ejercicios de observación, bocetaje y composición. Sirve de base a los talleres posteriores de la carrera, al desarrollar la traducción de ideas en propuestas visuales.",
+  "topics": [
+   "Observación y registro visual",
+   "Bocetaje y exploración formal",
+   "Principios básicos de composición",
+   "Proceso proyectual y su documentación"
+  ]
+ },
+ "DIS-105": {
+  "description": "Desarrolla habilidades de redacción académica y expresión oral necesarias para presentar y argumentar trabajos de diseño. Se orienta a que el estudiante estructure textos claros y exponga sus decisiones proyectuales ante un público especializado.",
+  "topics": [
+   "Estructura de textos académicos",
+   "Redacción clara y precisa",
+   "Citación y referencias bibliográficas",
+   "Exposición oral de proyectos"
+  ]
+ },
+ "DIS-201": {
+  "description": "Estudia los modelos de color, las relaciones cromáticas y su percepción en contextos visuales y digitales. Permite tomar decisiones cromáticas fundamentadas en la comunicación, la jerarquía y la identidad de los proyectos de diseño.",
+  "topics": [
+   "Modelos de color aditivos y sustractivos",
+   "Armonías y contrastes cromáticos",
+   "Percepción y contexto del color",
+   "Aplicación en paletas funcionales"
+  ]
+ },
+ "DIS-202": {
+  "description": "Aborda la anatomía de los tipos, su clasificación histórica y los criterios de legibilidad aplicados a textos continuos y de display. Entrega herramientas para componer textos con jerarquía y coherencia en soportes impresos y pantallas.",
+  "topics": [
+   "Anatomía y clasificación tipográfica",
+   "Legibilidad y jerarquía textual",
+   "Interlineado, interletrado y medidas",
+   "Composición tipográfica en pantallas"
+  ]
+ },
+ "DIS-203": {
+  "description": "Revisa los principios geométricos, las proporciones y los sistemas de construcción de la forma bidimensional y tridimensional. Proporciona una base para la representación técnica y la organización espacial de objetos y piezas gráficas.",
+  "topics": [
+   "Sistemas de proporción y retícula",
+   "Construcción geométrica bidimensional",
+   "Formas tridimensionales y volumen",
+   "Simetría, ritmo y módulo"
+  ]
+ },
+ "DIS-204": {
+  "description": "Profundiza en el proceso de diseño mediante proyectos de complejidad creciente que integran forma, color y función. Prepara al estudiante para formular problemas de diseño y evaluar alternativas de solución con criterios explícitos.",
+  "topics": [
+   "Formulación de problemas de diseño",
+   "Desarrollo de alternativas proyectuales",
+   "Integración de forma y función",
+   "Evaluación crítica de propuestas"
+  ]
+ },
+ "DIS-205": {
+  "description": "Introduce el funcionamiento técnico de la cámara, la exposición y el encuadre como herramientas para registrar y construir imágenes. Permite producir registros fotográficos con intención comunicativa para documentar y apoyar los proyectos de diseño.",
+  "topics": [
+   "Funcionamiento técnico de la cámara",
+   "Exposición, luz y encuadre",
+   "Composición fotográfica básica",
+   "Edición digital elemental de imágenes"
+  ]
+ },
+ "DIS-301": {
+  "description": "Introduce el diseño de objetos de uso cotidiano, considerando la relación entre usuario, función, materialidad y producción. Orienta al estudiante a desarrollar productos simples, desde el análisis del contexto de uso hasta una propuesta formal.",
+  "topics": [
+   "Análisis de usuario y contexto",
+   "Función, forma y materialidad",
+   "Desarrollo de productos simples",
+   "Representación técnica preliminar"
+  ]
+ },
+ "DIS-302": {
+  "description": "Profundiza en el lenguaje fotográfico mediante iluminación controlada, series y producción de imágenes para proyectos específicos. Entrega criterios para planificar sesiones y construir relatos visuales coherentes.",
+  "topics": [
+   "Iluminación artificial controlada",
+   "Planificación de sesiones fotográficas",
+   "Construcción de series visuales",
+   "Flujo de trabajo digital"
+  ]
+ },
+ "DIS-303": {
+  "description": "Examina las propiedades de los materiales de uso en diseño y los procesos de transformación industrial y artesanal que los conforman. Aporta criterios para seleccionar materiales y procesos según función, costo, impacto ambiental y factibilidad productiva.",
+  "topics": [
+   "Propiedades físicas y mecánicas",
+   "Procesos de conformado y unión",
+   "Criterios de selección material",
+   "Acabados y tratamientos superficiales"
+  ]
+ },
+ "DIS-304": {
+  "description": "Desarrolla proyectos de complejidad intermedia que requieren investigación, prototipado y evaluación con usuarios. Consolida el método proyectual del estudiante y su capacidad para justificar decisiones a partir de evidencia.",
+  "topics": [
+   "Investigación previa al proyecto",
+   "Prototipado de baja fidelidad",
+   "Evaluación de propuestas con usuarios",
+   "Justificación de decisiones proyectuales"
+  ]
+ },
+ "DIS-305": {
+  "description": "Recorre el desarrollo del diseño desde la industrialización hasta la actualidad, identificando movimientos, autores y transformaciones tecnológicas y sociales. Permite situar la práctica propia en un marco histórico y crítico que sustente las decisiones.",
+  "topics": [
+   "Industrialización y diseño moderno",
+   "Vanguardias y movimientos del siglo XX",
+   "Diseño y transformaciones tecnológicas",
+   "Análisis crítico de referentes históricos"
+  ]
+ },
+ "DIS-401": {
+  "description": "Introduce los principios del diseño de interfaces digitales, incluyendo arquitectura de información, navegación y patrones básicos de interacción. Prepara al estudiante para diseñar pantallas funcionales y coherentes en dispositivos móviles y de escritorio.",
+  "topics": [
+   "Arquitectura de información básica",
+   "Patrones de navegación y jerarquía",
+   "Diseño de pantallas responsivas",
+   "Principios básicos de interacción"
+  ]
+ },
+ "DIS-402": {
+  "description": "Avanza en el desarrollo de productos de mayor complejidad, incorporando sistemas, ergonomía y criterios de fabricación. Permite generar propuestas técnicamente viables que articulen función, experiencia de uso y proceso productivo.",
+  "topics": [
+   "Ergonomía aplicada al producto",
+   "Sistemas y componentes modulares",
+   "Viabilidad de fabricación",
+   "Modelos funcionales de presentación"
+  ]
+ },
+ "DIS-403": {
+  "description": "Enseña el modelado tridimensional digital para representar objetos, volúmenes y superficies con precisión técnica y visual. Entrega una herramienta para visualizar propuestas de producto y preparar archivos para prototipado y producción.",
+  "topics": [
+   "Modelado de superficies y sólidos",
+   "Texturas y materiales digitales",
+   "Iluminación y renderizado básico",
+   "Preparación de archivos para fabricación"
+  ]
+ },
+ "DIS-404": {
+  "description": "Articula proyectos de diseño que combinan producto, comunicación y entorno, con énfasis en la coherencia entre concepto y ejecución. Desarrolla la capacidad de conducir un proceso completo y presentar resultados con rigor.",
+  "topics": [
+   "Proyectos integrados de diseño",
+   "Coherencia entre concepto y ejecución",
+   "Gestión de etapas del proyecto",
+   "Presentación técnica de resultados"
+  ]
+ },
+ "DIS-405": {
+  "description": "Desarrolla la comprensión lectora y la producción escrita de textos técnicos y académicos en inglés vinculados al diseño. Permite acceder a bibliografía especializada y comunicar los proyectos en contextos internacionales.",
+  "topics": [
+   "Vocabulario técnico del diseño",
+   "Comprensión lectora de artículos",
+   "Redacción de descripciones de proyecto",
+   "Presentaciones orales en inglés"
+  ]
+ },
+ "DIS-501": {
+  "description": "Profundiza en el diseño de interfaces complejas, incorporando sistemas de diseño, componentes reutilizables y estados de interacción. Permite desarrollar productos digitales escalables y consistentes en múltiples plataformas.",
+  "topics": [
+   "Sistemas de diseño y componentes",
+   "Estados e interacciones complejas",
+   "Accesibilidad en interfaces digitales",
+   "Documentación para equipos de desarrollo"
+  ]
+ },
+ "DIS-502": {
+  "description": "Aborda la composición de publicaciones impresas y digitales, incluyendo retículas, jerarquías tipográficas y paginación. Entrega criterios para diseñar libros, revistas y documentos extensos con coherencia visual y funcional.",
+  "topics": [
+   "Retículas y paginación",
+   "Jerarquía tipográfica en extensos",
+   "Preparación de archivos para impresión",
+   "Publicaciones impresas y digitales"
+  ]
+ },
+ "DIS-503": {
+  "description": "Revisa los principios ergonómicos y los métodos de evaluación de usabilidad aplicables a productos e interfaces. Permite diagnosticar problemas de uso y proponer mejoras fundamentadas en pruebas y en las capacidades humanas.",
+  "topics": [
+   "Principios ergonómicos fundamentales",
+   "Métodos de evaluación heurística",
+   "Pruebas de usabilidad con usuarios",
+   "Métricas de eficiencia y satisfacción"
+  ]
+ },
+ "DIS-504": {
+  "description": "Desarrolla proyectos de alta complejidad que requieren trabajo interdisciplinario y toma de decisiones bajo restricciones. Prepara al estudiante para asumir proyectos profesionales con criterios de método, factibilidad y calidad.",
+  "topics": [
+   "Trabajo interdisciplinario de proyecto",
+   "Decisiones bajo restricciones reales",
+   "Control de calidad del proceso",
+   "Iteración según retroalimentación externa"
+  ]
+ },
+ "DIS-505": {
+  "description": "Introduce los fundamentos de la investigación en diseño, incluyendo el planteamiento de preguntas, el diseño metodológico y la recolección de datos. Permite elaborar un marco de investigación que oriente el proyecto de título o seminario.",
+  "topics": [
+   "Formulación de preguntas de investigación",
+   "Enfoques cualitativos y cuantitativos",
+   "Recolección y análisis de datos",
+   "Redacción de marco metodológico"
+  ]
+ },
+ "DIS-601": {
+  "description": "Estudia el diseño de experiencias de usuario a lo largo de un recorrido, considerando emociones, puntos de contacto y necesidades. Permite modelar recorridos completos y proponer intervenciones que mejoren la relación entre personas y servicios.",
+  "topics": [
+   "Mapas de recorrido del usuario",
+   "Puntos de contacto y emociones",
+   "Investigación de necesidades y contextos",
+   "Propuestas de mejora experiencial"
+  ]
+ },
+ "DIS-602": {
+  "description": "Introduce los fundamentos del marketing y la construcción de marcas, desde el posicionamiento hasta la expresión visual de la identidad. Entrega criterios para desarrollar sistemas de marca coherentes con los objetivos comerciales de una organización.",
+  "topics": [
+   "Posicionamiento y segmentación de mercado",
+   "Construcción de identidad de marca",
+   "Manual de uso de marca",
+   "Medición básica de desempeño de marca"
+  ]
+ },
+ "DIS-603": {
+  "description": "Enseña técnicas de prototipado de baja y alta fidelidad para validar propuestas de diseño antes de su desarrollo definitivo. Permite planificar pruebas, iterar sobre los prototipos y registrar los aprendizajes obtenidos en cada ciclo.",
+  "topics": [
+   "Prototipos de baja fidelidad",
+   "Prototipos interactivos de alta fidelidad",
+   "Planificación de pruebas de validación",
+   "Registro e iteración de aprendizajes"
+  ]
+ },
+ "DIS-604": {
+  "description": "Desarrolla proyectos que integran investigación, experiencia de usuario y estrategia de marca en un mismo proceso de diseño. Consolida la capacidad de liderar proyectos y justificar propuestas ante clientes y equipos multidisciplinarios.",
+  "topics": [
+   "Integración de investigación y estrategia",
+   "Liderazgo de proyectos de diseño",
+   "Justificación ante clientes",
+   "Propuestas para equipos multidisciplinarios"
+  ]
+ },
+ "DIS-605": {
+  "description": "Asignatura electiva de formación general que el estudiante selecciona dentro de la oferta transversal de la universidad. Consiste en cursar contenidos ajenos a la disciplina que amplían la formación cultural, científica o humanista.",
+  "topics": [
+   "Selección dentro de oferta transversal",
+   "Contenidos ajenos a la disciplina",
+   "Evaluación según programa del electivo",
+   "Ampliación de formación general"
+  ]
+ },
+ "DIS-701": {
+  "description": "Aborda el diseño de servicios como sistemas que articulan personas, procesos, canales y puntos de contacto. Permite representar y rediseñar servicios complejos, considerando la coordinación entre actores y la experiencia de quienes los reciben.",
+  "topics": [
+   "Blueprints de servicio",
+   "Sistemas de actores y canales",
+   "Rediseño de procesos de servicio",
+   "Indicadores de calidad del servicio"
+  ]
+ },
+ "DIS-702": {
+  "description": "Examina el impacto ambiental y social de productos y servicios a lo largo de su ciclo de vida, desde la extracción hasta la disposición final. Entrega criterios para incorporar estrategias que reduzcan impactos y extiendan la vida útil de los objetos.",
+  "topics": [
+   "Análisis del ciclo de vida",
+   "Estrategias de diseño circular",
+   "Criterios de materialidad sustentable",
+   "Evaluación de impacto social"
+  ]
+ },
+ "DIS-703": {
+  "description": "Introduce la administración de proyectos y equipos de diseño, incluyendo planificación, presupuesto, cronograma y comunicación con el cliente. Prepara al estudiante para organizar la ejecución de proyectos y responder por sus resultados.",
+  "topics": [
+   "Planificación y cronograma de proyectos",
+   "Presupuesto y control de costos",
+   "Gestión de equipos de diseño",
+   "Comunicación con clientes y stakeholders"
+  ]
+ },
+ "DIS-704": {
+  "description": "Desarrolla proyectos en contextos profesionales o de alta complejidad, con énfasis en la autonomía del estudiante. Prepara la transición hacia la práctica profesional mediante decisiones integrales y la defensa técnica de cada propuesta.",
+  "topics": [
+   "Proyectos en contexto profesional",
+   "Autonomía en la toma de decisiones",
+   "Defensa técnica de propuestas",
+   "Síntesis integral del proceso proyectual"
+  ]
+ },
+ "DIS-705": {
+  "description": "Asignatura electiva de carácter profesional que el estudiante cursa dentro de la oferta disciplinar del programa. Consiste en profundizar en un ámbito de la práctica del diseño según los intereses formativos del estudiante.",
+  "topics": [
+   "Selección dentro de oferta disciplinar",
+   "Profundización en ámbito profesional",
+   "Evaluación según programa vigente",
+   "Aplicación en la práctica del diseño"
+  ]
+ },
+ "DIS-801": {
+  "description": "Aborda el diseño orientado a problemas sociales y comunitarios, con participación de las personas afectadas en el proceso proyectual. Entrega criterios para diseñar con enfoque ético, inclusivo y de impacto colectivo en contextos vulnerables.",
+  "topics": [
+   "Participación comunitaria en el proyecto",
+   "Enfoque ético e inclusivo",
+   "Diagnóstico de problemas sociales",
+   "Evaluación de impacto colectivo"
+  ]
+ },
+ "DIS-802": {
+  "description": "Orienta la construcción de un portafolio que reúne y organiza los proyectos más representativos del estudiante para su presentación profesional. Permite seleccionar, editar y narrar la trayectoria formativa con criterios de coherencia y claridad.",
+  "topics": [
+   "Selección de proyectos representativos",
+   "Narrativa de trayectoria profesional",
+   "Diseño y edición del portafolio",
+   "Presentación en formato digital e impreso"
+  ]
+ },
+ "DIS-803": {
+  "description": "Introduce la formulación de proyectos de emprendimiento en diseño, incluyendo modelo de negocio, validación de mercado y propuesta de valor. Permite evaluar la viabilidad económica de una idea creativa y preparar un plan de inicio de actividades.",
+  "topics": [
+   "Modelo de negocio y propuesta de valor",
+   "Validación de mercado inicial",
+   "Análisis de viabilidad económica",
+   "Plan de inicio de actividades"
+  ]
+ },
+ "DIS-804": {
+  "description": "Asignatura electiva de carácter profesional que el estudiante cursa dentro de la oferta disciplinar del programa. Consiste en profundizar en un campo de especialización del diseño, con contenidos y evaluación definidos por el programa vigente.",
+  "topics": [
+   "Selección dentro de oferta disciplinar",
+   "Profundización en campo especializado",
+   "Contenidos definidos por programa vigente",
+   "Evaluación según criterios de la asignatura"
+  ]
+ },
+ "DIS-805": {
+  "description": "Permite integrar competencias en un entorno laboral real, bajo supervisión de un tutor institucional y de un referente de la organización receptora. Consiste en cumplir un plan de trabajo acordado y elaborar un informe final de actividades.",
+  "topics": [
+   "Inserción en organización receptora",
+   "Plan de trabajo acordado",
+   "Supervisión por tutor institucional",
+   "Informe final de actividades"
+  ]
+ },
+ "DIS-901": {
+  "description": "Inicia el proceso de titulación mediante la formulación de un proyecto de título y la definición de su problema, objetivos y metodología. Consiste en sesiones de seguimiento tutorial en las que el estudiante avanza en el diseño de su propuesta.",
+  "topics": [
+   "Formulación del problema de título",
+   "Definición de objetivos y metodología",
+   "Seguimiento tutorial periódico",
+   "Entrega de avances documentados"
+  ]
+ },
+ "DIS-902": {
+  "description": "Reúne a los estudiantes en torno a la discusión de investigaciones en diseño, con lectura crítica de literatura y presentación de avances. Consiste en exposiciones, debates y entregas escritas que fortalecen el marco teórico de los proyectos de título.",
+  "topics": [
+   "Lectura crítica de literatura",
+   "Presentación y discusión de avances",
+   "Construcción del marco teórico",
+   "Entregas escritas evaluadas"
+  ]
+ },
+ "DIS-903": {
+  "description": "Asignatura electiva de carácter profesional que el estudiante cursa dentro de la oferta disciplinar del programa. Consiste en profundizar en un ámbito especializado del diseño durante el último tramo de la carrera, según el programa vigente.",
+  "topics": [
+   "Selección dentro de oferta disciplinar",
+   "Profundización en ámbito especializado",
+   "Contenidos definidos por programa vigente",
+   "Evaluación según criterios de la asignatura"
+  ]
+ },
+ "DIS-1001": {
+  "description": "Desarrolla de forma autónoma el proyecto de título, desde la propuesta hasta la materialización del producto o sistema de diseño. Consiste en un proceso tutorado en que el estudiante ejecuta su plan, registra avances y entrega el proyecto para evaluación.",
+  "topics": [
+   "Ejecución autónoma del proyecto",
+   "Materialización del producto de diseño",
+   "Documentación del proceso completo",
+   "Evaluación por comisión examinadora"
+  ]
+ },
+ "DIS-1002": {
+  "description": "Corresponde a la presentación pública y defensa oral del proyecto de título ante una comisión evaluadora. Consiste en exponer el problema, el proceso y los resultados, y responder preguntas que verifiquen el dominio disciplinar del estudiante.",
+  "topics": [
+   "Presentación pública del proyecto",
+   "Defensa oral ante comisión",
+   "Respuesta a preguntas técnicas",
+   "Verificación del dominio disciplinar"
+  ]
+ },
+ "AVI-101": {
+  "description": "Introduce la observación y la representación gráfica mediante ejercicios de dibujo del natural, en que se trabajan línea, masa y proporción. Constituye la base técnica de las asignaturas prácticas, al desarrollar la precisión perceptiva del estudiante.",
+  "topics": [
+   "Observación del natural",
+   "Línea, masa y proporción",
+   "Técnicas secas y húmedas",
+   "Registro gráfico en cuadernos"
+  ]
+ },
+ "AVI-102": {
+  "description": "Recorre el arte desde la Antigüedad hasta el Renacimiento, identificando obras, contextos y transformaciones de los lenguajes visuales. Permite adquirir un vocabulario histórico y un marco de referencia para analizar la producción artística posterior.",
+  "topics": [
+   "Arte antiguo y medieval",
+   "Renacimiento y su contexto",
+   "Análisis formal de obras",
+   "Vocabulario histórico y artístico"
+  ]
+ },
+ "AVI-103": {
+  "description": "Examina la naturaleza de la imagen, sus formas de producción y su modo de significar en la cultura visual. Entrega herramientas conceptuales para interpretar imágenes de distintos soportes y fundamentar la práctica artística propia.",
+  "topics": [
+   "Naturaleza y tipos de imágenes",
+   "Significación y lectura visual",
+   "Imagen y cultura visual",
+   "Herramientas conceptuales de análisis"
+  ]
+ },
+ "AVI-104": {
+  "description": "Introduce la práctica pictórica mediante ejercicios de color, mezcla, soporte y técnica sobre tela y papel. Permite desarrollar un lenguaje pictórico inicial y comprender la relación entre materialidad, gesto y resultado visual.",
+  "topics": [
+   "Mezcla y control del color",
+   "Soportes y preparación de superficies",
+   "Técnicas pictóricas básicas",
+   "Gesto y materialidad en pintura"
+  ]
+ },
+ "AVI-105": {
+  "description": "Desarrolla la redacción académica y la expresión oral necesarias para comunicar procesos artísticos y reflexiones teóricas. Consiste en ejercicios de escritura, lectura y exposición que culminan en textos y presentaciones evaluadas.",
+  "topics": [
+   "Estructura de textos académicos",
+   "Lectura comprensiva de ensayos",
+   "Redacción de reflexiones artísticas",
+   "Exposición oral de procesos"
+  ]
+ },
+ "AVI-201": {
+  "description": "Profundiza en el dibujo a partir de la figura humana, el espacio y la perspectiva, con énfasis en la expresividad del trazo. Permite consolidar un sistema de representación que sirva de soporte a la práctica en las distintas disciplinas.",
+  "topics": [
+   "Figura humana y anatomía básica",
+   "Perspectiva y construcción espacial",
+   "Expresividad del trazo",
+   "Dibujo como método de investigación"
+  ]
+ },
+ "AVI-202": {
+  "description": "Continúa el recorrido histórico desde el Barroco hasta las vanguardias del siglo XX, examinando los cambios en la representación y en el rol social del artista. Entrega un marco comparativo para situar movimientos y obras en sus contextos.",
+  "topics": [
+   "Barroco y academia europea",
+   "Romanticismo y realismo",
+   "Vanguardias históricas del siglo XX",
+   "Comparación entre contextos y movimientos"
+  ]
+ },
+ "AVI-203": {
+  "description": "Introduce la escultura mediante la manipulación de volúmenes, materiales y procesos de modelado y talla. Permite comprender el espacio tridimensional y desarrollar una relación práctica con la materia y su resistencia.",
+  "topics": [
+   "Modelado y volumen básico",
+   "Talla y sustracción de material",
+   "Materiales escultóricos elementales",
+   "Relación con el espacio tridimensional"
+  ]
+ },
+ "AVI-204": {
+  "description": "Introduce las técnicas de grabado en relieve, hueco y planográfico, con énfasis en la matriz y la reproducción de la imagen. Consiste en ejercicios de entintado, prensado y estampación que permiten comprender la naturaleza múltiple de la obra gráfica.",
+  "topics": [
+   "Matrices de relieve y hueco",
+   "Entintado y prensado",
+   "Estampación y tiraje controlado",
+   "Obra múltiple y reproducción"
+  ]
+ },
+ "AVI-205": {
+  "description": "Introduce el registro fotográfico y audiovisual como lenguajes artísticos, desde la captura hasta el montaje básico. Permite producir imágenes y secuencias con intención conceptual y reconocer las particularidades de cada medio.",
+  "topics": [
+   "Captura fotográfica y encuadre",
+   "Lenguaje audiovisual básico",
+   "Montaje y edición elemental",
+   "Intención conceptual en el registro"
+  ]
+ },
+ "AVI-301": {
+  "description": "Profundiza en la práctica pictórica con proyectos que exigen mayor autonomía en la elección de formato, paleta y composición. Permite desarrollar una poética personal y sostener series de trabajo con criterio técnico y conceptual.",
+  "topics": [
+   "Formato, paleta y composición",
+   "Desarrollo de series pictóricas",
+   "Poética personal en proyectos",
+   "Criterio técnico y conceptual"
+  ]
+ },
+ "AVI-302": {
+  "description": "Avanza en la escultura con proyectos de mayor escala, uso de materiales diversos y reflexión sobre el lugar de la obra. Permite planificar, construir y evaluar piezas que se relacionan con el espacio y con el espectador.",
+  "topics": [
+   "Escala y proporción escultórica",
+   "Materiales diversos y ensamblaje",
+   "Relación obra y espacio",
+   "Planificación técnica de piezas"
+  ]
+ },
+ "AVI-303": {
+  "description": "Profundiza en técnicas de grabado mediante estampación combinada y experimentación con matrices de mayor complejidad. Permite desarrollar series gráficas y reflexionar sobre la relación entre la técnica y el sentido de la obra.",
+  "topics": [
+   "Estampación combinada de matrices",
+   "Experimentación con procesos gráficos",
+   "Desarrollo de series gráficas",
+   "Registro y control de tirajes"
+  ]
+ },
+ "AVI-304": {
+  "description": "Examina los debates teóricos sobre el arte desde la segunda mitad del siglo XX, incluyendo el concepto de obra, el rol de la institución y la disolución de las fronteras disciplinares. Entrega un marco crítico para interpretar la producción actual.",
+  "topics": [
+   "Concepto de obra y autoría",
+   "Rol de la institución artística",
+   "Disolución de fronteras disciplinares",
+   "Marco crítico de producción actual"
+  ]
+ },
+ "AVI-305": {
+  "description": "Profundiza en el lenguaje fotográfico y audiovisual mediante proyectos de narración, series y video de mayor duración. Permite planificar producciones con guion, rodaje y postproducción orientadas a una propuesta artística definida.",
+  "topics": [
+   "Narración visual y guion",
+   "Planificación de rodaje",
+   "Postproducción y montaje",
+   "Series y producciones de duración"
+  ]
+ },
+ "AVI-401": {
+  "description": "Introduce la instalación artística, práctica que articula obra, espacio y espectador en un dispositivo específico. Consiste en diseñar y montar proyectos en espacios reales, evaluando su relación con la arquitectura y el recorrido del público.",
+  "topics": [
+   "Obra, espacio y espectador",
+   "Diseño de dispositivos espaciales",
+   "Montaje en espacios reales",
+   "Evaluación del recorrido público"
+  ]
+ },
+ "AVI-402": {
+  "description": "Desarrolla un proyecto pictórico de carácter autoral, con énfasis en la coherencia entre procesos, soportes y propuesta conceptual. Permite consolidar un corpus de obra y argumentar las decisiones frente a la crítica y los pares.",
+  "topics": [
+   "Corpus pictórico autoral",
+   "Coherencia entre proceso y soporte",
+   "Argumentación de decisiones artísticas",
+   "Retroalimentación crítica con pares"
+  ]
+ },
+ "AVI-403": {
+  "description": "Introduce los principios de la curaduría y el montaje de exposiciones, incluyendo la selección de obras, el guion curatorial y la organización del espacio. Permite proponer muestras coherentes que articulen obras de distintos autores y lenguajes.",
+  "topics": [
+   "Selección y criterios de obra",
+   "Guion curatorial y tesis",
+   "Organización espacial de exposiciones",
+   "Montaje y conservación básica"
+  ]
+ },
+ "AVI-404": {
+  "description": "Revisa las principales teorías filosóficas sobre lo bello, la experiencia estética y el juicio artístico. Entrega conceptos que permiten fundamentar las categorías con que se analiza y valora la obra de arte.",
+  "topics": [
+   "Teorías clásicas de lo bello",
+   "Experiencia estética y percepción",
+   "Juicio y valoración artística",
+   "Categorías conceptuales de análisis"
+  ]
+ },
+ "AVI-405": {
+  "description": "Desarrolla la comprensión lectora y la escritura de textos académicos en inglés vinculados a las artes visuales. Permite acceder a bibliografía especializada y comunicar los proyectos en contextos internacionales.",
+  "topics": [
+   "Vocabulario técnico artístico",
+   "Lectura de textos teóricos",
+   "Redacción de descripciones de obra",
+   "Presentaciones orales en inglés"
+  ]
+ },
+ "AVI-501": {
+  "description": "Examina las prácticas artísticas que emplean tecnologías digitales, redes y sistemas interactivos como parte de su lenguaje. Permite reconocer las implicancias estéticas, técnicas y críticas de estos medios y ensayar propuestas que los integren.",
+  "topics": [
+   "Tecnologías digitales en la práctica",
+   "Arte interactivo y en red",
+   "Implicancias estéticas y críticas",
+   "Propuestas de integración mediática"
+  ]
+ },
+ "AVI-502": {
+  "description": "Desarrolla la producción de obra con autonomía creciente, a partir de un proyecto propio definido en el taller. Consiste en sesiones de seguimiento y revisión colectiva que orientan la maduración de la propuesta del estudiante.",
+  "topics": [
+   "Proyecto de obra autoral",
+   "Seguimiento individual en taller",
+   "Revisión colectiva de propuestas",
+   "Maduración de la propuesta artística"
+  ]
+ },
+ "AVI-503": {
+  "description": "Introduce la escritura crítica sobre arte, con énfasis en la descripción, el análisis y la evaluación de obras y exposiciones. Permite formular juicios argumentados y redactar textos dirigidos a públicos especializados y generales.",
+  "topics": [
+   "Descripción y análisis de obras",
+   "Evaluación argumentada de exposiciones",
+   "Estilos y formatos de la crítica",
+   "Redacción dirigida a distintos públicos"
+  ]
+ },
+ "AVI-504": {
+  "description": "Recorre la producción artística de América Latina desde el periodo colonial hasta la actualidad, atendiendo a sus contextos históricos y culturales. Entrega un marco para comprender las tradiciones, tensiones y diálogos que configuran la práctica regional.",
+  "topics": [
+   "Arte colonial y tradiciones regionales",
+   "Modernidad en Latinoamérica",
+   "Arte contemporáneo en la región",
+   "Tensiones entre contexto y lenguaje"
+  ]
+ },
+ "AVI-505": {
+  "description": "Asignatura de formación general que el estudiante elige dentro de la oferta transversal de la universidad. Consiste en cursar contenidos externos a las artes visuales que complementan la formación cultural o humanista.",
+  "topics": [
+   "Selección dentro de oferta transversal",
+   "Contenidos externos a la disciplina",
+   "Evaluación según programa del electivo",
+   "Complemento de formación general"
+  ]
+ },
+ "AVI-601": {
+  "description": "Consolida la producción de obra autoral mediante proyectos de mayor escala y complejidad conceptual. Permite sostener una línea de trabajo, documentar los procesos y preparar la obra para su presentación en instancias de exhibición.",
+  "topics": [
+   "Proyectos de mayor escala",
+   "Línea de trabajo sostenida",
+   "Documentación de procesos creativos",
+   "Preparación de obra para exhibir"
+  ]
+ },
+ "AVI-602": {
+  "description": "Estudia las intervenciones artísticas en el espacio público y su relación con las comunidades y el territorio. Permite analizar experiencias de arte público y diseñar propuestas que dialoguen con contextos sociales y urbanos específicos.",
+  "topics": [
+   "Historia del arte público",
+   "Relación obra y comunidad",
+   "Análisis de contextos urbanos",
+   "Diseño de intervenciones territoriales"
+  ]
+ },
+ "AVI-603": {
+  "description": "Introduce los fundamentos de la gestión de proyectos culturales, incluyendo financiamiento, planificación y vinculación con instituciones. Entrega herramientas para formular proyectos artísticos y administrar sus recursos de manera responsable.",
+  "topics": [
+   "Formulación de proyectos culturales",
+   "Fuentes de financiamiento y postulación",
+   "Planificación y presupuesto cultural",
+   "Vinculación con instituciones y públicos"
+  ]
+ },
+ "AVI-604": {
+  "description": "Introduce los métodos de investigación basados en la práctica artística, con énfasis en la relación entre proceso creativo y producción de conocimiento. Permite formular un proyecto de investigación que sustente el trabajo de título.",
+  "topics": [
+   "Investigación basada en la práctica",
+   "Formulación de preguntas artísticas",
+   "Registro y documentación del proceso",
+   "Estructura del proyecto de investigación"
+  ]
+ },
+ "AVI-605": {
+  "description": "Asignatura electiva de carácter profesional que el estudiante cursa dentro de la oferta disciplinar de la licenciatura. Consiste en profundizar en un ámbito de la práctica artística elegido por el estudiante, según el programa vigente.",
+  "topics": [
+   "Selección dentro de oferta disciplinar",
+   "Profundización en ámbito de práctica",
+   "Contenidos definidos por programa vigente",
+   "Evaluación según criterios de la asignatura"
+  ]
+ },
+ "AVI-701": {
+  "description": "Desarrolla la obra en su etapa de madurez, con énfasis en la coherencia de la serie y la definición de un lenguaje propio. Consiste en sesiones de revisión crítica que orientan la preparación de un conjunto de obras para exhibición.",
+  "topics": [
+   "Madurez de lenguaje propio",
+   "Coherencia de la serie artística",
+   "Revisión crítica sistemática",
+   "Conjunto de obras para exhibir"
+  ]
+ },
+ "AVI-702": {
+  "description": "Corresponde a la planificación y ejecución de una exposición individual o colectiva, desde la propuesta curatorial hasta el montaje. Consiste en gestionar obras, espacio, difusión y presupuesto para presentar el trabajo ante un público.",
+  "topics": [
+   "Propuesta curatorial del proyecto",
+   "Gestión de obras y espacio",
+   "Comunicación y difusión de muestra",
+   "Presupuesto y montaje expositivo"
+  ]
+ },
+ "AVI-703": {
+  "description": "Asignatura electiva de carácter profesional que el estudiante cursa dentro de la oferta disciplinar de la licenciatura. Consiste en profundizar en un campo específico de la práctica artística, con contenidos y evaluación definidos por el programa vigente.",
+  "topics": [
+   "Selección dentro de oferta disciplinar",
+   "Profundización en campo específico",
+   "Contenidos definidos por programa vigente",
+   "Evaluación según criterios de la asignatura"
+  ]
+ },
+ "AVI-704": {
+  "description": "Inicia el proceso de titulación con la formulación del proyecto de título, que integra obra y escritura teórica. Consiste en sesiones de seminario en que el estudiante define su problema, su marco de referencia y su plan de trabajo.",
+  "topics": [
+   "Formulación del proyecto de título",
+   "Marco de referencia teórico",
+   "Plan de trabajo del título",
+   "Discusión colectiva de avances"
+  ]
+ },
+ "AVI-705": {
+  "description": "Permite integrar competencias en un entorno real del campo artístico o cultural, bajo supervisión de un tutor institucional y de un referente de la organización receptora. Consiste en cumplir un plan de trabajo acordado y entregar un informe final.",
+  "topics": [
+   "Inserción en entorno artístico-cultural",
+   "Plan de trabajo acordado",
+   "Supervisión por tutor institucional",
+   "Informe final de actividades"
+  ]
+ },
+ "AVI-801": {
+  "description": "Acompaña el desarrollo del proyecto de titulación en artes visuales, desde la formulación de la propuesta hasta la versión final de la obra. Fomenta la reflexión crítica sobre el proceso creativo y su contexto.",
+  "topics": [
+   "Consolidación de la propuesta artística",
+   "Desarrollo y revisión de la obra",
+   "Escritura del documento de investigación",
+   "Preparación de la defensa oral"
+  ]
+ },
+ "AVI-802": {
+  "description": "Prepara y realiza la exposición pública de la obra de titulación, incluyendo el montaje, la curaduría básica y la comunicación del proyecto. Permite evaluar la coherencia entre la propuesta conceptual y su materialización en el espacio.",
+  "topics": [
+   "Curaduría y montaje de obras",
+   "Diseño de la sala expositiva",
+   "Textos curatoriales y de sala",
+   "Evaluación pública del proyecto"
+  ]
+ },
+ "MUS-101": {
+  "description": "Introduce los elementos básicos de la notación musical, como la lectura de claves, figuras, compases y alteraciones. Constituye la base para la lectura, escritura y comprensión de repertorios en todas las especializaciones de la carrera.",
+  "topics": [
+   "Claves, pentagrama y figuras",
+   "Compases y métrica elemental",
+   "Escalas y alteraciones básicas",
+   "Lectura rítmica y melódica simple"
+  ]
+ },
+ "MUS-102": {
+  "description": "Desarrolla la técnica instrumental básica y los hábitos de estudio individual en el instrumento de especialidad del estudiante. Las clases son individuales y se evalúan mediante audiciones de repertorio de dificultad inicial.",
+  "topics": [
+   "Postura y técnica básica",
+   "Estudios técnicos progresivos",
+   "Repertorio de nivel inicial",
+   "Hábitos de estudio y práctica"
+  ]
+ },
+ "MUS-103": {
+  "description": "Recorre las principales etapas de la música occidental desde la Antigüedad hasta el Barroco, situando obras y estilos en su contexto histórico. Provee el marco cultural necesario para interpretar, analizar y componer en los semestres siguientes.",
+  "topics": [
+   "Música antigua y medieval",
+   "Renacimiento y polifonía vocal",
+   "Origen de la música barroca",
+   "Contexto social de las obras"
+  ]
+ },
+ "MUS-104": {
+  "description": "Integra al estudiante en una agrupación vocal, desarrollando la afinación, la emisión y la escucha en conjunto. Se trabaja repertorio a varias voces y se aplica la lectura musical en un contexto de interpretación colectiva.",
+  "topics": [
+   "Técnica vocal grupal",
+   "Afinación y empaste sonoro",
+   "Repertorio coral a voces",
+   "Escucha y disciplina de ensayo"
+  ]
+ },
+ "MUS-105": {
+  "description": "Desarrolla habilidades de redacción académica y expresión oral aplicadas al ámbito musical, como reseñas, programas de concierto y presentaciones. Apoya el trabajo de los semestres posteriores en la elaboración de informes y de la memoria de título.",
+  "topics": [
+   "Redacción académica básica",
+   "Estructura de textos argumentativos",
+   "Lenguaje técnico musical",
+   "Exposición oral y presentaciones"
+  ]
+ },
+ "MUS-201": {
+  "description": "Profundiza en la lectura y escritura musical con mayor complejidad rítmica, tonal y melódica, incluyendo modulaciones y claves combinadas. Continúa la preparación para el análisis y la interpretación de repertorio de dificultad creciente.",
+  "topics": [
+   "Tonalidades mayores y menores",
+   "Ritmos compuestos y sincopados",
+   "Lectura a primera vista",
+   "Dictado melódico y rítmico"
+  ]
+ },
+ "MUS-202": {
+  "description": "Amplía el repertorio y la técnica del instrumento principal, incorporando estudios de dificultad intermedia y control del fraseo. Las clases individuales se complementan con audiciones semestrales que permiten evaluar el progreso.",
+  "topics": [
+   "Estudios técnicos intermedios",
+   "Control de fraseo y dinámica",
+   "Repertorio de estilo clásico",
+   "Audiciones de seguimiento"
+  ]
+ },
+ "MUS-203": {
+  "description": "Introduce la construcción de acordes y su encadenamiento según las reglas de la armonía tonal. Permite comprender la estructura de las obras y aplicar estos conocimientos en el acompañamiento y la composición básica.",
+  "topics": [
+   "Acordes triádicos y funciones",
+   "Enlaces y conducción de voces",
+   "Cadencias tonales básicas",
+   "Armonización de melodías sencillas"
+  ]
+ },
+ "MUS-204": {
+  "description": "Estudia la música desde el Clasicismo hasta comienzos del siglo XX, con énfasis en la evolución de la forma, la orquesta y el lenguaje romántico. Complementa el curso anterior y sirve de referencia para el análisis de repertorio.",
+  "topics": [
+   "Forma sonata y Clasicismo",
+   "Romanticismo y música programática",
+   "Expansión de la orquesta",
+   "Nacionalismos musicales europeos"
+  ]
+ },
+ "MUS-205": {
+  "description": "Incorpora al estudiante en una formación de cámara o de conjunto instrumental, trabajando la escucha mutua, el equilibrio sonoro y la coordinación. Las agrupaciones interpretan repertorio de dificultad accesible en presentaciones internas.",
+  "topics": [
+   "Equilibrio y escucha en conjunto",
+   "Coordinación rítmica colectiva",
+   "Repertorio de cámara inicial",
+   "Ensayos y presentaciones internas"
+  ]
+ },
+ "MUS-301": {
+  "description": "Extiende el sistema tonal con acordes de séptima, dominantes secundarias, modulaciones y alteraciones cromáticas. Estos recursos son necesarios para analizar obras del repertorio y para desarrollar escritura armónica en composición.",
+  "topics": [
+   "Acordes de séptima y extensiones",
+   "Dominantes secundarias y funciones",
+   "Modulación a tonalidades cercanas",
+   "Cromatismo y alteraciones"
+  ]
+ },
+ "MUS-302": {
+  "description": "Trabaja la interpretación de repertorio de estilo variado, con atención a la articulación, el color sonoro y la autonomía en el estudio. Cada semestre culmina con una evaluación técnica y artística ante un jurado de docentes.",
+  "topics": [
+   "Repertorio de estilos diversos",
+   "Articulación y color sonoro",
+   "Autonomía en el estudio",
+   "Evaluación ante jurado docente"
+  ]
+ },
+ "MUS-303": {
+  "description": "Desarrolla la percepción de intervalos, acordes, cadencias y estructuras melódicas mediante dictados y ejercicios de reconocimiento. Mejora la capacidad de escuchar internamente la música, requisito para el análisis y la escritura musical.",
+  "topics": [
+   "Reconocimiento de intervalos",
+   "Dictado de acordes y progresiones",
+   "Identificación de cadencias",
+   "Escucha interna y solfeo"
+  ]
+ },
+ "MUS-304": {
+  "description": "Continúa la formación en conjunto instrumental con repertorio de mayor complejidad, incluyendo partituras con partes independientes. Se busca consolidar la coordinación, la lectura en grupo y la responsabilidad en los ensayos.",
+  "topics": [
+   "Repertorio de mayor complejidad",
+   "Partes instrumentales independientes",
+   "Lectura en grupo",
+   "Responsabilidad en ensayos"
+  ]
+ },
+ "MUS-305": {
+  "description": "Profundiza en la práctica coral con repertorio a varias voces de distintas épocas, atendiendo a la afinación, el balance y la dicción. Incorpora la interpretación con acompañamiento y a capela en contextos de presentación.",
+  "topics": [
+   "Repertorio coral de varias épocas",
+   "Balance y dicción en conjunto",
+   "Interpretación a capela",
+   "Presentaciones con acompañamiento"
+  ]
+ },
+ "MUS-401": {
+  "description": "Estudia la escritura contrapuntística a dos y más voces, desde las especies de contrapunto hasta la imitación y el canon. Aporta herramientas para la composición y el análisis de la textura polifónica en el repertorio.",
+  "topics": [
+   "Especies de contrapunto",
+   "Imitación y canon",
+   "Contrapunto a tres voces",
+   "Análisis de textura polifónica"
+  ]
+ },
+ "MUS-402": {
+  "description": "Aborda repertorio de alta exigencia técnica y expresiva para el instrumento principal, con estudios y obras de solista o de cámara. Las clases individuales buscan preparar al estudiante para presentaciones públicas de mayor nivel.",
+  "topics": [
+   "Repertorio de alta exigencia",
+   "Técnica avanzada del instrumento",
+   "Obras de solista y cámara",
+   "Preparación de presentaciones públicas"
+  ]
+ },
+ "MUS-403": {
+  "description": "Aplica métodos de análisis formal, armónico y temático a obras de distintos períodos, formulando interpretaciones fundamentadas. Vincula los conocimientos teóricos con la práctica interpretativa y compositiva de los estudiantes.",
+  "topics": [
+   "Análisis formal de obras",
+   "Análisis armónico funcional",
+   "Análisis temático y motívico",
+   "Redacción de informes analíticos"
+  ]
+ },
+ "MUS-404": {
+  "description": "Introduce el trabajo de grabación, edición básica y mezcla de audio en estudio y en sala. Los estudiantes aprenden a registrar una interpretación con criterios técnicos y a reconocer los elementos del proceso de producción.",
+  "topics": [
+   "Principios de grabación de audio",
+   "Edición básica de pistas",
+   "Mezcla y balance sonoro",
+   "Flujo de trabajo en estudio"
+  ]
+ },
+ "MUS-405": {
+  "description": "Desarrolla la comprensión lectora y la expresión escrita en inglés con vocabulario propio de la música, como partituras, programas, reseñas y literatura especializada. Facilita el acceso a fuentes académicas y profesionales en ese idioma.",
+  "topics": [
+   "Vocabulario técnico musical",
+   "Lectura de textos especializados",
+   "Redacción de reseñas breves",
+   "Terminología de partituras y programas"
+  ]
+ },
+ "MUS-501": {
+  "description": "Inicia la práctica compositiva a partir de recursos tonales y modales, con ejercicios de forma breve y obras para formaciones pequeñas. Se fomenta el desarrollo de una voz propia dentro de criterios técnicos verificables.",
+  "topics": [
+   "Recursos tonales y modales",
+   "Formas breves y frases musicales",
+   "Escritura para formaciones pequeñas",
+   "Revisión crítica de obras"
+  ]
+ },
+ "MUS-502": {
+  "description": "Examina la música como práctica social y cultural, con atención a tradiciones orales, contextos rituales y procesos de transmisión. Permite comprender la diversidad musical desde metodologías de trabajo de campo y análisis contextual.",
+  "topics": [
+   "Teoría etnomusicológica contemporánea",
+   "Trabajo de campo y registro",
+   "Tradiciones orales y transmisión",
+   "Música y contexto social"
+  ]
+ },
+ "MUS-503": {
+  "description": "Introduce la técnica básica de dirección de conjuntos, incluyendo gestualidad, lectura de partitura orquestal y preparación de ensayos. Los estudiantes dirigen fragmentos de repertorio ante sus pares y docentes.",
+  "topics": [
+   "Técnica básica de gestualidad",
+   "Lectura de partitura orquestal",
+   "Preparación y conducción de ensayos",
+   "Práctica de dirección supervisada"
+  ]
+ },
+ "MUS-504": {
+  "description": "Profundiza en la producción de proyectos musicales completos, desde la preproducción hasta la masterización. Se trabaja con sesiones multipista y criterios de arreglo para lograr una versión final coherente y técnicamente sólida.",
+  "topics": [
+   "Preproducción y planificación",
+   "Sesiones multipista avanzadas",
+   "Arreglos para producción",
+   "Masterización y entrega final"
+  ]
+ },
+ "MUS-505": {
+  "description": "Permite al estudiante cursar una asignatura de formación general ofrecida por la universidad, en un área distinta a la música. Su contenido depende de la oferta vigente de cada período académico y se evalúa según el programa del curso elegido.",
+  "topics": [
+   "Contenido según oferta vigente",
+   "Área de formación general",
+   "Evaluación según programa elegido",
+   "Selección guiada por el estudiante"
+  ]
+ },
+ "MUS-601": {
+  "description": "Avanza en la composición con formas más extensas, uso de recursos modernos y escritura para ensambles instrumentales y vocales. Cada obra se somete a revisión colectiva para afinar la coherencia formal y la claridad de la escritura.",
+  "topics": [
+   "Formas musicales extensas",
+   "Recursos armónicos modernos",
+   "Escritura para ensambles",
+   "Revisión colectiva de obras"
+  ]
+ },
+ "MUS-602": {
+  "description": "Estudia los principios de la enseñanza musical en distintas etapas, desde la educación inicial hasta la formación especializada. Entrega herramientas para planificar clases, evaluar aprendizajes y adecuar la enseñanza a diversos contextos.",
+  "topics": [
+   "Teorías del aprendizaje musical",
+   "Planificación de clases",
+   "Evaluación de aprendizajes musicales",
+   "Adaptación a contextos diversos"
+  ]
+ },
+ "MUS-603": {
+  "description": "Revisa el desarrollo de la música en Latinoamérica desde la colonia hasta la actualidad, considerando tradiciones académicas, populares y mestizas. Permite situar el repertorio regional en sus contextos históricos y sociales.",
+  "topics": [
+   "Música colonial latinoamericana",
+   "Tradiciones populares y académicas",
+   "Procesos de mestizaje sonoro",
+   "Creación musical regional contemporánea"
+  ]
+ },
+ "MUS-604": {
+  "description": "Desarrolla un repertorio amplio de nivel avanzado, con énfasis en la interpretación estilística y la autonomía artística del intérprete. Las clases preparan la participación en presentaciones públicas y en la selección de programas.",
+  "topics": [
+   "Repertorio avanzado y estilístico",
+   "Autonomía en la interpretación",
+   "Selección de programas",
+   "Presentaciones públicas frecuentes"
+  ]
+ },
+ "MUS-605": {
+  "description": "Permite cursar una asignatura de orientación profesional en un ámbito de especialización musical escogido por el estudiante, dentro de la oferta disponible. Su contenido se define en el programa del curso y se evalúa según sus objetivos declarados.",
+  "topics": [
+   "Contenido según oferta disponible",
+   "Orientación profesional musical",
+   "Evaluación según objetivos declarados",
+   "Elección guiada por el estudiante"
+  ]
+ },
+ "MUS-701": {
+  "description": "Aplica los conocimientos pedagógicos mediante práctica supervisada en establecimientos o talleres de enseñanza musical. Los estudiantes diseñan secuencias de clases y reflexionan sobre su desempeño con apoyo de un docente tutor.",
+  "topics": [
+   "Diseño de secuencias didácticas",
+   "Práctica docente supervisada",
+   "Reflexión sobre la práctica",
+   "Evaluación formativa en aula"
+  ]
+ },
+ "MUS-702": {
+  "description": "Inicia la preparación del recital de titulación, definiendo el programa, el repertorio y el plan de estudio. Se evalúa el avance en la preparación técnica y artística previa a la presentación final.",
+  "topics": [
+   "Definición del programa de recital",
+   "Selección de repertorio de titulación",
+   "Plan de estudio y ensayo",
+   "Avance técnico y artístico"
+  ]
+ },
+ "MUS-703": {
+  "description": "Permite cursar una asignatura electiva de orientación profesional en un área de interés del estudiante, según la oferta vigente de la carrera. El contenido, la modalidad y la evaluación se especifican en el programa de cada curso.",
+  "topics": [
+   "Contenido según oferta vigente",
+   "Orientación profesional avanzada",
+   "Modalidad definida por programa",
+   "Elección guiada por el estudiante"
+  ]
+ },
+ "MUS-704": {
+  "description": "Orienta la formulación del proyecto de titulación en música, incluyendo la definición del problema, la metodología y el marco teórico. Culmina con un anteproyecto aprobado por el profesor guía y la comisión correspondiente.",
+  "topics": [
+   "Formulación del problema de estudio",
+   "Marco teórico y antecedentes",
+   "Metodología del proyecto",
+   "Anteproyecto de titulación"
+  ]
+ },
+ "MUS-705": {
+  "description": "Ubica al estudiante en un entorno laboral vinculado a la música, como orquestas, productoras, establecimientos educacionales o agrupaciones culturales. Se evalúa mediante un informe de práctica y la evaluación del tutor en terreno.",
+  "topics": [
+   "Inserción en entorno laboral",
+   "Participación en proyectos reales",
+   "Informe de práctica profesional",
+   "Evaluación del tutor en terreno"
+  ]
+ },
+ "MUS-801": {
+  "description": "Culmina la formación con la presentación pública del recital de titulación, que reúne el repertorio preparado durante la carrera. La evaluación considera la calidad interpretativa, la coherencia del programa y la presentación escénica.",
+  "topics": [
+   "Presentación pública final",
+   "Coherencia del programa musical",
+   "Calidad interpretativa integrada",
+   "Evaluación por comisión examinadora"
+  ]
+ },
+ "MUS-802": {
+  "description": "Completa el proceso de titulación con el desarrollo, redacción y defensa oral del proyecto de investigación o creación musical. Se revisan los resultados obtenidos y se elabora la versión final del documento de título.",
+  "topics": [
+   "Desarrollo del proyecto de título",
+   "Redacción de la versión final",
+   "Análisis de resultados obtenidos",
+   "Defensa oral ante comisión"
+  ]
+ },
+ "INN-101": {
+  "description": "Introduce técnicas de generación de ideas, pensamiento divergente y evaluación de propuestas en contextos creativos y tecnológicos. Entrega una base metodológica para abordar los proyectos interdisciplinarios de la carrera desde el primer semestre.",
+  "topics": [
+   "Técnicas de generación de ideas",
+   "Pensamiento divergente y convergente",
+   "Evaluación crítica de propuestas",
+   "Bitácora de proceso creativo"
+  ]
+ },
+ "INN-102": {
+  "description": "Enseña los fundamentos de la programación mediante proyectos visuales e interactivos sencillos, usando lenguajes orientados a la creación artística. Permite a los estudiantes traducir ideas gráficas y sonoras en código ejecutable.",
+  "topics": [
+   "Variables, ciclos y condicionales",
+   "Programación gráfica interactiva",
+   "Entradas del usuario y eventos",
+   "Depuración de programas creativos"
+  ]
+ },
+ "INN-103": {
+  "description": "Presenta los principios básicos de composición visual, como equilibrio, contraste, jerarquía, color y tipografía. Estos fundamentos se aplican de manera transversal en la carrera para la representación de proyectos y prototipos.",
+  "topics": [
+   "Principios de composición visual",
+   "Teoría básica del color",
+   "Jerarquía tipográfica elemental",
+   "Análisis de referentes visuales"
+  ]
+ },
+ "INN-104": {
+  "description": "Entrega las herramientas matemáticas básicas del cálculo diferencial e integral, orientadas a fenómenos de cambio y a modelos usados en sistemas interactivos. Sirve de base para cursos de computación gráfica, sonido digital y simulación.",
+  "topics": [
+   "Funciones y razón de cambio",
+   "Derivadas y aplicaciones",
+   "Integrales definidas básicas",
+   "Modelación de fenómenos continuos"
+  ]
+ },
+ "INN-105": {
+  "description": "Desarrolla la redacción académica y la expresión oral en contextos de presentación de proyectos creativos y tecnológicos. Se entrenan informes, resúmenes y exposiciones con criterios de claridad y argumentación.",
+  "topics": [
+   "Redacción académica básica",
+   "Estructura de informes técnicos",
+   "Argumentación y citación",
+   "Exposición oral de proyectos"
+  ]
+ },
+ "INN-201": {
+  "description": "Introduce los componentes electrónicos básicos y los circuitos sencillos utilizados en instalaciones, objetos interactivos y performances. Los estudiantes aprenden a medir, montar y depurar circuitos con criterios de seguridad.",
+  "topics": [
+   "Componentes electrónicos básicos",
+   "Lectura de esquemas simples",
+   "Montaje y medición de circuitos",
+   "Seguridad eléctrica en proyectos"
+  ]
+ },
+ "INN-202": {
+  "description": "Estudia la construcción de historias en medios interactivos, donde la participación del usuario modifica la secuencia y el resultado del relato. Entrega métodos para diseñar estructuras narrativas ramificadas y evaluar su experiencia.",
+  "topics": [
+   "Estructuras narrativas ramificadas",
+   "Agencia y participación del usuario",
+   "Escritura para medios interactivos",
+   "Evaluación de experiencias narrativas"
+  ]
+ },
+ "INN-203": {
+  "description": "Presenta los algoritmos fundamentales de ordenamiento, búsqueda y procesamiento de datos, aplicados a problemas creativos como la generación de patrones. Facilita que los estudiantes razonen sobre la eficiencia y la estructura de sus programas.",
+  "topics": [
+   "Estructuras de datos básicas",
+   "Algoritmos de ordenamiento y búsqueda",
+   "Generación algorítmica de patrones",
+   "Análisis básico de eficiencia"
+  ]
+ },
+ "INN-204": {
+  "description": "Desarrolla la habilidad de representar objetos y espacios mediante dibujo a mano alzada, proyecciones y perspectiva. Estas competencias permiten comunicar ideas de diseño y de instalación antes de su construcción o programación.",
+  "topics": [
+   "Dibujo a mano alzada",
+   "Proyecciones ortogonales de objetos",
+   "Perspectiva lineal en espacios",
+   "Croquis de ideas y espacios"
+  ]
+ },
+ "INN-205": {
+  "description": "Introduce el análisis descriptivo y la inferencia estadística básica para interpretar datos provenientes de encuestas, sensores y experimentos. Los estudiantes aprenden a presentar resultados con rigor y a identificar sesgos comunes.",
+  "topics": [
+   "Estadística descriptiva de datos",
+   "Probabilidad elemental de eventos",
+   "Inferencia estadística básica",
+   "Lectura crítica de datos"
+  ]
+ },
+ "INN-301": {
+  "description": "Aborda el diseño de experiencias de usuario centradas en las personas, incluyendo investigación de usuarios, mapas de experiencia y pruebas de uso. Permite proyectar productos interactivos que respondan a necesidades reales de sus audiencias.",
+  "topics": [
+   "Investigación con usuarios",
+   "Mapas de experiencia",
+   "Pruebas de usabilidad",
+   "Principios de diseño centrado"
+  ]
+ },
+ "INN-302": {
+  "description": "Introduce los fundamentos matemáticos y algorítmicos de la generación de imágenes por computador, incluyendo transformaciones, iluminación y rasterización. Es requisito para cursos de realidad aumentada y visualización avanzada.",
+  "topics": [
+   "Transformaciones geométricas en el espacio",
+   "Modelos de iluminación",
+   "Rasterización y coloreado",
+   "Generación de imágenes sintéticas"
+  ]
+ },
+ "INN-303": {
+  "description": "Enseña métodos para construir prototipos físicos y digitales de bajo costo que permitan validar ideas en etapas tempranas. Se trabaja con materiales simples, herramientas de fabricación digital y ciclos cortos de prueba y ajuste.",
+  "topics": [
+   "Métodos de prototipado iterativo",
+   "Fabricación digital básica",
+   "Materiales de bajo costo",
+   "Pruebas y ajuste de prototipos"
+  ]
+ },
+ "INN-304": {
+  "description": "Revisa la evolución de los medios de comunicación y de las tecnologías de producción de imágenes y sonidos desde el siglo XIX hasta la actualidad. Permite comprender los antecedentes culturales de los proyectos creativos contemporáneos.",
+  "topics": [
+   "Medios impresos y fotografía",
+   "Radio, cine y televisión",
+   "Medios digitales y redes",
+   "Impacto cultural de la tecnología"
+  ]
+ },
+ "INN-305": {
+  "description": "Estudia los principios físicos de las ondas sonoras y lumínicas, incluyendo propagación, reflexión, refracción y percepción. Entrega fundamentos para el diseño de instalaciones, espacios sonoros y sistemas de iluminación interactiva.",
+  "topics": [
+   "Propagación de ondas sonoras",
+   "Naturaleza y propagación de la luz",
+   "Reflexión y refracción",
+   "Percepción sensorial del sonido y la luz"
+  ]
+ },
+ "INN-401": {
+  "description": "Presenta los principios de superposición de contenido digital sobre el entorno físico, incluyendo seguimiento espacial y calibración de dispositivos. Los estudiantes desarrollan prototipos que integran objetos virtuales con la percepción del usuario.",
+  "topics": [
+   "Seguimiento espacial y marcadores",
+   "Calibración de dispositivos",
+   "Superposición de contenido digital",
+   "Prototipos de experiencias aumentadas"
+  ]
+ },
+ "INN-402": {
+  "description": "Aborda la representación digital del sonido, la síntesis, el procesamiento de señales y la composición asistida por software. Se busca que los estudiantes diseñen herramientas sonoras propias y comprendan los límites de la digitalización.",
+  "topics": [
+   "Representación digital del audio",
+   "Síntesis de sonido",
+   "Procesamiento de señales",
+   "Composición asistida por software"
+  ]
+ },
+ "INN-403": {
+  "description": "Reúne a estudiantes de distintas disciplinas para desarrollar un proyecto creativo breve, con roles compartidos y entregas parciales. Se evalúa el proceso de colaboración, la integración de saberes y el resultado final presentado.",
+  "topics": [
+   "Trabajo colaborativo interdisciplinario",
+   "Integración de saberes diversos",
+   "Entregas parciales del proyecto",
+   "Presentación del resultado final"
+  ]
+ },
+ "INN-404": {
+  "description": "Estudia los principios que rigen la relación entre personas y sistemas computacionales, incluyendo accesibilidad, retroalimentación y carga cognitiva. Entrega criterios para evaluar y mejorar interfaces en proyectos creativos y de innovación.",
+  "topics": [
+   "Principios de interacción",
+   "Accesibilidad en interfaces",
+   "Retroalimentación y carga cognitiva",
+   "Evaluación heurística de interfaces"
+  ]
+ },
+ "INN-405": {
+  "description": "Desarrolla la comprensión de textos técnicos en inglés relacionados con programación, diseño y tecnologías creativas. Incluye vocabulario especializado, lectura de documentación y redacción de descripciones breves de proyectos.",
+  "topics": [
+   "Vocabulario técnico tecnológico",
+   "Lectura de documentación técnica",
+   "Redacción de descripciones de proyectos",
+   "Comprensión auditiva especializada"
+  ]
+ },
+ "INN-501": {
+  "description": "Introduce conceptos de aprendizaje automático y modelos generativos aplicados a la creación artística y de diseño. Se analizan sus capacidades, sus limitaciones y las implicancias de su uso en procesos creativos.",
+  "topics": [
+   "Fundamentos de aprendizaje automático",
+   "Modelos generativos aplicados",
+   "Limitaciones y sesgos de modelos",
+   "Uso responsable en proyectos creativos"
+  ]
+ },
+ "INN-502": {
+  "description": "Entrega herramientas para evaluar oportunidades de negocio en industrias creativas, desde la validación de la propuesta de valor hasta la planificación económica básica. Permite formular modelos de negocio viables para proyectos artísticos y tecnológicos.",
+  "topics": [
+   "Validación de propuestas de valor",
+   "Modelos de negocio creativos",
+   "Planificación económica básica",
+   "Propiedad intelectual y licencias"
+  ]
+ },
+ "INN-503": {
+  "description": "Continúa el trabajo colaborativo interdisciplinario con un proyecto de mayor alcance, que integra conocimientos técnicos y creativos adquiridos. Se evalúa la planificación, la ejecución y la documentación del proceso de trabajo.",
+  "topics": [
+   "Proyecto interdisciplinario de mayor alcance",
+   "Planificación y ejecución conjunta",
+   "Documentación del proceso",
+   "Integración de competencias técnicas"
+  ]
+ },
+ "INN-504": {
+  "description": "Aborda el diseño y la construcción de instalaciones que responden a la presencia o acción de los visitantes. Los estudiantes integran sensores, software y espacio físico, y evalúan la experiencia en contexto de exhibición.",
+  "topics": [
+   "Sensores y respuesta del entorno",
+   "Integración de software y espacio",
+   "Diseño de la experiencia del visitante",
+   "Evaluación en contexto de exhibición"
+  ]
+ },
+ "INN-505": {
+  "description": "Permite cursar una asignatura de formación general en un área distinta a la carrera, según la oferta vigente de la universidad. El contenido y la evaluación se rigen por el programa del curso seleccionado por el estudiante.",
+  "topics": [
+   "Contenido según oferta vigente",
+   "Área de formación general",
+   "Evaluación según programa elegido",
+   "Selección guiada por el estudiante"
+  ]
+ },
+ "INN-601": {
+  "description": "Estudia el diseño de representaciones gráficas de datos que permitan explorar, comparar y comunicar información de manera precisa. Se aplican criterios de percepción visual, selección de gráficos y ética en la presentación de cifras.",
+  "topics": [
+   "Principios de percepción visual",
+   "Selección de tipos de gráfico",
+   "Herramientas de visualización interactiva",
+   "Ética en la presentación de datos"
+  ]
+ },
+ "INN-602": {
+  "description": "Analiza los dilemas éticos que surgen del desarrollo y uso de tecnologías creativas, como privacidad, autoría, sesgo algorítmico e impacto social. Entrega marcos de reflexión para tomar decisiones responsables en proyectos propios.",
+  "topics": [
+   "Privacidad y tratamiento de datos",
+   "Autoría y propiedad de obras",
+   "Sesgo algorítmico y equidad",
+   "Marcos de decisión responsable"
+  ]
+ },
+ "INN-603": {
+  "description": "Desarrolla un proyecto interdisciplinario avanzado orientado a un contexto real, como una comunidad, una institución o una industria. El trabajo incluye levantamiento de necesidades, desarrollo de la solución y su validación con los destinatarios.",
+  "topics": [
+   "Levantamiento de necesidades reales",
+   "Desarrollo de soluciones integradas",
+   "Validación con destinatarios",
+   "Trabajo con actores externos"
+  ]
+ },
+ "INN-604": {
+  "description": "Introduce las etapas de producción de contenidos audiovisuales, desde el guion y la planificación de rodaje hasta la edición y la distribución. Los estudiantes realizan piezas breves que integran imagen, sonido y narrativa.",
+  "topics": [
+   "Guion y planificación de rodaje",
+   "Captura de imagen y sonido",
+   "Edición y postproducción",
+   "Distribución de piezas audiovisuales"
+  ]
+ },
+ "INN-605": {
+  "description": "Permite cursar una asignatura de orientación profesional en un ámbito de la carrera escogido por el estudiante, dentro de la oferta disponible. Su contenido se detalla en el programa del curso y se evalúa según los objetivos declarados.",
+  "topics": [
+   "Contenido según oferta disponible",
+   "Orientación profesional tecnológica",
+   "Evaluación según objetivos declarados",
+   "Elección guiada por el estudiante"
+  ]
+ },
+ "INN-701": {
+  "description": "Desarrolla un proyecto de innovación que aplique las competencias de la carrera a un problema identificado en un contexto real. Se trabaja con metodologías de diseño, validación de prototipos y evaluación de impacto.",
+  "topics": [
+   "Identificación de problemas reales",
+   "Metodologías de diseño de innovación",
+   "Validación de prototipos",
+   "Evaluación de impacto del proyecto"
+  ]
+ },
+ "INN-702": {
+  "description": "Entrega herramientas para planificar, coordinar y controlar proyectos creativos, incluyendo cronogramas, presupuestos y gestión de equipos. Se aplica a los proyectos en curso de los estudiantes para mejorar su ejecución.",
+  "topics": [
+   "Planificación y cronogramas",
+   "Presupuesto y control de costos",
+   "Gestión de equipos creativos",
+   "Seguimiento de avance y riesgos"
+  ]
+ },
+ "INN-703": {
+  "description": "Profundiza en un ámbito de especialización elegido por el estudiante dentro de la oferta vigente. Su contenido, modalidad y evaluación se detallan en el programa del curso, que se aprueba antes de su inicio.",
+  "topics": [
+   "Contenido según oferta vigente",
+   "Orientación profesional avanzada",
+   "Modalidad definida por programa",
+   "Elección guiada por el estudiante"
+  ]
+ },
+ "INN-704": {
+  "description": "Orienta la formulación del proyecto de titulación en innovación y tecnología creativa, incluyendo la definición del problema, la metodología y el marco de referencia. Culmina con un anteproyecto aprobado por el profesor guía.",
+  "topics": [
+   "Formulación del problema de título",
+   "Marco de referencia del proyecto",
+   "Metodología de desarrollo",
+   "Anteproyecto de titulación"
+  ]
+ },
+ "INN-705": {
+  "description": "Ubica al estudiante en una organización del sector creativo o tecnológico, donde participa en proyectos reales bajo supervisión. Se evalúa mediante un informe de práctica y la retroalimentación del tutor de la empresa o institución.",
+  "topics": [
+   "Inserción en organización real",
+   "Participación en proyectos en curso",
+   "Informe de práctica profesional",
+   "Retroalimentación del tutor"
+  ]
+ },
+ "INN-801": {
+  "description": "Completa el proceso de titulación con el desarrollo, la documentación y la defensa del proyecto de innovación o creación. Se revisan los resultados obtenidos y se elabora la versión final del documento de título.",
+  "topics": [
+   "Desarrollo del proyecto de título",
+   "Documentación de resultados",
+   "Versión final del informe",
+   "Defensa oral ante comisión"
+  ]
+ },
+ "INN-802": {
+  "description": "Corresponde al desarrollo autónomo de un proyecto de título que integra la formación de la carrera en una propuesta original. Incluye la ejecución, la documentación y la presentación final ante una comisión evaluadora.",
+  "topics": [
+   "Ejecución autónoma del proyecto",
+   "Integración de competencias de carrera",
+   "Documentación técnica del proceso",
+   "Presentación ante comisión evaluadora"
+  ]
+ }
+}

@@ -31,12 +31,14 @@ export interface Career {
   duration: string | null; degree: string | null; modality: string | null; imageUrl: string | null; sites: SiteRef[];
 }
 export interface Course { documentId: string; code: string; name: string; semester: number; credits: number | null }
+export interface CourseDetail extends Course { description: string | null; topics: string[] | null; career: { name: string; slug: string }; mates: Course[] }
 export interface Professor {
-  documentId: string; name: string; title: string | null; specialty: string | null;
+  documentId: string; slug: string; name: string; title: string | null; specialty: string | null; body?: string | null; // body solo en la ficha
   bio: string | null; photoUrl: string | null; sites: SiteRef[];
   /** Carreras de este sitio en las que dicta (solo en listados de profesores). */
   careers?: { name: string; slug: string }[];
 }
+export interface ProfessorDetail extends Professor { related: Professor[] }
 export interface CareerDetail extends Career { courses: Course[]; professors: Professor[] }
 export interface Announcement {
   documentId: string; title: string; description: string; date: string;
