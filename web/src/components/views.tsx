@@ -286,11 +286,20 @@ export function NewsView({ slug }: { slug: string }) {
 
 export function AgendaView({ slug }: { slug: string }) {
   const list = useContent<EventItem[]>(qk.events(slug), "events")!;
+  const { site, links } = useContent<SiteInfo>(qk.site(slug), "site")!;
+  const hub = links.find((l) => l.slug === HUB);
+  const faculty = slug !== HUB;
   return (
     <>
-      <PageTitle title="Agenda" subtitle="Charlas, talleres, exposiciones, conciertos y más. Filtra por tipo, tema, lugar, público o precio." />
+      <PageTitle title={faculty ? `Agenda de ${site.name}` : "Agenda"} subtitle="Charlas, talleres, exposiciones, conciertos y más. Filtra por tipo, tema, lugar, público o precio." />
       <section className="mx-auto max-w-6xl px-4 py-10">
-        <Explorer items={list} facets={eventFacets(slug)} noun={["actividad", "actividades"]} empty="No hay actividades con esos filtros."
+        {faculty && hub && (
+          <p className="card mb-6 flex flex-wrap items-center justify-between gap-2 px-5 py-3 text-sm text-slate-700">
+            <span>{`Aquí ves solo las actividades de ${site.name}.`}</span>
+            <a href={`${hub.url}/agenda`} className="font-medium text-primary hover:underline">{`Ver la agenda completa de ${hub.name} →`}</a>
+          </p>
+        )}
+        <Explorer items={list} facets={eventFacets(slug)} noun={["actividad", "actividades"]} empty="No hay actividades con esos filtros." pinned={faculty ? site.name : undefined}
           text={(e) => `${e.title} ${e.description} ${e.unit ?? ""} ${(e.tags ?? []).join(" ")}`}>
           {(shown) => <Grid cols="grid-cols-1">{shown.map((e) => <EventCard key={e.documentId} event={e} current={slug} />)}</Grid>}
         </Explorer>

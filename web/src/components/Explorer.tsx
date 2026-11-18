@@ -11,8 +11,10 @@ const COLLAPSED = 6;
  * Buscador + filtros por varias facetas. Dentro de una faceta se suman (O); entre facetas se combinan (Y).
  * Los conteos de cada opción se calculan con los demás filtros ya aplicados, así nunca prometen resultados que no hay.
  */
-export default function Explorer<T>({ items, facets, text, noun, empty, children }: {
-  items: T[]; facets: Facet<T>[]; text: (item: T) => string; noun: [string, string]; empty: string; children: (shown: T[]) => React.ReactNode;
+export default function Explorer<T>({ items, facets, text, noun, empty, pinned, children }: {
+  items: T[]; facets: Facet<T>[]; text: (item: T) => string; noun: [string, string]; empty: string;
+  /** Filtro ya aplicado por el sitio (p. ej. la facultad): se muestra fijo y no se puede quitar. */
+  pinned?: string; children: (shown: T[]) => React.ReactNode;
 }) {
   const [q, setQ] = useState("");
   const [sel, setSel] = useState<Record<string, string[]>>({});
@@ -81,8 +83,9 @@ export default function Explorer<T>({ items, facets, text, noun, empty, children
           <p className="text-sm text-slate-500" aria-live="polite">{`${shown.length} ${noun[shown.length === 1 ? 0 : 1]}`}</p>
           {(active.length > 0 || q) && <button type="button" className="text-sm font-medium text-primary hover:underline" onClick={clear}>Limpiar filtros</button>}
         </div>
-        {active.length > 0 && (
+        {(active.length > 0 || pinned) && (
           <div className="mb-5 flex flex-wrap gap-2">
+            {pinned && <span title="Filtro fijo de este sitio" className="rounded-(--r-btn) bg-slate-700 px-3 py-1 text-xs font-medium text-white">{`🔒 ${pinned}`}</span>}
             {active.map(([f, v]) => (
               <button key={`${f.key}:${v}`} type="button" onClick={() => toggle(f.key, v)} aria-label={`Quitar filtro ${f.format ? f.format(v) : v}`}
                 className="rounded-(--r-btn) bg-primary px-3 py-1 text-xs font-medium text-white hover:opacity-90">{`${f.format ? f.format(v) : v} ✕`}</button>

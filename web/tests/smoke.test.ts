@@ -61,6 +61,9 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     expect(e).toContain("Congreso de Industria 4.0"); expect(a).not.toContain("Congreso de Industria 4.0"); expect(u).toContain("Congreso de Industria 4.0");
     expect(a).toContain("Ceremonia de premiación del concurso de cuentos"); expect(e).not.toContain("Ceremonia de premiación del concurso de cuentos");
     expect(u).toContain("https://ute2.allison.sh/agenda/"); expect(u).toContain("https://ute3.allison.sh/agenda/"); // desde la universidad se llega a cada facultad
+    // la agenda completa solo se revisa en el sitio central; las facultades llevan su filtro fijo y un enlace allí
+    expect(e).toContain("Ver la agenda completa de Universidad Tecnológica del Este"); expect(e).toContain("Filtro fijo de este sitio");
+    expect(u).not.toContain("Filtro fijo de este sitio"); expect(u).not.toContain("Ver la agenda completa");
     const href = /href="(\/agenda\/[a-z0-9-]+)"/.exec(e)![1];
     const detail = await get(href, UTE2);
     expect(detail.status).toBe(200); expect(detail.body).toContain("Dirigido a"); expect(detail.body).toContain("Organiza");
