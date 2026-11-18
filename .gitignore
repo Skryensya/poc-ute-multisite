@@ -4,3 +4,7 @@ node_modules
 .env.*
 !.env.example
 .DS_Store
+
+# generados por `strapi develop`
+cms/.strapi/
+cms/types/

@@ -68,7 +68,7 @@ for h in ute1 ute2 ute3; do
   curl -s  https://$h.allison.sh | grep -o '<title>[^<]*'
 done
 ```
-Esperado: 200 y títulos *Universidad Tecnológica Experimental*, *Facultad de Ingeniería*, *Facultad de Artes*. Una IP o dominio no listado debe dar 404.
+Esperado: 200 y títulos *Universidad Tecnológica del Este*, *Facultad de Ingeniería*, *Facultad de Artes*. Una IP o dominio no listado debe dar 404.
 
 ## 11. Editar un registro compartido
 1. En Strapi: *Content Manager → Announcement →* “Postulaciones abiertas para el año académico 2027”.

@@ -11,8 +11,9 @@ export default function SiteShell({ slug, children }: { slug: string; children: 
   const style = { "--primary": info.site.primaryColor, "--secondary": info.site.secondaryColor } as React.CSSProperties;
   return (
     <div style={style} className="flex min-h-screen flex-col">
+      <a href="#contenido" className="sr-only z-30 bg-white px-4 py-2 text-primary focus:not-sr-only focus:absolute focus:left-2 focus:top-2">Saltar al contenido</a>
       <Header info={info} />
-      <main className="flex-1">{children}</main>
+      <main id="contenido" className="flex-1">{children}</main>
       <Footer info={info} />
     </div>
   );

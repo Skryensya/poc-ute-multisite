@@ -1,10 +1,10 @@
 # POC UTE multisite
 
-Tres sitios universitarios (`ute1/2/3.allison.sh`) servidos por **un** Next.js y **un** Strapi, con contenido distinto según el dominio. Cada sitio tiene inicio, carreras (con malla curricular), profesores y anuncios. Las etiquetas “Compartido con…” muestran qué registros de Strapi viven en más de un sitio.
+Tres sitios universitarios (`ute1/2/3.allison.sh`) servidos por **un** Next.js y **un** Strapi, con contenido distinto según el dominio. Cada sitio tiene inicio, carreras (con plan de estudios), profesores, anuncios y una página **Sobre nosotros** con contenido propio, editable en Strapi (tipo `Page`). Las etiquetas “También en…” muestran qué registros de Strapi viven en más de un sitio.
 
 | Dominio | Sitio | slug |
 |---|---|---|
-| ute1.allison.sh | Universidad Tecnológica Experimental | `university` |
+| ute1.allison.sh | Universidad Tecnológica del Este | `university` |
 | ute2.allison.sh | Facultad de Ingeniería | `engineering` |
 | ute3.allison.sh | Facultad de Artes | `arts` |
 

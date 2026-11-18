@@ -31,13 +31,16 @@ describe("claves de query", () => {
     expect(qk.career("arts", "diseno")).toEqual(["career", "arts", "diseno"]);
     for (const k of ["site", "home", "careers", "professors", "announcements"] as const)
       expect(qk[k]("arts")).not.toEqual(qk[k]("engineering"));
+    expect(qk.page("arts", "nosotros")).not.toEqual(qk.page("engineering", "nosotros"));
   });
 });
 
 const site = { documentId: "s", name: "Facultad de Artes", slug: "arts", title: "Facultad de Artes", tagline: "t", description: "Desc", heroImage: null, email: null, address: null, primaryColor: "#B5523B", secondaryColor: "#FBEFEA" };
-const refs = { arts: { name: "Facultad de Artes", slug: "arts" }, university: { name: "Universidad Tecnológica Experimental", slug: "university" } };
-const info = { site, links: [{ slug: "university", name: "Universidad Tecnológica Experimental", tagline: null, heroImage: null, url: "https://ute1.allison.sh" }] };
+const refs = { arts: { name: "Facultad de Artes", slug: "arts" }, university: { name: "Universidad Tecnológica del Este", slug: "university" } };
+const about = { slug: "nosotros", title: "Sobre la Facultad de Artes", intro: "Un espacio abierto para crear.", body: null, imageUrl: null, stats: [{ value: "30+", label: "exposiciones al año" }], values: null };
+const info = { site, pages: {}, links: [{ slug: "university", name: "Universidad Tecnológica del Este", tagline: null, heroImage: null, url: "https://ute1.allison.sh" }] };
 const home = {
+  about,
   careers: [{ documentId: "c1", slug: "diseno", name: "Diseño", description: "d", overview: null, duration: "10 semestres", degree: "Diseñador", modality: null, imageUrl: null, sites: [refs.arts, refs.university] }],
   professors: [{ documentId: "p1", name: "Javiera Núñez", title: "Dra.", specialty: "Pintura", bio: null, photoUrl: null, sites: [refs.arts] }],
   announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Cultura", imageUrl: null, sites: [refs.arts] }],
@@ -62,8 +65,9 @@ describe("hidratación de React Query", () => {
     expect(html).toContain("Diseño");
     expect(html).toContain("Javiera Núñez");
     expect(html).toContain("Exposición anual");
-    expect(html).toContain("Compartido con Universidad"); // etiqueta de contenido compartido
-    expect(html).toContain("Solo en este sitio");
+    expect(html).toContain("También en Universidad"); // etiqueta de contenido compartido
+    expect(html).toContain("exposiciones al año"); // estadísticas editables desde Strapi
+    expect(html).toContain("Sobre la Facultad de Artes");
     expect(fetchSpy).not.toHaveBeenCalled();
     vi.unstubAllGlobals();
   });

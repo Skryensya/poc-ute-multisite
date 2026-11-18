@@ -22,7 +22,10 @@ En Dokploy los tres dominios se agregan a **la misma aplicación** (puerto 3000)
 `/`, `/carreras`, `/carreras/[slug]` (malla curricular y profesores), `/profesores`, `/anuncios`. Todas resuelven el tenant por `Host`; una carrera que no pertenece al sitio da 404.
 
 ## Contenido compartido vs. específico
-Modelos: `Site`, `Career`, `Professor`, `Announcement` (cada uno con relación **muchos-a-muchos** con `Site`) y `Course` (ramo de la malla, pertenece a una carrera). `Professor` también se relaciona con `Career`. La UI muestra una etiqueta “Compartido con …” o “Solo en este sitio” a partir de los `sites` de cada registro.
+Modelos: `Site`, `Career`, `Professor`, `Announcement` (cada uno con relación **muchos-a-muchos** con `Site`) y `Course` (ramo de la malla, pertenece a una carrera). `Professor` también se relaciona con `Career`. La UI muestra una etiqueta “También en …” a partir de los `sites` de cada registro; si el registro es exclusivo, no muestra nada.
+
+## Contenido propio de cada sitio (`Page`)
+`Page` pertenece a **un** `Site` (muchos-a-uno) y se identifica por `slug`: `nosotros` (título, introducción, cuerpo en markdown, imagen, cifras `stats` y `values`) y `carreras`, `profesores`, `anuncios` (título e introducción de cada sección). Los editores lo modifican en Strapi → Content Manager → Page, eligiendo el sitio. `SiteInfo.pages` lleva los títulos e introducciones en todas las rutas; `/nosotros` pide la página completa. Si un sitio no tiene `nosotros`, responde 404; si no tiene el título de una sección, se usa uno por defecto.
 - *Compartido:* un anuncio relacionado con los 3 sitios es **una** fila; editarlo en Strapi cambia los tres sitios.
 - *Específico:* un anuncio/carrera relacionado con un solo sitio solo aparece allí.
 

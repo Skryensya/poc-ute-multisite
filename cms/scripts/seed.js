@@ -10,9 +10,9 @@ const face = (g, n) => `https://randomuser.me/api/portraits/${g}/${n}.jpg`;
 const U = 'university', E = 'engineering', A = 'arts';
 
 const SITES = [
-  { slug: U, name: 'Universidad Tecnológica Experimental', title: 'Universidad Tecnológica Experimental',
+  { slug: U, name: 'Universidad Tecnológica del Este', title: 'Universidad Tecnológica del Este',
     tagline: 'Conocimiento, tecnología y creación desde 1966',
-    description: 'Una universidad pública comprometida con la excelencia académica, la investigación y la vinculación con la sociedad. Dos facultades, un solo campus y una comunidad que se atreve a experimentar.',
+    description: 'Una universidad pública comprometida con la excelencia académica, la investigación y la vinculación con la sociedad. Dos facultades, un solo campus y una comunidad que se atreve a crear.',
     heroImage: img('campus', 1600, 700), email: 'contacto@ute.allison.sh', address: 'Av. Universidad 1500, Campus Central',
     primaryColor: '#1F3A8A', secondaryColor: '#E8EDFB' },
   { slug: E, name: 'Facultad de Ingeniería', title: 'Facultad de Ingeniería', tagline: 'Formamos profesionales para construir el futuro',
@@ -87,6 +87,47 @@ const ANNOUNCEMENTS = [
     description: 'Una semana de actividades abiertas a la comunidad para celebrar seis décadas de historia universitaria.' },
 ];
 
+// Páginas editables por sitio: `nosotros` completa; las demás aportan título e introducción de cada sección.
+const PAGES = {
+  [U]: {
+    nosotros: { title: 'Sobre la Universidad', imageUrl: img('nosotros-ute', 1200, 800),
+      intro: 'Desde 1966 formamos personas que transforman su entorno a través del conocimiento, la tecnología y la creación.',
+      stats: [{ value: '60', label: 'años de historia' }, { value: '2', label: 'facultades' }, { value: '12.000', label: 'estudiantes' }, { value: '7', label: 'carreras de pregrado' }],
+      values: [
+        { title: 'Excelencia', text: 'Exigimos rigor académico y lo acompañamos con apoyo real a cada estudiante.' },
+        { title: 'Vocación pública', text: 'Somos una universidad del Estado: investigamos y enseñamos para el país.' },
+        { title: 'Diálogo entre disciplinas', text: 'La ingeniería y las artes comparten aulas, laboratorios y proyectos.' },
+        { title: 'Comunidad', text: 'Un solo campus donde estudiantes, académicos y vecinos se encuentran.' }],
+      body: `## Nuestra historia\n\nLa Universidad Tecnológica del Este nació en 1966 como una escuela técnica al servicio de la industria regional. Hoy es una universidad pública y compleja, con dos facultades y un campus que reúne laboratorios, talleres, una galería de arte y un auditorio abierto a la ciudad.\n\n## Misión\n\nFormar profesionales y creadores con sólido criterio ético, capaces de resolver problemas reales, y generar conocimiento que mejore la vida de las personas y del territorio.\n\n## Qué nos distingue\n\n- Programas interdisciplinarios dictados en conjunto por Ingeniería y Artes.\n- Laboratorios propios y vínculo permanente con la industria y el sector cultural.\n- Becas de excelencia y de continuidad para más de un tercio de los estudiantes.` },
+    carreras: { title: 'Carreras', intro: 'Programas de pregrado de la Universidad. Algunas carreras se dictan en conjunto con nuestras facultades.' },
+    profesores: { title: 'Cuerpo académico', intro: 'Académicos de ambas facultades que combinan docencia, investigación y trabajo con la comunidad.' },
+    anuncios: { title: 'Noticias y anuncios', intro: 'Admisión, actividades y logros de toda la comunidad universitaria.' } },
+  [E]: {
+    nosotros: { title: 'Sobre la Facultad de Ingeniería', imageUrl: img('nosotros-ingenieria', 1200, 800),
+      intro: 'Formamos ingenieras e ingenieros que diseñan, construyen y mejoran los sistemas que hacen funcionar al país.',
+      stats: [{ value: '3', label: 'carreras de ingeniería' }, { value: '14', label: 'laboratorios' }, { value: '92%', label: 'empleabilidad al primer año' }, { value: '80+', label: 'empresas con convenio' }],
+      values: [
+        { title: 'Aprender haciendo', text: 'Cada semestre incluye un proyecto con problemas reales de la industria.' },
+        { title: 'Base científica sólida', text: 'Matemáticas, física y computación como cimiento de todo el plan de estudios.' },
+        { title: 'Trabajo en equipo', text: 'Proyectos colaborativos, a veces junto a estudiantes de Artes.' }],
+      body: `## Quiénes somos\n\nLa Facultad de Ingeniería reúne a las carreras de Informática, Industrial y Electrónica. Trabajamos en una torre propia dentro del Campus Central, con laboratorios de computación, electrónica y robótica disponibles para estudiantes desde el primer año.\n\n## Cómo formamos\n\nNuestro modelo combina clases, talleres y prácticas. Desde el cuarto año los estudiantes realizan prácticas en empresas y desarrollan su proyecto de título con un académico guía y un socio externo.\n\n## Investigación y vínculo\n\nTenemos líneas de trabajo en inteligencia artificial, optimización logística, sistemas embebidos y automatización. Muchas nacen de problemas planteados por empresas de la región, con las que mantenemos más de ochenta convenios.` },
+    carreras: { title: 'Carreras de Ingeniería', intro: 'Tres carreras de ingeniería civil y un programa interdisciplinario con la Facultad de Artes.' },
+    profesores: { title: 'Académicos de Ingeniería', intro: 'Doctores y magísteres con experiencia en investigación aplicada y en la industria.' },
+    anuncios: { title: 'Noticias de la Facultad', intro: 'Laboratorios, logros de estudiantes y actividades de Ingeniería.' } },
+  [A]: {
+    nosotros: { title: 'Sobre la Facultad de Artes', imageUrl: img('nosotros-artes', 1200, 800),
+      intro: 'Un espacio abierto para crear, expresarse y pensar críticamente a través de las artes visuales, el diseño y la música.',
+      stats: [{ value: '4', label: 'carreras artísticas' }, { value: '12', label: 'talleres abiertos' }, { value: '30+', label: 'exposiciones al año' }, { value: '1', label: 'galería propia' }],
+      values: [
+        { title: 'Creación', text: 'El taller es el centro de la formación: se aprende produciendo obra.' },
+        { title: 'Pensamiento crítico', text: 'Teoría, historia y escritura acompañan toda práctica artística.' },
+        { title: 'Apertura', text: 'Exposiciones y conciertos gratuitos para la comunidad y la ciudad.' }],
+      body: `## Quiénes somos\n\nLa Facultad de Artes funciona en la Casa de las Artes, en el Campus Norte. Reúne a Diseño, Artes Visuales y Música en talleres compartidos, una galería y salas de ensayo.\n\n## Cómo formamos\n\nLa formación es práctica y tutorial: grupos pequeños, académicos que también son artistas en ejercicio y exhibiciones públicas de los trabajos de estudiantes durante todo el año.\n\n## Con la ciudad\n\nLa galería, la orquesta y el coro universitario ofrecen temporadas abiertas. Además, el programa de Innovación y Tecnología Creativa se dicta junto a la Facultad de Ingeniería y vincula arte, sonido digital e interacción.` },
+    carreras: { title: 'Carreras de Artes', intro: 'Diseño, artes visuales, música y un programa interdisciplinario con Ingeniería.' },
+    profesores: { title: 'Académicos de Artes', intro: 'Artistas, diseñadores y compositores que enseñan desde su práctica profesional.' },
+    anuncios: { title: 'Noticias de la Facultad', intro: 'Exposiciones, conciertos y novedades de la Facultad de Artes.' } },
+};
+
 async function api(method, path, body) {
   const res = await fetch(`${BASE}/api/${path}`, {
     method, headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' },
@@ -97,8 +138,8 @@ async function api(method, path, body) {
   return json.data;
 }
 
-async function upsert(plural, key, value, data) {
-  const q = `filters[${key}][$eq]=${encodeURIComponent(value)}&status=draft&pagination[pageSize]=1`;
+async function upsert(plural, key, value, data, extra = '') {
+  const q = `filters[${key}][$eq]=${encodeURIComponent(value)}${extra}&status=draft&pagination[pageSize]=1`;
   const [found] = await api('GET', `${plural}?${q}`);
   const row = found
     ? await api('PUT', `${plural}/${found.documentId}?status=published`, data)
@@ -112,7 +153,7 @@ async function main() {
   const set = (arr, map) => ({ set: arr.map((k) => map[k]) });
 
   for (const { malla, prefix, sites, ...c } of CAREERS) {
-    ids.career[c.slug] = await upsert('careers', 'slug', c.slug, { ...c, sites: set(sites, ids.site) });
+    ids.career[c.slug] = await upsert('careers', 'slug', c.slug, { ...c, imageUrl: img(c.slug), sites: set(sites, ids.site) });
     for (const [i, ramos] of malla.entries()) {
       for (const [j, name] of ramos.entries()) {
         const code = `${prefix}-${(i + 1) * 100 + j + 1}`;
@@ -126,8 +167,13 @@ async function main() {
   for (const { sites, ...a } of ANNOUNCEMENTS) {
     await upsert('announcements', 'title', a.title, { ...a, sites: set(sites, ids.site) });
   }
+  for (const [site, pages] of Object.entries(PAGES)) {
+    for (const [slug, p] of Object.entries(pages)) {
+      await upsert('pages', 'slug', slug, { slug, ...p, site: set([site], ids.site) }, `&filters[site][slug][$eq]=${site}`);
+    }
+  }
   const courses = CAREERS.reduce((n, c) => n + c.malla.flat().length, 0);
-  console.log(`Seed OK: ${SITES.length} sitios, ${CAREERS.length} carreras, ${courses} ramos, ${PROFESSORS.length} profesores, ${ANNOUNCEMENTS.length} anuncios.`);
+  console.log(`Seed OK: ${SITES.length} sitios, ${CAREERS.length} carreras, ${courses} ramos, ${PROFESSORS.length} profesores, ${ANNOUNCEMENTS.length} anuncios, ${Object.values(PAGES).reduce((n, p) => n + Object.keys(p).length, 0)} páginas.`);
 }
 
 main().catch((e) => { console.error(e.message); process.exit(1); });

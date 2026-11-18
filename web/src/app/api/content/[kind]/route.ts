@@ -1,5 +1,5 @@
 import { hostFrom, resolveTenant } from "@/lib/tenants";
-import { getAnnouncements, getCareer, getCareers, getHome, getProfessors, getSiteInfo } from "@/lib/strapi";
+import { getAnnouncements, getCareer, getCareers, getHome, getPage, getProfessors, getSiteInfo } from "@/lib/strapi";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +16,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ kind: st
     careers: () => getCareers(tenant),
     professors: () => getProfessors(tenant),
     announcements: () => getAnnouncements(tenant),
+    page: () => (/^[a-z0-9-]+$/.test(slug) ? getPage(tenant, slug) : Promise.resolve(null)),
     career: () => (/^[a-z0-9-]+$/.test(slug) ? getCareer(tenant, slug) : Promise.resolve(null)),
   };
   if (!Object.hasOwn(loaders, kind)) return Response.json({ error: "No encontrado" }, { status: 404 });

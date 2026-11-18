@@ -1,7 +1,7 @@
 import { cache } from "react";
 import { HUB, siteUrl, tenants, type Tenant } from "./tenants";
 import type {
-  Announcement, Career, CareerDetail, HomeData, Professor, Site, SiteInfo, SiteLink, StrapiList,
+  Announcement, Career, CareerDetail, HomeData, Page, PageInfo, Professor, Site, SiteInfo, SiteLink, StrapiList,
 } from "./types";
 
 // Solo servidor: STRAPI_URL (red privada) y STRAPI_API_TOKEN nunca llegan al navegador.
@@ -71,6 +71,23 @@ export async function getCareer(site: string, careerSlug: string): Promise<Caree
   return data[0] ?? null;
 }
 
+const pageFilter = (site: string) => ({ "filters[site][slug][$eq]": site });
+
+/** Título e introducción de cada sección del sitio (livianos: viajan en todas las páginas). */
+export async function getPages(site: string): Promise<Record<string, PageInfo>> {
+  const { data } = await strapi<StrapiList<PageInfo>>("pages", { ...pageFilter(site), ...fields(["slug", "title", "intro"]), "pagination[pageSize]": "20" });
+  return Object.fromEntries(data.map((p) => [p.slug, p]));
+}
+
+/** Página completa de este sitio (p. ej. `nosotros`); null si el sitio no la tiene. */
+export async function getPage(site: string, slug: string): Promise<Page | null> {
+  const { data } = await strapi<StrapiList<Page>>("pages", {
+    ...pageFilter(site), "filters[slug][$eq]": slug,
+    ...fields(["slug", "title", "intro", "body", "imageUrl", "stats", "values"]),
+  });
+  return data[0] ?? null;
+}
+
 // La universidad enlaza a las facultades; las facultades, a la universidad.
 async function getLinks(slug: Tenant): Promise<SiteLink[]> {
   const wanted = slug === HUB ? Object.values(tenants).filter((t) => t !== HUB) : [HUB];
@@ -81,16 +98,16 @@ async function getLinks(slug: Tenant): Promise<SiteLink[]> {
 }
 
 export async function getSiteInfo(slug: Tenant): Promise<SiteInfo> {
-  const [site, links] = await Promise.all([getSite(slug), getLinks(slug)]);
-  return { site, links };
+  const [site, links, pages] = await Promise.all([getSite(slug), getLinks(slug), getPages(slug)]);
+  return { site, links, pages };
 }
 
 /** Portada: una selección de cada colección, en paralelo. */
 export async function getHome(slug: Tenant): Promise<HomeData> {
-  const [careers, professors, announcements] = await Promise.all([
-    getCareers(slug, 6), getProfessors(slug, 4), getAnnouncements(slug, 3),
+  const [careers, professors, announcements, about] = await Promise.all([
+    getCareers(slug, 6), getProfessors(slug, 4), getAnnouncements(slug, 3), getPage(slug, "nosotros"),
   ]);
-  return { careers, professors, announcements };
+  return { careers, professors, announcements, about };
 }
 
 /** Deduplica por petición (el layout y la página comparten el resultado). */

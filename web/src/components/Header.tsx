@@ -1,21 +1,38 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 import type { SiteInfo } from "@/lib/types";
+import { nav } from "./nav";
 
-const nav = [["/", "Inicio"], ["/carreras", "Carreras"], ["/profesores", "Profesores"], ["/anuncios", "Anuncios"]];
+const initials = (name: string) => name.split(" ").filter((w) => w.length > 3).map((w) => w[0]).join("").slice(0, 3).toUpperCase();
 
 export default function Header({ info: { site, links } }: { info: SiteInfo }) {
+  const path = usePathname();
+  const [open, setOpen] = useState(false);
+  const active = (href: string) => (href === "/" ? path === "/" : path.startsWith(href));
   return (
     <header className="sticky top-0 z-20 bg-primary text-white shadow">
-      <div className="bg-black/20 text-xs">
-        <div className="mx-auto flex max-w-6xl flex-wrap gap-x-4 px-4 py-1.5">
-          <span className="opacity-70">Nuestros sitios:</span>
-          {links.map((l) => <a key={l.slug} href={l.url} className="hover:underline">{l.name}</a>)}
+      <div className="hidden bg-black/20 text-xs sm:block">
+        <div className="mx-auto flex max-w-6xl gap-x-5 px-4 py-1.5">
+          {links.map((l) => <a key={l.slug} href={l.url} className="opacity-80 hover:underline hover:opacity-100">{l.name}</a>)}
         </div>
       </div>
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-        <Link href="/" className="text-lg font-bold">{site.name}</Link>
-        <nav className="flex gap-5 text-sm font-medium">
-          {nav.map(([href, label]) => <Link key={href} href={href} className="hover:underline underline-offset-4">{label}</Link>)}
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
+        <Link href="/" className="flex items-center gap-3 font-bold">
+          <span className="grid h-9 min-w-9 place-items-center rounded-lg bg-white px-1.5 text-sm font-extrabold tracking-tight text-primary">{initials(site.name)}</span>
+          <span className="text-base leading-tight sm:text-lg">{site.name}</span>
+        </Link>
+        <button type="button" className="rounded-md p-2 hover:bg-white/10 md:hidden" aria-expanded={open} aria-controls="menu" aria-label="Menú" onClick={() => setOpen(!open)}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+            {open ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
+          </svg>
+        </button>
+        <nav id="menu" className={`${open ? "flex" : "hidden"} absolute inset-x-0 top-full flex-col gap-1 bg-primary px-4 pb-4 shadow md:static md:flex md:flex-row md:gap-1 md:bg-transparent md:p-0 md:shadow-none`}>
+          {nav.map(([href, label]) => (
+            <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={active(href) ? "page" : undefined}
+              className={`rounded-md px-3 py-2 text-sm font-medium transition hover:bg-white/10 ${active(href) ? "bg-white/15" : ""}`}>{label}</Link>
+          ))}
         </nav>
       </div>
     </header>
