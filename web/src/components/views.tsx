@@ -4,12 +4,12 @@ import { useState } from "react";
 import { extraOf } from "@/lib/extras";
 import { qk } from "@/lib/queries";
 import { HUB, siteUrl, type Tenant } from "@/lib/tenants";
-import type { Announcement, Career, CareerDetail, EventItem, HomeData, Page, Professor, SiteInfo } from "@/lib/types";
+import type { Announcement, Career, CareerDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, Professor, SiteInfo } from "@/lib/types";
 import { useContent } from "./useContent";
 import Hero from "./Hero";
 import Prose from "./Prose";
 import Explorer, { type Facet } from "./Explorer";
-import { AnnouncementCard, CareerCard, EventCard, Malla, ProfessorCard, SharedBadge, eventDate, eventTime } from "./cards";
+import { AnnouncementCard, CareerCard, EventCard, Malla, ProfessorCard, SharedBadge, eventDate, eventTime, newsDate } from "./cards";
 
 const Section = ({ title, href, linkLabel = "Ver todo", intro, children }: { title: string; href?: string; linkLabel?: string; intro?: string | null; children: React.ReactNode }) => (
   <section className="mx-auto max-w-6xl px-4 py-12">
@@ -308,16 +308,58 @@ export function AgendaView({ slug }: { slug: string }) {
   );
 }
 
+const minutes = (text: string) => Math.max(1, Math.round(text.split(/\s+/).length / 200));
+
+export function NewsDetailView({ slug, newsSlug }: { slug: string; newsSlug: string }) {
+  const n = useContent<NewsDetail>(qk.newsItem(slug, newsSlug), "newsItem", newsSlug)!;
+  return (
+    <>
+      <PageTitle title={n.title} subtitle={n.description} crumbs={[["/noticias", "Noticias"]]} />
+      <article className="mx-auto max-w-3xl px-4 py-10">
+        <p className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
+          {n.category && <span className="font-semibold uppercase tracking-wide text-primary">{n.category}</span>}
+          <time dateTime={n.date}>{newsDate(n.date)}</time>
+          {n.author && <span>{`Por ${n.author}`}</span>}
+          {n.body && <span>{`${minutes(n.body)} min de lectura`}</span>}
+        </p>
+        {n.imageUrl && <img src={n.imageUrl} alt={n.title} className="mb-8 aspect-[16/9] w-full rounded-(--r-card) object-cover shadow-md" />}
+        {n.body && <Prose text={n.body} />}
+        {!!n.tags?.length && <div className="mt-8 flex flex-wrap gap-2">{n.tags.map((t) => <span key={t} className="rounded-(--r-btn) bg-soft px-3 py-1 text-xs font-medium text-primary">{t}</span>)}</div>}
+        <div className="mt-4"><SharedBadge sites={n.sites} current={slug} path={`/noticias/${n.slug}`} /></div>
+      </article>
+      {n.related.length > 0 && (
+        <Section title="Más noticias sobre estos temas"><Grid cols="md:grid-cols-3">{n.related.map((r) => <AnnouncementCard key={r.documentId} item={r} current={slug} />)}</Grid></Section>
+      )}
+    </>
+  );
+}
+
 export function EventDetailView({ slug, eventSlug }: { slug: string; eventSlug: string }) {
-  const e = useContent<EventItem>(qk.event(slug, eventSlug), "event", eventSlug)!;
+  const e = useContent<EventDetail>(qk.event(slug, eventSlug), "event", eventSlug)!;
   const hub = useContent<SiteInfo>(qk.site(slug), "site")!.links.find((l) => l.slug === HUB);
   return (
     <>
       <PageTitle title={e.title} subtitle={e.eventType} crumbs={[["/agenda", "Agenda"]]} />
       <section className="mx-auto grid max-w-6xl gap-8 px-4 py-10 lg:grid-cols-3">
-        <div className="space-y-5 lg:col-span-2">
+        <div className="space-y-6 lg:col-span-2">
           {e.imageUrl && <img src={e.imageUrl} alt={e.title} className="aspect-[16/9] w-full rounded-(--r-card) object-cover shadow-md" />}
-          <p className="text-lg text-slate-700">{e.description}</p>
+          {e.body ? <Prose text={e.body} /> : <p className="text-lg text-slate-700">{e.description}</p>}
+          {!!e.program?.length && (
+            <div>
+              <h2 className="section-title mb-4 text-xl font-bold">Programa</h2>
+              <ol className="card divide-y divide-slate-100">
+                {e.program.map((p) => <li key={`${p.time}${p.title}`} className="flex gap-4 px-5 py-3 text-sm"><span className="w-14 shrink-0 font-semibold text-primary">{p.time}</span><span>{p.title}</span></li>)}
+              </ol>
+            </div>
+          )}
+          {!!e.speakers?.length && (
+            <div>
+              <h2 className="section-title mb-4 text-xl font-bold">{e.speakers.length > 1 ? "Quiénes participan" : "Quién participa"}</h2>
+              <ul className="grid gap-3 sm:grid-cols-2">
+                {e.speakers.map((s) => <li key={s.name} className="card px-5 py-3"><p className="font-semibold">{s.name}</p><p className="text-sm text-slate-500">{s.role}</p></li>)}
+              </ul>
+            </div>
+          )}
           {!!e.tags?.length && <div className="flex flex-wrap gap-2">{e.tags.map((t) => <span key={t} className="rounded-(--r-btn) bg-soft px-3 py-1 text-xs font-medium text-primary">{t}</span>)}</div>}
         </div>
         <aside className="card h-fit p-6">
@@ -335,6 +377,9 @@ export function EventDetailView({ slug, eventSlug }: { slug: string; eventSlug: 
           </div>
         </aside>
       </section>
+      {e.related.length > 0 && (
+        <Section title="Otras actividades que te pueden interesar"><Grid cols="grid-cols-1">{e.related.map((r) => <EventCard key={r.documentId} event={r} current={slug} />)}</Grid></Section>
+      )}
     </>
   );
 }

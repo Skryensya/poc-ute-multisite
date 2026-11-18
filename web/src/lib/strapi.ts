@@ -1,7 +1,7 @@
 import { cache } from "react";
 import { HUB, siteUrl, tenants, type Tenant } from "./tenants";
 import type {
-  Announcement, Career, CareerDetail, EventItem, HomeData, Page, PageInfo, Professor, Site, SiteInfo, SiteLink, StrapiList,
+  Announcement, Career, CareerDetail, EventDetail, EventItem, HomeData, NewsDetail, Page, PageInfo, Professor, Site, SiteInfo, SiteLink, StrapiList,
 } from "./types";
 
 // Solo servidor: STRAPI_URL (red privada) y STRAPI_API_TOKEN nunca llegan al navegador.
@@ -55,12 +55,26 @@ export async function getProfessors(site: string, limit?: number): Promise<Profe
 
 export async function getAnnouncements(site: string, limit?: number): Promise<Announcement[]> {
   const { data } = await strapi<StrapiList<Announcement>>("announcements", {
-    ...bySite(site, limit), ...fields(["title", "description", "date", "category", "tags", "imageUrl"]), sort: "date:desc",
+    ...bySite(site, limit), ...fields(["slug", "title", "description", "date", "category", "tags", "imageUrl"]), sort: "date:desc",
   });
   return data;
 }
 
+const shares = (a: string[] | null, b: string[] | null) => (a ?? []).some((t) => (b ?? []).includes(t));
+
+/** Noticia completa de este sitio (el sitio central ve todas) con hasta 3 relacionadas por etiqueta. null si no existe aquí. */
+export async function getNewsItem(site: string, slug: string): Promise<NewsDetail | null> {
+  const { data } = await strapi<StrapiList<Announcement>>("announcements", {
+    ...bySite(site, 1), "filters[slug][$eq]": slug, ...fields(["slug", "title", "description", "date", "category", "tags", "imageUrl", "body", "author"]),
+  });
+  if (!data[0]) return null;
+  const all = await getAnnouncements(site, 100);
+  const related = all.filter((n) => n.slug !== slug && shares(n.tags, data[0].tags)).slice(0, 3);
+  return { ...data[0], related };
+}
+
 const EVENT = ["slug", "title", "description", "startsAt", "endsAt", "eventType", "place", "online", "free", "price", "audience", "tags", "unit", "imageUrl"];
+const EVENT_DETAIL = [...EVENT, "body", "program", "speakers"];
 
 /** Agenda: próximas actividades primero. `upcoming` oculta las que ya terminaron (se calcula en cada petición). */
 export async function getEvents(site: string, opts: { limit?: number; upcoming?: boolean } = {}): Promise<EventItem[]> {
@@ -71,11 +85,15 @@ export async function getEvents(site: string, opts: { limit?: number; upcoming?:
   return data;
 }
 
-export async function getEvent(site: string, slug: string): Promise<EventItem | null> {
+/** Ficha de una actividad de este sitio, con hasta 3 próximas actividades relacionadas por etiqueta. */
+export async function getEvent(site: string, slug: string): Promise<EventDetail | null> {
   const { data } = await strapi<StrapiList<EventItem>>("events", {
-    ...bySite(site, 1), "filters[slug][$eq]": slug, ...fields(EVENT),
+    ...bySite(site, 1), "filters[slug][$eq]": slug, ...fields(EVENT_DETAIL),
   });
-  return data[0] ?? null;
+  if (!data[0]) return null;
+  const upcoming = await getEvents(site, { upcoming: true });
+  const related = upcoming.filter((e) => e.slug !== slug && shares(e.tags, data[0].tags)).slice(0, 3);
+  return { ...data[0], related };
 }
 
 /** Detalle de una carrera del sitio, con malla curricular y solo los profesores de este sitio. null si no existe aquí. */

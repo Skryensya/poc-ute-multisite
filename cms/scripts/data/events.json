@@ -21,6 +21,31 @@
   "unit": "Escuela de Informática",
   "sites": [
    "engineering"
+  ],
+  "body": "Llegas con hambre de conocimiento y sales con una olla de redes neuronales bien cocida. Preparamos la receta paso a paso: primero elegimos datos frescos, después los picamos en capas y, al final, dejamos que todo repose hasta que aprenda a reconocer gatos, pan amasado y letras mal escritas. Nada de magia negra, solo matemática con buen sazón.\n\nLa charla es para quienes nunca han programado una red y también para quienes ya lo hicieron pero se perdieron en el gradiente descendente. Habrá degustación de ejemplos en vivo y un turno de preguntas al final, donde cada consulta recibe una respuesta amable, aunque el algoritmo tarde un poco en darse cuenta.\n\n## Qué vas a ver\n- Una degustación de clasificación de imágenes, con resultados que se pueden comentar\n- Una explicación del gradiente descendente usando una bajada de cerros con mochila\n- Consejos prácticos para no quemar el servidor en el primer intento\n- Ronda de preguntas, con cuadernos de regalo para las mejores",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Llegada y degustación"
+   },
+   {
+    "time": "10:40",
+    "title": "Gradiente en la olla"
+   },
+   {
+    "time": "11:30",
+    "title": "Preguntas con cuchara"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Camila Retamal Soto",
+    "role": "Académica de la Escuela de Informática"
+   },
+   {
+    "name": "Matías Pizarro Lagos",
+    "role": "Coordinador del Laboratorio de Datos"
+   }
   ]
  },
  {
@@ -45,6 +70,31 @@
   "unit": "Escuela de Industrial",
   "sites": [
    "engineering"
+  ],
+  "body": "El latte que pides en la mañana tiene una historia larga: un camión carga granos en un puerto, cruza el país, pasa por una bodega que huele a cartón húmedo y llega a tu vaso casi a tiempo. Esta charla explica cómo se coordinan esos viajes, desde el inventario hasta la ruta más corta para repartir leche.\n\nSe mostrará por qué un pedido de estudiante en semana de exámenes siempre llega tarde, y cómo los modelos de logística intentan evitarlo. Hay cálculo de rutas con mate de cortesía y una simulación de bodega caótica en la que el público debe ordenar cajas sin que se caigan los paquetes de galletas.\n\n## Qué vas a ver\n- Cálculo de rutas con un mapa dibujado a mano y un cronómetro que nunca perdona\n- Simulación de bodega caótica con cajas, carretillas y un jefe de turno muy estricto\n- Ejemplos de cadenas de suministro, explicados sin tecnicismos innecesarios\n- Trivia de logística, con premios que llegan a tiempo (casi siempre)",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Cargando el camión"
+   },
+   {
+    "time": "10:45",
+    "title": "Ruta con mate"
+   },
+   {
+    "time": "11:30",
+    "title": "Bodega sin caos (casi)"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Javiera Contreras Muñoz",
+    "role": "Profesora de la Escuela de Industrial"
+   },
+   {
+    "name": "Ignacio Barrera Leiva",
+    "role": "Ayudante de Operaciones"
+   }
   ]
  },
  {
@@ -68,6 +118,27 @@
   "unit": "Galería de la Facultad",
   "sites": [
    "arts"
+  ],
+  "body": "Veinte acuarelas pintadas sin conexión, con sus cartelas escritas a mano y un cuaderno de visitas que solo acepta comentarios en papel. La exposición celebra el arte que se hace con agua, pigmento y paciencia, lejos de las pantallas, aunque la tecnología aparece igual en forma de luces suaves y una caja para dejar lápices.\n\nLa entrada es liberada y no requiere registro ni contraseña. Se recomienda llevar lápiz y paciencia, porque el cuadro del gato suele generar una fila de admiradores que quieren fotografiarlo sin flash. Las obras cambian de color según la luz de la tarde, así que conviene recorrer la sala dos veces.\n\n## Qué vas a ver\n- Veinte acuarelas de estudiantes de distintas carreras, sin filtros ni notificaciones\n- El cuadro del gato, con su propia fila y su propio club de admiradores\n- Un cuaderno de visitas donde los comentarios se escriben a lápiz\n- Una mesa de pintura libre para quienes se animen a manchar algo",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Inauguración sin conexión"
+   },
+   {
+    "time": "10:30",
+    "title": "Turno frente al gato"
+   },
+   {
+    "time": "11:30",
+    "title": "Cuaderno de visitas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Macarena Ruiz Olivares",
+    "role": "Curadora de la Galería de la Facultad"
+   }
   ]
  },
  {
@@ -91,6 +162,31 @@
   "unit": "Dirección de Admisión",
   "sites": [
    "university"
+  ],
+  "body": "Sabemos que el puntaje de admisión puede parecer una telenovela con demasiados capítulos. Expertos del equipo de admisión explican, con café y mucha paciencia, cómo preparar la postulación sin perder la calma, desde las fechas clave hasta los documentos que siempre se quedan olvidados en la mochila.\n\nLa charla está abierta a estudiantes de cuarto medio, a sus familias y a cualquier persona curiosa que quiera entender el proceso. Habrá espacio para preguntas frecuentes, respuestas claras y un sorteo de cuadernos con forma de cohete. Nadie sale con un examen de regalo, solo con una carpeta ordenada.\n\n## Qué vas a ver\n- Una línea de tiempo del proceso de postulación, sin letra chica\n- Las preguntas frecuentes más repetidas del año, respondidas en vivo\n- Consejos para organizar documentos y no morir en el intento\n- Sorteo de cuadernos con forma de cohete para quienes llegaron temprano",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Café de bienvenida"
+   },
+   {
+    "time": "10:30",
+    "title": "Línea de tiempo"
+   },
+   {
+    "time": "11:20",
+    "title": "Sorteo de cohetes"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Felipe Aravena Pino",
+    "role": "Jefe de Orientación de Admisión"
+   },
+   {
+    "name": "Antonella Gajardo Tapia",
+    "role": "Asesora de Postulación"
+   }
   ]
  },
  {
@@ -113,6 +209,31 @@
   "unit": "Orquesta Universitaria",
   "sites": [
    "arts"
+  ],
+  "body": "Un cuarteto de cuerdas interpreta piezas pensadas para los lunes, ese día en que nadie quiere empezar y todo parece demasiado largo. El repertorio combina movimientos lentos para despertar el ánimo con otros más alegres que invitan a mover los pies, aunque sea desde la banca.\n\nDurante el intermedio se sirve café gratis en el hall, así que conviene llegar con tiempo para no quedarse afuera de la fila. El bis se elige a votación entre quienes llegaron con la semana perdida, y el público decide con aplausos, silbidos o un leve suspiro de resignación.\n\n## Qué vas a ver\n- Un programa de piezas breves y animadas, pensado para empezar mal la semana y terminarla bien\n- Café gratis en el intermedio, servido con la paciencia de siempre\n- Un bis elegido por votación del público, sin trampas ni acuerdos previos\n- Un cierre suave para despedirse del lunes con buen ánimo",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Afinando el lunes"
+   },
+   {
+    "time": "19:50",
+    "title": "Intermedio con café"
+   },
+   {
+    "time": "20:30",
+    "title": "Bis por votación"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Joaquín Herrera Campos",
+    "role": "Violinista de la Orquesta Universitaria"
+   },
+   {
+    "name": "Trinidad Salazar Ibarra",
+    "role": "Violonchelista invitada"
+   }
   ]
  },
  {
@@ -138,6 +259,31 @@
   "sites": [
    "university",
    "engineering"
+  ],
+  "body": "Estudiantes de ingeniería montan estaciones para probar lo que aprendieron en clases, con puentes de palitos que aguantan más de lo esperado, robots que bailan una cumbia torpe y ecuaciones que parecen resolverse solas cuando alguien aprieta el botón correcto. Todo se puede tocar, medir y, con suerte, no romper.\n\nLa feria es gratuita y abierta a toda la comunidad. No hay examen, pero el café de la feria tiene su propio sistema de cobro, así que conviene llevar monedas. Cada estación tiene un monitor que explica el funcionamiento en lenguaje claro y que responde preguntas incluso cuando son un poco absurdas.\n\n## Qué vas a ver\n- Puentes de palitos sometidos a pruebas de peso, con medición en vivo\n- Robots que bailan, con coreografías ensayadas y algunos pasos improvisados\n- Estaciones de ecuaciones, donde el público resuelve desafíos sencillos\n- Un vernier de demostración para quienes quieren medir todo lo que se mueve",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Apertura de estaciones"
+   },
+   {
+    "time": "12:30",
+    "title": "Robots bailando"
+   },
+   {
+    "time": "14:00",
+    "title": "Puentes a prueba"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Vicente Molina Concha",
+    "role": "Coordinador de la Feria de Carreras"
+   },
+   {
+    "name": "Daniela Cortés Núñez",
+    "role": "Estudiante de Ingeniería Civil"
+   }
   ]
  },
  {
@@ -162,6 +308,31 @@
   "unit": "Taller de Robótica",
   "sites": [
    "engineering"
+  ],
+  "body": "Cada participante arma un brazo robótico de cartón con servos baratos, cables de colores y un poco de paciencia. Con ese brazo se programa una secuencia para mover objetos pequeños sin tirarlos al suelo, algo que parece fácil hasta que el primer vaso de plástico decide volar hacia la pared.\n\nEl taller no requiere experiencia previa y se entregan todos los materiales. Las instructoras acompañan cada mesa, revisan las conexiones y celebran cada movimiento exitoso, aunque sea apenas un giro de pocos grados. Al final cada participante recibe una medalla de honor con forma de engranaje, hecha de cartón resistente.\n\n## Qué vas a ver\n- Armado de un brazo de cartón con servos y cables de colores\n- Programación básica para mover objetos pequeños con precisión razonable\n- Pruebas de rescate para vasos de plástico que intentan escapar\n- Medalla de honor con forma de engranaje para todos los participantes",
+  "program": [
+   {
+    "time": "15:00",
+    "title": "Armado de cartón"
+   },
+   {
+    "time": "16:00",
+    "title": "Programar el brazo"
+   },
+   {
+    "time": "17:15",
+    "title": "Entrega de medallas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Sebastián Villalobos Mardones",
+    "role": "Instructor del Taller de Robótica"
+   },
+   {
+    "name": "Constanza Fuentealba Díaz",
+    "role": "Técnica de Electrónica"
+   }
   ]
  },
  {
@@ -186,6 +357,27 @@
   "unit": "Laboratorio de Seguridad Informática",
   "sites": [
    "engineering"
+  ],
+  "body": "Repasamos los engaños más comunes del correo electrónico usando ejemplos inventados, sin víctimas ni daño. Vemos mensajes que prometen premios imposibles, facturas que nadie pidió y avisos urgentes que aparecen justo cuando estamos más cansados. La idea es reconocer las señales de alerta antes de hacer clic.\n\nLa charla es breve y práctica, con preguntas claras y ejemplos que se comentan entre todos. Al final hay un juego para detectar cuál mensaje es una trampa y cuál solo quiere venderte un paraguas. Quien acierte más se lleva una pizza imaginaria y un consejo para revisar siempre el remitente.\n\n## Qué vas a ver\n- Una galería de correos falsos con pistas para descubrir la trampa\n- Señales de alerta básicas: remitentes extraños, urgencias y enlaces raros\n- El juego «trampa o paraguas», con tarjetas para votar en el momento\n- Consejos prácticos para proteger la cuenta sin perder la paciencia",
+  "program": [
+   {
+    "time": "18:30",
+    "title": "Correos sospechosos"
+   },
+   {
+    "time": "19:00",
+    "title": "Juego trampa o paraguas"
+   },
+   {
+    "time": "19:20",
+    "title": "Preguntas finales"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Tomás Quintana Bravo",
+    "role": "Encargado del Laboratorio de Seguridad Informática"
+   }
   ]
  },
  {
@@ -210,6 +402,31 @@
   "unit": "Escuela de Música",
   "sites": [
    "arts"
+  ],
+  "body": "Proyectamos una película sin diálogos mientras un grupo de estudiantes improvisa la banda sonora en vivo. Usan cucharas para marcar el ritmo, un teclado algo desafinado y una bocina de bicicleta que aparece en los momentos más dramáticos. El resultado es una mezcla de emoción, humor y sonidos inesperados.\n\nComo no hay diálogos, el público debe adivinar qué se dicen los personajes y reírse con ganas cuando la interpretación no coincide con la escena. La sala es cómoda, la entrada es liberada y se recomienda llegar temprano para elegir butaca, porque la bocina no admite protestas.\n\n## Qué vas a ver\n- Una película muda con escenas breves, pensada para la risa y el asombro\n- Una banda sonora improvisada con cucharas, teclado y bocina de bicicleta\n- Momentos de suspenso en que el público decide si el sonido ayuda o estorba\n- Una ronda final para adivinar los diálogos que nadie escuchó",
+  "program": [
+   {
+    "time": "20:00",
+    "title": "Función sin diálogos"
+   },
+   {
+    "time": "20:40",
+    "title": "Bocina en el clímax"
+   },
+   {
+    "time": "21:30",
+    "title": "Adivina el diálogo"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Benjamín Órdenes Vera",
+    "role": "Director del Taller de Ruidos"
+   },
+   {
+    "name": "Francisca Yáñez Rojas",
+    "role": "Profesora de la Escuela de Música"
+   }
   ]
  },
  {
@@ -234,6 +451,27 @@
   "unit": "Secretaría General",
   "sites": [
    "university"
+  ],
+  "body": "Se entregan paraguas de la UTE a los nuevos estudiantes, por si el sol de Santiago decide cambiar de opinión a mitad de clases. La ceremonia da la bienvenida a la comunidad con discursos cortos, mucha alegría y la promesa de que la vida universitaria tendrá más aprendizajes que lluvias.\n\nEl acto incluye un himno cantado por el coro de la biblioteca, que promete no desafinar demasiado. Las familias pueden acompañar desde la galería y tomar fotos sin bloquear el paso. Al terminar, hay una fila ordenada para retirar el paraguas, así que nadie tiene que salir a la lluvia sin protección.\n\n## Qué vas a ver\n- Entrega de paraguas oficiales, con diseño sobrio y colores de la universidad\n- Discursos breves de autoridades que prometen ser cortos\n- Himno cantado por el coro de la biblioteca, con entusiasmo garantizado\n- Fotografías en la escalera principal, con paraguas abiertos o cerrados según el clima",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Bienvenida"
+   },
+   {
+    "time": "09:40",
+    "title": "Entrega de paraguas"
+   },
+   {
+    "time": "10:30",
+    "title": "Himno en la biblioteca"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Catalina Riquelme Zamora",
+    "role": "Secretaria General"
+   }
   ]
  },
  {
@@ -258,6 +496,31 @@
   "unit": "Escuela de Diseño",
   "sites": [
    "arts"
+  ],
+  "body": "Durante tres horas, las y los participantes dibujarán letras con los ojos cubiertos por un antifaz de cartón. La consigna es sencilla: sentir la forma de cada trazo con la mano y el lápiz, y descubrir que la tipografía también se siente, aunque no siempre se entienda a primera vista.\n\nLas letras que salen del taller son tan curiosas como inesperadas, y las tutoras comentan cada resultado con humor y respeto. No se necesita experiencia previa. Se entrega una lupa, un lápiz blando y una medalla de mentira al final de la sesión, que se puede colgar en la mochila sin mayor compromiso.\n\n## Qué vas a ver\n- Ejercicios de dibujo de letras con el antifaz puesto y el lápiz guiado por el tacto\n- Comparación de trazos entre los participantes, con sorpresas garantizadas\n- Una revisión con lupa para descubrir detalles que se escaparon\n- Medalla de mentira para recordar que la tipografía también se toca",
+  "program": [
+   {
+    "time": "15:00",
+    "title": "Antifaz puesto"
+   },
+   {
+    "time": "16:15",
+    "title": "Trazos a ciegas"
+   },
+   {
+    "time": "17:20",
+    "title": "Revisión con lupa"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Nicolás Véliz Carrasco",
+    "role": "Tutor de la Escuela de Diseño"
+   },
+   {
+    "name": "Fernanda Lagos Pérez",
+    "role": "Ayudante de Tipografía"
+   }
   ]
  },
  {
@@ -282,6 +545,27 @@
   "unit": "Escuela de Extensión Digital",
   "sites": [
    "engineering"
+  ],
+  "body": "Aprende fórmulas, tablas dinámicas y funciones que sobreviven hasta el lunes sin perder la cordura. El curso parte desde lo básico: cómo ordenar datos, cómo sumar sin errores y cómo evitar que una columna se transforme en un jeroglífico. Todo con ejemplos cotidianos, como registrar los gastos del almuerzo o planificar un trabajo grupal.\n\nEs ideal para quienes llegaron a la carrera con un Excel de confianza y se quedaron con una planilla confusa. El curso es online, con ejercicios guiados y una sesión de preguntas al final. Se recomienda tener la planilla propia a mano, porque siempre hay una fila que no suma lo que debería.\n\n## Qué vas a ver\n- Fórmulas básicas y funciones de búsqueda para encontrar lo que se perdió\n- Tablas dinámicas explicadas con datos de ejemplo\n- Consejos para ordenar la planilla antes de que se vuelva un enredo\n- Ronda de preguntas con soluciones paso a paso, sin juzgar a nadie",
+  "program": [
+   {
+    "time": "09:30",
+    "title": "Fórmulas básicas"
+   },
+   {
+    "time": "11:00",
+    "title": "Tablas dinámicas"
+   },
+   {
+    "time": "12:30",
+    "title": "Preguntas de lunes"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Valentina Sepúlveda Ahumada",
+    "role": "Instructora de la Escuela de Extensión Digital"
+   }
   ]
  },
  {
@@ -306,6 +590,31 @@
   "unit": "Dirección de Investigación",
   "sites": [
    "university"
+  ],
+  "body": "Investigadores presentan avances sobre máquinas que preparan empanadas y algoritmos que recomiendan siestas estratégicas. El congreso mezcla ciencia, humor y un poco de especulación ordenada, con charlas breves sobre futuros posibles que nunca dejan de ser entretenidos. Cada presentación incluye ejemplos concretos y un espacio para preguntas.\n\nLa entrada incluye café de verdad y un certificado que se puede enmarcar, aunque no tenga valor académico. Hay pausas largas para conversar, pasillos llenos de afiches y un panel final donde se discute si los robots deben aprender a bailar o solo a cocinar. La asistencia es libre y el debate también.\n\n## Qué vas a ver\n- Demostración de una máquina que prepara empanadas con resultados sorprendentes\n- Presentación sobre algoritmos de siesta estratégica, con gráficos amables\n- Panel final sobre robots, flanes y el futuro del té\n- Certificado enmarcable, sin valor académico pero con mucho valor afectivo",
+  "program": [
+   {
+    "time": "09:30",
+    "title": "Inauguración con empanadas"
+   },
+   {
+    "time": "10:45",
+    "title": "Siestas estratégicas"
+   },
+   {
+    "time": "12:30",
+    "title": "Panel de robots y flanes"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Diego Muñoz Estay",
+    "role": "Investigador de la Dirección de Investigación"
+   },
+   {
+    "name": "Paula Henríquez Soto",
+    "role": "Investigadora en Ciencia Abierta"
+   }
   ]
  },
  {
@@ -329,6 +638,27 @@
   "unit": "Escuela de Mecánica",
   "sites": [
    "engineering"
+  ],
+  "body": "Equipos de la facultad diseñan paracaídas con bolsas plásticas y cuerdas para proteger un huevo desde el segundo piso. La consigna es simple: que el huevo llegue entero al suelo. La física decide el resto, con viento, peso y una dosis de mala suerte que nadie puede prever del todo.\n\nGana el grupo cuyo huevo llegue entero y cuyo informe técnico sea el más poético del día. Los jueces miden la caída, revisan los cálculos y leen en voz alta los párrafos más inspirados. El público puede aplaudir cada aterrizaje y lamentar, con respeto, las yemas que no sobrevivieron.\n\n## Qué vas a ver\n- Lanzamiento de paracaídas desde el segundo piso, con cámara lenta para los más dramáticos\n- Revisión de diseños, cuerdas y bolsas plásticas antes de cada salto\n- Lectura de informes técnicos con pasajes de poesía inesperada\n- Premiación para el huevo que llegó entero y para el informe más inspirado",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Lanzamiento del huevo"
+   },
+   {
+    "time": "12:00",
+    "title": "Lectura de informes"
+   },
+   {
+    "time": "12:30",
+    "title": "Premiación ovalada"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Rodrigo Espinoza Vega",
+    "role": "Profesor de la Escuela de Mecánica"
+   }
   ]
  },
  {
@@ -353,6 +683,27 @@
   "unit": "Oficina de Patrimonio UTE",
   "sites": [
    "arts"
+  ],
+  "body": "Recorrido por vitrinas de tazas, cucharas y termos que nadie reclamó desde 1994. El guía cuenta la historia de cada objeto con más drama del necesario, desde la taza que sobrevivió a tres mudanzas hasta la cuchara que apareció en el techo de la biblioteca. Todo con humor, respeto por los objetos y mucha curiosidad.\n\nAl final de la visita se entrega un sello para la libreta o el cuaderno. Se pide, con cariño, no tocar el termo del fondo, que tiene su propia leyenda y un cartel con muchas advertencias. La entrada es liberada y el recorrido dura lo justo para escuchar cada historia sin prisa.\n\n## Qué vas a ver\n- Vitrinas de tazas, cucharas y termos sin dueño conocido\n- Historias de cada objeto contadas con dramatismo amable\n- El termo del fondo, que se observa a distancia y con mucho respeto\n- Sello de visita para llevarse un recuerdo de la colección",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Inicio de la visita"
+   },
+   {
+    "time": "11:30",
+    "title": "Historia del termo"
+   },
+   {
+    "time": "11:50",
+    "title": "Sello de visita"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrés Pacheco Olivares",
+    "role": "Guía de Patrimonio UTE"
+   }
   ]
  },
  {
@@ -377,6 +728,31 @@
   "unit": "Editorial Universitaria Ocasional",
   "sites": [
    "arts"
+  ],
+  "body": "Se presenta un recetario escrito enteramente en tiempo de colación, con platos que se preparan en diez minutos y sin encender ni una hornalla. Hay ensaladas que se arman con lo que queda en la mochila, sándwiches sin cocción y bebidas frías que se mezclan con una cuchara y un poco de ingenio. El libro celebra la cocina rápida y sin complicaciones.\n\nAl final, los autores firman ejemplares y reparten una muestra de pan amasado en la sala de prensa. El lanzamiento es breve, con lectura de algunas recetas y una conversación sobre cómo cocinar cuando el tiempo es poco y el hambre mucha. La entrada es liberada, pero conviene llegar antes de que se acabe el pan.\n\n## Qué vas a ver\n- Lectura en voz alta de tres recetas sin fuego, con tiempos cronometrados\n- Demostración de una ensalada armada con ingredientes de mochila\n- Firma de ejemplares con dedicatorias breves y bastante cariño\n- Muestra de pan amasado para acompañar la conversación",
+  "program": [
+   {
+    "time": "18:30",
+    "title": "Lectura de recetas"
+   },
+   {
+    "time": "19:00",
+    "title": "Firma de ejemplares"
+   },
+   {
+    "time": "19:20",
+    "title": "Muestra de pan"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Carolina Vidal Arancibia",
+    "role": "Coautora y editora ocasional"
+   },
+   {
+    "name": "Gonzalo Pérez Cárdenas",
+    "role": "Coautor, cocinero de colación"
+   }
   ]
  },
  {
@@ -400,6 +776,27 @@
   "unit": "Laboratorio de Visualización de Datos",
   "sites": [
    "engineering"
+  ],
+  "body": "Gráficos tan bonitos que dan ganas de no leerlos, y tablas tan ordenadas que parecen mentir un poco. La exposición reúne visualizaciones de datos creadas por estudiantes, con colores cuidados, títulos claros y preguntas que invitan a mirar dos veces. Cada obra incluye una breve nota que explica qué se midió y cómo se dibujó.\n\nEl recorrido es guiado y amable: el público puede dejar comentarios en tarjetas de papel y las autoras responden en la misma sala. No se necesita experiencia técnica. La idea es entender que un buen gráfico no solo se ve bien, también cuenta una historia honesta sobre los números que muestra.\n\n## Qué vas a ver\n- Gráficos de barras, líneas y mapas con paletas cuidadas y títulos claros\n- Notas breves que explican cada medición y cada decisión de diseño\n- Tarjetas de comentarios para dejar opiniones a las autoras\n- Una mesa para descubrir qué gráfico engaña y cuál simplemente da pena leerlo",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Recorrido guiado"
+   },
+   {
+    "time": "11:30",
+    "title": "Comentarios en tarjetas"
+   },
+   {
+    "time": "12:30",
+    "title": "Mesa de gráficos engañosos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Isidora Navarrete Bustos",
+    "role": "Coordinadora del Laboratorio de Visualización de Datos"
+   }
   ]
  },
  {
@@ -424,6 +821,27 @@
   "unit": "Biblioteca Central",
   "sites": [
    "university"
+  ],
+  "body": "Bibliotecarios enseñan a plegar grullas de papel mientras explican, con humor, por qué siempre hay que guardar copias de respaldo de la tesis. El taller combina pliegues sencillos con consejos prácticos sobre cómo organizar archivos, nombrar carpetas y no confiar en la memoria USB que apareció en el pasillo.\n\nCada participante se lleva una grulla y un recordatorio para no confiar en la memoria del pasillo. No se requiere experiencia previa, y las bibliotecarias pasan por cada mesa para corregir los pliegues torcidos. El taller es tranquilo, con música suave y mucha paciencia, ideal para quienes necesitan una pausa antes de volver a estudiar.\n\n## Qué vas a ver\n- Plegado paso a paso de grullas de papel, con pliegues corregidos en mesa\n- Consejos para respaldar la tesis en dos lugares distintos y en la nube\n- Ejercicio de nombres de carpetas, con ejemplos que dan risa y enseñan\n- Una grulla para llevar a casa y un recordatorio para guardar copias",
+  "program": [
+   {
+    "time": "15:00",
+    "title": "Primeros pliegues"
+   },
+   {
+    "time": "15:45",
+    "title": "Respaldos en tres lugares"
+   },
+   {
+    "time": "16:30",
+    "title": "Grulla para llevar"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Pamela Jara Montecinos",
+    "role": "Bibliotecaria de Referencia"
+   }
   ]
  },
  {
@@ -448,6 +866,35 @@
   "unit": "Comité de Mujeres en Ingeniería",
   "sites": [
    "engineering"
+  ],
+  "body": "Conversatorio con ingenieras de distintas áreas que cuentan cómo abrieron camino en obras, laboratorios y proyectos de innovación. Las panelistas comparten historias de primeras veces, decisiones difíciles y errores memorables, con el tono cercano de quien ya se rió de sus propios tropiezos.\n\nHabrá preguntas anónimas, un mapa de carreras posibles y café para conversar después con las panelistas. La actividad es abierta a toda la comunidad, estudiantes y docentes, y busca entregar información útil sobre trayectorias en ingeniería, sin recetas mágicas, pero con mucha conversación honesta.\n\n## Qué vas a ver\n- Panel con ingenieras de obras, laboratorios y proyectos de innovación\n- Preguntas anónimas respondidas con franqueza y buen humor\n- Mapa de carreras posibles, con ejemplos de trayectorias de la facultad\n- Café de cierre para seguir conversando con las panelistas",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Bienvenida al conversatorio"
+   },
+   {
+    "time": "17:40",
+    "title": "Preguntas anónimas"
+   },
+   {
+    "time": "18:30",
+    "title": "Café de cierre"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrea Lillo Tobar",
+    "role": "Ingeniera de Obras"
+   },
+   {
+    "name": "Claudia Parra Escobar",
+    "role": "Investigadora de Innovación"
+   },
+   {
+    "name": "Loreto Araya Fica",
+    "role": "Coordinadora del Comité de Mujeres en Ingeniería"
+   }
   ]
  },
  {
@@ -471,6 +918,27 @@
   "unit": "Laboratorio de Tipos",
   "sites": [
    "arts"
+  ],
+  "body": "Presentamos catorce tipografías inspiradas en letreros de almacenes de barrio, con nombres como Abarrotes Serif y Chao Sans, disponibles para descargar gratis. Cada familia nace de carteles pintados a mano, de esos que anuncian harina, galletas y pan amasado con una confianza admirable. El catálogo busca rescatar esa energía en el diseño actual.\n\nEl lanzamiento incluye una ronda de preguntas y una demostración de cómo escribir «Se vende» sin que se vea feo. El público puede probar las fuentes en tarjetas de muestra y llevarse un afiche de regalo. La entrada es liberada y el ambiente es amable, con la fuerza tranquila de un letrero bien pintado.\n\n## Qué vas a ver\n- Muestra de las catorce fuentes con textos de almacén inventados\n- Demostración de cómo escribir «Se vende» sin que se vea feo\n- Descarga gratuita del catálogo, con licencias fáciles de entender\n- Afiche de regalo para quienes se quedan hasta el final",
+  "program": [
+   {
+    "time": "18:30",
+    "title": "Presentación de familias"
+   },
+   {
+    "time": "19:00",
+    "title": "Cómo escribir Se vende"
+   },
+   {
+    "time": "19:20",
+    "title": "Afiche de regalo"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Sergio Cuevas Mora",
+    "role": "Diseñador del Laboratorio de Tipos"
+   }
   ]
  },
  {
@@ -494,6 +962,35 @@
   "unit": "Departamento de Artes Escénicas",
   "sites": [
    "arts"
+  ],
+  "body": "Durante tres sesiones vamos a practicar la conversación breve con desconocidos, justo en ese momento incómodo en que el ascensor se detiene entre dos pisos y nadie sabe qué decir. Trabajaremos con juegos de improvisación guiados por una docente con mucha paciencia y una voz que nunca sube de tono.\n\nNo necesitas experiencia actoral ni saberte de memoria ningún monólogo. Basta con llegar con ganas de reírte de ti mismo y de tus silencios. Al final de la tercera sesión, cada participante recibe una tarjeta de presentación de fantasía, con nombre inventado y cargo imaginario, para usar con moderación en la vida real.\n\n## Qué vas a ver\n\n- Ejercicios de improvisación en parejas, con ascensores de cartón\n- Juegos de escucha para aprender a preguntar sin interrogar\n- Una presentación final de 60 segundos, sin guion\n- Tu propia tarjeta de presentación de fantasía",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Calentamiento con ascensor imaginario"
+   },
+   {
+    "time": "10:50",
+    "title": "Improvisación en parejas"
+   },
+   {
+    "time": "11:40",
+    "title": "Silencios incómodos, nivel experto"
+   },
+   {
+    "time": "12:30",
+    "title": "Entrega de tarjetas de fantasía"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Camila Rojas Vidal",
+    "role": "Docente del Departamento de Artes Escénicas"
+   },
+   {
+    "name": "Paula Espinoza Riquelme",
+    "role": "Coordinadora del Taller de Improvisación"
+   }
   ]
  },
  {
@@ -518,6 +1015,35 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Este seminario reúne a analistas que llegan con hambre de datos y se van con algo para contar en la reunión del lunes. Cocinamos un estofado de datos paso a paso: limpiamos la materia prima, elegimos las variables que aportan sabor y evitamos que alguna columna se pase de sal con valores atípicos.\n\nLa idea es que los resultados se puedan explicar sin morir en el intento. Por eso cada receta termina con un gráfico simple y una frase que cualquier persona de la mesa entienda. Habrá café incluido y cupos limitados, así que conviene llegar temprano para sentarse cerca de la cafetera.\n\n## Qué vas a ver\n\n- Limpieza de datos con ingredientes frescos y sin duplicados\n- Análisis aplicado con ejemplos de la vida universitaria\n- Cómo contar un resultado en una sola diapositiva\n- Ronda de preguntas con café caliente y sin evaluación",
+  "program": [
+   {
+    "time": "15:00",
+    "title": "Pelar los datos"
+   },
+   {
+    "time": "15:45",
+    "title": "Cocción del modelo a fuego lento"
+   },
+   {
+    "time": "16:45",
+    "title": "Servir resultados sin derramar nada"
+   },
+   {
+    "time": "17:20",
+    "title": "Café y preguntas sin evaluación"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Felipe Araya Soto",
+    "role": "Coordinador del Laboratorio de Datos"
+   },
+   {
+    "name": "Javiera Muñoz Pino",
+    "role": "Analista del Instituto de Analítica Aplicada"
+   }
   ]
  },
  {
@@ -542,6 +1068,35 @@
   "unit": "Incubadora de Ideas Costaneras",
   "sites": [
    "engineering"
+  ],
+  "body": "Durante cuatro horas, los stands de la feria se llenan de startups universitarias con productos que van desde lámparas solares hasta una aplicación para encontrar estacionamiento imaginario. Cada equipo tiene un prototipo a la mano, una historia de origen y, por supuesto, algo para degustar mientras explica su idea.\n\nLos pitches duran dos minutos y se escuchan de pie, con un cronómetro que nadie quiere mirar. Al costado funciona un stand de mentores que no cobra por preguntar, así que puedes acercarte con una duda, con una idea a medio cocer o simplemente con hambre de empanada.\n\n## Qué vas a ver\n\n- Prototipos en mesas con etiqueta y precio ficticio\n- Pitches de dos minutos seguidos de preguntas del público\n- Stand de mentores abierto para consultas sin costo\n- Degustación de ideas y empanadas de la casa",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Apertura de stands con aroma a horno"
+   },
+   {
+    "time": "13:00",
+    "title": "Pitches de dos minutos, cronómetro en mano"
+   },
+   {
+    "time": "14:30",
+    "title": "Degustación de ideas"
+   },
+   {
+    "time": "15:15",
+    "title": "Consultas gratis con mentores"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Constanza Fuentes Ibarra",
+    "role": "Coordinadora de Emprendimiento Costanero"
+   },
+   {
+    "name": "Matías Contreras Lagos",
+    "role": "Mentor de la Incubadora de Ideas Costaneras"
+   }
   ]
  },
  {
@@ -565,6 +1120,27 @@
   "unit": "Laboratorio de Redes y Telecomunicaciones",
   "sites": [
    "engineering"
+  ],
+  "body": "Explicaremos TCP/IP usando planos de metro: cada paquete es un pasajero que busca su estación, cada router es un transbordo y cada pérdida de conexión, una excusa perfecta para llegar tarde a clases. La idea es entender el recorrido completo antes de memorizar siglas que parecen sacadas de una sopa de letras.\n\nTrabajaremos con ejercicios en papel, sin necesidad de equipos ni de cables. Quien quiera puede dibujar su propia red en una hoja cuadriculada y comprobar, paso a paso, por qué su mensaje llegó por la ruta equivocada. El humor técnico viene incluido, pero el contenido es bastante serio.\n\n## Qué vas a ver\n\n- Recorrido de un paquete desde el origen hasta el destino\n- Ejercicio en papel con routers dibujados a mano\n- Qué hacer cuando la conexión se corta a mitad de viaje\n- Preguntas sin vergüenza, con respuestas en lenguaje de metro",
+  "program": [
+   {
+    "time": "14:00",
+    "title": "Viaje de un paquete con boleto"
+   },
+   {
+    "time": "14:40",
+    "title": "Transbordo en routers"
+   },
+   {
+    "time": "15:20",
+    "title": "Ejercicio en papel, lápiz en mano"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ignacio Pizarro Vega",
+    "role": "Académico de la Escuela de Telecomunicaciones"
+   }
   ]
  },
  {
@@ -590,6 +1166,39 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Tres artistas y una programadora se sientan frente al público para discutir si una pintura creada por código puede emocionar tanto como una hecha a mano. La conversación no busca un ganador, sino entender qué sentimos cuando miramos una obra y descubrimos que alguien escribió reglas para que apareciera.\n\nMientras tanto, una tetera con sensores dibuja en tiempo real a quienes están en la sala, con trazos que cambian según el movimiento del público. Es una forma de mostrar que el algoritmo también tiene sus caprichos. Habrá café de máquina, que según dicen tiene alma, aunque nadie lo ha comprobado en el laboratorio.\n\n## Qué vas a ver\n\n- Mesa de conversación con artistas y una programadora\n- Dibujo en vivo hecho por la tetera con sensores\n- Preguntas del público sobre autoría y emoción\n- Café de máquina para evaluar su alma por cuenta propia",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Bienvenida con café de máquina"
+   },
+   {
+    "time": "19:20",
+    "title": "Mesa de conversación con alma"
+   },
+   {
+    "time": "20:00",
+    "title": "La tetera que dibuja al público"
+   },
+   {
+    "time": "20:40",
+    "title": "Preguntas sin algoritmo"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Francisca Órdenes Bravo",
+    "role": "Académica del Departamento de Artes Digitales"
+   },
+   {
+    "name": "Sebastián Núñez Olivares",
+    "role": "Artista visual"
+   },
+   {
+    "name": "Valentina Sepúlveda Cid",
+    "role": "Programadora creativa"
+   }
   ]
  },
  {
@@ -615,6 +1224,27 @@
   "sites": [
    "university",
    "arts"
+  ],
+  "body": "Estudiantes de distintas carreras tocan piezas compuestas con sonidos cotidianos: el timbre de las 9:00, el golpe de una puerta de baño, el zumbido de la fotocopiadora y el suspiro de quien revisa el correo por cuarta vez. Cada instrumento improvisado tiene su propia historia dentro del campus.\n\nEl concierto dura una hora y no requiere entradas, aunque se agradece llegar en silencio. El repertorio incluye un bolero dedicado a quien dejó el paraguas en el auditorio, que la orquesta promete devolver al final de la última canción si alguien lo reclama con una buena descripción.\n\n## Qué vas a ver\n\n- Sinfonía para timbres y mochilas en tres movimientos\n- Percusión con carpetas, lápices y una bandeja metálica\n- Bolero del paraguas perdido, con coro de estudiantes\n- Espacio final para aplausos con partitura improvisada",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Afinación de timbres"
+   },
+   {
+    "time": "19:20",
+    "title": "Sinfonía de mochilas"
+   },
+   {
+    "time": "19:45",
+    "title": "Bolero del paraguas perdido"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Benjamín Quezada Parra",
+    "role": "Director de la Orquesta de Pasillos"
+   }
   ]
  },
  {
@@ -639,6 +1269,31 @@
   "unit": "Taller de Serigrafía Experimental",
   "sites": [
    "arts"
+  ],
+  "body": "Más de treinta expositores llegan con calcomanías, parches y postales diseñadas por estudiantes. Todos los dibujos son originales y representan animales que no existen, como un zorro con bufanda de lana, una tortuga con cohete o un pingüino que se cree gato. No hay derechos de autor que cuidar, solo risas que compartir.\n\nHay una zona de pegado gratis, donde puedes ponerle un sticker a tu termo o a tu bicicleta, siempre que la encargada lo autorice. Además se realiza un concurso para elegir el sticker más improbable de la temporada, votado por el público con una tarjeta de cartulina.\n\n## Qué vas a ver\n\n- Stands de diseño con calcomanías, parches y postales\n- Zona de pegado gratis para termos y bicicletas\n- Concurso del sticker más improbable de la temporada\n- Animales inventados para coleccionar sin culpa",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Apertura de stands con stickers recién impresos"
+   },
+   {
+    "time": "11:00",
+    "title": "Zona de pegado gratis"
+   },
+   {
+    "time": "12:30",
+    "title": "Votación del sticker improbable"
+   },
+   {
+    "time": "13:30",
+    "title": "Cierre y última ronda de calcomanías"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Daniela Contreras Lobos",
+    "role": "Coordinadora de Serigrafía Experimental"
+   }
   ]
  },
  {
@@ -663,6 +1318,31 @@
   "unit": "Laboratorio de Simulación",
   "sites": [
    "engineering"
+  ],
+  "body": "Presentamos la versión 2.0 de un simulador que enseña a organizar bodegas con cajas que se caen, pasillos que se cierran sin aviso y un jefe imaginario muy exigente con los plazos. La nueva versión suma rutas más realistas, inventario con errores típicos y un modo para equipos que se reparten las tareas.\n\nLa presentación incluye una demo en vivo, en la que el equipo del laboratorio intenta cumplir un pedido sin romper nada. Luego viene un torneo express de veinte minutos, con clasificación por tiempo y puntaje de orden. Los premios son chocolates, de esos que se reparten con cuidado para que no se acaben antes del examen.\n\n## Qué vas a ver\n\n- Demo en vivo de la versión 2.0 con pedidos de mentira\n- Torneo express de veinte minutos con tabla de posiciones\n- Novedades para equipos: reparto de tareas y chat interno\n- Premios de chocolate para los tres primeros lugares",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Presentación de la versión 2.0"
+   },
+   {
+    "time": "19:20",
+    "title": "Demo con cajas que se caen"
+   },
+   {
+    "time": "19:40",
+    "title": "Torneo express sin pausas"
+   },
+   {
+    "time": "19:55",
+    "title": "Entrega de chocolates"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Rodrigo Tapia Gallardo",
+    "role": "Coordinador del Laboratorio de Simulación"
+   }
   ]
  },
  {
@@ -687,6 +1367,27 @@
   "unit": "Departamento de Artes Escénicas",
   "sites": [
    "university"
+  ],
+  "body": "Un grupo de estudiantes monta una tragedia clásica en la fila del casino, con dos personajes que se pelean por la última empanada del día. La versión es corta, sin subtítulos y con vestuario hecho con bolsas reutilizables, que los actores insisten en llamar de época.\n\nLa función dura una hora e incluye un intermedio para comprar algo en la cafetería, así que nadie se pierde el final por tener hambre. Como la fila siempre avanza más lento de lo esperado, el público puede moverse de a poco, y los actores prometen no interrumpir a quien pida su café.\n\n## Qué vas a ver\n\n- Monólogos en la fila, interpretados por estudiantes\n- Pelea por la empanada, con coreografía de bandeja\n- Intermedio para comprar, con pausa de diez minutos\n- Final dramático con aplausos de quienes ya están comiendo",
+  "program": [
+   {
+    "time": "20:00",
+    "title": "Primer acto en la fila"
+   },
+   {
+    "time": "20:20",
+    "title": "Intermedio para comprar algo"
+   },
+   {
+    "time": "20:35",
+    "title": "Final con empanada de por medio"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrés Villalobos Mella",
+    "role": "Director de la Compañía de Teatro Estudiantil"
+   }
   ]
  },
  {
@@ -711,6 +1412,31 @@
   "unit": "Laboratorio de Diseño Circular",
   "sites": [
    "engineering"
+  ],
+  "body": "Estudiantes exhiben muebles, lámparas y juguetes hechos con materiales reutilizados: botellas convertidas en lámparas, cajas de cartón transformadas en estanterías y tapas que ahora cuentan historias. Cada objeto viene con una etiqueta que resume de dónde venía y qué sueños tiene ahora, y eso ayuda a mirar la basura con más respeto.\n\nHay mercado de trueque, con intercambios que no requieren dinero, sino una buena conversación y algún objeto que el otro necesite. La música suave acompaña toda la jornada. El jurado premia la creatividad y la durabilidad, pero no acepta pendientes hechos de tapitas, por mucho que sean bonitos.\n\n## Qué vas a ver\n\n- Muebles y lámparas hechos con materiales reutilizados\n- Mercado de trueque con reglas claras y cero dinero\n- Etiquetas con la historia de cada objeto\n- Votación del público por la idea más útil",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Apertura de muebles con historia"
+   },
+   {
+    "time": "11:00",
+    "title": "Mercado de trueque en marcha"
+   },
+   {
+    "time": "12:30",
+    "title": "Votación del público"
+   },
+   {
+    "time": "13:30",
+    "title": "Premiación sin pendientes de tapitas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Trinidad Herrera Badilla",
+    "role": "Coordinadora del Laboratorio de Diseño Circular"
+   }
   ]
  },
  {
@@ -735,6 +1461,27 @@
   "unit": "Club de Programación UTE",
   "sites": [
    "engineering"
+  ],
+  "body": "Llevamos tu celular a la hora de Python: escribiremos un programa que recuerda tus cumpleaños, te avisa cuando la pila está baja y hasta te felicita con un mensaje que tú mismo redactas. Trabajaremos con ejemplos sencillos, paso a paso, y cada idea se prueba antes de pasar a la siguiente.\n\nNo se requiere experiencia previa, solo ganas de hacer ruido con el teclado. El ejercicio se hace en computador, así que tu celular solo tiene que aguantar la clase. Cada participante se lleva el programa terminado y una lista de comandos para seguir jugando en casa.\n\n## Qué vas a ver\n\n- Programa que recuerda cumpleaños de amigos y familia\n- Alerta simulada de batería baja con mensaje divertido\n- Ejercicios guiados, sin experiencia previa\n- Lista de comandos para seguir practicando en casa",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Primer programa, primer saludo"
+   },
+   {
+    "time": "11:40",
+    "title": "La alerta de batería"
+   },
+   {
+    "time": "12:20",
+    "title": "Cumpleaños con sorpresa"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Martín Gajardo Ortiz",
+    "role": "Encargado del Club de Programación UTE"
+   }
   ]
  },
  {
@@ -759,6 +1506,31 @@
   "unit": "Escuela de Cine y Animación",
   "sites": [
    "arts"
+  ],
+  "body": "Cuatro actores de doblaje debaten sobre el arte de sonar como un pingüino enojado sin perder la dignidad. La conversación recorre técnicas para cambiar la voz, cuidados para no quedarse afónico después de una jornada de gritos y, sobre todo, cómo transmitir emociones cuando el personaje solo aparece en la pantalla.\n\nHabrá demostraciones en vivo y una competencia de voces de animales que el público puede intentar desde su asiento. No se permite gritar durante el concurso, porque los jueces ya tienen la voz bastante cansada. Quien logre la mejor imitación de un gato indignado se lleva un aplauso.\n\n## Qué vas a ver\n\n- Debate con actores de doblaje sobre técnica y emoción\n- Demostraciones de voces de animales en vivo\n- Competencia de imitaciones desde el asiento\n- Consejos para cuidar la voz después de una función",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Debate de voces con dignidad"
+   },
+   {
+    "time": "17:30",
+    "title": "Demostraciones en vivo"
+   },
+   {
+    "time": "17:45",
+    "title": "Concurso de animales desde el asiento"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ximena Sáez Paredes",
+    "role": "Actriz de doblaje"
+   },
+   {
+    "name": "Cristóbal Lagos Donoso",
+    "role": "Actor de doblaje"
+   }
   ]
  },
  {
@@ -783,6 +1555,31 @@
   "unit": "Laboratorio de Logística",
   "sites": [
    "engineering"
+  ],
+  "body": "Recorrido por un centro de distribución ficticio donde los montacargas avanzan en fila, las cajas esperan su turno en estanterías impecables y el inventario se cuenta con un cariño casi terapéutico. Un guía con chaleco reflectante explica cómo se decide dónde va cada pallet y por qué nunca se pierde nada, salvo lo que algún estudiante deja en el pasillo.\n\nSe recomienda usar zapatos cómodos, porque el recorrido es largo y las bodegas son grandes. También se pide no tocar los botones rojos, que son muy sensibles a la curiosidad. Al final hay preguntas, café y una mini demostración de cómo se arma un pedido en menos de cinco minutos.\n\n## Qué vas a ver\n\n- Recorrido por pasillos con montacargas en movimiento\n- Explicación del inventario y su conteo cuidadoso\n- Demostración de armado de pedido en cinco minutos\n- Espacio final para preguntas y café de cortesía",
+  "program": [
+   {
+    "time": "09:30",
+    "title": "Partida desde la entrada"
+   },
+   {
+    "time": "10:00",
+    "title": "Pasillos con montacargas en fila"
+   },
+   {
+    "time": "10:45",
+    "title": "Armado de pedido en cinco minutos"
+   },
+   {
+    "time": "11:15",
+    "title": "Preguntas y café de cortesía"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Patricio Soto Cárdenas",
+    "role": "Jefe de Operaciones del Laboratorio de Logística"
+   }
   ]
  },
  {
@@ -807,6 +1604,27 @@
   "unit": "Núcleo de Ética Algorítmica",
   "sites": [
    "engineering"
+  ],
+  "body": "¿Puede una IA pedir disculpas sin sentirlas? Conversamos sobre ética de chatbots mientras comemos algo rápido, con preguntas del público y una lista de frases que nunca debería decir un asistente, como prometer lo que no puede cumplir o responder con seguridad a algo que no sabe.\n\nLa charla no busca asustar ni vender tecnología. Busca entender qué significa responsabilidad cuando una respuesta sale de un sistema que no tiene hambre, ni sueño, ni almuerzo. Trae tu colación y tus dudas; el espacio está pensado para pensar en voz alta mientras se come un sándwich.\n\n## Qué vas a ver\n\n- Qué significa pedir disculpas cuando nadie siente nada\n- Lista de frases que un chatbot no debería decir\n- Preguntas del público sobre responsabilidad y errores\n- Ideas simples para diseñar asistentes más honestos",
+  "program": [
+   {
+    "time": "13:00",
+    "title": "Bienvenida con colación en la mesa"
+   },
+   {
+    "time": "13:15",
+    "title": "Ética servida con cuchara"
+   },
+   {
+    "time": "13:45",
+    "title": "Preguntas del público, sin prisa"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Antonia Ramírez Oyarzún",
+    "role": "Investigadora del Núcleo de Ética Algorítmica"
+   }
   ]
  },
  {
@@ -830,6 +1648,27 @@
   "unit": "Compañía de Teatro Estudiantil",
   "sites": [
    "arts"
+  ],
+  "body": "Una princesa abandona el castillo para ordenar la biblioteca del reino, donde los libros se pierden entre estantes, los dragones piden silencio y el bibliotecario principal duerme con un cuento sobre la almohada. La historia combina humor, canciones cortas y una búsqueda que mantiene a los niños atentos.\n\nLa función está recomendada para niños de cinco años en adelante, con un final que los adultos también entienden. Hay momentos para participar, aplaudir y reclamar cuando el dragón se equivoca de página. Al terminar, las actrices firman libros y responden preguntas sobre cómo se ordena una biblioteca sin enojarse.\n\n## Qué vas a ver\n\n- Princesa en busca de libros perdidos entre estantes\n- Dragones que piden silencio con mucha ceremonia\n- Canciones cortas para cantar con el público\n- Firma de libros al final de la función",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Llega la princesa con prisa"
+   },
+   {
+    "time": "11:20",
+    "title": "El dragón pide silencio"
+   },
+   {
+    "time": "11:45",
+    "title": "Firma de libros con dedicatoria"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ana Luz Ponce Vargas",
+    "role": "Actriz de la Compañía de Teatro Estudiantil"
+   }
   ]
  },
  {
@@ -854,6 +1693,27 @@
   "unit": "Dirección de Patrimonio",
   "sites": [
    "university"
+  ],
+  "body": "Un guía con casco de cartón explica cómo funciona el reloj del patio central, que siempre va cinco minutos atrás y nunca coincide con el celular de nadie. La visita revisa engranajes, poleas y una explicación muy seria sobre por qué la puntualidad es, en el fondo, una cuestión de paciencia colectiva.\n\nAl final se visita la oficina de objetos perdidos, donde hay paraguas de todos los colores, un zapato solitario que espera a su pareja y una tesis sin nombre que nadie se atreve a reclamar. Se recomienda llegar cinco minutos antes, aunque el guía asegura que, por lógica del reloj, llegarás a tiempo.\n\n## Qué vas a ver\n\n- Recorrido por el mecanismo del reloj del patio\n- Explicación seria sobre la puntualidad colectiva\n- Visita a la oficina de objetos perdidos\n- Foto oficial frente al reloj, con cinco minutos de desfase",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Casco de cartón puesto"
+   },
+   {
+    "time": "12:20",
+    "title": "Engranajes y poleas"
+   },
+   {
+    "time": "12:40",
+    "title": "Oficina de objetos perdidos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Gonzalo Saavedra Muñoz",
+    "role": "Guía del Patrimonio UTE"
+   }
   ]
  },
  {
@@ -878,6 +1738,27 @@
   "unit": "Centro de Emprendimiento Tecnológico",
   "sites": [
    "engineering"
+  ],
+  "body": "Una emprendedora ficticia relata cómo pasó de una caja con cables a una empresa con cuatro empleados y cero promesas incumplidas. Su historia incluye prototipos que se doblaban, clientes que cambiaban de idea cada semana y un café frío que acompañó más reuniones de las que cualquiera quisiera admitir.\n\nLa charla es breve, directa y con muchas preguntas. Al final hay un ejercicio de pitch de sesenta segundos, en el que cada asistente presenta una idea sin usar la palabra revolucionaria, y una lista de errores para no repetir, redactada con humor pero sin rodeos.\n\n## Qué vas a ver\n\n- Relato de cómo se armó el primer prototipo de cartón\n- Lista de errores para no repetir en el primer año\n- Ejercicio de pitch de sesenta segundos\n- Preguntas del público sobre financiamiento y tiempo",
+  "program": [
+   {
+    "time": "12:30",
+    "title": "Relato desde la caja de cables"
+   },
+   {
+    "time": "12:50",
+    "title": "Pitch de sesenta segundos"
+   },
+   {
+    "time": "13:15",
+    "title": "Preguntas del público"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Carolina Vergara Núñez",
+    "role": "Emprendedora y egresada de Ingeniería"
+   }
   ]
  },
  {
@@ -902,6 +1783,27 @@
   "unit": "Escuela de Diseño",
   "sites": [
    "arts"
+  ],
+  "body": "Aprenderás a modelar en torno con arcilla húmeda y a aceptar que la primera taza siempre sale algo torcida, como una sonrisa con ideas. La instructora muestra cómo centrar la masa, abrir el hueco con los dedos y dar forma a las paredes, aunque a veces la arcilla decide irse al suelo por cuenta propia.\n\nSe incluyen delantal, una espátula de regalo y una sesión de fotos para documentar el desastre artístico. Las piezas se secan durante la semana y se cocen después, así que la taza final llegará a tu casa en unas semanas. Si queda chueca, se considera una edición limitada y de carácter.\n\n## Qué vas a ver\n\n- Centrado de la arcilla en torno de alfarero\n- Modelado de la primera taza con paredes parejas\n- Espátula de regalo y delantal para llevarte a casa\n- Sesión de fotos para documentar el desastre",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Centrar la arcilla sin pánico"
+   },
+   {
+    "time": "17:00",
+    "title": "Primera taza, primera torcida"
+   },
+   {
+    "time": "18:00",
+    "title": "Foto oficial del desastre"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Lorena Figueroa Poblete",
+    "role": "Instructora de la Escuela de Diseño"
+   }
   ]
  },
  {
@@ -925,6 +1827,31 @@
   "unit": "Oficina de Emprendimiento Tecnológico",
   "sites": [
    "engineering"
+  ],
+  "body": "Cuatro horas para programar una app de mentira que funcione de verdad, en equipos de cuatro personas y con mate frío como único combustible. Cada equipo recibe una consigna sorpresa al comenzar, un tablero de tareas y un jurado que no duerme, aunque sí revisa cada commit con una lupa imaginaria.\n\nHay premios, memes certificados y un momento final para mostrar la app en pantalla, con la esperanza de que todo siga funcionando después de la demo. Los equipos pueden usar cualquier lenguaje, pero se recomienda traer cargador y una buena playlist, porque el silencio prolongado también cansa.\n\n## Qué vas a ver\n\n- Consigna sorpresa al inicio de la maratón\n- Equipos de cuatro con tablero de tareas compartido\n- Demo final de cinco minutos frente al jurado\n- Premios y memes certificados para el equipo ganador",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Consigna sorpresa y mate frío"
+   },
+   {
+    "time": "10:00",
+    "title": "Primer deploy sin pánico"
+   },
+   {
+    "time": "11:30",
+    "title": "Demo de cinco minutos"
+   },
+   {
+    "time": "12:30",
+    "title": "Premiación con memes certificados"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Esteban Cortés Venegas",
+    "role": "Coordinador del Centro de Emprendimiento Tecnológico"
+   }
   ]
  },
  {
@@ -948,6 +1875,31 @@
   "unit": "Galería de la Facultad",
   "sites": [
    "arts"
+  ],
+  "body": "Una selección de dibujos digitales creados con mouse y mucha paciencia, todos con bordes irregulares, paleta limitada y el sonido de un módem imaginario de fondo. Cada obra recuerda que la técnica también tiene su propia nostalgia y que un trazo torcido puede ser una decisión estética.\n\nLas obras se exhiben en pantallas de tubo restauradas por estudiantes de cuarto semestre, que explican el proceso de cada pieza con paciencia y humor. La sala está pensada para mirar despacio, así que conviene llegar sin prisa y dejar el celular en el bolsillo, aunque cueste resistir la tentación de sacar una foto.\n\n## Qué vas a ver\n\n- Dibujos con mouse y paleta limitada\n- Pantallas de tubo restauradas por estudiantes\n- Recorrido guiado por el proceso de cada obra\n- Sonido de módem imaginario como banda sonora",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Apertura de la sala"
+   },
+   {
+    "time": "12:40",
+    "title": "Pantallas de tubo encendidas"
+   },
+   {
+    "time": "13:20",
+    "title": "Recorrido guiado por las obras"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Pamela Miranda Rivera",
+    "role": "Curadora de la Galería de la Facultad"
+   },
+   {
+    "name": "Renato Ahumada Leiva",
+    "role": "Estudiante de cuarto semestre"
+   }
   ]
  },
  {
@@ -971,6 +1923,31 @@
   "unit": "Dirección de Ciencia Abierta",
   "sites": [
    "university"
+  ],
+  "body": "Este conversatorio reúne a tres investigadoras de la Dirección de Ciencia Abierta para discutir una pregunta que llevamos años evitando: ¿son las siestas en la biblioteca un método de estudio válido? Hablaremos de hipótesis, de muestras pequeñas y de la hora exacta en que el silencio se vuelve una forma de concentración.\n\nLa sesión será en línea, así que puedes conectarte desde el escritorio o desde el sillón, siempre que dejes la cámara apagada. Habrá preguntas del público por el chat y una encuesta final que, según nuestros registros, los gatos del campus se negaron a responder con dignidad.\n\n## Qué vas a ver\n- Un panel de tres investigadoras y un moderador que sabe cuándo cortar.\n- Datos preliminares sobre siestas, bancas y ronroneo en época de exámenes.\n- Preguntas del público, incluidas las más bien intencionadas.\n- Una encuesta final, cuyos resultados pueden incluir o no a los gatos.",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Bienvenida y café virtual"
+   },
+   {
+    "time": "18:15",
+    "title": "Panel de siestas con evidencia"
+   },
+   {
+    "time": "18:45",
+    "title": "Encuesta a los gatos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Francisca Muñoz Rojas",
+    "role": "Investigadora de la Dirección de Ciencia Abierta"
+   },
+   {
+    "name": "Matías Contreras Vidal",
+    "role": "Moderador del Programa de Metodología"
+   }
   ]
  },
  {
@@ -996,6 +1973,35 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Especialistas del Programa de Robótica Aplicada exploran cómo organizar flotas de drones de reparto sin chocar con palomas, globos ni con la paciencia de los conductores. Partimos con la pregunta que da título a la charla y vamos bajando hasta el cálculo de rutas, que resulta bastante más entretenido de lo que suena.\n\nEl seminario se hace en la Torre de Ingeniería, con un mapa de Santiago ficticio proyectado en pantalla grande. Llega temprano, porque el cupo de sillas es limitado y la fila para el café sí es real. Las preguntas del público son bienvenidas, incluso las que empiezan con «en mi caso, un dron...».\n\n## Qué vas a ver\n- Un modelo de flotas con drones imaginarios y restricciones bastante realistas.\n- Un mapa ficticio de Santiago con semáforos que cambian cuando se les mira feo.\n- Estimaciones de cuántos drones caben en una esquina sin molestar a nadie.\n- Una ronda de preguntas bien intencionadas, con respuestas igual de cuidadosas.",
+  "program": [
+   {
+    "time": "18:30",
+    "title": "Llegada y fila del café"
+   },
+   {
+    "time": "18:45",
+    "title": "Rutas sin palomas"
+   },
+   {
+    "time": "19:30",
+    "title": "Mapa de semáforos ficticios"
+   },
+   {
+    "time": "20:10",
+    "title": "Preguntas bien intencionadas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Valentina Araya Soto",
+    "role": "Académica del Programa de Robótica Aplicada"
+   },
+   {
+    "name": "Joaquín Fuentes Lagos",
+    "role": "Coordinador de Logística Aérea del Laboratorio"
+   }
   ]
  },
  {
@@ -1020,6 +2026,31 @@
   "unit": "Grupo de Teatro Ingeniero Loco",
   "sites": [
    "engineering"
+  ],
+  "body": "Los bugs también sueñan es una comedia del Grupo de Teatro Ingeniero Loco sobre un programa que recibió un requisito claro, lo leyó con mucha atención y decidió resolver otro problema por su cuenta. Entre el primer y el segundo acto, el protagonista descubre que cada solución trae una nueva pregunta y que la paciencia de su equipo también tiene límites.\n\nEl vestuario está hecho completamente de cables, y la escena final se reinicia sola, como manda la tradición de los buenos programas. La función es para toda la familia UTE, así que no hay escenas de sustos, pero sí muchas ideas que se quedan dando vueltas en la cabeza al salir.\n\n## Qué vas a ver\n- Un programa que promete ser simple y termina con cinco módulos inesperados.\n- Vestuario de cables que parpadea con mucha dignidad.\n- Un coro de tres técnicos que dicen «eso no estaba en el requisito» en armonía.\n- Una escena final que se reinicia sola, sin que nadie apriete nada.",
+  "program": [
+   {
+    "time": "19:30",
+    "title": "Ingreso y revisión de cables"
+   },
+   {
+    "time": "19:40",
+    "title": "Primer acto: el requisito olvidado"
+   },
+   {
+    "time": "20:05",
+    "title": "Escena final con reinicio"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Catalina Pizarro Bravo",
+    "role": "Directora del Grupo de Teatro Ingeniero Loco"
+   },
+   {
+    "name": "Sebastián Olivares Tapia",
+    "role": "Actor y programador de la compañía"
+   }
   ]
  },
  {
@@ -1044,6 +2075,35 @@
   "unit": "Laboratorio de Robótica Aplicada",
   "sites": [
    "engineering"
+  ],
+  "body": "Robots que bailan, robots que cocinan y uno que pide disculpas cada vez que se equivoca. La feria reúne los proyectos del Laboratorio de Robótica Aplicada en el Centro de Extensión Costanera, con estaciones para mirar, tocar y, en algunos casos, probar. Cada prototipo tiene un cartel con su nombre, su función y una nota honesta sobre lo que todavía no sabe hacer.\n\nLos equipos estarán siempre a cargo de estudiantes, que te explicarán cómo funciona cada máquina y te pedirán, con mucha educación, que no empujes el brazo del robot cocinero. Puedes probar algunos proyectos bajo supervisión, así que trae paciencia y las manos bien lavadas.\n\n## Qué vas a ver\n- Un robot bailarín que sigue el ritmo mejor que muchos invitados a matrimonios.\n- Una cocina robótica que prepara ensaladas sin cortarse ni un dedo.\n- Un robot que pide disculpas cuando tropieza, con voz amable y un poco dramática.\n- Demostraciones cronometradas en la pista central, cada media hora.",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Apertura de la feria"
+   },
+   {
+    "time": "12:45",
+    "title": "Robots que bailan (demo)"
+   },
+   {
+    "time": "13:30",
+    "title": "Cocina robótica sin accidentes"
+   },
+   {
+    "time": "14:20",
+    "title": "Ronda de disculpas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Nicolás Hernández Ibarra",
+    "role": "Coordinador del Laboratorio de Robótica Aplicada"
+   },
+   {
+    "name": "Daniela Riquelme Pino",
+    "role": "Técnica en montaje de prototipos"
+   }
   ]
  },
  {
@@ -1067,6 +2127,31 @@
   "unit": "Escuela de Industrial",
   "sites": [
    "engineering"
+  ],
+  "body": "Lean es una metodología para eliminar pasos inútiles, y en este curso la aplicamos a cocinas, oficinas y colas del supermercado. Veremos ejemplos reales de procesos que dan vueltas innecesarias, como buscar la sal tres veces, y cómo rediseñarlos sin eliminar el postre, que sigue siendo parte indispensable del proceso.\n\nLa Escuela de Industrial preparó planillas, post-its de colores y un reto de dos minutos que siempre se alarga un poco. Cada participante se va con una mirada nueva sobre lo que hace todos los días, aunque no necesariamente con la certeza de que la fila del banco vaya a mejorar pronto.\n\n## Qué vas a ver\n- Un mapa de procesos de una cocina con todas las idas y vueltas al refrigerador.\n- Un ejercicio con post-its para ordenar tareas de oficina sin perder el café.\n- Análisis de colas de supermercado con cronómetro y mucha compasión.\n- Un reto de dos minutos para rediseñar algo cotidiano, con premio simbólico.",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Qué es Lean en una cocina"
+   },
+   {
+    "time": "19:40",
+    "title": "Reto de dos minutos con post-its"
+   },
+   {
+    "time": "20:20",
+    "title": "Planillas y postre"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrés Cárdenas Miranda",
+    "role": "Académico de la Escuela de Industrial"
+   },
+   {
+    "name": "Paula Espinoza Gallardo",
+    "role": "Asistente de Procesos Industriales"
+   }
   ]
  },
  {
@@ -1092,6 +2177,31 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Aprenderemos a escribir poemas de tres versos en medio de un atasco, una reunión o una fila en la farmacia. El curso parte de una idea sencilla: un haiku no necesita mucho espacio, solo una observación honesta y cinco, siete, cinco sílabas bien contadas. Lo demás lo ponen los dedos sobre el teclado.\n\nLa clase es en línea, así que puedes escribir desde la mesa del comedor, sin que nadie te vea contar en voz baja. Incluye una lista de palabras prohibidas, que se leerá al comienzo para que nadie intente hacer trampa con un «ya» de más, y un certificado que confirma que contaste bien.\n\n## Qué vas a ver\n- Ejercicios cortos de escritura para practicar en el atasco imaginario de la sesión.\n- Una revisión de sílabas en voz alta, con un jurado muy amable.\n- Lista oficial de palabras prohibidas, con excepciones cuando el poema lo amerite.\n- Entrega de certificados, con un haiku de cierre escrito en grupo.",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Sorteo de palabras prohibidas"
+   },
+   {
+    "time": "19:30",
+    "title": "Haiku en atasco imaginario"
+   },
+   {
+    "time": "20:15",
+    "title": "Sílabas en voz alta"
+   },
+   {
+    "time": "20:45",
+    "title": "Entrega de certificados"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Javiera Figueroa Núñez",
+    "role": "Docente de la Escuela de Escritura Creativa"
+   }
   ]
  },
  {
@@ -1117,6 +2227,39 @@
   "unit": "Centro de Sustentabilidad Energética",
   "sites": [
    "engineering"
+  ],
+  "body": "Durante una mañana completa, investigadores del Centro de Sustentabilidad Energética presentan avances sobre celdas solares, baterías reutilizadas y techos verdes que pueden bajar la cuenta de la luz. Las ponencias son breves y con ejemplos concretos, pensados para que quien no es ingeniero también pueda seguir el hilo sin perderse en las ecuaciones.\n\nEl congreso se hace en el Campus Central y cierra con un concurso de maquetas hechas con reciclaje. Además, el café se sirve en tazas reutilizables, porque nadie quiere que la jornada termine con un vaso de un solo uso sobre la mesa de inauguración.\n\n## Qué vas a ver\n- Charlas de veinte minutos sobre paneles solares que aprovechan hasta la luz de la tarde.\n- Un caso de baterías reutilizadas que hoy alimentan una sala de estudio.\n- Una mesa redonda sobre techos verdes y su efecto en las cuentas de la luz.\n- Un concurso de maquetas con premios para el mejor uso de cartón y botellas.",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Inauguración con café reutilizable"
+   },
+   {
+    "time": "09:40",
+    "title": "Celdas solares con buena vista"
+   },
+   {
+    "time": "10:30",
+    "title": "Baterías con segunda vida"
+   },
+   {
+    "time": "11:45",
+    "title": "Techos verdes y cuentas de la luz"
+   },
+   {
+    "time": "12:30",
+    "title": "Concurso de maquetas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ignacio Vergara Molina",
+    "role": "Director del Centro de Sustentabilidad Energética"
+   },
+   {
+    "name": "Constanza Bustos Herrera",
+    "role": "Investigadora de Techos Verdes"
+   }
   ]
  },
  {
@@ -1142,6 +2285,35 @@
   "sites": [
    "university",
    "engineering"
+  ],
+  "body": "Equipos de estudiantes llegan con robots que separan papeles, latas y botellas en el menor tiempo posible. Cada ronda es una pequeña carrera donde los sensores, las pinzas y la paciencia del operador deben funcionar juntos, y donde el único factor que nadie puede controlar es el café que alguien deja cerca de la mesa de pruebas.\n\nEl público vota por el robot más simpático, que no siempre es el más rápido. Hay premios para el mejor diseño, para el robot que menos se equivoca y para el equipo que mejor aguanta una mala ronda con una sonrisa. La competencia se realiza en el Campus Norte, con zona de descanso y sillas cómodas.\n\n## Qué vas a ver\n- Rondas de clasificación de papeles, latas y botellas con cronómetro visible.\n- Robots con nombres creativos y sensores que a veces discuten entre sí.\n- Un momento de votación del público para elegir al robot más simpático.\n- Premios por diseño, precisión y espíritu deportivo, incluso con café derramado.",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Inscripción y control del café"
+   },
+   {
+    "time": "10:30",
+    "title": "Primera ronda: papeles y latas"
+   },
+   {
+    "time": "11:30",
+    "title": "Botellas con público"
+   },
+   {
+    "time": "12:30",
+    "title": "Votación del robot más simpático"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Fernanda Zúñiga Ortiz",
+    "role": "Coordinadora de la Dirección de Sustentabilidad"
+   },
+   {
+    "name": "Rodrigo Soto Vega",
+    "role": "Jurado del concurso e ingeniero de control"
+   }
   ]
  },
  {
@@ -1166,6 +2338,31 @@
   "unit": "Centro de Computación en la Nube UTE",
   "sites": [
    "engineering"
+  ],
+  "body": "Presentamos Nubecita 1.0, un servidor que promete no caerse durante la clase de cálculo. El equipo del Centro de Computación en la Nube UTE lo diseñó para que los trabajos de los estudiantes queden guardados, respaldados y listos para entregar, aunque el computador decida apagarse justo antes del envío. Como siempre, las promesas se evalúan en vivo.\n\nHabrá demostración en la Torre de Ingeniería, tarjetas de bienvenida hechas por el equipo y una ronda de preguntas sobre respaldos, nubes y otras cosas del cielo. Si tienes dudas sobre qué pasa con tus archivos, este es un buen momento para hacerlas sin miedo al examen.\n\n## Qué vas a ver\n- Una demostración en vivo con un respaldo listo, por si acaso.\n- Explicación simple de cómo se guardan los trabajos en la nube.\n- Tarjetas de bienvenida para quienes llegan temprano a la sala.\n- Ronda de preguntas sobre respaldos, nubes y clases que se caen.",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Bienvenida y tarjetas"
+   },
+   {
+    "time": "17:20",
+    "title": "Demo en vivo con respaldo"
+   },
+   {
+    "time": "17:45",
+    "title": "Preguntas sobre nubes"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Tomás Irarrázabal Pérez",
+    "role": "Jefe del Centro de Computación en la Nube UTE"
+   },
+   {
+    "name": "Camila Sepúlveda Araya",
+    "role": "Ingeniera de Plataforma"
+   }
   ]
  },
  {
@@ -1190,6 +2387,27 @@
   "unit": "Archivo de Maquetas",
   "sites": [
    "arts"
+  ],
+  "body": "Bajaremos al depósito donde descansan cuatrocientas maquetas de edificios que nunca se construyeron. Algunas tienen más árboles de plástico que ciudad real, y otras guardan proyectos que parecían muy buenos en el papel y pidieron ser recordados en miniatura. La visita dura una hora y recorre el sótano del Campus Central con una guía del Archivo.\n\nSe pide no tocar nada, no estornudar cerca de las torres y llevar linterna, porque la iluminación del sótano es más bien una sugerencia. Quienes estudian arquitectura, diseño o historia encontrarán ideas útiles, y quienes solo vienen por curiosidad se irán con una nueva opinión sobre las maquetas.\n\n## Qué vas a ver\n- Torres de cartón, madera y acrílico que nunca salieron del papel de planos.\n- Maquetas con árboles de plástico en cantidades poco realistas y muy simpáticas.\n- Un recorrido por los archivos de proyectos que pidieron ser recordados.\n- Espacio final para preguntas, con la linterna todavía encendida.",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Bajada al sótano con linterna"
+   },
+   {
+    "time": "17:20",
+    "title": "Torres sin estornudos"
+   },
+   {
+    "time": "17:45",
+    "title": "Preguntas y salida"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Héctor Lillo Sandoval",
+    "role": "Encargado del Archivo de Maquetas"
+   }
   ]
  },
  {
@@ -1214,6 +2432,35 @@
   "unit": "Escuela de Diseño Industrial",
   "sites": [
    "arts"
+  ],
+  "body": "Puestos de juguetes de cartón que se arman sin pegamento, pensados para que los niños los construyan y, con alegría, los vuelvan a desarmar. Los estudiantes de la Escuela de Diseño Industrial explican en cada stand cuánto tarda el armado, qué piezas son más difíciles y cuántas piezas misteriosas quedan al final de cada instrucción.\n\nLa feria se realiza en el Campus Norte durante toda la mañana. Hay espacio para que las familias prueben los juguetes con ayuda de los estudiantes y sin apuros, además de mesas para descansar mientras los peques discuten si el dinosaurio va a la izquierda o a la derecha.\n\n## Qué vas a ver\n- Juguetes de cartón que se arman en pocos pasos y sin cinta adhesiva.\n- Un concurso de armado cronometrado para niños y adultos valientes.\n- Un recuento de piezas sobrantes, con la mejor explicación de cada una.\n- Talleres breves para decorar el juguete antes de destruirlo con cariño.",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Apertura de stands"
+   },
+   {
+    "time": "11:00",
+    "title": "Armado cronometrado"
+   },
+   {
+    "time": "12:00",
+    "title": "Concurso de piezas sobrantes"
+   },
+   {
+    "time": "13:15",
+    "title": "Desarme alegre supervisado"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Alejandra Mella Fuentes",
+    "role": "Académica de la Escuela de Diseño Industrial"
+   },
+   {
+    "name": "Pablo Reyes Morales",
+    "role": "Coordinador de Talleres Infantiles"
+   }
   ]
  },
  {
@@ -1237,6 +2484,35 @@
   "unit": "Club de Software Libre UTE",
   "sites": [
    "engineering"
+  ],
+  "body": "Aprenderemos a deshacer cambios en Git sin llorar en público. Revisaremos cómo revertir un commit, cómo recuperar una rama que parecía perdida y por qué un merge puede convertirse en una conversación difícil entre dos versiones del mismo archivo. El taller es práctico, con ejemplos pequeños y un repositorio de prueba que no contiene nada que te moleste perder.\n\nTrae tu laptop cargada y tu mejor cara de calma. El Club de Software Libre UTE tiene mentores para ayudarte si algo se complica, y prometemos que nadie tendrá que mirar la pantalla ajena para juzgar los mensajes de commit.\n\n## Qué vas a ver\n- Cómo revertir un commit sin borrar la historia del equipo.\n- Recuperación de ramas perdidas con un par de comandos bien elegidos.\n- Una explicación tranquila sobre merges y conflictos, sin dramatismos.\n- Ejercicios guiados en un repositorio de prueba, con mentores a mano.",
+  "program": [
+   {
+    "time": "10:30",
+    "title": "Calma antes de empezar"
+   },
+   {
+    "time": "10:45",
+    "title": "Revertir sin dramas"
+   },
+   {
+    "time": "11:20",
+    "title": "Ramas perdidas y recuperadas"
+   },
+   {
+    "time": "12:00",
+    "title": "Merge: conversación difícil"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Benjamín Rojas Silva",
+    "role": "Coordinador del Club de Software Libre UTE"
+   },
+   {
+    "name": "Antonia Lobos Reyes",
+    "role": "Mentora de desarrollo"
+   }
   ]
  },
  {
@@ -1261,6 +2537,35 @@
   "unit": "Laboratorio de Imagen",
   "sites": [
    "arts"
+  ],
+  "body": "Participantes construyen una cámara estenopeica con cajas de cereal y salen a fotografiar el campus con la paciencia que exige un agujero minúsculo como lente. El resultado casi nunca es nítido, y por eso la competencia tiene dos categorías: la foto más borrosa con intención artística y la menos borrosa sin querer.\n\nLas bases piden usar cartón reciclado, porque la galería también es ecológica y nadie quiere ver una caja de cereal con envoltorio plástico. El laboratorio entrega el papel fotográfico, las pinzas y un instructivo que dice «no abras la caja con luz», una frase que aparece tres veces por si acaso.\n\n## Qué vas a ver\n- Armado de cámaras estenopeicas con cajas de cereal y un agujero bien hecho.\n- Caminata fotográfica por el Campus Norte con exposiciones de varios segundos.\n- Revelado en el cuarto oscuro del laboratorio, con luz roja y mucha expectativa.\n- Premios para la foto más borrosa con intención artística y la menos borrosa sin querer.",
+  "program": [
+   {
+    "time": "14:00",
+    "title": "Entrega de cajas de cereal"
+   },
+   {
+    "time": "14:45",
+    "title": "Armado de la cámara"
+   },
+   {
+    "time": "15:30",
+    "title": "Caminata fotográfica"
+   },
+   {
+    "time": "16:20",
+    "title": "Revelado y premios"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Gabriela Tapia Osorio",
+    "role": "Técnica del Laboratorio de Imagen"
+   },
+   {
+    "name": "Felipe Montecinos Aravena",
+    "role": "Docente de fotografía analógica"
+   }
   ]
  },
  {
@@ -1284,6 +2589,31 @@
   "unit": "Laboratorio de Electrónica Práctica",
   "sites": [
    "engineering"
+  ],
+  "body": "Curso básico de soldadura para electrónica, con estaños de colores, placas de práctica y un instructor que repite tres veces «primero el casco». Aprenderás a calentar la pista antes que el estaño, a dejar uniones brillantes y a reconocer cuando una soldadura quedó fría, aunque en ese momento nada en tu cara lo indique.\n\nEl curso se hace en la Torre de Ingeniería, en el Laboratorio de Electrónica Práctica. Las herramientas están incluidas, pero se agradece llevar ropa de algodón y una actitud de respeto hacia el soldador, que quema más de lo que parece. Al final cada estudiante se lleva un circuito que parpadea con orgullo.\n\n## Qué vas a ver\n- Seguridad básica: casco, ventilación y mesa limpia, en ese orden.\n- Práctica de soldadura con estaños de colores en placas de prueba.\n- Revisión de uniones para detectar soldaduras frías y otras pequeñas tragedias.\n- Armado de un circuito que parpadea, con la foto de grupo como premio.",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Primero el casco"
+   },
+   {
+    "time": "16:30",
+    "title": "Práctica con estaño"
+   },
+   {
+    "time": "17:30",
+    "title": "Circuito que parpadea"
+   },
+   {
+    "time": "18:20",
+    "title": "Foto de grupo con cascos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Raúl Gutiérrez Pacheco",
+    "role": "Instructor del Laboratorio de Electrónica Práctica"
+   }
   ]
  },
  {
@@ -1308,6 +2638,39 @@
   "unit": "Departamento de Ciencias de la Computación",
   "sites": [
    "engineering"
+  ],
+  "body": "Dos docentes y un estudiante de último año discuten si la inteligencia artificial escribe mejor que nosotros o solo más rápido. La pregunta suena simple, pero la conversación se mueve entre ejemplos de textos, criterios de calidad y el viejo miedo a que el corrector encuentre una frase demasiado perfecta para ser nuestra.\n\nEl encuentro se realiza en el Campus Central, con un debate amable y un espacio para que el público opine sin miedo. Traigan ejemplos propios, buenos o malos, porque habrá una ronda para leerlos en voz alta, siempre con el consentimiento de quien los escribió.\n\n## Qué vas a ver\n- Comparación de textos escritos por personas y por modelos, sin revelar cuál es cuál.\n- Un debate con argumentos a favor y en contra, sin bandos ni gritos.\n- Un turno del público, donde se opina sin temor a la nota final.\n- Cierre con café y una propuesta práctica para escribir con ayuda sin perder la voz.",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Bienvenida y textos a ciegas"
+   },
+   {
+    "time": "18:25",
+    "title": "Debate amable"
+   },
+   {
+    "time": "19:05",
+    "title": "Turno del público sin corrector"
+   },
+   {
+    "time": "19:40",
+    "title": "Cierre con café"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Marcela Ortúzar Fredes",
+    "role": "Académica del Departamento de Ciencias de la Computación"
+   },
+   {
+    "name": "Esteban Vargas Lira",
+    "role": "Docente de Redacción Técnica"
+   },
+   {
+    "name": "Diego Campos Ahumada",
+    "role": "Estudiante de último año de Ingeniería Civil en Computación"
+   }
   ]
  },
  {
@@ -1333,6 +2696,31 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Un torneo donde gana quien descifre el mensaje antes de que el café se enfríe. Los equipos usarán cifrados clásicos, como el César y sus primos menos conocidos, y tendrán pistas ingeniosas escondidas en carteles, en códigos de barras de mentira y en una caja de galletas que nadie quiso abrir todavía.\n\nTodo ocurre en un entorno seguro del Laboratorio de Criptografía Aplicada, con mensajes inventados y sin datos reales de nadie. Si alguien propone usar información verdadera, la organizadora le ofrece otro café y una charla breve sobre privacidad, que siempre es más útil que cualquier pista.\n\n## Qué vas a ver\n- Cifrados clásicos con reglas claras y ejemplos resueltos al inicio.\n- Pistas ingeniosas repartidas por el Campus Norte, con búsqueda entretenida.\n- Rondas eliminatorias con cronómetro y una final contra el reloj.\n- Premio para el equipo que descifra antes y para el que mejor explica su método.",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Reglas y café"
+   },
+   {
+    "time": "16:20",
+    "title": "El primer César"
+   },
+   {
+    "time": "17:30",
+    "title": "Pistas ingeniosas"
+   },
+   {
+    "time": "18:30",
+    "title": "Final contra el reloj"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ximena Peralta Gómez",
+    "role": "Coordinadora del Laboratorio de Criptografía Aplicada"
+   }
   ]
  },
  {
@@ -1356,6 +2744,31 @@
   "unit": "Ensamble de Flautas UTE",
   "sites": [
    "arts"
+  ],
+  "body": "Un ensamble de flautas dulces toca un repertorio especialmente elegido para felinos, con pausas largas y generosas, pensadas para que el público humano respire y el gato decida si se queda o se va. Las piezas son suaves, breves y sin sorpresas ruidosas, porque nadie quiere que un gato termine debajo de un atril.\n\nSe recomienda llegar con el gato en brazos, aunque el gato probablemente decidirá sentarse sobre el atril, en la mejor silla o junto al director. El concierto ocurre en el Centro de Extensión Costanera, con entrada libre y cupos para humanos, mientras que los felinos entran sin límite siempre que vengan bien educados.\n\n## Qué vas a ver\n- Un programa corto con piezas suaves para flauta dulce y público felino.\n- Pausas largas entre movimientos, para que el gato se acomode.\n- Un bis que depende del humor del gato y de la paciencia del director.\n- Un momento final para tomar fotos sin flash y sin molestar a nadie.",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Llegada y acomodo de gatos"
+   },
+   {
+    "time": "12:15",
+    "title": "Primera pieza lenta"
+   },
+   {
+    "time": "12:40",
+    "title": "Pausa larga reglamentaria"
+   },
+   {
+    "time": "12:50",
+    "title": "Bis según el gato"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ricardo Alarcón Donoso",
+    "role": "Director del Ensamble de Flautas UTE"
+   }
   ]
  },
  {
@@ -1380,6 +2793,35 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Brazos robóticos que pintan acuarelas, escriben poemas cortos y firman diplomas con una letra que ningún rector reconocería. La exposición del Taller de Robótica reúne obras de distintos prototipos, con carteles que explican qué motores usa cada uno y cuántas veces se le cayó el pincel durante la creación.\n\nLas obras se venden en una subasta benéfica al final de la jornada, y lo recaudado financiará más motores y menos cables enredados. La curadora recomienda llegar temprano, porque los poemas se leen en voz alta por turnos y algunos de ellos son sorprendentemente tiernos.\n\n## Qué vas a ver\n- Acuarelas pintadas en vivo por brazos robóticos de distintos tamaños.\n- Poemas cortos escritos por máquinas, leídos en voz alta cada media hora.\n- Diplomas firmados con una letra que nadie reconocería, ni siquiera el rector.\n- Subasta benéfica con obras pequeñas y precios muy razonables.",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Inauguración de los brazos"
+   },
+   {
+    "time": "11:40",
+    "title": "Acuarelas en vivo"
+   },
+   {
+    "time": "12:30",
+    "title": "Poemas cortos"
+   },
+   {
+    "time": "13:20",
+    "title": "Subasta benéfica"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Sofía Brito Campos",
+    "role": "Curadora del Taller de Robótica"
+   },
+   {
+    "name": "Emilio Cortés Ruiz",
+    "role": "Técnico en brazos robóticos"
+   }
   ]
  },
  {
@@ -1403,6 +2845,35 @@
   "unit": "Dirección de Egresados",
   "sites": [
    "university"
+  ],
+  "body": "Egresados de distintas generaciones cuentan cómo cambiaron de trabajo, de ciudad y, con bastante honestidad, de opinión sobre el café de la facultad. Cada historia es breve y concreta, y muestra que el título no fue un punto final sino una especie de mapa que se fue dibujando a medida que el mundo cambiaba de planes.\n\nLa charla termina con networking en torno a tarjetas hechas a mano por el equipo de la Dirección de Egresados, que reducen el riesgo de perderlas en la mochila. Como la sesión se realiza fuera de la UTE, revisa la dirección con anticipación y llega con algo de tiempo para encontrar la sala.\n\n## Qué vas a ver\n- Tres historias de cambios de rumbo, con preguntas del público al final.\n- Un espacio de networking con tarjetas de papel grueso hechas a mano.\n- Consejos sobre trabajo, mudanzas y decisiones que no salieron como estaban previstas.\n- Un café de cierre, con opiniones sinceras sobre la máquina de la facultad.",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Acreditación y tarjetas"
+   },
+   {
+    "time": "17:30",
+    "title": "Tres historias de rumbo"
+   },
+   {
+    "time": "18:20",
+    "title": "Networking con café"
+   },
+   {
+    "time": "18:45",
+    "title": "Preguntas del público"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Macarena Inostroza Vidal",
+    "role": "Coordinadora de la Dirección de Egresados"
+   },
+   {
+    "name": "Cristián Peña Lagos",
+    "role": "Egresado de Ingeniería Industrial, hoy en consultoría"
+   }
   ]
  },
  {
@@ -1427,6 +2898,35 @@
   "unit": "Departamento de Estudios Musicales",
   "sites": [
    "arts"
+  ],
+  "body": "Durante la tarde, especialistas exponen sobre la afinación creativa del acordeón y su importancia en las fiestas de barrio. Las ponencias recorren desde la historia de los fuelles hasta la manera en que una nota torcida puede alegrar a una cuadra completa, con ejemplos grabados en juntas vecinales y en algún patio.\n\nIncluye un panel con cuatro acordeones que nunca han coincidido en el tono y una pausa de empanadas que se toma con puntualidad sagrada. El congreso se realiza fuera de la UTE, así que conviene revisar la dirección y llegar con hambre, porque el panel dura más de lo que los acordeones admiten.\n\n## Qué vas a ver\n- Ponencias sobre fuelles, afinaciones y fiestas de barrio, con ejemplos grabados.\n- Un panel con cuatro acordeones que tocan en tonos distintos a propósito.\n- Pausa de empanadas, con un tiempo fijo y bastante cariño.\n- Cierre con música de barrio y un baile que nadie planeó.",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Afinación creativa"
+   },
+   {
+    "time": "18:40",
+    "title": "Panel de cuatro acordeones"
+   },
+   {
+    "time": "19:45",
+    "title": "Pausa de empanadas"
+   },
+   {
+    "time": "20:20",
+    "title": "Fiesta de barrio y cierre"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Hugo Carrasco Espinoza",
+    "role": "Académico del Departamento de Estudios Musicales"
+   },
+   {
+    "name": "Rosa Yáñez Muñoz",
+    "role": "Investigadora de música de barrio"
+   }
   ]
  },
  {
@@ -1451,6 +2951,35 @@
   "unit": "Revista Ficticia de Artes",
   "sites": [
    "arts"
+  ],
+  "body": "Esta noche nace el número cero de la Revista Ficticia de Artes, una publicación que decidió leerse de atrás para adelante. El índice está al final, las portadas se pliegan como acordeón y cada artículo aparece escrito en dos idiomas inventados que, según el comité editorial, se entienden perfectamente después del segundo café.\n\nLa presentación será breve y amable. Habrá lectura en voz alta de un par de textos, una pequeña ceremonia para desdoblar la portada principal y un brindis con jugo de frambuesa, sin alcohol y con bastante entusiasmo. Puedes llegar con curiosidad y salir con una hoja marcada para leer después, aunque sea en orden inverso.\n\n## Qué vas a ver\n- Lectura de tres artículos en los idiomas inventados, con traducción de cortesía.\n- El desdoblado en vivo de la portada en forma de acordeón.\n- Un brindis con jugo de frambuesa y una charla corta con el equipo editorial.\n- Ejemplares del número cero, mientras duren.",
+  "program": [
+   {
+    "time": "19:30",
+    "title": "Llegada con café y curiosidad"
+   },
+   {
+    "time": "19:50",
+    "title": "Lectura al revés, con aplausos"
+   },
+   {
+    "time": "20:30",
+    "title": "La portada que se despliega sola"
+   },
+   {
+    "time": "21:10",
+    "title": "Brindis con jugo de frambuesa"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Francisca Rojas Soto",
+    "role": "Editora del número cero"
+   },
+   {
+    "name": "Ignacio Araya Lagos",
+    "role": "Diseñador gráfico del Archivo Editorial"
+   }
   ]
  },
  {
@@ -1475,6 +3004,31 @@
   "unit": "Dirección de Bienestar Estudiantil",
   "sites": [
    "university"
+  ],
+  "body": "Antes de que el café se enfríe, te proponemos una pausa con los pies en el suelo y la espalda derecha. Instructores de la Dirección de Bienestar Estudiantil enseñan estiramientos que se hacen sentado frente al computador, sin soltar el sándwich ni cerrar la pestaña del trabajo pendiente. Todo se adapta a sillas comunes de oficina y a cuerpos muy distintos.\n\nLa sesión dura una hora y no exige ropa especial ni experiencia previa. Al final se entregan botellas de agua reutilizables y un recordatorio amable: levantarse al menos una vez por hora no es flojera, es mantenimiento. Si tu silla cruje, no te preocupes, la de prueba promete no hacerlo durante toda la visita.\n\n## Qué vas a ver\n- Cuatro secuencias de estiramiento para cuello, hombros, espalda y muñecas.\n- Consejos para ajustar la altura de la pantalla sin hacer malabares.\n- Una ronda de preguntas sobre el famoso dolor de cuello de los viernes.\n- Botellas de agua reutilizables para llevarte a tu escritorio.",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Respirar antes de estirar"
+   },
+   {
+    "time": "09:20",
+    "title": "Cuello que dice presente"
+   },
+   {
+    "time": "09:45",
+    "title": "Agua para el escritorio"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Paula Saavedra Molina",
+    "role": "Kinesióloga de la Dirección de Bienestar Estudiantil"
+   },
+   {
+    "name": "Tomás Bustos Aravena",
+    "role": "Instructor de pausas activas"
+   }
   ]
  },
  {
@@ -1499,6 +3053,27 @@
   "unit": "Dirección de Comunicaciones",
   "sites": [
    "university"
+  ],
+  "body": "Presentamos el nuevo mapa interactivo del campus, que por fin incluye la salida, algo que nuestros estudiantes llevaban años pidiendo en voz baja. Tiene rutas marcadas, atajos entre edificios y la ubicación exacta de los enchufes disponibles en la biblioteca, para que nadie vuelva a discutir con su celular por un 5 por ciento de batería.\n\nLa demostración parte en el pasillo B y termina en el casino, pasando de largo por la fotocopiadora, que según el mapa es un lugar de paso y no de estancia. Hay tiempo para preguntas, para proponer nuevos atajos y para que el equipo de Comunicaciones explique por qué algunas flechas apuntan hacia arriba sin razón aparente.\n\n## Qué vas a ver\n- Una demostración en vivo de la ruta entre el pasillo B y el casino.\n- La lista de enchufes disponibles en la biblioteca, con horarios de mayor demanda.\n- Un concurso para proponer el mejor atajo del campus.\n- Mapas impresos, con una advertencia amable de no doblarlos en cuatro.",
+  "program": [
+   {
+    "time": "12:30",
+    "title": "Bienvenidos a la salida"
+   },
+   {
+    "time": "12:40",
+    "title": "Del pasillo B al casino"
+   },
+   {
+    "time": "13:05",
+    "title": "Flechas que apuntan al cielo"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Benjamín Leiva Cortés",
+    "role": "Coordinador de señalética digital"
+   }
   ]
  },
  {
@@ -1523,6 +3098,31 @@
   "unit": "Laboratorio de Animación",
   "sites": [
    "arts"
+  ],
+  "body": "Durante cuatro horas, cada participante anima una escena de cinco segundos moviendo una figura de plastilina milímetro a milímetro. El ritmo es lento, la paciencia es obligatoria y el resultado suele ser más emocionante de lo que parece cuando se revisa cuadro por cuadro en la pantalla.\n\nTrabajaremos con cámaras del laboratorio, luces suaves y un tablero de control que registra cada fotograma. No hace falta experiencia en animación, aunque sí conviene llevar ganas de reír cuando la figura se cae por tercera vez. Al final se proyectan todas las escenas juntas, y se revela con todo respeto que el gato del laboratorio apareció en tres de ellas.\n\n## Qué vas a ver\n- Una introducción de quince minutos a la técnica de cuadro por cuadro.\n- Creación de tu propia escena de cinco segundos en plastilina.\n- La proyección colectiva de todas las escenas, con sus aplausos correspondientes.\n- Un certificado de participación, firmado por el gato si él accede.",
+  "program": [
+   {
+    "time": "15:00",
+    "title": "Plastilina, calma y cámara"
+   },
+   {
+    "time": "16:00",
+    "title": "La figura que se cae otra vez"
+   },
+   {
+    "time": "17:30",
+    "title": "Cinco segundos de gloria"
+   },
+   {
+    "time": "18:30",
+    "title": "El gato aparece en pantalla"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Macarena Lillo Ruiz",
+    "role": "Encargada del Laboratorio de Animación"
+   }
   ]
  },
  {
@@ -1546,6 +3146,31 @@
   "unit": "Escuela de Diseño",
   "sites": [
    "arts"
+  ],
+  "body": "Una diseñadora y un poeta revisan afiches de micros, señalética de hospitales y etiquetas de supermercado, y proponen versiones con rima que se entienden mejor a la primera lectura. La idea no es reemplazar la información sino acompañarla con un poco de música, para que nadie se pierda en la fila.\n\nEs una charla breve, sin examen ni trabajos para la casa, con espacio para preguntas del público. Al final hay una ronda de paradas imaginarias en la que cada asistente propone una frase rimada para su estación favorita, y se vota con aplausos moderados, para no molestar a quien está en la cocina de su casa.\n\n## Qué vas a ver\n- Análisis de tres afiches de ejemplo de locomoción colectiva.\n- Versiones en verso de avisos de señalética hospitalaria.\n- Ronda de paradas imaginarias con propuestas del público.\n- Enlace a la sala y un recordatorio de activar el micrófono solo para hablar.",
+  "program": [
+   {
+    "time": "20:00",
+    "title": "Bienvenida en verso"
+   },
+   {
+    "time": "20:15",
+    "title": "Afiches que riman mejor"
+   },
+   {
+    "time": "20:40",
+    "title": "Paradas imaginarias con aplausos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Felipe Órdenes Vidal",
+    "role": "Diseñador de la Escuela de Diseño"
+   },
+   {
+    "name": "Carolina Núñez Herrera",
+    "role": "Poeta invitada al Taller de Escritura"
+   }
   ]
  },
  {
@@ -1571,6 +3196,27 @@
   "sites": [
    "university",
    "arts"
+  ],
+  "body": "Estudiantes de fotografía reúnen imágenes de patios, escaleras y rincones donde siempre hay alguien esperando el mismo bus. La exposición busca mirar con calma lo cotidiano de la UTE, esos lugares que cruzamos apurados y que, vistos en formato grande, resultan bastante más interesantes de lo que pensábamos.\n\nLas obras se pueden recorrer sin prisa, tomar un café en el hall y votar, con una tarjeta de papel, cuál merece quedarse en la pared principal. No hay guía obligatoria ni texto de sala extenso, solo fichas breves con el nombre de cada foto y una anécdota del autor que se cuenta a quien pregunte.\n\n## Qué vas a ver\n- Una serie sobre patios y escaleras con luz de mediodía.\n- Retratos de esperas en paraderos y pasillos, con rostros que nadie reconoce.\n- Una votación con tarjetas de papel para elegir la obra del hall.\n- Café recién hecho y una mesa para conversar con los autores.",
+  "program": [
+   {
+    "time": "10:00",
+    "title": "Patios con luz de mediodía"
+   },
+   {
+    "time": "10:40",
+    "title": "La espera del bus, en grande"
+   },
+   {
+    "time": "11:20",
+    "title": "Votación con tarjeta de papel"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Diego Carrasco Tapia",
+    "role": "Profesor de fotografía de la Escuela de Artes"
+   }
   ]
  },
  {
@@ -1595,6 +3241,31 @@
   "unit": "Laboratorio de Conservación",
   "sites": [
    "arts"
+  ],
+  "body": "Practicaremos cómo reparar un lomo despegado y una esquina mordida por el tiempo, usando materiales simples como papel japonés, pegamento de harina y una paciencia que se aprende a fuerza de esperar. Es un taller para quienes creen que los libros viejos merecen una segunda oportunidad y para quienes solo quieren mirar cómo se hace sin tocar nada.\n\nDurante tres horas trabajaremos con guantes, espátulas de hueso y una prensa de madera prestada por el laboratorio. La advertencia está hecha: el pegamento no admite apuros, y quien intente acelerar el secado terminará con un libro pegado a la mesa. Al final cada participante se lleva una pequeña reparación y la sensación de haber hecho algo lento y bueno.\n\n## Qué vas a ver\n- Demostración de reparación de un lomo despegado, paso a paso.\n- Práctica con papel japonés y pegamento de harina sobre un libro de prueba.\n- Explicación de cómo cuidar un libro antiguo en casa.\n- Guantes y prensa de madera para la sesión, con devolución al final.",
+  "program": [
+   {
+    "time": "10:30",
+    "title": "Guantes puestos, respiración lista"
+   },
+   {
+    "time": "11:15",
+    "title": "El lomo que se despegó"
+   },
+   {
+    "time": "12:30",
+    "title": "Prensa, paciencia y silencio"
+   },
+   {
+    "time": "13:00",
+    "title": "Libro reparado, sonrisa incluida"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Javiera Contreras Muñoz",
+    "role": "Conservadora del Laboratorio de Conservación"
+   }
   ]
  },
  {
@@ -1619,6 +3290,27 @@
   "unit": "Laboratorio de Electrónica y Redes",
   "sites": [
    "engineering"
+  ],
+  "body": "WiFiCito es el router que promete no cortarse durante la clase, y lo presentamos con una demostración de velocidad, cables que no se enredan y una torta con forma de antena que el equipo insiste en llamar ergonómica. Es un proyecto del Laboratorio de Electrónica y Redes, hecho con más café que presupuesto.\n\nLa presentación dura una hora y está pensada para estudiantes que alguna vez hayan dicho la frase «se cortó el wifi justo cuando hablaba». Habrá preguntas, pruebas en vivo y la posibilidad de conectarse a la red de demostración, que tiene una contraseña pública y muy fácil de recordar, como corresponde a un evento abierto.\n\n## Qué vas a ver\n- Demostración de velocidad en una sala llena de celulares.\n- Un recorrido por los cables que no se enredan.\n- Torta con forma de antena y explicación de sus ingredientes.\n- Stickers para quienes se conecten a la red de demostración.",
+  "program": [
+   {
+    "time": "12:00",
+    "title": "Antena comestible, bienvenida"
+   },
+   {
+    "time": "12:20",
+    "title": "Velocidad en vivo"
+   },
+   {
+    "time": "12:45",
+    "title": "Stickers para los conectados"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Matías Fuentes Bravo",
+    "role": "Ingeniero del Laboratorio de Electrónica y Redes"
+   }
   ]
  },
  {
@@ -1643,6 +3335,31 @@
   "unit": "Cineclub de la Facultad",
   "sites": [
    "arts"
+  ],
+  "body": "Los equipos tienen tres minutos y un solo plano para contar una historia dentro de un ascensor, sin escaleras de por medio ni cortes de edición. Es un ejercicio de imaginación con poco espacio, donde cada gesto cuenta y cada espejo se vuelve un recurso dramático de primera categoría.\n\nEl jurado premia el guion, la actuación y el mejor uso del espejo, y la competencia se hace en el Cineclub de la Facultad con público en vivo. No se necesita equipo profesional: basta un celular con buena batería y la confianza de que el ascensor, por lento que sea, siempre llega a algún piso.\n\n## Qué vas a ver\n- Proyección de todos los cortometrajes en orden de presentación.\n- Deliberación pública del jurado, con sus argumentos en voz alta.\n- Premio al mejor uso del espejo como recurso dramático.\n- Palomitas y un ascensor que, esta vez, sí llega al piso.",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Puertas que se cierran"
+   },
+   {
+    "time": "18:30",
+    "title": "Primer plano, tres minutos"
+   },
+   {
+    "time": "19:15",
+    "title": "El jurado delibera con espejo"
+   },
+   {
+    "time": "19:45",
+    "title": "Premios y palomitas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Camila Pizarro Navarrete",
+    "role": "Coordinadora del Cineclub de la Facultad"
+   }
   ]
  },
  {
@@ -1667,6 +3384,35 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Restauradores y estudiantes exhiben sillas rescatadas de bodegas, con patas nuevas, respaldos reciclados y personalidades que nadie esperaba. Cada una tiene una pequeña historia escrita en una etiqueta colgada del brazo, desde la silla que sobrevivió a tres mudanzas hasta la que aprendió a sostener una mochila sin protestar.\n\nLa feria funciona como trueque: se puede llevar una silla a cambio de otra, dejar una donación o simplemente sentarse a conversar. Hay asesoría sobre postura para quienes pasan horas frente a un escritorio, y una silla de prueba que promete no crujir durante toda la visita, aunque el equipo reconoce que nadie lo ha comprobado del todo.\n\n## Qué vas a ver\n- Sillas restauradas con patas nuevas y respaldos reciclados.\n- Trueque entre visitantes, con tarjetas de intercambio.\n- Asesoría breve sobre postura frente al computador.\n- La silla de prueba que promete no crujir.",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Sillas con historia en la etiqueta"
+   },
+   {
+    "time": "12:00",
+    "title": "Trueque sin dinero de por medio"
+   },
+   {
+    "time": "13:30",
+    "title": "Postura de escritorio, en vivo"
+   },
+   {
+    "time": "14:30",
+    "title": "La silla que no cruje"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Rodrigo Espinoza Gallardo",
+    "role": "Restaurador de mobiliario"
+   },
+   {
+    "name": "Constanza Veloso Pinto",
+    "role": "Académica de la Escuela de Diseño"
+   }
   ]
  },
  {
@@ -1690,6 +3436,27 @@
   "unit": "Dirección de Admisión",
   "sites": [
    "university"
+  ],
+  "body": "Orientadores entregan consejos prácticos para acompañar a quienes postulan, desde elegir carrera sin dramatizar hasta conversar sobre el dinero sin que la mesa se llene de silencios. La charla está pensada para padres, madres, abuelos y para cualquiera que haya escuchado la pregunta «¿ya comiste?» más veces de las que puede contar.\n\nHablaremos de cómo acompañar sin controlar, de qué hacer cuando llega un resultado inesperado y de cómo cuidar el ánimo de quien postula. Al final hay un bingo de frases típicas, como «¿y ya decidiste?» o «en mis tiempos era distinto», con un premio simbólico para quien complete primero la línea.\n\n## Qué vas a ver\n- Consejos prácticos para elegir carrera con calma.\n- Una conversación guiada sobre resultados y expectativas.\n- Un bingo de frases típicas de sobremesa.\n- Material impreso con preguntas para llevar a casa.",
+  "program": [
+   {
+    "time": "18:30",
+    "title": "Acompañar sin interrogar"
+   },
+   {
+    "time": "18:45",
+    "title": "Resultados que llegan igual"
+   },
+   {
+    "time": "19:15",
+    "title": "Bingo de frases de sobremesa"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Patricia Ahumada Reyes",
+    "role": "Orientadora de la Dirección de Admisión"
+   }
   ]
  },
  {
@@ -1714,6 +3481,27 @@
   "unit": "Editorial Ocasional de Letras",
   "sites": [
    "arts"
+  ],
+  "body": "Se presentan poemas generados con la señal del wifi del tercer piso, transcritos con fidelidad por un comité de bibliotecarios que tomó muy en serio su trabajo. Cada verso proviene de una conexión intermitente, de esas que se caen justo al enviar un mensaje importante, y el resultado es sorprendentemente tierno.\n\nEl libro viene con marcadores de página en forma de router y una contraseña impresa en la contraportada, que es un poema en sí misma y que no sirve para conectarse a nada. La presentación incluye lectura en voz alta, una pausa para que la señal decida si colabora y una ronda de preguntas sobre el oficio de transcribir lo que no llega completo.\n\n## Qué vas a ver\n- Lectura de cinco poemas, con pausas cuando el wifi se corta.\n- Explicación del método de transcripción del comité.\n- Marcadores de página en forma de router para cada asistente.\n- Firma del libro en la contraportada, con la contraseña poética incluida.",
+  "program": [
+   {
+    "time": "17:30",
+    "title": "Bienvenida con señal inestable"
+   },
+   {
+    "time": "17:40",
+    "title": "Cinco poemas, algunas pausas"
+   },
+   {
+    "time": "18:10",
+    "title": "Firma y marcadores de router"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Sebastián Villalobos Mardones",
+    "role": "Bibliotecario jefe del tercer piso"
+   }
   ]
  },
  {
@@ -1738,6 +3526,27 @@
   "unit": "Laboratorio de Medios",
   "sites": [
    "arts"
+  ],
+  "body": "Doce lámparas de papel se encienden y apagan según el ritmo de respiración de quienes entran a la sala, o eso dice la ficha técnica. La instalación combina sensores de humedad, cables bien ordenados y bastante humor, porque la obra también observa a quien mira y decide cuándo brillar.\n\nLa mejor forma de verla es sentarse, bajar la voz y esperar. Las lámparas tardan un poco en responder, lo que obliga a quedarse quieto, algo que cuesta más de lo que parece después de una semana de clases. Al final el equipo del laboratorio conversa sobre el proceso y, si hay tiempo, muestra cómo se calibran los sensores sin revelar demasiado.\n\n## Qué vas a ver\n- Doce lámparas de papel que responden a la respiración de la sala.\n- Una zona de asientos para esperar con calma.\n- Charla breve del equipo sobre sensores de humedad y calibración.\n- Silencio recomendado, con aplausos permitidos solo al final.",
+  "program": [
+   {
+    "time": "20:00",
+    "title": "Sentarse y bajar la voz"
+   },
+   {
+    "time": "20:30",
+    "title": "Las lámparas tardan en responder"
+   },
+   {
+    "time": "21:15",
+    "title": "Calibrar sensores, sin spoilers"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Valentina Muñoz Quintana",
+    "role": "Académica del Laboratorio de Medios"
+   }
   ]
  },
  {
@@ -1762,6 +3571,35 @@
   "unit": "Comunidad de Mujeres en Ingeniería UTE",
   "sites": [
    "engineering"
+  ],
+  "body": "Charla para programar en Python sin miedo a la consola, pensada para quienes nunca se han sentido cómodos con un cursor parpadeando. Veremos variables, listas y algunos errores clásicos, esos que aparecen siempre justo antes de la entrega, con una dosis de confianza y mucho humor sobre lo que significa leer un mensaje en rojo.\n\nLa sesión es abierta y se hace en el Campus Central, con un computador por grupo y ejemplos sencillos que se pueden repetir en casa. Hay espacio para preguntas sin vergüenza, y al final celebramos el primer print que funciona, aunque sea solo un saludo, porque todos recordamos el nuestro con cariño.\n\n## Qué vas a ver\n- Variables y listas explicadas con ejemplos cotidianos.\n- Lectura de errores clásicos y cómo interpretarlos sin pánico.\n- Práctica guiada de un primer programa corto.\n- Aplauso colectivo para el primer print que funcione.",
+  "program": [
+   {
+    "time": "17:30",
+    "title": "Cursor parpadeando, sin pánico"
+   },
+   {
+    "time": "18:00",
+    "title": "Listas con ejemplos del almuerzo"
+   },
+   {
+    "time": "18:45",
+    "title": "Errores clásicos en rojo"
+   },
+   {
+    "time": "19:15",
+    "title": "Primer print, gran aplauso"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrés Olivares Ibarra",
+    "role": "Coordinador del Laboratorio de Datos"
+   },
+   {
+    "name": "Daniela Sepúlveda Toro",
+    "role": "Integrante de la Comunidad de Mujeres en Ingeniería"
+   }
   ]
  },
  {
@@ -1785,6 +3623,27 @@
   "unit": "Departamento de Vestuario",
   "sites": [
    "arts"
+  ],
+  "body": "Recorremos el depósito donde se guardan capas de dragón, pelucas de todos los siglos y un sombrero que nadie logra identificar, ni siquiera el encargado, que lo mira con cariño desde hace años. Es una visita pensada para quienes disfrutan de los detalles, las costuras y las historias que dejan las telas.\n\nSe permite probarse algunas piezas, siempre que se devuelvan con la misma cantidad de lentejuelas con las que salieron. El equipo del Departamento de Vestuario explica cómo se conservan, se reparan y se reutilizan las prendas, y muestra por qué una peluca de otro siglo necesita más cuidado que cualquier estudiante en época de exámenes.\n\n## Qué vas a ver\n- Recorrido por el depósito con capas, pelucas y vestuario de distintas épocas.\n- El sombrero misterioso, con teorías del público.\n- Prueba de algunas piezas, bajo supervisión.\n- Explicación sobre conservación y reparación de telas.",
+  "program": [
+   {
+    "time": "10:30",
+    "title": "Puerta del depósito abierta"
+   },
+   {
+    "time": "10:45",
+    "title": "Capas de dragón, en fila india"
+   },
+   {
+    "time": "11:15",
+    "title": "El sombrero sigue sin nombre"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Héctor Gutiérrez Pino",
+    "role": "Jefe del Departamento de Vestuario"
+   }
   ]
  },
  {
@@ -1809,6 +3668,31 @@
   "unit": "Club de Electrónica Verde",
   "sites": [
    "engineering"
+  ],
+  "body": "Un fin de tarde para diseñar sistemas de gestión de baterías que alarguen la vida útil de un celular sin recalentar al pobre dispositivo. Los equipos reciben celdas de práctica con supervisión, un multímetro y el compromiso de no provocar incendios, que es un requisito básico y bastante aburrido de cumplir.\n\nCada equipo tiene cuatro horas para proponer su solución, probarla y explicarla frente a un jurado amable. Hay una hora de descanso obligatorio, con sándwiches y un recordatorio de que las baterías también necesitan pausas. Premiamos la idea más clara, la prueba más prolija y el equipo que mejor haya cuidado al celular del vecino, que es ficticio, pero muy querido.\n\n## Qué vas a ver\n- Presentación de desafíos de carga y descarga con celdas de práctica.\n- Mediciones con multímetro supervisadas por un monitor.\n- Hora de descanso obligatoria con sándwiches.\n- Presentación final de cada equipo ante el jurado.",
+  "program": [
+   {
+    "time": "14:00",
+    "title": "Celdas de práctica, manos limpias"
+   },
+   {
+    "time": "15:00",
+    "title": "Mediciones con multímetro"
+   },
+   {
+    "time": "16:30",
+    "title": "Descanso obligatorio, sin excusas"
+   },
+   {
+    "time": "17:30",
+    "title": "Jurado amable y celular feliz"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Patricio Herrera Lagos",
+    "role": "Coordinador del Club de Electrónica Verde"
+   }
   ]
  },
  {
@@ -1833,6 +3717,31 @@
   "unit": "Dirección de Deportes",
   "sites": [
    "university"
+  ],
+  "body": "Estudiantes forman el tablero en el gimnasio y mueven piezas según las indicaciones del público, con reglas de tiempo, árbitros con silbato y bastante aplauso. Es un campeonato interno donde cada jugada se anuncia en voz alta y donde el peón, como siempre, tiene más protagonismo del que le corresponde.\n\nSe premia la jugada más creativa y también al peón con mejor disposición a sacrificarse, un galardón que la Dirección de Deportes entrega con seriedad y con un certificado enmarcado. El público puede sugerir movimientos desde la galería, siempre que lo haga con respeto y sin gritar «jaque» antes de tiempo.\n\n## Qué vas a ver\n- Partidas por equipos en un tablero humano de gimnasio.\n- Indicaciones del público con reglas de tiempo.\n- Premio a la jugada más creativa del campeonato.\n- Certificado para el peón más dispuesto a sacrificarse.",
+  "program": [
+   {
+    "time": "14:00",
+    "title": "Tablero armado en el gimnasio"
+   },
+   {
+    "time": "14:30",
+    "title": "El público propone jugadas"
+   },
+   {
+    "time": "15:45",
+    "title": "El peón protagonista"
+   },
+   {
+    "time": "16:30",
+    "title": "Premios con certificado enmarcado"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Nicolás Reyes Carvajal",
+    "role": "Director de la Dirección de Deportes"
+   }
   ]
  },
  {
@@ -1856,6 +3765,27 @@
   "unit": "Oficina de Visitas",
   "sites": [
    "arts"
+  ],
+  "body": "Recorrido por los pasillos de la Casa de las Artes siguiendo un mapa que cometió errores a propósito, con puertas dibujadas que llevan a ninguna parte y escaleras que se niegan a subir. Es una visita pensada para familias, donde la aventura consiste en descubrir qué lugar marca el mapa como verdadero y cuál como inventado.\n\nCada parada tiene una pista, un sello para la libreta de viaje y una anécdota que se cuenta en voz baja, para que nadie se distraiga con el sonido de los pasos. El recorrido dura una hora, es apto para niños de todas las edades y puede hacerse en silencio, aunque el mapa agradece los comentarios entre risas.\n\n## Qué vas a ver\n- Pistas en cada sala de la Casa de las Artes.\n- Sellos para la libreta de viaje de niños y adultos.\n- Anécdotas breves sobre el edificio, contadas en voz baja.\n- Una puerta dibujada que, por supuesto, no lleva a ninguna parte.",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Mapa dibujado con errores"
+   },
+   {
+    "time": "16:15",
+    "title": "Pista en cada sala"
+   },
+   {
+    "time": "16:45",
+    "title": "Sello final y puerta fantasma"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ximena Soto Garrido",
+    "role": "Guía de la Oficina de Visitas"
+   }
   ]
  },
  {
@@ -1880,6 +3810,31 @@
   "unit": "Programa de Vida Saludable",
   "sites": [
    "university"
+  ],
+  "body": "Un chef de la casa muestra cómo convertir una lata de porotos y tres especias en algo que parezca cena de domingo, sin necesidad de experiencia previa ni de una cocina de restaurante. La idea es salir de los fideos con tomate con algo más de confianza y un poco más de sabor.\n\nEl curso incluye un recetario impreso, un delantal con el logo de la UTE y una advertencia amable: la tetera es para el té y no para cocinar, por muy tentador que parezca el atajo. Se trabaja en parejas, se prueba todo lo que se prepara y se termina sentado a la mesa, que es la parte más importante de cualquier cena de domingo.\n\n## Qué vas a ver\n- Preparación de una cena sencilla con porotos y especias.\n- Consejos para ajustar la sal sin pasarse.\n- Recetario impreso para llevarte a casa.\n- Delantal con logo de la UTE y una tetera que queda fuera de la cocina.",
+  "program": [
+   {
+    "time": "17:00",
+    "title": "Lata de porotos, primera misión"
+   },
+   {
+    "time": "17:40",
+    "title": "La sal, con medida"
+   },
+   {
+    "time": "18:30",
+    "title": "Mesa puesta, cena lista"
+   },
+   {
+    "time": "19:20",
+    "title": "Postre sin tetera"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Mauricio Vargas Tapia",
+    "role": "Chef de la casa"
+   }
   ]
  },
  {
@@ -1905,6 +3860,27 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Diseñadores que trabajaron en la facultad comparten afiches de los años noventa, discuten qué merece conservarse y cuál era, según ellos, un error hermoso. Hay papel amarillento, tipografías que hoy parecen de otra época y anécdotas de imprentas que cerraron antes de terminar un encargo.\n\nAl final se decide por votación qué póster va a la caja de bodega y cuál a la pared del pasillo, con un método que mezcla cariño, memoria y alguna opinión poco diplomática. La conversación es abierta al público y se graba solo si todos los presentes lo autorizan, lo que suele ser un buen tema de debate.\n\n## Qué vas a ver\n- Proyección de afiches de los años noventa de la facultad.\n- Conversación entre diseñadores que trabajaron en el archivo.\n- Votación en vivo sobre qué afiche queda en la pared.\n- Una caja de bodega que espera a los ganadores de la noche.",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Afiches de los noventa, en pantalla"
+   },
+   {
+    "time": "18:20",
+    "title": "Anécdotas de imprenta"
+   },
+   {
+    "time": "19:10",
+    "title": "Votación con opinión incluida"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrea Pino Riquelme",
+    "role": "Diseñadora, ex integrante del Archivo de Diseño Gráfico"
+   }
   ]
  },
  {
@@ -1929,6 +3905,31 @@
   "unit": "Escuela de Cine y Animación",
   "sites": [
    "arts"
+  ],
+  "body": "Escribir una persecución no requiere explosiones ni presupuesto de cine de acción. En este seminario aprenderás a construir una escena completa usando solo un patio, un carrito de supermercado y dos actores muy motivados. La clave es el ritmo: cada giro del carrito marca un cambio de tensión y cada frenada, un chiste bien ubicado.\n\nLa jornada es práctica y amable. Trabajarás en grupos pequeños, leyendo tus borradores en voz alta y recibiendo comentarios de quienes ya pasaron por el mismo tropiezo con la escena del ascensor. Al final, cada equipo se lleva una plantilla de guion y un listado de locaciones gratuitas que nadie pidió, pero todos agradecen.\n\n## Qué vas a ver\n- Cómo escribir una persecución que se entienda sin mapa ni subtítulos\n- Ejercicio en vivo con carrito, patio y dos voluntarios\n- Plantillas de guion descargables y una guía de formato\n- Ronda final de preguntas con café de la casa",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Llegada y café de guion"
+   },
+   {
+    "time": "16:45",
+    "title": "Persecución en el patio"
+   },
+   {
+    "time": "17:30",
+    "title": "Ronda de guiones sin ascensores"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Javiera Contreras Muñoz",
+    "role": "Académica de la Escuela de Cine y Animación"
+   },
+   {
+    "name": "Matías Riquelme Soto",
+    "role": "Coordinador de Guion del Centro de Extensión"
+   }
   ]
  },
  {
@@ -1953,6 +3954,23 @@
   "unit": "Programa de Seguridad Digital",
   "sites": [
    "engineering"
+  ],
+  "body": "¿Tu aspiradora conectada sabe más de tu casa de lo que te gustaría? Este seminario revisa, con paciencia y algo de humor, cómo proteger los dispositivos del hogar para que no compartan el plano de tu departamento ni el horario de tu gato. Hablaremos de actualizaciones, redes separadas y de por qué el robot de la cocina no necesita conocer la clave del wifi.\n\nLa sesión es online y dura una hora, así que puedes asistir desde el sillón sin que nadie te pida el café. Habrá una demostración de contraseñas que duran más que una pausa para el café, y un rato de preguntas donde no existen consultas tontas, solo consultas que todavía no tienen respuesta.\n\n## Qué vas a ver\n- Cómo revisar qué datos envía un robot doméstico y a quién\n- Demo de contraseñas largas y frases de paso fáciles de recordar\n- Lista de ajustes rápidos para la casa en menos de diez minutos\n- Preguntas en vivo con especialistas del programa",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Contraseñas de prueba"
+   },
+   {
+    "time": "18:30",
+    "title": "Preguntas sobre el gato"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Ignacio Salazar Cortés",
+    "role": "Especialista del Programa de Seguridad Digital"
+   }
   ]
  },
  {
@@ -1976,6 +3994,27 @@
   "unit": "Escuela de Artes Escénicas",
   "sites": [
    "arts"
+  ],
+  "body": "Un calcetín sin pareja tiene más historia de la que parece. En este taller, cada familia transforma uno en un títere, le pone ojos de botón, le inventa un nombre y le escribe una biografía de dos líneas. No se necesita experiencia escénica, solo ganas de hablar con un calcetín en voz alta sin sentir vergüenza.\n\nDespués de la construcción, los títeres salen a escena para presentar un espectáculo breve. Las historias suelen ser sobre perros que quieren ser cocineros o pulpos que odian los lunes, y el cierre es siempre el mismo: un aplauso y un abrazo colectivo que incluye a los calcetines más tímidos.\n\n## Qué vas a ver\n- Construcción de títeres con materiales reciclados y botones de sobra\n- Escritura express de personajes con nombre, gusto y una manía\n- Ensayo de una escena corta frente a público familiar\n- Espectáculo final y foto del elenco completo",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Llegada y materiales"
+   },
+   {
+    "time": "11:40",
+    "title": "Construcción del títere"
+   },
+   {
+    "time": "12:20",
+    "title": "Espectáculo final"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Francisca Yáñez Olivares",
+    "role": "Monitora de la Escuela de Artes Escénicas"
+   }
   ]
  },
  {
@@ -2000,6 +4039,27 @@
   "sites": [
    "university",
    "engineering"
+  ],
+  "body": "Llegar a la biblioteca y no encontrar silla es una experiencia universal. Un grupo de estudiantes de ingeniería presenta la versión 0.9 de un software que estima la ocupación de las salas de estudio usando datos abiertos y bastante fe. El objetivo no es prometer perfección, sino ayudarte a decidir si conviene ir ahora o esperar a que la cafetería despeje la fila.\n\nEl lanzamiento incluye una demostración en vivo, con gráficos sencillos y un mapa de salas que se actualiza cada cierto tiempo. Los autores explicarán qué datos usan, qué les falta y por qué el modelo se equivoca los lunes de examen. Al final, quienes quieran pueden probar la herramienta y dejar comentarios para la siguiente versión.\n\n## Qué vas a ver\n- Demostración del mapa de ocupación en tiempo casi real\n- Explicación honesta de los datos usados y sus límites\n- Errores habituales del modelo, con anécdotas de la versión beta\n- Sesión de comentarios para la versión 1.0",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Bienvenida al software"
+   },
+   {
+    "time": "11:30",
+    "title": "Demo del mapa de salas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Benjamín Fuentes Araya",
+    "role": "Estudiante de Ingeniería Civil, equipo de desarrollo"
+   },
+   {
+    "name": "Constanza Pizarro Vidal",
+    "role": "Coordinadora del Centro de Innovación Digital"
+   }
   ]
  },
  {
@@ -2024,6 +4084,27 @@
   "unit": "Laboratorio de Animación",
   "sites": [
    "arts"
+  ],
+  "body": "Cada grupo tendrá diez segundos de película y una paciencia que se pondrá a prueba. El método es simple: mover los muñecos de lana un milímetro, tomar una foto, repetir. El resultado es una historia que avanza con calma, quizás más lenta que una siesta de domingo, pero con un encanto que nadie esperaba de un ovillo.\n\nSe entregan trípode, luces, pizarra de guion y una regla de oro: no reírse del personaje principal, aunque tenga cara de mal día. Los equipos aprenden a planificar cada plano, a mantener la luz estable y a sobrevivir al momento en que el muñeco se cae de la mesa por tercera vez.\n\n## Qué vas a ver\n- Técnica de movimiento milimétrico y control de la cámara\n- Montaje de luces y trípode con ayuda del laboratorio\n- Escritura de un guion de diez segundos con un solo conflicto\n- Proyección de los cortos al final de la tarde",
+  "program": [
+   {
+    "time": "14:30",
+    "title": "Armado del set"
+   },
+   {
+    "time": "15:30",
+    "title": "Rodaje por turnos"
+   },
+   {
+    "time": "16:30",
+    "title": "Proyección de cortos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Macarena Valdés Pino",
+    "role": "Coordinadora del Laboratorio de Animación"
+   }
   ]
  },
  {
@@ -2048,6 +4129,27 @@
   "unit": "Observatorio de Computación Verde",
   "sites": [
    "engineering"
+  ],
+  "body": "Hay servidores que siguen encendidos porque nadie se atrevió a apagarlos. Esta charla muestra cómo identificarlos, apagarlos con cuidado y ahorrar energía sin que nadie note la diferencia, salvo la cuenta de electricidad. También veremos cómo medir la huella de los datos que guardamos por costumbre, desde copias repetidas hasta archivos que nadie abrió desde el año pasado.\n\nLa charla es online y tiene preguntas en vivo, así que puedes escribir tu duda aunque tu servidor personal sea una caja de zapatos con luces. Los expositores comparten ejemplos sencillos, sin jerga innecesaria, y un par de consejos para hacer limpieza digital sin borrar las fotos del matrimonio de un primo.\n\n## Qué vas a ver\n- Cómo detectar servidores sin uso con revisiones simples\n- Estimación de la huella de datos duplicados y archivos olvidados\n- Pasos para apagar con respaldo previo y sin sustos\n- Ronda de preguntas en vivo",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Inventario de servidores"
+   },
+   {
+    "time": "19:30",
+    "title": "Preguntas en vivo"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Sebastián Mardones Ríos",
+    "role": "Investigador del Observatorio de Computación Verde"
+   },
+   {
+    "name": "Camila Lizana Órdenes",
+    "role": "Ingeniera de Datos"
+   }
   ]
  },
  {
@@ -2072,6 +4174,23 @@
   "unit": "Dirección de Innovación Verde",
   "sites": [
    "engineering"
+  ],
+  "body": "Hay proyectos que nacen en una cocina y terminan con medalla. Esta ceremonia reconoce ideas de compostaje inteligente, filtros de agua y bicicletas que generan luz al pedalear, todas hechas por estudiantes y funcionarios que pensaron que el planeta también merecía un poco de creatividad. Las medallas son de hojalata, pero el entusiasmo es de primera.\n\nHabrá discursos breves, aplausos cronometrados y una foto grupal frente a unas plantas que nadie recuerda haber regado, aunque todas siguen vivas por milagro. El jurado explicará sus criterios con transparencia, y las menciones especiales se anunciarán en el orden en que el público termine el café.\n\n## Qué vas a ver\n- Entrega de reconocimientos a los tres proyectos destacados\n- Discursos de máximo dos minutos por equipo\n- Demostración en vivo de la bicicleta que ilumina al pedalear\n- Foto grupal con las plantas oficiales del concurso",
+  "program": [
+   {
+    "time": "18:00",
+    "title": "Discursos cronometrados"
+   },
+   {
+    "time": "18:30",
+    "title": "Foto con plantas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Rodrigo Tapia Sepúlveda",
+    "role": "Director de Innovación Verde"
+   }
   ]
  },
  {
@@ -2097,6 +4216,27 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Una lista de compras puede ser más honesta que cualquier poema. Tres académicos analizan este pequeño género literario, con ejemplos que van desde la leche de almendras hasta el pan de ayer, pasando por ese ítem misterioso que nadie sabe quién escribió. Se habla de ritmo, de omisiones y de la esperanza implícita en anotar algo que todavía no se ha comprado.\n\nLa transmisión incluye un chat donde cada participante puede sumar un ítem a la lista colectiva, que se lee al final como un poema improvisado. No hace falta haber leído teoría literaria; basta con tener un lápiz cerca y la intención de no olvidar el arroz. La moderación es amable y las bromas, bien intencionadas.\n\n## Qué vas a ver\n- Lectura comentada de listas ficticias de ejemplo\n- Análisis de las omisiones como recurso poético\n- Lista colectiva en el chat que se convierte en poema\n- Preguntas abiertas para el público",
+  "program": [
+   {
+    "time": "19:30",
+    "title": "Apertura y lectura de listas"
+   },
+   {
+    "time": "20:00",
+    "title": "Lista colectiva en el chat"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Antonia Garrido Zamora",
+    "role": "Académica del Instituto de Humanidades Digitales"
+   },
+   {
+    "name": "Tomás Herrera Campos",
+    "role": "Investigador de Literatura Contemporánea"
+   }
   ]
  },
  {
@@ -2121,6 +4261,27 @@
   "unit": "Dirección de Sustentabilidad",
   "sites": [
    "university"
+  ],
+  "body": "¿Sabes qué va en la basura orgánica y qué no? Esta charla explica cómo separar residuos del casino sin convertir la cocina en un laboratorio de hongos. Los expositores abordan lo básico con ejemplos cotidianos: cáscaras, filtros de café, servilletas y la gran duda de los palitos de helado, que tienen su propio capítulo.\n\nAl final se regalan composteras de juguete, una guía de bolsillo y un consejo para que el cactus de la oficina deje de mirar con reproche al contenedor de reciclaje. La sesión es presencial, con cupos limitados, y el café viene incluido, porque el compost se entiende mejor con energía.\n\n## Qué vas a ver\n- Mapa visual de qué separar y qué no en la oficina\n- Demostración de una compostera pequeña que no huele mal\n- Preguntas sobre residuos del casino y del laboratorio\n- Entrega de composteras de juguete y guía de bolsillo",
+  "program": [
+   {
+    "time": "10:30",
+    "title": "Qué va en cada balde"
+   },
+   {
+    "time": "11:15",
+    "title": "Compost sin olor"
+   },
+   {
+    "time": "12:00",
+    "title": "Entrega de composteras"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Daniela Inostroza Bravo",
+    "role": "Encargada de Sustentabilidad del casino"
+   }
   ]
  },
  {
@@ -2144,6 +4305,23 @@
   "unit": "Galería de la Facultad",
   "sites": [
    "arts"
+  ],
+  "body": "Un bordado puede guardar más chismes que una radio de barrio. Esta muestra traduce en patrones los dichos de una vecindad ficticia, usando lanas, telares y puntadas que equivalen a letras y signos. Con la tabla de equivalencias a mano, cada visitante puede leer el rumor sin mirar a nadie, lo que es un ejercicio de discreción bastante entretenido.\n\nLa galería incluye un rincón para tejer en comunidad, donde cualquiera puede aprender un punto simple o simplemente acompañar con una conversación. Hay mate caliente, bancos para descansar y piezas que cambian según la hora del día, porque incluso los chismes necesitan buena luz para lucirse.\n\n## Qué vas a ver\n- Piezas textiles con patrones que codifican cada dicho\n- Tabla de equivalencias para leer el código sin ayuda\n- Taller de puntos básicos en el rincón comunitario\n- Mate caliente y conversación en los bancos del patio",
+  "program": [
+   {
+    "time": "13:00",
+    "title": "Tabla de equivalencias"
+   },
+   {
+    "time": "14:00",
+    "title": "Taller de puntos y mate"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Cristóbal Ahumada Peña",
+    "role": "Curador de la Galería de la Facultad"
+   }
   ]
  },
  {
@@ -2168,6 +4346,23 @@
   "sites": [
    "arts",
    "university"
+  ],
+  "body": "Doce voces entre seis y diez años cantan canciones de cuna pensadas para que los adultos se duerman, aunque rara vez lo logran. El repertorio combina melodías suaves con algún paso de baile discreto, y el público descubre que dormirse en la butaca es menos grave de lo que parece, siempre que no se ronque en el estribillo.\n\nSe pide silencio durante la pieza, con la única excepción del estribillo, que el público canta con cuidado para no despertar a nadie. El concierto es de una hora, sin intermedio, y el coro se despide con una canción que el director llama, con cariño, la última advertencia.\n\n## Qué vas a ver\n- Canciones de cuna tradicionales y composiciones nuevas\n- Estribillo abierto para que el público cante en voz baja\n- Presentación de cada integrante con su nota favorita\n- Despedida con la canción de la última advertencia",
+  "program": [
+   {
+    "time": "17:30",
+    "title": "Primera canción de cuna"
+   },
+   {
+    "time": "18:00",
+    "title": "Estribillo para el público"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Fernanda Olivares Cid",
+    "role": "Directora del Coro Infantil UTE"
+   }
   ]
  },
  {
@@ -2193,6 +4388,31 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Equipos de la UTE presentan startups imposibles con muchísimo entusiasmo: un paraguas que avisa cuándo llueve en tu casa, una app para ordenar la mochila o un servicio que entrega silencios a domicilio. Todo es ficticio, pero los pitch son de verdad, con diapositivas, preguntas incómodas y un cronómetro que siempre parece más rápido de lo que debería.\n\nLa feria tiene stands, café y una lista de inversionistas inventados que pueden o no estar presentes. El público vota por la idea más ingeniosa al final de cada ronda, y el ganador recibe un trofeo de cartón pintado a mano, con una dedicatoria que nadie se atreve a corregir.\n\n## Qué vas a ver\n- Pitch de cinco minutos por equipo, con preguntas del público\n- Stands con prototipos imposibles y demos de juguete\n- Votación en vivo por la idea más ingeniosa\n- Premiación del trofeo de cartón y brindis con café",
+  "program": [
+   {
+    "time": "11:00",
+    "title": "Apertura de stands"
+   },
+   {
+    "time": "12:30",
+    "title": "Ronda de pitch"
+   },
+   {
+    "time": "14:00",
+    "title": "Votación y premiación"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Diego Sandoval Montes",
+    "role": "Coordinador de la Incubadora de Proyectos UTE"
+   },
+   {
+    "name": "Valentina Núñez Toro",
+    "role": "Mentora de emprendimiento"
+   }
   ]
  },
  {
@@ -2217,6 +4437,27 @@
   "unit": "Taller de Robótica",
   "sites": [
    "engineering"
+  ],
+  "body": "Pilotar un dron pequeño por un circuito de aros, cajas y un muro de espuma exige paciencia, buen pulso y una dosis de humildad. Los participantes deben cruzar el recorrido sin derribar ni un aro, y cada choque se registra con un sonido de campanilla que todos reconocen. La competencia es amistosa, aunque algunos pilotos hablen a sus drones con una seriedad conmovedora.\n\nHay premios para el menor tiempo, para el mejor aterrizaje y para el equipo que aplauda más a sus rivales, una categoría que suele ser la más disputada. Las reglas se explican antes de cada ronda, y el jurado tiene instrucciones de no reírse de los aterrizajes de emergencia.\n\n## Qué vas a ver\n- Circuito de aros, cajas y muro de espuma para todos los niveles\n- Ronda de práctica antes de la competencia oficial\n- Premios al menor tiempo, al mejor aterrizaje y al público más generoso\n- Revisión de reglas y seguridad con el equipo del taller",
+  "program": [
+   {
+    "time": "13:00",
+    "title": "Práctica libre"
+   },
+   {
+    "time": "13:45",
+    "title": "Ronda oficial"
+   },
+   {
+    "time": "14:30",
+    "title": "Premiación"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Nicolás Quintana Vega",
+    "role": "Encargado del Taller de Robótica"
+   }
   ]
  },
  {
@@ -2241,6 +4482,23 @@
   "unit": "Laboratorio de Electrónica Práctica",
   "sites": [
    "engineering"
+  ],
+  "body": "El laboratorio de electrónica parece una nave espacial en miniatura, con osciloscopios, impresoras 3D y una mesa de soldadura que brilla más que la mayoría de los escritorios. La visita recorre la sala de prototipos, explica cómo funcionan los equipos y muestra por qué un cable bien ordenado puede ser la diferencia entre un prototipo y un nudo emocional.\n\nLos guías explican por qué nunca se deja una pila suelta sobre la mesa y cómo ordenar los jumpers sin pelear con nadie. Los visitantes pueden hacer preguntas en cualquier momento, siempre que no toquen los equipos encendidos, una regla que se repite con cariño cada cinco minutos.\n\n## Qué vas a ver\n- Recorrido por la sala de prototipos y el taller de impresión 3D\n- Demostración de osciloscopio con una señal sencilla\n- Consejos para ordenar jumpers y cables sin enredos\n- Ronda de preguntas con los guías del laboratorio",
+  "program": [
+   {
+    "time": "10:30",
+    "title": "Bienvenida y normas de seguridad"
+   },
+   {
+    "time": "11:00",
+    "title": "Recorrido y preguntas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Felipe Bravo Lagos",
+    "role": "Técnico del Laboratorio de Electrónica Práctica"
+   }
   ]
  },
  {
@@ -2265,6 +4523,27 @@
   "unit": "Escuela de Música",
   "sites": [
    "arts"
+  ],
+  "body": "Ollas, cucharas de palo y un colador que suena de forma sorprendentemente afinada son los únicos instrumentos necesarios para aprender ritmos básicos. Durante la jornada, los participantes practican pulsos sencillos, cambios de compás y las primeras improvisaciones, siempre con el apoyo de un profesor que aplaude cada intento, incluso los que suenan a cacerola sin tapa.\n\nEl cierre es una orquesta de cocina que estrena una pieza llamada Almuerzo en tres tiempos, con un solo de colador y una coda de tapas que caen con elegancia. No se necesita experiencia musical previa, solo ganas de tocar sin miedo y de guardar silencio cuando la olla empieza a hervir.\n\n## Qué vas a ver\n- Ritmos básicos con ollas, cucharas y tapas\n- Improvisación guiada en parejas y en grupo\n- Ensayo general de Almuerzo en tres tiempos\n- Estreno de la orquesta de cocina con público",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Pulsos básicos con ollas"
+   },
+   {
+    "time": "17:00",
+    "title": "Improvisación en parejas"
+   },
+   {
+    "time": "18:00",
+    "title": "Estreno de Almuerzo en tres tiempos"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Catalina Rojas Espinoza",
+    "role": "Profesora de la Escuela de Música"
+   }
   ]
  },
  {
@@ -2289,6 +4568,27 @@
   "unit": "Escuela de Posgrado en Datos",
   "sites": [
    "engineering"
+  ],
+  "body": "Aprenderemos machine learning sin matemáticas, casi: qué es un modelo, cómo se evalúa y por qué un resultado perfecto suele ser una mala señal. La mirada es práctica y tranquila, con ejemplos de la vida diaria, como predecir cuántos cafés se venderán un martes lluvioso, y una lista de errores comunes que cualquiera puede cometer con gran entusiasmo.\n\nEl curso incluye práctica con datasets didácticos, es decir, datos pensados para aprender y no para impresionar a nadie. Al final se entrega certificado de asistencia, que puedes enmarcar o usar como separador de libros, según tu nivel de orgullo y de espacio en el escritorio.\n\n## Qué vas a ver\n- Conceptos básicos de modelos y de evaluación sin fórmulas intimidantes\n- Práctica guiada con datasets didácticos\n- Lista de errores comunes y cómo detectarlos a tiempo\n- Certificado de asistencia y cierre con preguntas",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Qué es un modelo"
+   },
+   {
+    "time": "10:30",
+    "title": "Práctica con datasets"
+   },
+   {
+    "time": "12:00",
+    "title": "Errores comunes y certificado"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Andrés Pinto Carvajal",
+    "role": "Académico de la Escuela de Posgrado en Datos"
+   }
   ]
  },
  {
@@ -2313,6 +4613,23 @@
   "unit": "Dirección de Investigación",
   "sites": [
    "university"
+  ],
+  "body": "Publicar datos sirve de poco si nadie puede entenderlos ni reutilizarlos. Investigadores muestran cómo prepararlos para que cualquiera los pueda usar, incluso quien llega tarde a la reunión y no conoce el proyecto. Se revisan licencias, formatos abiertos y el arte de documentar sin escribir un manual de cuatrocientas páginas que nadie leería entero.\n\nEl seminario es online y mezcla ejemplos de la universidad con consejos sencillos: nombres de archivos claros, una nota breve de uso y una versión de los datos que no dependa de una planilla con diez colores. Habrá espacio para preguntas y una pequeña lista de verificación que puedes llevar a tu próximo proyecto.\n\n## Qué vas a ver\n- Licencias abiertas explicadas sin jerga\n- Formatos de archivo que se leen en cualquier equipo\n- Documentación breve que sí se lee\n- Lista de verificación para publicar datos propios",
+  "program": [
+   {
+    "time": "16:00",
+    "title": "Licencias y formatos"
+   },
+   {
+    "time": "17:00",
+    "title": "Documentar sin manual"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Paula Reyes Galleguillos",
+    "role": "Investigadora de la Dirección de Investigación"
+   }
   ]
  },
  {
@@ -2337,6 +4654,23 @@
   "unit": "Laboratorio de Medios",
   "sites": [
    "arts"
+  ],
+  "body": "Un mapa interactivo permite marcar murales, grafitis legales y piezas de cerámica pegadas en muros, cada una con su historia corta. Cualquier persona puede sumar un punto, siempre que la obra sea legal, esté a la vista y tenga una descripción amable. El objetivo es recorrer la comuna con otros ojos, descubriendo arte que lleva años ahí sin que nadie lo mire.\n\nEl lanzamiento incluye una demostración de cómo subir una foto sin perderse por el camino, con pasos claros y un par de atajos para quienes prefieren el celular. Al final se responden preguntas del público y se revisan las reglas del mapa, que son pocas, simples y se resumen en pedir que el mural no tape la vereda.\n\n## Qué vas a ver\n- Recorrido de demostración por el mapa en vivo\n- Paso a paso para subir una foto y su historia\n- Reglas básicas para aportar obras legales y respetuosas\n- Preguntas del público sobre el mapa y su mantenimiento",
+  "program": [
+   {
+    "time": "19:00",
+    "title": "Demo del mapa"
+   },
+   {
+    "time": "19:30",
+    "title": "Preguntas del público"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Pía Soto Véliz",
+    "role": "Coordinadora del Laboratorio de Medios"
+   }
   ]
  },
  {
@@ -2364,6 +4698,27 @@
   "sites": [
    "engineering",
    "university"
+  ],
+  "body": "Sensores, gemelos digitales y líneas de producción que avisan cuando se aburren: el congreso muestra cómo la industria conversa consigo misma para trabajar mejor. Los expositores presentan proyectos de fábricas en distintas escalas, con ejemplos sencillos y un humor que ayuda a entender la complejidad sin llenar la sala de tecnicismos.\n\nEl programa incluye un panel sobre datos industriales, almuerzo sin cola y una charla final sobre cómo medir la felicidad de las máquinas, un tema que genera más preguntas de las esperadas. Los organizadores piden llegar temprano, porque la inscripción se cierra cuando el café se acaba, que suele ser antes del primer panel.\n\n## Qué vas a ver\n- Demostración de sensores y gemelos digitales\n- Panel sobre datos industriales con preguntas del público\n- Almuerzo sin cola y espacio para conversar con expositores\n- Charla final sobre cómo medir la felicidad de las máquinas",
+  "program": [
+   {
+    "time": "09:00",
+    "title": "Bienvenida y sensores"
+   },
+   {
+    "time": "10:30",
+    "title": "Panel de datos industriales"
+   },
+   {
+    "time": "12:00",
+    "title": "Felicidad de las máquinas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Gonzalo Aravena Muñoz",
+    "role": "Académico de la Escuela de Ingeniería Industrial"
+   }
   ]
  },
  {
@@ -2388,6 +4743,23 @@
   "unit": "Premio Literario UTE",
   "sites": [
    "arts"
+  ],
+  "body": "Cien palabras o menos bastan para cambiar una tarde. La ceremonia premia los cuentos más breves del concurso, incluido el texto escrito en un ticket de micro que nadie logró leer del todo, pero que todos recuerdan con cariño. Se valora la precisión, el humor y ese final que obliga a releer la última línea para entenderlo mejor.\n\nTras la entrega de premios, los finalistas leen sus textos en voz alta, con pausas que el público aprovecha para reírse o suspirar. El cierre es un brindis con bebida gaseosa y muchas ganas de volver el próximo año con un cuento aún más corto.\n\n## Qué vas a ver\n- Entrega de premios a los cuentos más breves\n- Lectura en voz alta de los textos finalistas\n- El texto del ticket de micro, con su historia completa\n- Brindis con bebida gaseosa y foto de los premiados",
+  "program": [
+   {
+    "time": "20:00",
+    "title": "Entrega de premios"
+   },
+   {
+    "time": "20:30",
+    "title": "Lectura de finalistas"
+   }
+  ],
+  "speakers": [
+   {
+    "name": "Mario Estay Cáceres",
+    "role": "Jurado del Premio Literario UTE"
+   }
   ]
  }
 ]

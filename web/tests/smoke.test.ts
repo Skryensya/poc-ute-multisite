@@ -55,6 +55,15 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     expect(e).toContain("Robótica"); expect(a).toContain("Exposiciones"); // etiquetas propias de cada facultad
     expect((await get("/anuncios", UTE2)).status).toBe(308);
   });
+  it("cada noticia tiene su página con cuerpo, autor y relacionadas", async () => {
+    const slug = "nueva-infraestructura-para-laboratorios-de-ingenieria";
+    expect((await page("/noticias"))[1]).toContain(`/noticias/${slug}`);
+    const d = await get(`/noticias/${slug}`, UTE2);
+    expect(d.status).toBe(200); expect(d.body).toContain("min de lectura"); expect(d.body).toContain("Por ");
+    expect((await get(`/noticias/${slug}`, UTE3)).status).toBe(404); // noticia exclusiva de Ingeniería
+    expect((await get(`/noticias/${slug}`, UTE1)).status).toBe(200); // el sitio central agrega todas
+    expect((await get("/noticias/no-existe", UTE2)).status).toBe(404);
+  });
   it("agenda: filtros de la agenda UC; cada facultad ve la suya y el sitio central todas", async () => {
     const [u, e, a] = await page("/agenda");
     for (const f of ["Tipo de actividad", "Lugar", "Público", "Precio", "Modalidad"]) for (const b of [u, e, a]) expect(b).toContain(f);
@@ -67,6 +76,7 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     const href = /href="(\/agenda\/[a-z0-9-]+)"/.exec(e)![1];
     const detail = await get(href, UTE2);
     expect(detail.status).toBe(200); expect(detail.body).toContain("Dirigido a"); expect(detail.body).toContain("Organiza");
+    for (const t of ["Programa", "Qué vas a ver", "participa"]) expect(detail.body).toContain(t); // contenido ampliado de la ficha
   });
   it("páginas propias de cada sitio (definidas en el front)", async () => {
     expect((await get("/admision", UTE1)).status).toBe(200); expect((await get("/admision", UTE2)).status).toBe(404);

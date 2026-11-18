@@ -11,9 +11,10 @@ export const qk = {
   page: (t: string, slug: string) => ["page", t, slug] as const,
   events: (t: string) => ["events", t] as const,
   event: (t: string, slug: string) => ["event", t, slug] as const,
+  newsItem: (t: string, slug: string) => ["newsItem", t, slug] as const,
 };
 
-export type ContentKind = "site" | "home" | "careers" | "career" | "professors" | "announcements" | "page" | "events" | "event";
+export type ContentKind = "site" | "home" | "careers" | "career" | "professors" | "announcements" | "page" | "events" | "event" | "newsItem";
 
 /** Cliente: siempre mismo origen; el tenant lo decide el servidor por Host, nunca el navegador. */
 export async function fetchContent<T>(kind: ContentKind, slug?: string): Promise<T> {

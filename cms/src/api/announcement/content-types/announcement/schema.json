@@ -35,6 +35,16 @@
     },
     "tags": {
       "type": "json"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
     }
   }
 }

@@ -1,23 +1,77 @@
 {
   "kind": "collectionType",
   "collectionName": "events",
-  "info": { "singularName": "event", "pluralName": "events", "displayName": "Event" },
-  "options": { "draftAndPublish": true },
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": {
-    "title": { "type": "string", "required": true },
-    "slug": { "type": "string", "required": true, "unique": true },
-    "description": { "type": "text", "required": true },
-    "startsAt": { "type": "datetime", "required": true },
-    "endsAt": { "type": "datetime" },
-    "eventType": { "type": "string" },
-    "place": { "type": "string" },
-    "online": { "type": "boolean", "default": false },
-    "free": { "type": "boolean", "default": true },
-    "price": { "type": "string" },
-    "audience": { "type": "json" },
-    "tags": { "type": "json" },
-    "unit": { "type": "string" },
-    "imageUrl": { "type": "string" },
-    "sites": { "type": "relation", "relation": "manyToMany", "target": "api::site.site" }
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "startsAt": {
+      "type": "datetime",
+      "required": true
+    },
+    "endsAt": {
+      "type": "datetime"
+    },
+    "eventType": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "online": {
+      "type": "boolean",
+      "default": false
+    },
+    "free": {
+      "type": "boolean",
+      "default": true
+    },
+    "price": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "sites": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::site.site"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "program": {
+      "type": "json"
+    },
+    "speakers": {
+      "type": "json"
+    }
   }
 }

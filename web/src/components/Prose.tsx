@@ -9,18 +9,34 @@ const inline = (t: string) =>
     return p;
   });
 
+type Node = { kind: "h2" | "h3" | "ul" | "p"; lines: string[] };
+
+/** Agrupa líneas consecutivas: un título es su propio nodo, las viñetas forman una lista y el resto un párrafo. */
+function parse(text: string): Node[] {
+  const out: Node[] = [];
+  for (const raw of text.split("\n")) {
+    const line = raw.trim();
+    if (!line) { out.push({ kind: "p", lines: [] }); continue; } // línea en blanco: corta el párrafo
+    const head = /^(#{2,3}) (.*)$/.exec(line);
+    if (head) { out.push({ kind: head[1] === "##" ? "h2" : "h3", lines: [head[2]] }, { kind: "p", lines: [] }); continue; }
+    const item = /^[-*] (.*)$/.exec(line);
+    const last = out[out.length - 1];
+    if (item) {
+      if (last?.kind === "ul") last.lines.push(item[1]); else out.push({ kind: "ul", lines: [item[1]] });
+    } else if (last?.kind === "p") last.lines.push(line);
+    else out.push({ kind: "p", lines: [line] });
+  }
+  return out.filter((n) => n.lines.length);
+}
+
 export default function Prose({ text }: { text: string }) {
   return (
     <div className="space-y-4 text-base leading-relaxed text-slate-700">
-      {text.split(/\n{2,}/).map((block, i) => {
-        const lines = block.trim().split("\n");
-        const head = /^(#{2,3}) (.*)$/.exec(lines[0]);
-        if (head) return head[1] === "##"
-          ? <h2 key={i} className="pt-4 text-2xl font-bold text-primary">{inline(head[2])}</h2>
-          : <h3 key={i} className="pt-2 text-lg font-semibold">{inline(head[2])}</h3>;
-        if (lines.every((l) => /^[-*] /.test(l)))
-          return <ul key={i} className="list-disc space-y-1.5 pl-5 marker:text-primary">{lines.map((l, j) => <li key={j}>{inline(l.slice(2))}</li>)}</ul>;
-        return <p key={i}>{inline(lines.join(" "))}</p>;
+      {parse(text).map((n, i) => {
+        if (n.kind === "h2") return <h2 key={i} className="pt-4 text-2xl font-bold text-primary">{inline(n.lines[0])}</h2>;
+        if (n.kind === "h3") return <h3 key={i} className="pt-2 text-lg font-semibold">{inline(n.lines[0])}</h3>;
+        if (n.kind === "ul") return <ul key={i} className="list-disc space-y-1.5 pl-5 marker:text-primary">{n.lines.map((l, j) => <li key={j}>{inline(l)}</li>)}</ul>;
+        return <p key={i}>{inline(n.lines.join(" "))}</p>;
       })}
     </div>
   );

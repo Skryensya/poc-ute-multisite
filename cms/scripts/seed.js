@@ -106,36 +106,7 @@ const PROFESSORS = [
   P('Nicolás Guzmán Leiva', 'Mg. en Música y Tecnología', 'Producción musical y sonido digital', 'Productor y diseñador sonoro. Dicta Producción Musical y Sonido Digital.', face('men', 67), ['licenciatura-en-musica', 'innovacion-y-tecnologia-creativa'], [A]),
 ];
 
-const ANNOUNCEMENTS = [
-  { title: 'Postulaciones abiertas para el año académico 2027', date: '2026-11-02', category: 'Admisión', imageUrl: img(7972512), sites: [U, E, A],
-    description: 'Ya puedes postular a todas nuestras carreras. El proceso cierra el 15 de enero e incluye becas de excelencia y de continuidad.' },
-  { title: 'Feria de Innovación y Tecnología Creativa', date: '2026-11-12', category: 'Evento', imageUrl: img(8721342), sites: [E, A],
-    description: 'Estudiantes de Ingeniería y Artes presentan juntos sus proyectos interdisciplinarios en el hall central. Entrada liberada.' },
-  { title: 'Nueva infraestructura para laboratorios de ingeniería', date: '2026-10-20', category: 'Infraestructura', imageUrl: img(3912373), sites: [E],
-    description: 'Inauguramos nuevos laboratorios de electrónica y computación para estudiantes de la Facultad.' },
-  { title: 'Equipo de Ingeniería gana el campeonato nacional de robótica', date: '2026-10-08', category: 'Logros', imageUrl: img(2517330), sites: [E, U],
-    description: 'Estudiantes de Ingeniería Electrónica se quedaron con el primer lugar entre 24 universidades.' },
-  { title: 'Exposición anual de estudiantes de Artes Visuales', date: '2026-10-28', category: 'Cultura', imageUrl: img(17907844), sites: [A],
-    description: 'Más de 60 obras de estudiantes se exhiben en la galería de la Facultad durante todo noviembre.' },
-  { title: 'Temporada de conciertos de la Orquesta Universitaria', date: '2026-11-05', category: 'Cultura', imageUrl: img(4028878), sites: [A, U],
-    description: 'Cuatro conciertos gratuitos en el auditorio central, con obras de compositores y compositoras de la Facultad.' },
-  { title: 'La Universidad celebra 60 años', date: '2026-09-15', category: 'Institucional', imageUrl: img(17893014), sites: [U],
-    description: 'Una semana de actividades abiertas a la comunidad para celebrar seis décadas de historia universitaria.' },
-  { title: 'Becas de excelencia y continuidad: postula hasta el 30 de noviembre', date: '2026-11-10', category: 'Admisión', imageUrl: img(7972506), sites: [U, E, A],
-    description: 'Estudiantes de todas las carreras pueden postular a las becas de excelencia académica y de continuidad de estudios. Las bases están disponibles en cada facultad.' },
-  { title: 'Charla abierta: inteligencia artificial en la industria', date: '2026-11-14', category: 'Evento', imageUrl: img(8720589), sites: [E],
-    description: 'Académicos y profesionales conversan sobre casos reales de inteligencia artificial en empresas de la región. Auditorio de la Torre de Ingeniería, 18:30 horas.' },
-  { title: 'Taller de grabado abierto a la comunidad', date: '2026-11-08', category: 'Cultura', imageUrl: img(5393546), sites: [A, U],
-    description: 'Cada sábado de noviembre, estudiantes y académicos de Artes Visuales enseñan técnicas básicas de grabado. Cupos limitados, inscripción gratuita.' },
-  { title: 'Convenio de prácticas con empresas del sector logístico', date: '2026-10-30', category: 'Vinculación', imageUrl: img(40382472), sites: [E],
-    description: 'La Facultad firmó acuerdos para que estudiantes de Ingeniería Civil Industrial realicen su práctica profesional en centros de distribución de la región.' },
-  { title: 'Concurso de diseño sustentable', date: '2026-10-22', category: 'Concurso', imageUrl: img(8546649), sites: [A],
-    description: 'Estudiantes de Diseño presentan propuestas de productos y servicios con foco en reducción de residuos. Los proyectos ganadores se exhiben en la galería.' },
-  { title: 'Ceremonia de titulación 2026', date: '2026-12-05', category: 'Institucional', imageUrl: img(17615703), sites: [U, E, A],
-    description: 'La Universidad celebra a quienes completan sus estudios este año. Las invitaciones se entregan a cada titulado a través de su facultad.' },
-  { title: 'Encuentro de egresados de Ingeniería y Artes', date: '2026-12-12', category: 'Evento', imageUrl: img(16255363), sites: [U, E, A],
-    description: 'Una tarde para reencontrarse, conocer los proyectos actuales de ambas facultades y conversar con estudiantes que están por egresar.' },
-];
+
 
 // Cifras que salen de los datos reales de este mismo seed, para que la portada no contradiga el contenido.
 const count = (list, site) => list.filter((x) => x.sites.includes(site)).length;
@@ -181,17 +152,6 @@ const PAGES = {
     anuncios: { title: 'Noticias de la Facultad', intro: 'Exposiciones, conciertos y novedades de la Facultad de Artes.' } },
 };
 
-// Noticias del primer seed: se les agregan etiquetas y se normaliza la categoría al vocabulario de las nuevas.
-const OLD_TAGS = {
-  'Postulaciones abiertas': ['Admisión', 'Vida universitaria'], 'Feria de Innovación': ['Innovación', 'Arte y tecnología'],
-  'Nueva infraestructura': ['Electrónica', 'Innovación'], 'Equipo de Ingeniería gana': ['Robótica', 'Electrónica'],
-  'Exposición anual': ['Exposiciones', 'Talleres'], 'Temporada de conciertos': ['Música'], 'La Universidad celebra': ['Vida universitaria', 'Egresados'],
-  'Becas de excelencia': ['Admisión', 'Bienestar'], 'Charla abierta': ['Inteligencia artificial', 'Industria'], 'Taller de grabado': ['Talleres', 'Exposiciones'],
-  'Convenio de prácticas': ['Industria', 'Emprendimiento'], 'Concurso de diseño': ['Diseño', 'Sustentabilidad'], 'Ceremonia de titulación': ['Egresados', 'Vida universitaria'],
-  'Encuentro de egresados': ['Egresados', 'Vida universitaria'],
-};
-const CAT_MAP = { Evento: 'Extensión', Logros: 'Premios y logros', Cultura: 'Extensión', Vinculación: 'Alianzas', Concurso: 'Premios y logros', Infraestructura: 'Infraestructura' };
-const oldTags = (title) => OLD_TAGS[Object.keys(OLD_TAGS).find((k) => title.startsWith(k))] ?? [];
 
 async function api(method, path, body) {
   const res = await fetch(`${BASE}/api/${path}`, {
@@ -229,10 +189,11 @@ async function main() {
   for (const { careers, sites, ...p } of PROFESSORS) {
     await upsert('professors', 'name', p.name, { ...p, careers: set(careers, ids.career), sites: set(sites, ids.site) });
   }
-  const allNews = [
-    ...ANNOUNCEMENTS.map(({ sites, ...a }) => ({ ...a, sites, category: CAT_MAP[a.category] ?? a.category, tags: oldTags(a.title) })),
-    ...NEWS.map((n, i) => ({ ...n, imageUrl: photoFor(n.tags, n.sites, i) })),
-  ];
+  const slugify = (t) => t.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70).replace(/-$/, '');
+  const allNews = NEWS.map((n, i) => {
+    const { imageId, ...rest } = n;
+    return { ...rest, slug: n.slug ?? slugify(n.title), imageUrl: imageId ? img(imageId) : photoFor(n.tags, n.sites, i) };
+  });
   for (const { sites, ...a } of allNews) {
     await upsert('announcements', 'title', a.title, { ...a, sites: set(sites, ids.site) });
   }
@@ -244,7 +205,7 @@ async function main() {
       await upsert('pages', 'slug', slug, { slug, ...p, site: set([site], ids.site) }, `&filters[site][slug][$eq]=${site}`);
     }
   }
-  const allNewsCount = ANNOUNCEMENTS.length + NEWS.length;
+  const allNewsCount = NEWS.length;
   const courses = CAREERS.reduce((n, c) => n + c.malla.flat().length, 0);
   console.log(`Seed OK: ${SITES.length} sitios, ${CAREERS.length} carreras, ${courses} ramos, ${PROFESSORS.length} profesores, ${allNewsCount} noticias, ${EVENTS.length} eventos, ${Object.values(PAGES).reduce((n, p) => n + Object.keys(p).length, 0)} páginas.`);
 }

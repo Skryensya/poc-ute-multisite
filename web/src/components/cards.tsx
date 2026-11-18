@@ -7,6 +7,7 @@ const fmt = (o: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat("es-CL", 
 const dFull = fmt({ dateStyle: "long" });
 const dayNum = fmt({ day: "numeric" }), monShort = fmt({ month: "short" }), weekday = fmt({ weekday: "long" }), hour = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
 export const eventDate = (iso: string) => dFull.format(new Date(iso));
+export const newsDate = (iso: string) => new Intl.DateTimeFormat("es-CL", { timeZone: "UTC", dateStyle: "long" }).format(new Date(iso));
 export const eventTime = (iso: string) => hour.format(new Date(iso));
 // Las noticias traen solo fecha (sin hora): se formatea en UTC para que no retroceda un día en Santiago.
 const utc = (o: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat("es-CL", { timeZone: "UTC", ...o });
@@ -104,6 +105,7 @@ export function ProfessorCard({ professor: p, current }: { professor: Professor;
 }
 
 export function AnnouncementCard({ item, current, featured }: { item: Announcement; current: string; featured?: boolean }) {
+  const t = target(item.sites, current, `/noticias/${item.slug}`);
   return (
     <li className={`card relative flex flex-col overflow-hidden ${featured ? "lg:col-span-2 lg:flex-row" : ""}`}>
       <Photo src={item.imageUrl} alt={item.title} className={`h-48 w-full shrink-0 ${featured ? "lg:h-auto lg:w-1/2" : ""}`} />
@@ -112,10 +114,10 @@ export function AnnouncementCard({ item, current, featured }: { item: Announceme
           {item.category && <span className="font-semibold uppercase tracking-wide text-primary">{item.category}</span>}
           <time className="text-slate-500" dateTime={item.date}>{shortDate(item.date)}</time>
         </div>
-        <h3 className={`font-display font-semibold leading-snug ${featured ? "text-2xl" : "text-lg"}`}>{item.title}</h3>
+        <h3 className={`font-display font-semibold leading-snug ${featured ? "text-2xl" : "text-lg"}`}><Stretch {...t} className="outline-none">{item.title}</Stretch></h3>
         <p className="line-clamp-3 text-sm text-slate-600">{item.description}</p>
         {!!item.tags?.length && <div className="flex flex-wrap gap-1.5 pt-1">{item.tags.map((t) => <span key={t} className={tagChip}>{t}</span>)}</div>}
-        <div><SharedBadge sites={item.sites} current={current} path="/noticias" /></div>
+        <div><SharedBadge sites={item.sites} current={current} path={`/noticias/${item.slug}`} /></div>
       </div>
     </li>
   );
