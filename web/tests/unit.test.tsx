@@ -41,9 +41,10 @@ const about = { slug: "nosotros", title: "Sobre la Facultad de Artes", intro: "U
 const info = { site, pages: {}, links: [{ slug: "university", name: "Universidad Tecnológica del Este", tagline: null, heroImage: null, url: "https://ute1.allison.sh" }] };
 const home = {
   about,
+  events: [{ documentId: "e1", slug: "concierto", title: "Concierto de invierno", description: "x", startsAt: "2027-03-02T21:00:00.000Z", endsAt: null, eventType: "Concierto", place: "Casa de las Artes", online: false, free: true, price: "", audience: ["Público en general"], tags: ["Música"], unit: null, imageUrl: null, sites: [refs.arts, refs.university] }],
   careers: [{ documentId: "c1", slug: "diseno", name: "Diseño", description: "d", overview: null, duration: "10 semestres", degree: "Diseñador", modality: null, imageUrl: null, sites: [refs.arts, refs.university] }],
   professors: [{ documentId: "p1", name: "Javiera Núñez", title: "Dra.", specialty: "Pintura", bio: null, photoUrl: null, sites: [refs.arts] }],
-  announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Cultura", imageUrl: null, sites: [refs.arts] }],
+  announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Extensión", tags: ["Exposiciones"], imageUrl: null, sites: [refs.arts] }],
 };
 
 describe("hidratación de React Query", () => {
@@ -65,7 +66,9 @@ describe("hidratación de React Query", () => {
     expect(html).toContain("Diseño");
     expect(html).toContain("Javiera Núñez");
     expect(html).toContain("Exposición anual");
-    expect(html).toContain("También en Universidad"); // etiqueta de contenido compartido
+    expect(html).toContain("También en"); expect(html).toContain("Universidad"); // etiqueta de contenido compartido, con enlace al otro sitio
+    expect(html).toContain("https://ute1.allison.sh/carreras/diseno"); // navegación entre sitios
+    expect(html).toContain("Concierto de invierno"); expect(html).toContain("Exposiciones"); // agenda y etiquetas
     expect(html).toContain("exposiciones al año"); // estadísticas editables desde Strapi
     expect(html).toContain("Sobre la Facultad de Artes");
     expect(fetchSpy).not.toHaveBeenCalled();

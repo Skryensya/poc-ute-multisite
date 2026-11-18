@@ -1,0 +1,453 @@
+[
+ {
+  "title": "Estudiantes desarrollan un robot que ordena la biblioteca y aún no sabe leer los rótulos",
+  "description": "Un equipo del Laboratorio de Robótica presentó un prototipo capaz de devolver libros a su estante con notable precisión. Según sus creadores, el siguiente desafío es que el robot reconozca los rótulos sin preguntarle a nadie por el orden alfabético.",
+  "category": "Investigación",
+  "tags": [
+   "Robótica",
+   "Inteligencia artificial"
+  ],
+  "date": "2026-08-17",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Ascensores del edificio C se renuevan y prometen no detenerse en el piso de los apuntes",
+  "description": "La Facultad anunció la renovación de los ascensores del edificio C, que incorporarán sensores de consumo y frenado regenerativo. Los estudiantes celebraron la medida, aunque algunos advierten que la espera al mediodía seguirá siendo un misterio.",
+  "category": "Infraestructura",
+  "tags": [
+   "Electrónica",
+   "Sustentabilidad"
+  ],
+  "date": "2026-08-24",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Estudiantes ganan concurso de innovación con una app que avisa dónde hay enchufes libres",
+  "description": "Estudiantes de cuarto año ganaron el certamen interno de innovación con una app que predice los enchufes libres en las salas de estudio. El jurado destacó que la solución promete acabar con la búsqueda del último enchufe antes de una prueba.",
+  "category": "Premios y logros",
+  "tags": [
+   "Innovación",
+   "Datos"
+  ],
+  "date": "2026-09-02",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Vida estudiantil: la feria de proyectos reúne 40 prototipos y un café que no alcanzó",
+  "description": "La feria de proyectos reunió a más de cuarenta equipos con prototipos que van desde drones de reparto hasta bicicletas con generador. Los organizadores confirmaron que el café se agotó antes del mediodía, una lección clara sobre la logística.",
+  "category": "Vida estudiantil",
+  "tags": [
+   "Emprendimiento",
+   "Innovación"
+  ],
+  "date": "2026-09-10",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Laboratorio de datos estrena tablero que cruza consumo de café con entregas de proyectos",
+  "description": "El Laboratorio de Datos presentó un tablero que cruza el consumo de café con las entregas de proyectos del semestre. Sus autores advierten que la correlación es simpática, aunque todavía no permite concluir nada más allá de las noches largas.",
+  "category": "Investigación",
+  "tags": [
+   "Datos",
+   "Inteligencia artificial"
+  ],
+  "date": "2026-09-16",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Alianza con la industria acerca a estudiantes a sensores de una planta de tratamiento de agua",
+  "description": "Un convenio firmado por la Facultad permitirá a estudiantes de Electrónica realizar prácticas guiadas con instrumentos de monitoreo hídrico. El acuerdo busca que la teoría de los circuitos se encuentre con el agua, sin que nadie tenga que mojarse el informe.",
+  "category": "Alianzas",
+  "tags": [
+   "Industria",
+   "Sustentabilidad"
+  ],
+  "date": "2026-09-22",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Estudiante diseña un puente de palitos de helado que resiste más peso que una mochila",
+  "description": "Un estudiante de primer año obtuvo el primer lugar en el desafío anual de estructuras con un puente armado con palitos de helado. Su diseño soportó más peso que una mochila llena de apuntes, lo que el jurado calificó como una prueba ejemplar de la física cotidiana.",
+  "category": "Premios y logros",
+  "tags": [
+   "Innovación",
+   "Industria"
+  ],
+  "date": "2026-09-29",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Extensión lleva talleres de programación a liceos de la región durante el verano",
+  "description": "El programa de extensión de la Facultad realizará talleres gratuitos de programación y electrónica en liceos de la región durante el verano. Las sesiones buscan despertar vocaciones tecnológicas e incluyen un espacio para que estudiantes de ingeniería compartan su experiencia.",
+  "category": "Extensión",
+  "tags": [
+   "Mujeres en ingeniería",
+   "Innovación"
+  ],
+  "date": "2026-10-06",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Admisión: charla para elegir carrera sin pasar tres semanas en el buscador",
+  "description": "La Facultad invita a una charla abierta para estudiantes de cuarto medio sobre los itinerarios de ingeniería y sus salidas laborales. Los expositores mostrarán proyectos reales y responderán preguntas sobre cómo prepararse para la vida universitaria.",
+  "category": "Admisión",
+  "tags": [
+   "Datos",
+   "Innovación"
+  ],
+  "date": "2026-10-13",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Sistema de ciberseguridad detecta cuando la contraseña es el nombre de la mascota",
+  "description": "Un grupo de investigación presentó un prototipo que advierte cuando una clave es demasiado predecible, como el nombre de una mascota. Sus autores recomiendan frases largas y aseguran que el sistema nunca juzga, solo anticipa.",
+  "category": "Investigación",
+  "tags": [
+   "Ciberseguridad",
+   "Inteligencia artificial"
+  ],
+  "date": "2026-10-20",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Campus verde: paneles solares llegan a los techos del edificio de laboratorios",
+  "description": "Los nuevos paneles solares del edificio de laboratorios alimentarán parte del consumo de los equipos de medición durante el día. La instalación fue diseñada por estudiantes de Electrónica, quienes dicen que el sol, por fin, aparece en un proyecto sin atrasos.",
+  "category": "Infraestructura",
+  "tags": [
+   "Sustentabilidad",
+   "Electrónica"
+  ],
+  "date": "2026-10-27",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Consejo de Facultad aprueba nuevo calendario de pruebas y promete espacio para respirar",
+  "description": "El Consejo de Facultad aprobó un calendario de evaluaciones que evita concentrar tres pruebas el mismo día. La decisión fue celebrada por el estudiantado, que aseguró que al fin podrá dormir antes de la entrega del proyecto final.",
+  "category": "Institucional",
+  "tags": [
+   "Datos",
+   "Emprendimiento"
+  ],
+  "date": "2026-11-03",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Estudiantes de Diseño inauguran una exposición de sillas que nadie pidió",
+  "description": "La muestra reúne veinte sillas diseñadas por estudiantes de tercer año, varias de ellas con cuatro patas y otras con ninguna. Su autora principal asegura que el objetivo era cuestionar la comodidad, aunque el público prefirió sentarse en el suelo del hall.",
+  "category": "Vida estudiantil",
+  "tags": [
+   "Exposiciones",
+   "Diseño"
+  ],
+  "date": "2026-08-17",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Ensamble de cámara gana concurso de afinación tras afinar también el reloj de la entrada",
+  "description": "El ensamble de la facultad obtuvo el primer lugar en la categoría de afinación, en una competencia que midió la precisión de los instrumentos y la paciencia del jurado. Según su director, el reloj de la entrada también quedó perfectamente sincronizado con el ensayo final.",
+  "category": "Premios y logros",
+  "tags": [
+   "Música",
+   "Arte y tecnología"
+  ],
+  "date": "2026-08-24",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Taller de cerámica transforma tazas con mellas en un mural que ya tiene lista de espera",
+  "description": "Durante el segundo semestre, el taller de cerámica recolectó tazas con mellas de toda la comunidad para armar un mural colectivo en el patio central. La convocatoria para participar en la próxima etapa ya tiene lista de espera, y la cafetería asegura estar preparada.",
+  "category": "Extensión",
+  "tags": [
+   "Talleres",
+   "Diseño"
+  ],
+  "date": "2026-09-01",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Sala de patrimonio anuncia que el oso de peluche del archivo tendrá vitrina propia",
+  "description": "La sala de patrimonio habilitará una vitrina exclusiva para el oso de peluche que lleva once años custodiando el acceso al archivo histórico. Las visitas guiadas incluirán una breve charla sobre su restauración y sobre la paciencia que exige cuidar objetos que nunca se mueven.",
+  "category": "Institucional",
+  "tags": [
+   "Patrimonio",
+   "Niños y familias"
+  ],
+  "date": "2026-09-07",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Facultad de Artes firma convenio para instalar poesía en los paraderos de la comuna",
+  "description": "El acuerdo permitirá instalar pequeños estantes de poesía en cinco paraderos de la comuna durante el próximo año. Los estudiantes de Literatura seleccionarán los textos, y se espera que la espera del bus se vuelva un poco más entretenida para quienes llegan temprano.",
+  "category": "Alianzas",
+  "tags": [
+   "Literatura",
+   "Arte y tecnología"
+  ],
+  "date": "2026-09-14",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Cine club estudiantil estrena cortometraje filmado con la linterna de un celular",
+  "description": "La producción de once minutos, titulada Borrador, fue dirigida por una estudiante de cuarto año y usó como única iluminación la linterna de un celular del equipo. El estreno en el auditorio reunió a más personas de las que cabían, por lo que se agregó una función extra en el pasillo.",
+  "category": "Vida estudiantil",
+  "tags": [
+   "Cine",
+   "Arte y tecnología"
+  ],
+  "date": "2026-09-21",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Investigadores miden cuántos minutos dura un café antes de quedar frío",
+  "description": "Un equipo de diseño de experiencia estudió el comportamiento de quince tazas en la sala de profesores durante tres semanas. Los resultados preliminares indican que el tiempo promedio es de doce minutos, aunque el estudio reconoce que el dato varía según la conversación.",
+  "category": "Investigación",
+  "tags": [
+   "Arte y tecnología",
+   "Diseño"
+  ],
+  "date": "2026-09-28",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Nueva sala de ensayo tiene una acústica tan buena que los profesores piden subir el volumen",
+  "description": "El edificio de artes escénicas inauguró su sala de ensayo con paneles acústicos diseñados para escuchar cada detalle. El primer uso fue una prueba de voz de la coordinación, que reportó un eco perfecto y pidió instalar más sillas.",
+  "category": "Infraestructura",
+  "tags": [
+   "Música",
+   "Teatro"
+  ],
+  "date": "2026-10-05",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Admisión 2027: programa de verano enseña a dibujar sin mirar el papel",
+  "description": "El curso introductorio de cuatro semanas está pensado para postulantes que quieran explorar la disciplina antes de decidir su carrera. Las inscripciones se abren en octubre, y la coordinación recomienda llevar lápices, paciencia y una libreta sin expectativas.",
+  "category": "Admisión",
+  "tags": [
+   "Talleres",
+   "Exposiciones"
+  ],
+  "date": "2026-10-12",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Obra sobre un paraguas perdido llena tres funciones seguidas y es invitada a festival",
+  "description": "La puesta en escena, de veinte minutos, sigue a un paraguas que recorre el campus buscando a su dueño y encuentra a varios otros. La compañía fue invitada a un festival de teatro breve, donde planea llevar el mismo paraguas como utilería principal.",
+  "category": "Premios y logros",
+  "tags": [
+   "Teatro",
+   "Literatura"
+  ],
+  "date": "2026-10-19",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Biblioteca de la facultad suma 300 libros de cuentos para niños y un cojín muy acogedor",
+  "description": "La colección infantil se estrenó con un ciclo de cuentacuentos los sábados por la mañana en la sala de lectura. Las familias que asistieron destacaron el ambiente tranquilo y la calidez del cojín, que según el personal tiene un volumen de ronquido muy suave.",
+  "category": "Extensión",
+  "tags": [
+   "Niños y familias",
+   "Literatura"
+  ],
+  "date": "2026-10-26",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Estudio local lleva a estudiantes de Diseño a estrenar un cortometraje animado",
+  "description": "El estudio ofrecerá pasantías para que los estudiantes participen en la animación de un cortometraje durante el año. La primera función será en la sala central, y se espera que el público aplauda incluso los créditos finales.",
+  "category": "Alianzas",
+  "tags": [
+   "Cine",
+   "Diseño"
+  ],
+  "date": "2026-11-02",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "La biblioteca extiende su horario y los enchufes ya tienen fila desde las ocho",
+  "description": "La biblioteca central ampliará su horario hasta medianoche en semana de exámenes, para alegría de quienes estudian de noche. Se recomienda traer cargador propio, porque la sala de enchufes ya tiene lista de espera.",
+  "category": "Vida estudiantil",
+  "tags": [
+   "Vida universitaria",
+   "Bienestar"
+  ],
+  "date": "2026-11-02",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Laboratorio de robótica logra que un brazo mecánico ordene la sala sin quejarse",
+  "description": "El Laboratorio de Robótica presentó un brazo mecánico que ordena sillas al final de cada clase. El equipo publicará sus planos en acceso abierto, aunque el prototipo aún confunde cuadernos con mochilas.",
+  "category": "Investigación",
+  "tags": [
+   "Investigación",
+   "Ciencia abierta"
+  ],
+  "date": "2026-08-19",
+  "sites": [
+   "university",
+   "engineering"
+  ]
+ },
+ {
+  "title": "Admisión estrena calculadora de puntajes que promete no hacer llorar a nadie",
+  "description": "El nuevo simulador permite estimar puntajes ponderados con solo unos clics, sin hacer cuentas en una servilleta. Admisión aclara que no garantiza resultados, pero sí una experiencia bastante más tranquila.",
+  "category": "Admisión",
+  "tags": [
+   "Admisión",
+   "Bienestar"
+  ],
+  "date": "2026-09-08",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Equipo de fútbol entrena con pelota nueva y ayudantes que corren más que el balón",
+  "description": "El equipo de fútbol de la UTE sumó entrenadores con ganas y una pelota que, según el cuerpo técnico, nunca se pierde en la práctica. Los hinchas esperan que el buen ánimo llegue también al marcador del próximo partido.",
+  "category": "Premios y logros",
+  "tags": [
+   "Deportes",
+   "Vida universitaria"
+  ],
+  "date": "2026-10-14",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Festival de arte del campus convoca a pintar murallas sin tocar la fuente",
+  "description": "La Facultad de Artes invita a la comunidad a intervenir las murallas del patio central con pinturas de temporada. Las bases piden respetar la fuente, que según Infraestructura tiene más historia que cualquier estudiante de primer año.",
+  "category": "Extensión",
+  "tags": [
+   "Extensión",
+   "Vida universitaria"
+  ],
+  "date": "2026-08-27",
+  "sites": [
+   "university",
+   "arts"
+  ]
+ },
+ {
+  "title": "Egresados celebran reencuentro con recuerdos de trabajos grupales que nunca terminaban",
+  "description": "Más de 300 exalumnos se reunieron en el campus para recordar sus años de cálculo, cafés y trabajos en grupo. La organización anunció que el próximo encuentro se realizará en el mismo salón, esta vez con sillas más cómodas.",
+  "category": "Institucional",
+  "tags": [
+   "Egresados",
+   "Vida universitaria"
+  ],
+  "date": "2026-10-30",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Campus estrena ciclovía tan popular que ya hay ciclistas esperando su turno para frenar",
+  "description": "La nueva ciclovía conecta las facultades con la estación de metro y ya se usa más que los estacionamientos. Se pide respetar la velocidad y no usar el carril como pasarela de conversación.",
+  "category": "Infraestructura",
+  "tags": [
+   "Sustentabilidad",
+   "Bienestar"
+  ],
+  "date": "2026-09-22",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Facultad de Ingeniería lanza concurso para diseñar la mochila que nunca se olvida en la sala",
+  "description": "El concurso busca un prototipo de mochila que recuerde llevar el cuaderno, el cargador y las ganas de entregar el trabajo a tiempo. Los equipos tendrán seis semanas y un presupuesto imaginario de cien mil pesos para cumplir su misión.",
+  "category": "Premios y logros",
+  "tags": [
+   "Investigación",
+   "Vida universitaria"
+  ],
+  "date": "2026-11-10",
+  "sites": [
+   "university",
+   "engineering"
+  ]
+ },
+ {
+  "title": "Programa de intercambio abre cupos para estudiar en otro país sin dejar el café de la mañana",
+  "description": "La Oficina de Internacionalización anunció convenios con universidades de tres continentes, incluidos dos cursos que se dictan completamente en línea. Los interesados podrán postular hasta el 30 de noviembre y deberán traer sus mejores ganas de aprender idiomas.",
+  "category": "Alianzas",
+  "tags": [
+   "Internacional",
+   "Admisión"
+  ],
+  "date": "2026-09-29",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Jardín botánico publica diez años de datos de humedad en formato que cualquiera entiende",
+  "description": "El equipo del jardín botánico liberó en acceso abierto diez años de mediciones de humedad, temperatura y visitas de palomas. Los investigadores esperan que otros grupos usen los datos para estudiar el riego y, de paso, entender mejor a las palomas.",
+  "category": "Investigación",
+  "tags": [
+   "Ciencia abierta",
+   "Sustentabilidad"
+  ],
+  "date": "2026-10-07",
+  "sites": [
+   "university"
+  ]
+ }
+]

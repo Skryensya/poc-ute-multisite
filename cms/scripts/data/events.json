@@ -1,0 +1,2393 @@
+[
+ {
+  "title": "Sopa de algoritmos: cocinando redes neuronales sin quemar el servidor",
+  "slug": "sopa-de-algoritmos-cocinando-redes-neuronales-sin-quemar-el-servidor",
+  "description": "Preparamos una receta de redes neuronales paso a paso, con ingredientes frescos de datos y una pizca de paciencia. Hay degustación de ejemplos, preguntas al final y muchos chistes sobre el gradiente descendente.",
+  "startsAt": "2026-11-20T13:00:00.000Z",
+  "endsAt": "2026-11-20T15:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Inteligencia artificial",
+   "Datos"
+  ],
+  "unit": "Escuela de Informática",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Logística del café: cómo llega tu latte a tiempo (casi siempre)",
+  "slug": "logistica-del-cafe-como-llega-tu-latte-a-tiempo-casi-siempre",
+  "description": "Charla sobre cadenas de suministro donde un camión lleno de granos viaja más rápido que el pedido de un estudiante en semana de exámenes. Incluye cálculo de rutas con mate y una simulación de bodega caótica.",
+  "startsAt": "2026-11-20T13:00:00.000Z",
+  "endsAt": "2026-11-20T15:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Industria",
+   "Datos"
+  ],
+  "unit": "Escuela de Industrial",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Pinceladas en Modo Avión: exposición de acuarelas que no necesitan wifi",
+  "slug": "pinceladas-en-modo-avion-exposicion-de-acuarelas-que-no-necesitan-wifi",
+  "description": "Veinte acuarelas pintadas sin conexión, con cartelas escritas a mano y un cuaderno de visitas que solo acepta comentarios en papel. Entrada liberada, pero se recomienda llevar lápiz y paciencia para esperar el turno frente al cuadro del gato.",
+  "startsAt": "2026-11-20T13:00:00.000Z",
+  "endsAt": "2026-11-20T15:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Exposiciones",
+   "Arte y tecnología"
+  ],
+  "unit": "Galería de la Facultad",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Charla de admisión: sobrevivir al puntaje sin morir en el intento",
+  "slug": "charla-de-admision-sobrevivir-al-puntaje-sin-morir-en-el-intento",
+  "description": "Expertos en admisión explican, con café y paciencia, cómo preparar la postulación sin que el puntaje se vuelva un drama de telenovela. Habrá preguntas frecuentes y un sorteo de cuadernos con forma de cohete.",
+  "startsAt": "2026-11-20T13:00:00.000Z",
+  "endsAt": "2026-11-20T15:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Admisión",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Admisión",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Cuarteto de cuerdas que solo toca canciones de lunes",
+  "slug": "cuarteto-de-cuerdas-que-solo-toca-canciones-de-lunes",
+  "description": "Un cuarteto de cuerdas interpreta piezas pensadas para los lunes, ese día que nadie quiere empezar. Habrá café gratis en el intermedio y un bis elegido a votación entre quienes llegaron con la semana perdida.",
+  "startsAt": "2026-11-20T22:00:00.000Z",
+  "endsAt": "2026-11-21T00:00:00.000Z",
+  "eventType": "Concierto",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Música"
+  ],
+  "unit": "Orquesta Universitaria",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Feria de carreras: pruebe un vernier sin romper nada (ni el cronograma)",
+  "slug": "feria-de-carreras-pruebe-un-vernier-sin-romper-nada-ni-el-cronograma",
+  "description": "Estudiantes de ingeniería montan estaciones para probar puentes de palitos, robots que bailan y ecuaciones que se resuelven solas. Todo sin examen, aunque el café de la feria sí tiene su propio sistema de cobro.",
+  "startsAt": "2026-11-23T14:00:00.000Z",
+  "endsAt": "2026-11-23T18:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Admisión",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Admisión",
+  "sites": [
+   "university",
+   "engineering"
+  ]
+ },
+ {
+  "title": "Taller de robots que no saben bailar (pero lo intentan con entusiasmo)",
+  "slug": "taller-de-robots-que-no-saben-bailar-pero-lo-intentan-con-entusiasmo",
+  "description": "Los participantes armarán un brazo robótico de cartón con servos baratos y lo programarán para mover objetos sin tirarlos al suelo. Se entregan materiales, café y una medalla de honor con forma de engranaje.",
+  "startsAt": "2026-11-24T18:00:00.000Z",
+  "endsAt": "2026-11-24T21:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Robótica",
+   "Electrónica"
+  ],
+  "unit": "Taller de Robótica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Phishing con pizza gratis: cómo no caer en el anzuelo digital",
+  "slug": "phishing-con-pizza-gratis-como-no-caer-en-el-anzuelo-digital",
+  "description": "Repasamos los engaños más comunes del correo electrónico con ejemplos inventados, sin víctimas ni daño. Al final hay un juego para detectar cuál mensaje es una trampa y cuál solo quiere venderte un paraguas.",
+  "startsAt": "2026-11-24T21:30:00.000Z",
+  "endsAt": "2026-11-24T22:30:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Ciberseguridad",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Seguridad Informática",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Cine mudo con banda sonora improvisada en vivo por el Taller de Ruidos",
+  "slug": "cine-mudo-con-banda-sonora-improvisada-en-vivo-por-el-taller-de-ruidos",
+  "description": "Proyectamos una película sin diálogos mientras un grupo de estudiantes improvisa la banda sonora con cucharas, un teclado desafinado y una bocina de bicicleta. Como no hay diálogos, el público debe adivinar qué se dicen y reírse con ganas.",
+  "startsAt": "2026-11-24T23:00:00.000Z",
+  "endsAt": "2026-11-25T01:00:00.000Z",
+  "eventType": "Concierto",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": false,
+  "price": "$3.000",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Cine",
+   "Música"
+  ],
+  "unit": "Escuela de Música",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Ceremonia de bienvenida a los ingenieros de la lluvia (con paraguas oficial)",
+  "slug": "ceremonia-de-bienvenida-a-los-ingenieros-de-la-lluvia-con-paraguas-ofi",
+  "description": "Se entregan paraguas de la UTE a los nuevos estudiantes, por si el sol de Santiago decide cambiar de opinión a mitad de clases. Incluye un himno cantado por el coro de la biblioteca, que promete no desafinar demasiado.",
+  "startsAt": "2026-11-25T12:00:00.000Z",
+  "endsAt": "2026-11-25T14:00:00.000Z",
+  "eventType": "Ceremonia",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Vida universitaria",
+   "Bienestar"
+  ],
+  "unit": "Secretaría General",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Tipografía a ciegas: taller para diseñar con un antifaz de cartón puesto",
+  "slug": "tipografia-a-ciegas-taller-para-disenar-con-un-antifaz-de-carton-puest",
+  "description": "Durante tres horas, las y los participantes dibujarán letras con los ojos cubiertos por un antifaz de cartón y descubrirán que la tipografía también se siente. Se entrega una lupa, un lápiz blando y una medalla de mentira al final de la sesión.",
+  "startsAt": "2026-11-25T18:00:00.000Z",
+  "endsAt": "2026-11-25T21:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": false,
+  "price": "$3.000",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Talleres",
+   "Diseño"
+  ],
+  "unit": "Escuela de Diseño",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Excel que sobrevive hasta el lunes: curso express de fórmulas",
+  "slug": "excel-que-sobrevive-hasta-el-lunes-curso-express-de-formulas",
+  "description": "Aprende fórmulas, tablas dinámicas y funciones que sobreviven hasta el lunes sin perder la cordura. Ideal para quienes llegaron a la carrera con un Excel de confianza y se quedaron con una planilla confusa.",
+  "startsAt": "2026-11-26T12:30:00.000Z",
+  "endsAt": "2026-11-26T16:30:00.000Z",
+  "eventType": "Curso",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Alumni",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Datos",
+   "Industria"
+  ],
+  "unit": "Escuela de Extensión Digital",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Congreso de Ciencia Ficción Aplicada: robots, flanes y el futuro del té",
+  "slug": "congreso-de-ciencia-ficcion-aplicada-robots-flanes-y-el-futuro-del-te",
+  "description": "Investigadores presentan avances sobre máquinas que preparan empanadas y algoritmos que recomiendan siestas estratégicas. La entrada incluye café de verdad y un certificado que se puede enmarcar, aunque no tenga valor académico.",
+  "startsAt": "2026-11-27T12:30:00.000Z",
+  "endsAt": "2026-11-27T16:30:00.000Z",
+  "eventType": "Congreso",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": false,
+  "price": "$15.000",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Investigación",
+   "Ciencia abierta"
+  ],
+  "unit": "Dirección de Investigación",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Competencia de paracaídas para huevos: aterrizajes sin yema",
+  "slug": "competencia-de-paracaidas-para-huevos-aterrizajes-sin-yema",
+  "description": "Equipos de la facultad diseñan paracaídas con bolsas plásticas y cuerdas para proteger un huevo desde el segundo piso. Gana el grupo cuyo huevo llegue entero y cuyo informe técnico sea el más poético del día.",
+  "startsAt": "2026-11-27T14:00:00.000Z",
+  "endsAt": "2026-11-27T16:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Industria",
+   "Innovación"
+  ],
+  "unit": "Escuela de Mecánica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Museo del Mate Olvidado: visita guiada a la colección de tazas perdidas",
+  "slug": "museo-del-mate-olvidado-visita-guiada-a-la-coleccion-de-tazas-perdidas",
+  "description": "Recorrido por vitrinas de tazas, cucharas y termos que nadie reclamó desde 1994, con un guía que cuenta la historia de cada objeto con más drama del necesario. Al final se entrega un sello de visita y se pide, con cariño, no tocar el termo del fondo.",
+  "startsAt": "2026-11-27T14:00:00.000Z",
+  "endsAt": "2026-11-27T15:00:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Centro Cultural La Moneda Chica",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Patrimonio",
+   "Exposiciones"
+  ],
+  "unit": "Oficina de Patrimonio UTE",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Lanzamiento del recetario para cocinar sin fuego en la hora de colación",
+  "slug": "lanzamiento-del-recetario-para-cocinar-sin-fuego-en-la-hora-de-colacio",
+  "description": "Se presenta un recetario escrito enteramente en tiempo de colación, con platos que se preparan en diez minutos y sin encender ni una hornalla. Al final, los autores firman ejemplares y reparten una muestra de pan amasado en la sala de prensa.",
+  "startsAt": "2026-11-27T21:30:00.000Z",
+  "endsAt": "2026-11-27T22:30:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Literatura",
+   "Patrimonio"
+  ],
+  "unit": "Editorial Universitaria Ocasional",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Exposición de datos: gráficos tan bonitos que da pena leerlos",
+  "slug": "exposicion-de-datos-graficos-tan-bonitos-que-da-pena-leerlos",
+  "description": "Gráficos tan bonitos que dan ganas de no leerlos, y tablas tan ordenadas que parecen mentir un poco. Recorrido guiado por visualizaciones de datos creadas por estudiantes, con comentarios amables del público.",
+  "startsAt": "2026-11-30T13:00:00.000Z",
+  "endsAt": "2026-11-30T16:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Datos",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Visualización de Datos",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Taller de origami para respaldos: doblar bien, copiar mejor",
+  "slug": "taller-de-origami-para-respaldos-doblar-bien-copiar-mejor",
+  "description": "Bibliotecarios enseñan a plegar grullas de papel mientras explican, con humor, por qué siempre hay que guardar copias de respaldo de la tesis. Cada participante se lleva una grulla y un recordatorio para no confiar en la memoria USB del pasillo.",
+  "startsAt": "2026-12-01T18:00:00.000Z",
+  "endsAt": "2026-12-01T20:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Vida universitaria",
+   "Ciencia abierta"
+  ],
+  "unit": "Biblioteca Central",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Mujeres en ingeniería: charla con brújula, café y sin manuales aburridos",
+  "slug": "mujeres-en-ingenieria-charla-con-brujula-cafe-y-sin-manuales-aburridos",
+  "description": "Conversatorio con ingenieras de distintas áreas que cuentan cómo abrieron camino en obras, laboratorios y proyectos de innovación. Habrá preguntas anónimas, errores memorables y un mapa de carreras posibles.",
+  "startsAt": "2026-12-01T20:00:00.000Z",
+  "endsAt": "2026-12-01T22:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Mujeres en ingeniería",
+   "Innovación"
+  ],
+  "unit": "Comité de Mujeres en Ingeniería",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Lanzamiento del catálogo de fuentes para letreros de almacén de barrio",
+  "slug": "lanzamiento-del-catalogo-de-fuentes-para-letreros-de-almacen-de-barrio",
+  "description": "Presentamos catorce tipografías inspiradas en letreros de almacenes, con nombres como Abarrotes Serif y Chao Sans, disponibles para descargar gratis. El lanzamiento incluye ronda de preguntas y una demostración de cómo escribir Se vende sin que se vea feo.",
+  "startsAt": "2026-12-01T21:30:00.000Z",
+  "endsAt": "2026-12-01T22:30:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Diseño",
+   "Arte y tecnología"
+  ],
+  "unit": "Laboratorio de Tipos",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Taller de teatro para perder el miedo a hablar en ascensores",
+  "slug": "taller-de-teatro-para-perder-el-miedo-a-hablar-en-ascensores",
+  "description": "Durante tres sesiones practicaremos conversaciones breves con desconocidos en espacios reducidos, usando ejercicios de improvisación y mucha risa. Al final se entrega una tarjeta de presentación de fantasía para usar en la vida real.",
+  "startsAt": "2026-12-02T13:00:00.000Z",
+  "endsAt": "2026-12-02T16:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": false,
+  "price": "$5.000",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Teatro",
+   "Talleres"
+  ],
+  "unit": "Departamento de Artes Escénicas",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Big Data en olla: estofado de datos para analistas hambrientos",
+  "slug": "big-data-en-olla-estofado-de-datos-para-analistas-hambrientos",
+  "description": "Un seminario para analistas hambrientos: cocinamos estofados de datos con herramientas de analítica aplicada y servimos resultados que se pueden explicar sin morir en el intento. Cupos limitados, café incluido.",
+  "startsAt": "2026-12-02T18:00:00.000Z",
+  "endsAt": "2026-12-02T21:00:00.000Z",
+  "eventType": "Seminario",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": false,
+  "price": "$3.000",
+  "audience": [
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Datos",
+   "Industria"
+  ],
+  "unit": "Instituto de Analítica Aplicada",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Feria de emprendimientos con olor a empanada y prototipo en mano",
+  "slug": "feria-de-emprendimientos-con-olor-a-empanada-y-prototipo-en-mano",
+  "description": "Startups universitarias muestran productos que van desde lámparas solares hasta una app para encontrar estacionamiento imaginario. Hay degustación de ideas, pitches de dos minutos y un stand de mentores que no cobra por preguntar.",
+  "startsAt": "2026-12-03T15:00:00.000Z",
+  "endsAt": "2026-12-03T19:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": false,
+  "price": "$2.000",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Emprendimiento",
+   "Innovación"
+  ],
+  "unit": "Incubadora de Ideas Costaneras",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Redes sin enredos: TCP/IP explicado con planos de metro",
+  "slug": "redes-sin-enredos-tcp-ip-explicado-con-planos-de-metro",
+  "description": "Explicamos TCP/IP usando planos de metro: cada paquete es un pasajero, cada router una estación y cada pérdida de conexión, una excusa perfecta para llegar tarde. Incluye ejercicios en papel y mucho humor técnico.",
+  "startsAt": "2026-12-03T17:00:00.000Z",
+  "endsAt": "2026-12-03T19:00:00.000Z",
+  "eventType": "Seminario",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Industria",
+   "Electrónica"
+  ],
+  "unit": "Laboratorio de Redes y Telecomunicaciones",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "¿El arte generativo tiene alma o solo tiene buen algoritmo?",
+  "slug": "el-arte-generativo-tiene-alma-o-solo-tiene-buen-algoritmo",
+  "description": "Tres artistas y una programadora discuten si una pintura creada por código puede emocionar tanto como una hecha a mano, mientras una tetera con sensores dibuja al público en tiempo real. Habrá café de máquina, que dicen que tiene alma.",
+  "startsAt": "2026-12-03T22:00:00.000Z",
+  "endsAt": "2026-12-04T00:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Público en general"
+  ],
+  "tags": [
+   "Arte y tecnología",
+   "Exposiciones"
+  ],
+  "unit": "Departamento de Artes Digitales",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Concierto de la orquesta de los pasillos: sinfonía para timbres y mochilas",
+  "slug": "concierto-de-la-orquesta-de-los-pasillos-sinfonia-para-timbres-y-mochi",
+  "description": "Estudiantes de todas las carreras tocan piezas compuestas con sonidos cotidianos, desde el timbre de las 9:00 hasta el ruido de la fotocopiadora. El repertorio incluye un bolero dedicado a quien dejó el paraguas en el auditorio.",
+  "startsAt": "2026-12-03T22:00:00.000Z",
+  "endsAt": "2026-12-03T23:00:00.000Z",
+  "eventType": "Concierto",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Vida universitaria",
+   "Extensión"
+  ],
+  "unit": "Dirección de Extensión",
+  "sites": [
+   "university",
+   "arts"
+  ]
+ },
+ {
+  "title": "Feria de stickers sin copyright para tu termo y tu bicicleta",
+  "slug": "feria-de-stickers-sin-copyright-para-tu-termo-y-tu-bicicleta",
+  "description": "Más de treinta expositores venden calcomanías, parches y postales diseñadas por estudiantes, todas con dibujos originales de animales que no existen. Hay zona de pegado gratis y un concurso para elegir el sticker más improbable de la temporada.",
+  "startsAt": "2026-12-04T13:00:00.000Z",
+  "endsAt": "2026-12-04T17:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": false,
+  "price": "$2.000",
+  "audience": [
+   "Público en general",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Diseño",
+   "Niños y familias"
+  ],
+  "unit": "Taller de Serigrafía Experimental",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Lanzamiento del Simulador de Almacenes Torpes 2.0",
+  "slug": "lanzamiento-del-simulador-de-almacenes-torpes-2-0",
+  "description": "Presentamos la versión 2.0 de un simulador que enseña a organizar bodegas con cajas que se caen, pasillos que se cierran y un jefe imaginario muy exigente. Incluye demo en vivo y un torneo express con premios de chocolate.",
+  "startsAt": "2026-12-04T22:00:00.000Z",
+  "endsAt": "2026-12-04T23:00:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Datos",
+   "Industria"
+  ],
+  "unit": "Laboratorio de Simulación",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Hamlet en la fila del casino: versión corta, sin subtítulos",
+  "slug": "hamlet-en-la-fila-del-casino-version-corta-sin-subtitulos",
+  "description": "Un grupo de estudiantes monta una tragedia clásica en la fila del casino, con dos personajes que se pelean por la última empanada. Dura una hora, con intermedio para comprar algo en la cafetería.",
+  "startsAt": "2026-12-04T23:00:00.000Z",
+  "endsAt": "2026-12-05T00:00:00.000Z",
+  "eventType": "Obra de teatro",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Extensión",
+   "Vida universitaria"
+  ],
+  "unit": "Departamento de Artes Escénicas",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Feria de Productos Reciclados: lo que era basura ahora tiene sueños",
+  "slug": "feria-de-productos-reciclados-lo-que-era-basura-ahora-tiene-suenos",
+  "description": "Estudiantes exhiben muebles, lámparas y juguetes hechos con materiales reutilizados, con etiquetas que cuentan su historia de vida. Hay mercado de trueque, música suave y un jurado que no acepta pendientes de tapitas.",
+  "startsAt": "2026-12-05T13:00:00.000Z",
+  "endsAt": "2026-12-05T17:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Público en general"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Diseño Circular",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Taller de Python para tu celular que nunca tiene batería",
+  "slug": "taller-de-python-para-tu-celular-que-nunca-tiene-bateria",
+  "description": "Llevamos tu celular a la hora de Python: escribiremos un programa que recuerda tus cumpleaños y te avisa cuando la pila está baja. No se requiere experiencia, solo ganas de hacer ruido con el teclado.",
+  "startsAt": "2026-12-05T14:00:00.000Z",
+  "endsAt": "2026-12-05T16:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Datos",
+   "Innovación"
+  ],
+  "unit": "Club de Programación UTE",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Conversatorio: ¿Quién dobla mejor la voz de los dibujos animados?",
+  "slug": "conversatorio-quien-dobla-mejor-la-voz-de-los-dibujos-animados",
+  "description": "Cuatro actores de doblaje debaten sobre el arte de sonar como un pingüino enojado sin perder la dignidad. Habrá demostraciones en vivo y una competencia de voces de animales que el público puede intentar desde su asiento.",
+  "startsAt": "2026-12-05T20:00:00.000Z",
+  "endsAt": "2026-12-05T21:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Centro Cultural La Moneda Chica",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Cine",
+   "Niños y familias"
+  ],
+  "unit": "Escuela de Cine y Animación",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Visita guiada a la bodega que nunca se queda sin pallets",
+  "slug": "visita-guiada-a-la-bodega-que-nunca-se-queda-sin-pallets",
+  "description": "Recorrido por un centro de distribución ficticio donde los montacargas avanzan en fila y el inventario se cuenta con un cariño casi terapéutico. Se recomienda usar zapatos cómodos y no tocar los botones rojos, que son muy sensibles a la curiosidad.",
+  "startsAt": "2026-12-08T12:30:00.000Z",
+  "endsAt": "2026-12-08T14:30:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Industria",
+   "Datos"
+  ],
+  "unit": "Laboratorio de Logística",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "¿Puede una IA pedir disculpas? Ética de chatbots en la hora de almuerzo",
+  "slug": "puede-una-ia-pedir-disculpas-etica-de-chatbots-en-la-hora-de-almuerzo",
+  "description": "¿Puede una IA pedir disculpas sin sentirlas? Conversamos sobre ética de chatbots mientras comemos algo rápido, con preguntas del público y una lista de frases que nunca debería decir un asistente.",
+  "startsAt": "2026-12-08T16:00:00.000Z",
+  "endsAt": "2026-12-08T17:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Inteligencia artificial",
+   "Innovación"
+  ],
+  "unit": "Núcleo de Ética Algorítmica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Obra infantil: la princesa que quería ser bibliotecaria",
+  "slug": "obra-infantil-la-princesa-que-queria-ser-bibliotecaria",
+  "description": "Una princesa abandona el castillo para ordenar la biblioteca del reino, donde los libros se pierden y los dragones piden silencio. Función recomendada para niños de cinco años en adelante, con un final que los adultos también entienden.",
+  "startsAt": "2026-12-09T14:00:00.000Z",
+  "endsAt": "2026-12-09T15:00:00.000Z",
+  "eventType": "Obra de teatro",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Teatro",
+   "Niños y familias"
+  ],
+  "unit": "Compañía de Teatro Estudiantil",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Visita guiada al reloj del patio central, que siempre va cinco minutos atrás",
+  "slug": "visita-guiada-al-reloj-del-patio-central-que-siempre-va-cinco-minutos",
+  "description": "Un guía con casco de cartón explica cómo funciona el reloj que nunca coincide con el celular de nadie. Al final se visita la oficina de objetos perdidos, donde hay paraguas, un zapato solitario y una tesis sin nombre.",
+  "startsAt": "2026-12-09T15:00:00.000Z",
+  "endsAt": "2026-12-09T16:00:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Alumni"
+  ],
+  "tags": [
+   "Egresados",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Patrimonio",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Charla: emprender con un prototipo de cartón y mucho café frío",
+  "slug": "charla-emprender-con-un-prototipo-de-carton-y-mucho-cafe-frio",
+  "description": "Una emprendedora ficticia relata cómo pasó de una caja con cables a una empresa con cuatro empleados y cero promesas incumplidas. Habrá preguntas del público, un ejercicio de pitch de 60 segundos y una lista de errores para no repetir.",
+  "startsAt": "2026-12-09T15:30:00.000Z",
+  "endsAt": "2026-12-09T16:30:00.000Z",
+  "eventType": "Charla",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Alumni"
+  ],
+  "tags": [
+   "Emprendimiento",
+   "Innovación"
+  ],
+  "unit": "Centro de Emprendimiento Tecnológico",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Primera taza torcida: taller de cerámica para principiantes valientes",
+  "slug": "primera-taza-torcida-taller-de-ceramica-para-principiantes-valientes",
+  "description": "Aprenderás a modelar en torno con arcilla húmeda y a aceptar que la primera taza siempre sale algo torcida, como una sonrisa con ideas. Se incluyen delantal, una espátula de regalo y una sesión de fotos para documentar el desastre artístico.",
+  "startsAt": "2026-12-09T19:00:00.000Z",
+  "endsAt": "2026-12-09T22:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": false,
+  "price": "$6.000",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Alumni"
+  ],
+  "tags": [
+   "Talleres",
+   "Diseño"
+  ],
+  "unit": "Escuela de Diseño",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Maratón del Mate Frío: 4 horas para programar sin calentar el café",
+  "slug": "maraton-del-mate-frio-4-horas-para-programar-sin-calentar-el-cafe",
+  "description": "Cuatro horas para programar una app de mentira que funcione de verdad, en equipos de cuatro personas y con mate frío como único combustible. Hay premios, memes certificados y un jurado que no duerme.",
+  "startsAt": "2026-12-10T12:00:00.000Z",
+  "endsAt": "2026-12-10T16:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": false,
+  "price": "$2.000",
+  "audience": [
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Innovación",
+   "Emprendimiento"
+  ],
+  "unit": "Oficina de Emprendimiento Tecnológico",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Dibujos con puntero de los noventa: exposición de arte digital retro",
+  "slug": "dibujos-con-puntero-de-los-noventa-exposicion-de-arte-digital-retro",
+  "description": "Una selección de dibujos digitales creados con mouse y mucha paciencia, todos con bordes irregulares, paleta limitada y el sonido de un módem imaginario de fondo. Las obras se exhiben en pantallas de tubo restauradas por estudiantes de cuarto semestre.",
+  "startsAt": "2026-12-10T15:00:00.000Z",
+  "endsAt": "2026-12-10T17:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Exposiciones",
+   "Arte y tecnología"
+  ],
+  "unit": "Galería de la Facultad",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Conversatorio: ¿tienen agenda académica los gatos del campus?",
+  "slug": "conversatorio-tienen-agenda-academica-los-gatos-del-campus",
+  "description": "Un panel de investigadoras debate si las siestas en la biblioteca son un método de estudio válido. Se transmite en línea, con preguntas del público y una encuesta que los gatos del campus no quisieron responder.",
+  "startsAt": "2026-12-10T21:00:00.000Z",
+  "endsAt": "2026-12-10T22:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Ciencia abierta",
+   "Investigación"
+  ],
+  "unit": "Dirección de Ciencia Abierta",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Seminario: ¿Cuántos drones caben en un semáforo? Una respuesta sin tráfico",
+  "slug": "seminario-cuantos-drones-caben-en-un-semaforo-una-respuesta-sin-trafic",
+  "description": "Especialistas exploran cómo organizar flotas de drones de reparto sin chocar con palomas, globos ni la paciencia de los conductores. Habrá cálculo de rutas, un mapa de Santiago ficticio y preguntas del público muy bien intencionadas.",
+  "startsAt": "2026-12-10T21:30:00.000Z",
+  "endsAt": "2026-12-10T23:30:00.000Z",
+  "eventType": "Seminario",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Robótica",
+   "Datos"
+  ],
+  "unit": "Programa de Robótica Aplicada",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Los bugs también sueñan: comedia sobre un programa muy distraído",
+  "slug": "los-bugs-tambien-suenan-comedia-sobre-un-programa-muy-distraido",
+  "description": "Una comedia sobre un programa que no entendió el requisito y decidió resolver otro problema, con vestuario hecho de cables y una escena final que se reinicia sola. Función para toda la familia UTE.",
+  "startsAt": "2026-12-11T22:30:00.000Z",
+  "endsAt": "2026-12-11T23:30:00.000Z",
+  "eventType": "Obra de teatro",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": false,
+  "price": "$4.000",
+  "audience": [
+   "Público en general",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Inteligencia artificial",
+   "Innovación"
+  ],
+  "unit": "Grupo de Teatro Ingeniero Loco",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Feria robótica: robots que bailan, cocinan y piden disculpas",
+  "slug": "feria-robotica-robots-que-bailan-cocinan-y-piden-disculpas",
+  "description": "Robots que bailan, robots que cocinan y uno que pide disculpas cada vez que se equivoca. Los proyectos del laboratorio estarán en exhibición y puedes probar algunos, siempre bajo supervisión de los estudiantes.",
+  "startsAt": "2026-12-12T15:00:00.000Z",
+  "endsAt": "2026-12-12T18:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Robótica",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Robótica Aplicada",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Curso de Lean para cocineros, arquitectos y gente que hace filas",
+  "slug": "curso-de-lean-para-cocineros-arquitectos-y-gente-que-hace-filas",
+  "description": "Introducción a la metodología Lean aplicada a cocinas, oficinas y colas del supermercado, con ejemplos que eliminan pasos inútiles sin eliminar el postre. Se entregan planillas, post-its de colores y un reto de dos minutos.",
+  "startsAt": "2026-12-12T22:00:00.000Z",
+  "endsAt": "2026-12-13T00:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Industria",
+   "Innovación"
+  ],
+  "unit": "Escuela de Industrial",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Curso de escritura de haikus para quienes odian contar sílabas",
+  "slug": "curso-de-escritura-de-haikus-para-quienes-odian-contar-silabas",
+  "description": "Aprenderemos a escribir poemas de tres versos en medio de un atasco, una reunión o una fila en la farmacia. El curso incluye una lista de palabras prohibidas y un certificado que confirma que contaste bien las sílabas.",
+  "startsAt": "2026-12-12T22:00:00.000Z",
+  "endsAt": "2026-12-13T00:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Online",
+  "online": true,
+  "free": false,
+  "price": "$8.000",
+  "audience": [
+   "Alumni",
+   "Público en general"
+  ],
+  "tags": [
+   "Literatura",
+   "Talleres"
+  ],
+  "unit": "Escuela de Escritura Creativa",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Congreso de Sustentabilidad: paneles que crecen con la luz y el ánimo",
+  "slug": "congreso-de-sustentabilidad-paneles-que-crecen-con-la-luz-y-el-animo",
+  "description": "Una jornada de ponencias sobre celdas solares, baterías reutilizadas y techos verdes que bajan la cuenta de la luz. El cierre incluye un concurso de maquetas hechas con reciclaje y café sin vasos de un solo uso.",
+  "startsAt": "2026-12-15T12:00:00.000Z",
+  "endsAt": "2026-12-15T16:00:00.000Z",
+  "eventType": "Congreso",
+  "place": "Campus Central",
+  "online": false,
+  "free": false,
+  "price": "$10.000",
+  "audience": [
+   "Público en general",
+   "Alumni",
+   "Estudiantes de Doctorado"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Electrónica"
+  ],
+  "unit": "Centro de Sustentabilidad Energética",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Competencia de robots recicladores: gana quien no derrame el café",
+  "slug": "competencia-de-robots-recicladores-gana-quien-no-derrame-el-cafe",
+  "description": "Equipos de estudiantes presentan robots que separan papeles, latas y botellas en el menor tiempo posible, con el café como única variable incontrolable. El público vota por el robot más simpático, que no siempre es el más rápido.",
+  "startsAt": "2026-12-15T13:00:00.000Z",
+  "endsAt": "2026-12-15T16:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": false,
+  "price": "$2.000",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Sustentabilidad",
+  "sites": [
+   "university",
+   "engineering"
+  ]
+ },
+ {
+  "title": "Lanzamiento de Nubecita 1.0: el servidor que no se cae en clase",
+  "slug": "lanzamiento-de-nubecita-1-0-el-servidor-que-no-se-cae-en-clase",
+  "description": "Presentamos Nubecita 1.0, un servidor que promete no caerse durante la clase de cálculo. Habrá demostración en vivo, tarjetas de bienvenida y una ronda de preguntas sobre respaldos, nubes y otras cosas del cielo.",
+  "startsAt": "2026-12-15T20:00:00.000Z",
+  "endsAt": "2026-12-15T21:00:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Alumni"
+  ],
+  "tags": [
+   "Datos",
+   "Innovación"
+  ],
+  "unit": "Centro de Computación en la Nube UTE",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Visita al depósito de maquetas: lo que la facultad guarda en el sótano",
+  "slug": "visita-al-deposito-de-maquetas-lo-que-la-facultad-guarda-en-el-sotano",
+  "description": "Bajaremos al depósito donde descansan cuatrocientas maquetas de edificios que nunca se construyeron, algunas con más árboles de plástico que ciudad real. Se pide no tocar nada, no estornudar cerca de las torres y llevar linterna.",
+  "startsAt": "2026-12-15T20:00:00.000Z",
+  "endsAt": "2026-12-15T21:00:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Patrimonio",
+   "Diseño"
+  ],
+  "unit": "Archivo de Maquetas",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Feria de juguetes de cartón armados por estudiantes de Diseño",
+  "slug": "feria-de-juguetes-de-carton-armados-por-estudiantes-de-diseno",
+  "description": "Puestos con juguetes de cartón que se arman sin pegamento, pensados para que los niños los construyan y los destruyan con alegría. Cada stand explica cuánto tarda en armarse y cuántas piezas misteriosas sobran al final.",
+  "startsAt": "2026-12-16T13:00:00.000Z",
+  "endsAt": "2026-12-16T17:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Diseño",
+   "Niños y familias"
+  ],
+  "unit": "Escuela de Diseño Industrial",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Taller de Git: deshacer cambios sin llorar en público",
+  "slug": "taller-de-git-deshacer-cambios-sin-llorar-en-publico",
+  "description": "Aprenderemos a deshacer cambios en Git sin llorar en público: revertir commits, recuperar ramas perdidas y entender por qué un merge puede ser una conversación difícil. Trae tu laptop y tu mejor cara de calma.",
+  "startsAt": "2026-12-16T13:30:00.000Z",
+  "endsAt": "2026-12-16T15:30:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Innovación",
+   "Industria"
+  ],
+  "unit": "Club de Software Libre UTE",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Revela tu mejor cartón: concurso de fotografía con cámaras estenopeicas",
+  "slug": "revela-tu-mejor-carton-concurso-de-fotografia-con-camaras-estenopeicas",
+  "description": "Participantes construyen una cámara estenopeica con cajas de cereal y fotografían el campus, con premios para la foto más borrosa con intención artística y la menos borrosa sin querer. Las bases piden cartón reciclado, porque la galería también es ecológica.",
+  "startsAt": "2026-12-17T17:00:00.000Z",
+  "endsAt": "2026-12-17T20:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Exposiciones",
+   "Niños y familias"
+  ],
+  "unit": "Laboratorio de Imagen",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Curso exprés: soldar sin quemarse las pestañas ni la paciencia",
+  "slug": "curso-expres-soldar-sin-quemarse-las-pestanas-ni-la-paciencia",
+  "description": "Curso básico de soldadura para electrónica, con estaños de colores, placas de práctica y un instructor que repite tres veces 'primero el casco'. Al final cada estudiante se lleva un circuito que parpadea con orgullo.",
+  "startsAt": "2026-12-17T19:00:00.000Z",
+  "endsAt": "2026-12-17T22:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Electrónica",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Electrónica Práctica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Conversatorio: ¿la IA escribe mejor que yo o solo más rápido?",
+  "slug": "conversatorio-la-ia-escribe-mejor-que-yo-o-solo-mas-rapido",
+  "description": "Dos docentes y un estudiante de último año discuten si la IA escribe mejor que nosotros o solo más rápido. Habrá ejemplos de textos, un debate amable y espacio para que el público opine sin miedo al corrector.",
+  "startsAt": "2026-12-17T21:00:00.000Z",
+  "endsAt": "2026-12-17T23:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Inteligencia artificial",
+   "Innovación"
+  ],
+  "unit": "Departamento de Ciencias de la Computación",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Torneo de cifrado: descifra antes de que el café se enfríe",
+  "slug": "torneo-de-cifrado-descifra-antes-de-que-el-cafe-se-enfrie",
+  "description": "Un torneo de cifrado donde gana quien descifre el mensaje antes de que el café se enfríe. Los equipos usarán cifrados clásicos y pistas ingeniosas, todo en un entorno seguro y sin datos reales de nadie.",
+  "startsAt": "2026-12-18T19:00:00.000Z",
+  "endsAt": "2026-12-18T22:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Ciberseguridad",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Criptografía Aplicada",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Concierto de flauta dulce para gatos y sus humanos",
+  "slug": "concierto-de-flauta-dulce-para-gatos-y-sus-humanos",
+  "description": "Un ensamble de flautas dulces toca un repertorio especialmente elegido para felinos, con pausas largas y generosas. Se recomienda llegar con el gato en brazos, aunque el gato probablemente decidirá sentarse sobre el atril.",
+  "startsAt": "2026-12-19T15:00:00.000Z",
+  "endsAt": "2026-12-19T16:00:00.000Z",
+  "eventType": "Concierto",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Música",
+   "Niños y familias"
+  ],
+  "unit": "Ensamble de Flautas UTE",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Exposición: robots que pintan mejor que tu profe de matemáticas",
+  "slug": "exposicion-robots-que-pintan-mejor-que-tu-profe-de-matematicas",
+  "description": "Muestra de brazos robóticos que pintan acuarelas, escriben poemas cortos y firman diplomas con una letra que ningún rector reconocería. Las obras se venden en una subasta benéfica para financiar más motores y menos cables enredados.",
+  "startsAt": "2026-12-22T14:00:00.000Z",
+  "endsAt": "2026-12-22T17:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Campus Central",
+  "online": false,
+  "free": false,
+  "price": "$1.000",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Robótica",
+   "Inteligencia artificial"
+  ],
+  "unit": "Taller de Robótica",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Charla de egresados: qué hacer con el título si el mundo cambió de planes",
+  "slug": "charla-de-egresados-que-hacer-con-el-titulo-si-el-mundo-cambio-de-plan",
+  "description": "Egresados de distintas generaciones cuentan cómo cambiaron de trabajo, de ciudad y de opinión sobre el café de la facultad. Habrá networking con tarjetas hechas a mano, que reducen el riesgo de perderlas en la mochila.",
+  "startsAt": "2027-01-12T20:00:00.000Z",
+  "endsAt": "2027-01-12T22:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Fuera de la UTE",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Alumni"
+  ],
+  "tags": [
+   "Egresados",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Egresados",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Congreso de acordeones desafinados: edición 2027 con panel y empanadas",
+  "slug": "congreso-de-acordeones-desafinados-edicion-2027-con-panel-y-empanadas",
+  "description": "Durante tres jornadas, especialistas exponen sobre la afinación creativa del acordeón y su importancia en las fiestas de barrio. Incluye un panel con cuatro acordeones que nunca han coincidido en el tono y una pausa de empanadas.",
+  "startsAt": "2027-01-13T21:00:00.000Z",
+  "endsAt": "2027-01-14T00:00:00.000Z",
+  "eventType": "Congreso",
+  "place": "Fuera de la UTE",
+  "online": false,
+  "free": false,
+  "price": "$6.000",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Música",
+   "Patrimonio"
+  ],
+  "unit": "Departamento de Estudios Musicales",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Lanzamiento de la revista de arte que se lee de atrás para adelante",
+  "slug": "lanzamiento-de-la-revista-de-arte-que-se-lee-de-atras-para-adelante",
+  "description": "Se presenta el número cero de una revista donde el índice va al final, las portadas se pliegan como acordeón y cada artículo se escribe en dos idiomas inventados. La presentación incluye lectura en voz alta y un brindis con jugo de frambuesa.",
+  "startsAt": "2027-01-14T22:30:00.000Z",
+  "endsAt": "2027-01-15T00:30:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": false,
+  "price": "$4.000",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Literatura",
+   "Diseño"
+  ],
+  "unit": "Revista Ficticia de Artes",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Semana del bienestar: estiramientos desde la silla de la oficina",
+  "slug": "semana-del-bienestar-estiramientos-desde-la-silla-de-la-oficina",
+  "description": "Instructores enseñan posturas de estiramiento que se pueden hacer sentado frente al computador, sin soltar el sándwich. Se entregan botellas de agua reutilizables y un recordatorio amable de levantarse al menos una vez por hora.",
+  "startsAt": "2027-01-27T12:00:00.000Z",
+  "endsAt": "2027-01-27T13:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Bienestar",
+   "Deportes"
+  ],
+  "unit": "Dirección de Bienestar Estudiantil",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Lanzamiento del nuevo mapa del campus, que ahora sí incluye la salida",
+  "slug": "lanzamiento-del-nuevo-mapa-del-campus-que-ahora-si-incluye-la-salida",
+  "description": "Se presenta un mapa interactivo con rutas, atajos y la ubicación exacta de los enchufes disponibles en la biblioteca. El evento incluye una demostración de cómo llegar desde el pasillo B hasta el casino sin pasar por la fotocopiadora.",
+  "startsAt": "2027-02-09T15:30:00.000Z",
+  "endsAt": "2027-02-09T16:30:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Vida universitaria",
+   "Admisión"
+  ],
+  "unit": "Dirección de Comunicaciones",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Taller de stop motion con plastilina y mucha paciencia",
+  "slug": "taller-de-stop-motion-con-plastilina-y-mucha-paciencia",
+  "description": "Cada participante anima una escena de cinco segundos moviendo una figura de plastilina milímetro a milímetro. Al final se proyectan todas las escenas juntas y se revela que el gato del laboratorio apareció en tres de ellas.",
+  "startsAt": "2027-02-10T18:00:00.000Z",
+  "endsAt": "2027-02-10T22:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": false,
+  "price": "$4.000",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Público en general"
+  ],
+  "tags": [
+   "Talleres",
+   "Arte y tecnología"
+  ],
+  "unit": "Laboratorio de Animación",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Por qué los afiches de micro serían mejores en verso",
+  "slug": "por-que-los-afiches-de-micro-serian-mejores-en-verso",
+  "description": "Una diseñadora y un poeta revisan afiches de locomoción colectiva, señalética de hospital y etiquetas de supermercado, y proponen versiones con rima que se entienden mejor. Charla breve, sin examen, con preguntas del público y una ronda de paradas imaginarias.",
+  "startsAt": "2027-02-18T23:00:00.000Z",
+  "endsAt": "2027-02-19T00:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Diseño",
+   "Literatura"
+  ],
+  "unit": "Escuela de Diseño",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Exposición fotográfica: la UTE vista desde el ascensor más lento",
+  "slug": "exposicion-fotografica-la-ute-vista-desde-el-ascensor-mas-lento",
+  "description": "Estudiantes de fotografía reúnen imágenes de patios, escaleras y rincones donde siempre hay alguien esperando el mismo bus. Las obras se pueden mirar con calma, tomar café y elegir cuál merece quedarse en la pared del hall.",
+  "startsAt": "2027-03-02T13:00:00.000Z",
+  "endsAt": "2027-03-02T15:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Extensión",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Extensión",
+  "sites": [
+   "university",
+   "arts"
+  ]
+ },
+ {
+  "title": "Taller de restauración de libros con pegamento de harina y paciencia",
+  "slug": "taller-de-restauracion-de-libros-con-pegamento-de-harina-y-paciencia",
+  "description": "Practicaremos cómo reparar un lomo despegado y una esquina mordida por el tiempo, usando materiales simples y un secado que exige respirar hondo. Se entregan guantes, una prensa de madera prestada y la advertencia de que el pegamento no admite apuros.",
+  "startsAt": "2027-03-02T13:30:00.000Z",
+  "endsAt": "2027-03-02T16:30:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Talleres",
+   "Patrimonio"
+  ],
+  "unit": "Laboratorio de Conservación",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Lanzamiento de WiFiCito: el router que no se corta en clase",
+  "slug": "lanzamiento-de-wificito-el-router-que-no-se-corta-en-clase",
+  "description": "WiFiCito es el router que promete no cortarse durante la clase, y lo presentamos con demostración de velocidad, cables que no se enredan y una torta con forma de antena. Se entregan stickers a quienes se conecten.",
+  "startsAt": "2027-03-03T15:00:00.000Z",
+  "endsAt": "2027-03-03T16:00:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Electrónica",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Electrónica y Redes",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Competencia de cortometrajes filmados dentro de un ascensor",
+  "slug": "competencia-de-cortometrajes-filmados-dentro-de-un-ascensor",
+  "description": "Los equipos tienen tres minutos y un solo plano para contar una historia dentro de un ascensor, sin escaleras de por medio. El jurado premia el guion, la actuación y el mejor uso de un espejo como recurso dramático.",
+  "startsAt": "2027-03-03T21:00:00.000Z",
+  "endsAt": "2027-03-03T23:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Cine",
+   "Arte y tecnología"
+  ],
+  "unit": "Cineclub de la Facultad",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Feria de sillas huérfanas que buscan nuevo dueño",
+  "slug": "feria-de-sillas-huerfanas-que-buscan-nuevo-dueno",
+  "description": "Restauradores y estudiantes exhiben sillas rescatadas de bodegas, con patas nuevas, respaldos reciclados y personalidades que nadie esperaba. Hay trueque, asesoría para sentarse bien y una silla de prueba que promete no crujir durante toda la visita.",
+  "startsAt": "2027-03-04T14:00:00.000Z",
+  "endsAt": "2027-03-04T18:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Diseño",
+   "Patrimonio"
+  ],
+  "unit": "Escuela de Diseño",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Charla para familias: acompañar sin preguntar cada hora si ya comieron",
+  "slug": "charla-para-familias-acompanar-sin-preguntar-cada-hora-si-ya-comieron",
+  "description": "Orientadores entregan consejos prácticos para acompañar a quienes postulan, desde elegir carrera hasta no dramatizar frente al resultado. Al final hay un bingo de frases típicas, con un premio simbólico para quien las diga primero.",
+  "startsAt": "2027-03-04T21:30:00.000Z",
+  "endsAt": "2027-03-04T22:30:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Admisión",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Admisión",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Lanzamiento de poemas escritos con la señal intermitente del wifi",
+  "slug": "lanzamiento-de-poemas-escritos-con-la-senal-intermitente-del-wifi",
+  "description": "Se presentan poemas generados con la señal del wifi del tercer piso, transcritos con fidelidad por un comité de bibliotecarios. El libro viene con marcadores de página en forma de router y una contraseña impresa en la contraportada.",
+  "startsAt": "2027-03-08T20:30:00.000Z",
+  "endsAt": "2027-03-08T21:30:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Literatura",
+   "Arte y tecnología"
+  ],
+  "unit": "Editorial Ocasional de Letras",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Luces que respiran: instalación de arte y sensores para contener el aliento",
+  "slug": "luces-que-respiran-instalacion-de-arte-y-sensores-para-contener-el-ali",
+  "description": "Doce lámparas de papel se encienden y apagan según el ritmo de respiración de quienes entran a la sala, o eso dice la ficha técnica. La obra usa sensores de humedad y bastante humor, así que la mejor forma de verla es sentarse y esperar.",
+  "startsAt": "2027-03-09T23:00:00.000Z",
+  "endsAt": "2027-03-10T01:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Campus Central",
+  "online": false,
+  "free": false,
+  "price": "$5.000",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Arte y tecnología",
+   "Exposiciones"
+  ],
+  "unit": "Laboratorio de Medios",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Python sin miedo a la consola: charla para empezar a programar",
+  "slug": "python-sin-miedo-a-la-consola-charla-para-empezar-a-programar",
+  "description": "Charla para programar en Python sin miedo a la consola: veremos variables, listas y algunos errores clásicos con una dosis de confianza. Espacio abierto para preguntas y para celebrar el primer print que funciona.",
+  "startsAt": "2027-03-10T20:30:00.000Z",
+  "endsAt": "2027-03-10T22:30:00.000Z",
+  "eventType": "Charla",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Mujeres en ingeniería",
+   "Datos"
+  ],
+  "unit": "Comunidad de Mujeres en Ingeniería UTE",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Visita guiada al depósito secreto de vestuarios de la compañía",
+  "slug": "visita-guiada-al-deposito-secreto-de-vestuarios-de-la-compania",
+  "description": "Recorremos el depósito donde se guardan capas de dragón, pelucas de todos los siglos y un sombrero que nadie logra identificar. Se permite probarse algunas piezas, siempre que se devuelvan con la misma cantidad de lentejuelas.",
+  "startsAt": "2027-03-11T13:30:00.000Z",
+  "endsAt": "2027-03-11T14:30:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Teatro",
+   "Patrimonio"
+  ],
+  "unit": "Departamento de Vestuario",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Hackatón de baterías: ¿quién hace durar más el celular del vecino?",
+  "slug": "hackaton-de-baterias-quien-hace-durar-mas-el-celular-del-vecino",
+  "description": "Un fin de tarde para diseñar sistemas de gestión de baterías que alarguen la vida útil sin recalentar al pobre dispositivo. Los equipos reciben celdas de práctica con supervisión, un multímetro y una hora de descanso obligatorio.",
+  "startsAt": "2027-03-11T17:00:00.000Z",
+  "endsAt": "2027-03-11T21:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Electrónica",
+   "Sustentabilidad"
+  ],
+  "unit": "Club de Electrónica Verde",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Ajedrez humano: el peón siempre aprende algo en el campeonato interno",
+  "slug": "ajedrez-humano-el-peon-siempre-aprende-algo-en-el-campeonato-interno",
+  "description": "Estudiantes forman el tablero en el gimnasio y mueven piezas según las indicaciones del público, con reglas de tiempo y bastante aplauso. Se premia la jugada más creativa y al peón con mejor disposición a sacrificarse.",
+  "startsAt": "2027-03-11T17:00:00.000Z",
+  "endsAt": "2027-03-11T20:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Deportes",
+   "Vida universitaria"
+  ],
+  "unit": "Dirección de Deportes",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Visita guiada por la Casa de las Artes con un mapa dibujado a mano",
+  "slug": "visita-guiada-por-la-casa-de-las-artes-con-un-mapa-dibujado-a-mano",
+  "description": "Recorrido por los pasillos de la Casa de las Artes siguiendo un mapa que cometió errores a propósito, con puertas dibujadas que llevan a ninguna parte. Ideal para familias: cada parada tiene una pista, un sello y una anécdota que se cuenta en voz baja.",
+  "startsAt": "2027-03-11T19:00:00.000Z",
+  "endsAt": "2027-03-11T20:00:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Patrimonio",
+   "Niños y familias"
+  ],
+  "unit": "Oficina de Visitas",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Curso de cocina para quienes sólo saben hacer fideos con tomate",
+  "slug": "curso-de-cocina-para-quienes-solo-saben-hacer-fideos-con-tomate",
+  "description": "Un chef de la casa muestra cómo convertir una lata de porotos y tres especias en algo que parezca cena de domingo. Incluye recetario impreso, delantal con el logo de la UTE y una advertencia amable sobre no usar la tetera como olla.",
+  "startsAt": "2027-03-16T20:00:00.000Z",
+  "endsAt": "2027-03-16T23:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Campus Norte",
+  "online": false,
+  "free": false,
+  "price": "$25.000",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Alumni"
+  ],
+  "tags": [
+   "Bienestar",
+   "Vida universitaria"
+  ],
+  "unit": "Programa de Vida Saludable",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Conversatorio sobre el archivo de afiches que nadie quiso tirar",
+  "slug": "conversatorio-sobre-el-archivo-de-afiches-que-nadie-quiso-tirar",
+  "description": "Diseñadores que trabajaron en la facultad comparten afiches de los años noventa, discuten qué merece conservarse y cuál era, según ellos, un error hermoso. Al final se decide por votación qué póster va a la caja de bodega y cuál a la pared del pasillo.",
+  "startsAt": "2027-03-16T21:00:00.000Z",
+  "endsAt": "2027-03-16T23:00:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Centro Cultural La Moneda Chica",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Alumni",
+   "Público en general"
+  ],
+  "tags": [
+   "Patrimonio",
+   "Diseño"
+  ],
+  "unit": "Archivo de Diseño Gráfico",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Seminario de guion para películas de presupuesto cero y ambición infinita",
+  "slug": "seminario-de-guion-para-peliculas-de-presupuesto-cero-y-ambicion-infin",
+  "description": "Se analiza cómo escribir una escena de persecución usando solo un patio, un carrito de supermercado y dos actores muy motivados. Se entregan plantillas de guion y un listado de locaciones gratuitas que nadie pidió, pero todos agradecen.",
+  "startsAt": "2027-03-17T19:00:00.000Z",
+  "endsAt": "2027-03-17T22:00:00.000Z",
+  "eventType": "Seminario",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Cine",
+   "Talleres"
+  ],
+  "unit": "Escuela de Cine y Animación",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Seminario de ciberseguridad para robots domésticos (que no sepan mentir)",
+  "slug": "seminario-de-ciberseguridad-para-robots-domesticos-que-no-sepan-mentir",
+  "description": "Expertos revisan cómo proteger una aspiradora conectada para que no comparta el plano de tu casa ni el horario de tu gato. Incluye demo de contraseñas que duran más que una pausa para el café.",
+  "startsAt": "2027-03-18T21:00:00.000Z",
+  "endsAt": "2027-03-18T22:00:00.000Z",
+  "eventType": "Seminario",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Ciberseguridad",
+   "Robótica"
+  ],
+  "unit": "Programa de Seguridad Digital",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Taller de títeres de calcetín para niños y adultos con mucha imaginación",
+  "slug": "taller-de-titeres-de-calcetin-para-ninos-y-adultos-con-mucha-imaginaci",
+  "description": "Cada familia construye un títere con un calcetín sin pareja y le inventa un nombre y una historia. Al final, todos los títeres presentan un espectáculo breve que termina siempre con un aplauso y un abrazo colectivo.",
+  "startsAt": "2027-03-22T14:00:00.000Z",
+  "endsAt": "2027-03-22T16:00:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Niños y familias",
+   "Talleres"
+  ],
+  "unit": "Escuela de Artes Escénicas",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Lanzamiento del software que predice cuántas sillas quedan en la biblioteca",
+  "slug": "lanzamiento-del-software-que-predice-cuantas-sillas-quedan-en-la-bibli",
+  "description": "Estudiantes de ingeniería presentan un modelo que estima la ocupación de las salas de estudio con datos abiertos y un poco de fe. La versión 0.9 promete acertar en la mayoría de los días, y el resto se disculpa con café.",
+  "startsAt": "2027-03-23T14:00:00.000Z",
+  "endsAt": "2027-03-23T15:00:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Ciencia abierta",
+   "Vida universitaria"
+  ],
+  "unit": "Centro de Innovación Digital",
+  "sites": [
+   "university",
+   "engineering"
+  ]
+ },
+ {
+  "title": "Stop motion con muñecos de lana: un milímetro por foto",
+  "slug": "stop-motion-con-munecos-de-lana-un-milimetro-por-foto",
+  "description": "Cada grupo crea un corto de diez segundos moviendo muñecos de lana un milímetro por foto, lo que hace que la historia parezca más lenta que una siesta de domingo. Se incluyen trípode, luces, pizarra de guion y la regla de no reírse del personaje principal.",
+  "startsAt": "2027-03-23T17:30:00.000Z",
+  "endsAt": "2027-03-23T20:30:00.000Z",
+  "eventType": "Taller",
+  "place": "Campus Norte",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Público en general"
+  ],
+  "tags": [
+   "Talleres",
+   "Arte y tecnología"
+  ],
+  "unit": "Laboratorio de Animación",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Sustentabilidad digital: apagar servidores fantasma sin drama",
+  "slug": "sustentabilidad-digital-apagar-servidores-fantasma-sin-drama",
+  "description": "Veremos cómo apagar servidores que nadie usa para ahorrar energía, sin que nadie note la diferencia, y cómo medir la huella de los datos que guardamos por costumbre. Charla online con preguntas en vivo.",
+  "startsAt": "2027-03-24T22:00:00.000Z",
+  "endsAt": "2027-03-24T23:00:00.000Z",
+  "eventType": "Charla",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Estudiantes de Pregrado"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Datos"
+  ],
+  "unit": "Observatorio de Computación Verde",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Ceremonia del Concurso de Ideas Verdes (con medallas de hojalata)",
+  "slug": "ceremonia-del-concurso-de-ideas-verdes-con-medallas-de-hojalata",
+  "description": "Se entregan reconocimientos a proyectos de compostaje inteligente, filtros de agua y bicicletas que generan luz al pedalear. Habrá discursos breves, aplausos cronometrados y una foto grupal con plantas que nadie recuerda haber regado.",
+  "startsAt": "2027-03-25T21:00:00.000Z",
+  "endsAt": "2027-03-25T22:00:00.000Z",
+  "eventType": "Ceremonia",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Público en general"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Innovación"
+  ],
+  "unit": "Dirección de Innovación Verde",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Conversatorio sobre la poesía de las listas de compras",
+  "slug": "conversatorio-sobre-la-poesia-de-las-listas-de-compras",
+  "description": "Tres académicos analizan la lista de compras como género literario, con ejemplos que van desde la leche de almendras hasta el pan de ayer. La transmisión incluye un chat donde cada participante puede sumar un ítem a la lista colectiva.",
+  "startsAt": "2027-03-25T22:30:00.000Z",
+  "endsAt": "2027-03-25T23:30:00.000Z",
+  "eventType": "Conversatorio",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Literatura",
+   "Arte y tecnología"
+  ],
+  "unit": "Instituto de Humanidades Digitales",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Charla de sustentabilidad: el compost también llega a tiempo",
+  "slug": "charla-de-sustentabilidad-el-compost-tambien-llega-a-tiempo",
+  "description": "Expertos explican cómo separar residuos del casino sin convertir la cocina en un laboratorio de hongos. Se regalan composteras de juguete y una guía para que el cactus de la oficina deje de mirar con reproche.",
+  "startsAt": "2027-04-06T13:30:00.000Z",
+  "endsAt": "2027-04-06T15:30:00.000Z",
+  "eventType": "Charla",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Sustentabilidad",
+   "Extensión"
+  ],
+  "unit": "Dirección de Sustentabilidad",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Tejidos que cuentan chismes de barrio en código binario",
+  "slug": "tejidos-que-cuentan-chismes-de-barrio-en-codigo-binario",
+  "description": "Bordados, lanas y telares traducen en patrones los dichos de una vecindad ficticia, con una tabla de equivalencias para leer cada chisme sin mirar a nadie. La muestra incluye un rincón para tejer en comunidad y mate caliente.",
+  "startsAt": "2027-04-06T16:00:00.000Z",
+  "endsAt": "2027-04-06T18:00:00.000Z",
+  "eventType": "Exposición",
+  "place": "Fuera de la UTE",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Exposiciones",
+   "Patrimonio"
+  ],
+  "unit": "Galería de la Facultad",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Coro infantil canta canciones de cuna para adultos cansados",
+  "slug": "coro-infantil-canta-canciones-de-cuna-para-adultos-cansados",
+  "description": "Doce voces de entre seis y diez años interpretan canciones de cuna pensadas para que los adultos se duerman, aunque rara vez lo logran. Se pide silencio durante la pieza, excepto en el estribillo, que el público canta con cuidado.",
+  "startsAt": "2027-04-07T20:30:00.000Z",
+  "endsAt": "2027-04-07T21:30:00.000Z",
+  "eventType": "Concierto",
+  "place": "Campus Central",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Público en general"
+  ],
+  "tags": [
+   "Música",
+   "Niños y familias"
+  ],
+  "unit": "Coro Infantil UTE",
+  "sites": [
+   "arts",
+   "university"
+  ]
+ },
+ {
+  "title": "Feria de startups de mentira con pitch de verdad",
+  "slug": "feria-de-startups-de-mentira-con-pitch-de-verdad",
+  "description": "Startups de mentira con pitch de verdad: equipos de la UTE presentan ideas imposibles con muchísimo entusiasmo, y el público vota por la más ingeniosa. Habrá stands, café y una lista de inversionistas inventados.",
+  "startsAt": "2027-04-08T14:00:00.000Z",
+  "endsAt": "2027-04-08T18:00:00.000Z",
+  "eventType": "Feria",
+  "place": "Centro de Extensión Costanera",
+  "online": false,
+  "free": false,
+  "price": "$1.500",
+  "audience": [
+   "Público en general",
+   "Alumni"
+  ],
+  "tags": [
+   "Emprendimiento",
+   "Innovación"
+  ],
+  "unit": "Incubadora de Proyectos UTE",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Concurso de drones de juguete con obstáculos de cartón y ego controlado",
+  "slug": "concurso-de-drones-de-juguete-con-obstaculos-de-carton-y-ego-controlad",
+  "description": "Pilotos novatos deben llevar un dron pequeño por un circuito de aros, cajas y un muro de espuma sin derribar ni un aro. Hay premios para el menor tiempo, el mejor aterrizaje y el equipo que aplauda más a sus rivales.",
+  "startsAt": "2027-04-08T16:00:00.000Z",
+  "endsAt": "2027-04-08T18:00:00.000Z",
+  "eventType": "Competencia",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": false,
+  "price": "$1.500",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Robótica",
+   "Electrónica"
+  ],
+  "unit": "Taller de Robótica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Visita guiada al laboratorio de electrónica donde los cables hacen yoga",
+  "slug": "visita-guiada-al-laboratorio-de-electronica-donde-los-cables-hacen-yog",
+  "description": "Recorrido por la sala de prototipos, con osciloscopios, impresoras 3D y una mesa de soldadura que parece nave espacial. Los guías explican por qué nunca se deja una pila suelta sobre la mesa y cómo ordenar los jumpers sin pelear.",
+  "startsAt": "2027-04-14T13:30:00.000Z",
+  "endsAt": "2027-04-14T14:30:00.000Z",
+  "eventType": "Visita guiada",
+  "place": "Torre de Ingeniería",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Electrónica",
+   "Innovación"
+  ],
+  "unit": "Laboratorio de Electrónica Práctica",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Clase de improvisación musical con instrumentos de cocina",
+  "slug": "clase-de-improvisacion-musical-con-instrumentos-de-cocina",
+  "description": "Durante tres sesiones, los participantes aprenden ritmos básicos usando ollas, cucharas de palo y un colador que suena de forma sorprendentemente afinada. El cierre es una orquesta de cocina que estrena una pieza llamada Almuerzo en tres tiempos.",
+  "startsAt": "2027-04-14T19:00:00.000Z",
+  "endsAt": "2027-04-14T22:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Centro Cultural La Moneda Chica",
+  "online": false,
+  "free": false,
+  "price": "$5.500",
+  "audience": [
+   "Estudiantes de Pregrado",
+   "Comunidad UTE"
+  ],
+  "tags": [
+   "Música",
+   "Talleres"
+  ],
+  "unit": "Escuela de Música",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Machine learning sin matemáticas... casi: curso de iniciación",
+  "slug": "machine-learning-sin-matematicas-casi-curso-de-iniciacion",
+  "description": "Aprendemos machine learning sin matemáticas, casi: modelos, evaluación y una lista de errores comunes que cualquiera puede cometer con gran entusiasmo. Incluye práctica con datasets didácticos y certificado de asistencia.",
+  "startsAt": "2027-04-20T12:00:00.000Z",
+  "endsAt": "2027-04-20T16:00:00.000Z",
+  "eventType": "Curso",
+  "place": "Campus Central",
+  "online": false,
+  "free": false,
+  "price": "$25.000",
+  "audience": [
+   "Estudiantes de Magíster",
+   "Alumni"
+  ],
+  "tags": [
+   "Inteligencia artificial",
+   "Datos"
+  ],
+  "unit": "Escuela de Posgrado en Datos",
+  "sites": [
+   "engineering"
+  ]
+ },
+ {
+  "title": "Seminario de ciencia abierta: datos que se pueden leer hasta sin café",
+  "slug": "seminario-de-ciencia-abierta-datos-que-se-pueden-leer-hasta-sin-cafe",
+  "description": "Investigadores muestran cómo publicar datos para que cualquiera los pueda reutilizar, incluso quien llega tarde a la reunión. Se revisan licencias, formatos y el arte de documentar sin escribir un manual de cuatrocientas páginas.",
+  "startsAt": "2027-04-20T19:00:00.000Z",
+  "endsAt": "2027-04-20T21:00:00.000Z",
+  "eventType": "Seminario",
+  "place": "Online",
+  "online": true,
+  "free": false,
+  "price": "$3.000",
+  "audience": [
+   "Estudiantes de Doctorado",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Ciencia abierta",
+   "Investigación"
+  ],
+  "unit": "Dirección de Investigación",
+  "sites": [
+   "university"
+  ]
+ },
+ {
+  "title": "Mapa colaborativo del arte callejero de la comuna: lanzamiento en línea",
+  "slug": "mapa-colaborativo-del-arte-callejero-de-la-comuna-lanzamiento-en-linea",
+  "description": "Se estrena un mapa interactivo donde cualquier persona puede marcar murales, grafitis legales y piezas de cerámica pegadas en muros, cada una con su historia corta. El lanzamiento incluye una demostración de cómo subir una foto sin perderse por el camino.",
+  "startsAt": "2027-04-20T22:00:00.000Z",
+  "endsAt": "2027-04-20T23:00:00.000Z",
+  "eventType": "Lanzamiento",
+  "place": "Online",
+  "online": true,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Público en general"
+  ],
+  "tags": [
+   "Arte y tecnología",
+   "Patrimonio"
+  ],
+  "unit": "Laboratorio de Medios",
+  "sites": [
+   "arts"
+  ]
+ },
+ {
+  "title": "Congreso de Industria 4.0: fábricas que hablan entre sí y no se pelean",
+  "slug": "congreso-de-industria-4-0-fabricas-que-hablan-entre-si-y-no-se-pelean",
+  "description": "Expositores presentan sensores, gemelos digitales y líneas de producción que avisan cuando se aburren. Incluye panel sobre datos industriales, almuerzo sin cola y una charla final sobre cómo medir la felicidad de las máquinas.",
+  "startsAt": "2027-04-21T12:00:00.000Z",
+  "endsAt": "2027-04-21T16:00:00.000Z",
+  "eventType": "Congreso",
+  "place": "Fuera de la UTE",
+  "online": false,
+  "free": false,
+  "price": "$15.000",
+  "audience": [
+   "Público en general",
+   "Alumni",
+   "Estudiantes de Magíster"
+  ],
+  "tags": [
+   "Industria",
+   "Datos",
+   "Inteligencia artificial"
+  ],
+  "unit": "Escuela de Industrial",
+  "sites": [
+   "engineering",
+   "university"
+  ]
+ },
+ {
+  "title": "Ceremonia de premiación del concurso de cuentos de menos de cien palabras",
+  "slug": "ceremonia-de-premiacion-del-concurso-de-cuentos-de-menos-de-cien-palab",
+  "description": "Se entregan premios a los cuentos más breves, incluido el premio al texto escrito en un ticket de micro que nadie logró leer del todo. La ceremonia termina con brindis de bebida gaseosa y una lectura en voz alta de los finalistas.",
+  "startsAt": "2027-04-21T23:00:00.000Z",
+  "endsAt": "2027-04-22T00:00:00.000Z",
+  "eventType": "Ceremonia",
+  "place": "Casa de las Artes",
+  "online": false,
+  "free": true,
+  "price": "",
+  "audience": [
+   "Comunidad UTE",
+   "Alumni"
+  ],
+  "tags": [
+   "Literatura",
+   "Teatro"
+  ],
+  "unit": "Premio Literario UTE",
+  "sites": [
+   "arts"
+  ]
+ }
+]

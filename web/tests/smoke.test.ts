@@ -26,36 +26,56 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
     expect(e).toContain("Facultad de Ingeniería"); expect(e).toContain("#007EA7");
     expect(a).toContain("Facultad de Artes"); expect(a).toContain("#B5523B");
   });
-  it("cada sitio tiene su propio tema visual", async () => {
-    const [u, e, a] = await page("/");
-    expect(u).toContain('data-theme="classic"'); expect(e).toContain('data-theme="tech"'); expect(a).toContain('data-theme="editorial"');
+  it("mismo núcleo en los tres sitios: misma navegación", async () => {
+    for (const b of await page("/")) for (const l of ["Carreras", "Profesores", "Noticias", "Agenda", "Sobre nosotros"]) expect(b).toContain(l);
   });
-  it("carreras: compartidas en los asignados; exclusivas aisladas", async () => {
+  it("carreras: la facultad muestra las suyas; el sitio central, todas", async () => {
     const [u, e, a] = await page("/carreras");
     for (const b of [u, e, a]) expect(b).toContain("Innovación y Tecnología Creativa");
-    expect(e).toContain("Ingeniería Electrónica"); expect(a).not.toContain("Ingeniería Electrónica"); expect(u).not.toContain("Ingeniería Electrónica");
-    expect(a).toContain("Licenciatura en Música"); expect(e).not.toContain("Licenciatura en Música"); expect(u).not.toContain("Licenciatura en Música");
+    expect(e).toContain("Ingeniería Electrónica"); expect(a).not.toContain("Ingeniería Electrónica");
+    expect(a).toContain("Licenciatura en Música"); expect(e).not.toContain("Licenciatura en Música");
+    expect(u).toContain("Ingeniería Electrónica"); expect(u).toContain("Licenciatura en Música");
     expect(e).toContain("También en");
   });
-  it("profesores: compartidos y exclusivos", async () => {
+  it("profesores: cada facultad los suyos; el sitio central, todos", async () => {
     const [u, e, a] = await page("/profesores");
-    for (const b of [u, e, a]) expect(b).toContain("Lucía Vargas Ibarra"); // en los 3
-    expect(e).toContain("Felipe Araya Soto"); expect(a).not.toContain("Felipe Araya Soto"); expect(u).not.toContain("Felipe Araya Soto");
-    expect(a).toContain("Francisca Valdés Ortiz"); expect(e).not.toContain("Francisca Valdés Ortiz"); expect(u).not.toContain("Francisca Valdés Ortiz");
+    for (const b of [u, e, a]) expect(b).toContain("Lucía Vargas Ibarra");
+    expect(e).toContain("Felipe Araya Soto"); expect(a).not.toContain("Felipe Araya Soto");
+    expect(a).toContain("Francisca Valdés Ortiz"); expect(e).not.toContain("Francisca Valdés Ortiz");
+    expect(u).toContain("Felipe Araya Soto"); expect(u).toContain("Francisca Valdés Ortiz");
   });
-  it("anuncios: compartido en 3, en 2 y exclusivos", async () => {
-    const [u, e, a] = await page("/anuncios");
+  it("noticias con filtros y etiquetas; /anuncios redirige", async () => {
+    const [u, e, a] = await page("/noticias");
     for (const b of [u, e, a]) expect(b).toContain("Postulaciones abiertas para el año académico 2027");
-    expect(e).toContain("Feria de Innovación"); expect(a).toContain("Feria de Innovación"); expect(u).not.toContain("Feria de Innovación");
-    expect(e).toContain("Nueva infraestructura para laboratorios"); expect(a).not.toContain("Nueva infraestructura"); expect(u).not.toContain("Nueva infraestructura");
+    expect(e).toContain("Feria de Innovación"); expect(u).toContain("Feria de Innovación");
+    expect(e).toContain("Nueva infraestructura para laboratorios"); expect(a).not.toContain("Nueva infraestructura");
     expect(a).toContain("Exposición anual de estudiantes"); expect(e).not.toContain("Exposición anual");
+    for (const b of [u, e, a]) for (const f of ["Temas", "Tipo", "Mes"]) expect(b).toContain(f);
+    expect(u).toContain("Facultad"); // filtro por facultad solo en el sitio central
+    expect(e).toContain("Robótica"); expect(a).toContain("Exposiciones"); // etiquetas propias de cada facultad
+    expect((await get("/anuncios", UTE2)).status).toBe(308);
   });
-  it("detalle de carrera: malla y aislamiento por sitio", async () => {
+  it("agenda: filtros de la agenda UC; cada facultad ve la suya y el sitio central todas", async () => {
+    const [u, e, a] = await page("/agenda");
+    for (const f of ["Tipo de actividad", "Lugar", "Público", "Precio", "Modalidad"]) for (const b of [u, e, a]) expect(b).toContain(f);
+    expect(e).toContain("Congreso de Industria 4.0"); expect(a).not.toContain("Congreso de Industria 4.0"); expect(u).toContain("Congreso de Industria 4.0");
+    expect(a).toContain("Ceremonia de premiación del concurso de cuentos"); expect(e).not.toContain("Ceremonia de premiación del concurso de cuentos");
+    expect(u).toContain("https://ute2.allison.sh/agenda/"); expect(u).toContain("https://ute3.allison.sh/agenda/"); // desde la universidad se llega a cada facultad
+    const href = /href="(\/agenda\/[a-z0-9-]+)"/.exec(e)![1];
+    const detail = await get(href, UTE2);
+    expect(detail.status).toBe(200); expect(detail.body).toContain("Dirigido a"); expect(detail.body).toContain("Organiza");
+  });
+  it("páginas propias de cada sitio (definidas en el front)", async () => {
+    expect((await get("/admision", UTE1)).status).toBe(200); expect((await get("/admision", UTE2)).status).toBe(404);
+    expect((await get("/laboratorios", UTE2)).status).toBe(200); expect((await get("/laboratorios", UTE3)).status).toBe(404);
+    expect((await get("/galeria", UTE3)).status).toBe(200); expect((await get("/galeria", UTE1)).status).toBe(404);
+  });
+  it("detalle de carrera: malla completa y aislamiento por facultad", async () => {
     const e = await get("/carreras/ingenieria-civil-informatica", UTE2);
-    expect(e.status).toBe(200); expect(e.body).toContain("Semestre 6"); expect(e.body).toContain("Estructuras de Datos");
+    expect(e.status).toBe(200); expect(e.body).toContain("Semestre 12"); expect(e.body).toContain("Proyecto de Título"); expect(e.body).toContain("Estructuras de Datos");
     expect((await get("/carreras/ingenieria-civil-informatica", UTE3)).status).toBe(404); // no pertenece a Artes
-    expect((await get("/carreras/ingenieria-electronica", UTE1)).status).toBe(404);
-    // Carrera compartida: cada sitio muestra solo SUS profesores
+    expect((await get("/carreras/ingenieria-electronica", UTE3)).status).toBe(404);
+    expect((await get("/carreras/ingenieria-electronica", UTE1)).status).toBe(200); // el sitio central agrega todas
     const innE = (await get("/carreras/innovacion-y-tecnologia-creativa", UTE2)).body;
     const innA = (await get("/carreras/innovacion-y-tecnologia-creativa", UTE3)).body;
     expect(innE).toContain("Valentina Rojas Pinto"); expect(innA).not.toContain("Valentina Rojas Pinto");
@@ -63,21 +83,18 @@ describe.skipIf(!base)("mismo código, distinto contenido por dominio", () => {
   it("sobre nosotros: contenido propio de cada sitio", async () => {
     const [u, e, a] = await page("/nosotros");
     expect(u).toContain("Sobre la Universidad"); expect(u).toContain("nació en 1966");
-    expect(e).toContain("Sobre la Facultad de Ingeniería"); expect(e).toContain("empresas con convenio");
+    expect(e).toContain("Sobre la Facultad de Ingeniería"); expect(e).toContain("líneas de investigación");
     expect(a).toContain("Sobre la Facultad de Artes"); expect(a).toContain("Casa de las Artes");
-    expect(e).not.toContain("Casa de las Artes"); expect(a).not.toContain("empresas con convenio");
+    expect(e).not.toContain("Casa de las Artes"); expect(a).not.toContain("líneas de investigación");
   });
-  it("introducciones propias en las secciones", async () => {
-    const [u, e, a] = await page("/carreras");
-    expect(u).toContain("Programas de pregrado de la Universidad"); expect(e).toContain("Carreras de Ingeniería"); expect(a).toContain("Carreras de Artes");
-  });
-  it("enlaces entre sitios", async () => {
-    const [u, e] = await page("/");
+  it("navegación entre sitios: de la facultad a la universidad y entre facultades", async () => {
+    const [u, e, a] = await page("/");
     expect(u).toContain("https://ute2.allison.sh"); expect(u).toContain("https://ute3.allison.sh");
-    expect(e).toContain("https://ute1.allison.sh");
+    expect(e).toContain("https://ute1.allison.sh"); expect(e).toContain("https://ute3.allison.sh");
+    expect(a).toContain("https://ute1.allison.sh"); expect(a).toContain("Ir al sitio central");
   });
   it("hostname desconocido → 404 en todas las rutas y en la API", async () => {
-    for (const p of ["/", "/carreras", "/profesores", "/anuncios", "/nosotros", "/api/content/home"])
+    for (const p of ["/", "/carreras", "/profesores", "/noticias", "/agenda", "/nosotros", "/api/content/home"])
       expect((await get(p, "otro.example.com")).status).toBe(404);
   });
   it("API: solo datos del sitio, kind validado y sin secretos", async () => {

@@ -1,14 +1,40 @@
 {
   "kind": "collectionType",
   "collectionName": "announcements",
-  "info": { "singularName": "announcement", "pluralName": "announcements", "displayName": "Announcement" },
-  "options": { "draftAndPublish": true },
+  "info": {
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": {
-    "title": { "type": "string", "required": true },
-    "description": { "type": "text", "required": true },
-    "date": { "type": "date", "required": true },
-    "category": { "type": "string" },
-    "imageUrl": { "type": "string" },
-    "sites": { "type": "relation", "relation": "manyToMany", "target": "api::site.site" }
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "sites": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::site.site"
+    },
+    "tags": {
+      "type": "json"
+    }
   }
 }

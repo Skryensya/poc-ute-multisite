@@ -34,11 +34,19 @@ export interface Course { documentId: string; code: string; name: string; semest
 export interface Professor {
   documentId: string; name: string; title: string | null; specialty: string | null;
   bio: string | null; photoUrl: string | null; sites: SiteRef[];
+  /** Carreras de este sitio en las que dicta (solo en listados de profesores). */
+  careers?: { name: string; slug: string }[];
 }
 export interface CareerDetail extends Career { courses: Course[]; professors: Professor[] }
 export interface Announcement {
   documentId: string; title: string; description: string; date: string;
-  category: string | null; imageUrl: string | null; sites: SiteRef[];
+  category: string | null; tags: string[] | null; imageUrl: string | null; sites: SiteRef[];
 }
-export interface HomeData { careers: Career[]; professors: Professor[]; announcements: Announcement[]; about: Page | null }
+/** Actividad de la agenda; mismas facetas que la agenda de la UC (tipo, lugar, público, gratuito, online). */
+export interface EventItem {
+  documentId: string; slug: string; title: string; description: string; startsAt: string; endsAt: string | null;
+  eventType: string | null; place: string | null; online: boolean; free: boolean; price: string | null;
+  audience: string[] | null; tags: string[] | null; unit: string | null; imageUrl: string | null; sites: SiteRef[];
+}
+export interface HomeData { careers: Career[]; professors: Professor[]; announcements: Announcement[]; events: EventItem[]; about: Page | null }
 export interface StrapiList<T> { data: T[] }
