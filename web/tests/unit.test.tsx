@@ -2,9 +2,8 @@ import { describe, expect, it, vi } from "vitest";
 import { renderToString } from "react-dom/server";
 import { dehydrate, HydrationBoundary, QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { hostFrom, normalizeHost, resolveTenant } from "@/lib/tenants";
-import { homeKey } from "@/lib/queries";
-import Home from "@/components/Home";
-import type { HomeData } from "@/lib/types";
+import { qk } from "@/lib/queries";
+import { HomeView } from "@/components/views";
 
 describe("resolución de tenant", () => {
   it("mapea cada dominio a su sitio", () => {
@@ -28,16 +27,20 @@ describe("resolución de tenant", () => {
 
 describe("claves de query", () => {
   it("son específicas de cada tenant", () => {
-    expect(homeKey("university")).toEqual(["site-home", "university"]);
-    expect(homeKey("arts")).not.toEqual(homeKey("engineering"));
+    expect(qk.home("university")).toEqual(["home", "university"]);
+    expect(qk.career("arts", "diseno")).toEqual(["career", "arts", "diseno"]);
+    for (const k of ["site", "home", "careers", "professors", "announcements"] as const)
+      expect(qk[k]("arts")).not.toEqual(qk[k]("engineering"));
   });
 });
 
-const data: HomeData = {
-  site: { documentId: "s", name: "Facultad de Artes", slug: "arts", title: "Facultad de Artes", description: "Desc", primaryColor: "#B5523B", secondaryColor: "#FBEFEA" },
-  careers: [{ documentId: "c1", name: "Diseño", description: "d", duration: "10 semestres", degree: "Diseñador" }],
-  announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28" }],
-  links: [{ slug: "university", name: "Universidad Tecnológica Experimental", url: "https://ute1.allison.sh" }],
+const site = { documentId: "s", name: "Facultad de Artes", slug: "arts", title: "Facultad de Artes", tagline: "t", description: "Desc", heroImage: null, email: null, address: null, primaryColor: "#B5523B", secondaryColor: "#FBEFEA" };
+const refs = { arts: { name: "Facultad de Artes", slug: "arts" }, university: { name: "Universidad Tecnológica Experimental", slug: "university" } };
+const info = { site, links: [{ slug: "university", name: "Universidad Tecnológica Experimental", tagline: null, heroImage: null, url: "https://ute1.allison.sh" }] };
+const home = {
+  careers: [{ documentId: "c1", slug: "diseno", name: "Diseño", description: "d", overview: null, duration: "10 semestres", degree: "Diseñador", modality: null, imageUrl: null, sites: [refs.arts, refs.university] }],
+  professors: [{ documentId: "p1", name: "Javiera Núñez", title: "Dra.", specialty: "Pintura", bio: null, photoUrl: null, sites: [refs.arts] }],
+  announcements: [{ documentId: "a1", title: "Exposición anual", description: "x", date: "2026-10-28", category: "Cultura", imageUrl: null, sites: [refs.arts] }],
 };
 
 describe("hidratación de React Query", () => {
@@ -45,19 +48,22 @@ describe("hidratación de React Query", () => {
     const fetchSpy = vi.fn();
     vi.stubGlobal("fetch", fetchSpy);
     const server = new QueryClient();
-    server.setQueryData(homeKey("arts"), data);
+    server.setQueryData(qk.site("arts"), info);
+    server.setQueryData(qk.home("arts"), home);
     const state = dehydrate(server);
 
     const browser = new QueryClient({ defaultOptions: { queries: { staleTime: 60_000 } } });
     const html = renderToString(
       <QueryClientProvider client={browser}>
-        <HydrationBoundary state={state}><Home slug="arts" /></HydrationBoundary>
+        <HydrationBoundary state={state}><HomeView slug="arts" /></HydrationBoundary>
       </QueryClientProvider>,
     );
     expect(html).toContain("Facultad de Artes");
     expect(html).toContain("Diseño");
+    expect(html).toContain("Javiera Núñez");
     expect(html).toContain("Exposición anual");
-    expect(html).toContain("--primary:#B5523B");
+    expect(html).toContain("Compartido con Universidad"); // etiqueta de contenido compartido
+    expect(html).toContain("Solo en este sitio");
     expect(fetchSpy).not.toHaveBeenCalled();
     vi.unstubAllGlobals();
   });

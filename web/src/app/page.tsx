@@ -1,23 +1,10 @@
-import { headers } from "next/headers";
-import { notFound } from "next/navigation";
-import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
-import { hostFrom, resolveTenant } from "@/lib/tenants";
-import { getHomeDataCached } from "@/lib/strapi";
-import { homeKey } from "@/lib/queries";
-import Home from "@/components/Home";
+import Hydrated from "@/components/Hydrated";
+import { HomeView } from "@/components/views";
+import { qk } from "@/lib/queries";
+import { tenantOrNotFound } from "@/lib/server";
+import { getHome } from "@/lib/strapi";
 
 export default async function Page() {
-  const tenant = resolveTenant(hostFrom(await headers()));
-  if (!tenant) notFound(); // hostname desconocido: 404, sin tenant por defecto
-
-  // QueryClient por petición (nunca compartido entre peticiones SSR).
-  // fetchQuery (no prefetchQuery) para que un fallo de Strapi produzca error 500 y no una página vacía.
-  const queryClient = new QueryClient();
-  await queryClient.fetchQuery({ queryKey: homeKey(tenant), queryFn: () => getHomeDataCached(tenant) });
-
-  return (
-    <HydrationBoundary state={dehydrate(queryClient)}>
-      <Home slug={tenant} />
-    </HydrationBoundary>
-  );
+  const t = await tenantOrNotFound();
+  return <Hydrated tenant={t} queries={[[qk.home(t), () => getHome(t)]]}><HomeView slug={t} /></Hydrated>;
 }

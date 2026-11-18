@@ -1,6 +1,6 @@
 # Despliegue en Dokploy
 
-Tres servicios: PostgreSQL → Strapi → Next.js. Todos en el mismo proyecto de Dokploy. Los nombres de ejemplo: `ute-db`, `ute-cms`, `ute-web`.
+Tres servicios: PostgreSQL → Strapi → Next.js. Todos en el mismo proyecto de Dokploy. Nombres de ejemplo: `ute-db`, `ute-cms`, `ute-web`. **Importante:** en Dokploy el host interno de cada servicio es su *App Name* con sufijo aleatorio (p. ej. `pocutemultisite-strapi-r4idzm`); úsalo en `DATABASE_HOST` y `STRAPI_URL`, nunca el dominio público ni `https`. Build Path debe ser `/`.
 
 ## 1. PostgreSQL
 *Create Service → Database → PostgreSQL* (15/16). Nombre `ute-db`, DB `ute`, usuario `ute`, contraseña fuerte. **No** configurar puerto externo. Dokploy crea el volumen persistente. Anota el *Internal Host* (`ute-db` o el que muestre; en Swarm es `<appName>`).
@@ -16,7 +16,7 @@ Tres servicios: PostgreSQL → Strapi → Next.js. Todos en el mismo proyecto de
   TRANSFER_TOKEN_SALT=<...>
   ENCRYPTION_KEY=<...>
   JWT_SECRET=<...>
-  DATABASE_HOST=ute-db
+  DATABASE_HOST=<Internal Host de Postgres>
   DATABASE_PORT=5432
   DATABASE_NAME=ute
   DATABASE_USERNAME=ute
@@ -34,18 +34,18 @@ Abre `https://<hostname-del-cms>/admin` y crea el primer usuario administrador.
 *Settings → API Tokens → Create new API Token*: nombre `web`, duración *Unlimited*, tipo **Read-only**. Copia el valor (solo se muestra una vez).
 
 ## 5. Seed
-En Dokploy: `ute-cms` → *Advanced → Terminal* (o `docker exec -it <contenedor> sh`):
+Crea un token API **full-access** (Settings → API Tokens) y siembra por REST desde cualquier máquina con Node 22:
 ```bash
-node scripts/seed.js
+CMS_URL=https://<hostname-del-cms> CMS_TOKEN=<token-full-access> node cms/scripts/seed.js
 ```
-Idempotente: se puede repetir sin duplicar. Imprime `Seed OK: 3 sitios, 7 carreras, 3 anuncios.` No corre automáticamente en el arranque.
+Idempotente: se puede repetir sin duplicar. Imprime `Seed OK: 3 sitios, 7 carreras, 126 ramos, 9 profesores, 7 anuncios.` No corre en el arranque. **Revoca el token full-access** al terminar. Si el CMS ya tenía datos, tras redesplegar con modelos nuevos basta volver a sembrar.
 
 ## 6. Next.js (Dockerfile)
 *Create Service → Application* `ute-web`.
 - Build Type: **Dockerfile** · Dockerfile Path: `web/Dockerfile` · Docker Context Path: `.`
 - Environment:
   ```
-  STRAPI_URL=http://ute-cms:1337
+  STRAPI_URL=http://<App Name de ute-cms>:1337
   STRAPI_API_TOKEN=<token del paso 4>
   ```
   (Son variables de runtime; no se necesitan en build.)

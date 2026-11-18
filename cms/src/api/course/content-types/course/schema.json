@@ -1,0 +1,13 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": { "singularName": "course", "pluralName": "courses", "displayName": "Course" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "code": { "type": "string", "required": true, "unique": true },
+    "name": { "type": "string", "required": true },
+    "semester": { "type": "integer", "required": true },
+    "credits": { "type": "integer" },
+    "career": { "type": "relation", "relation": "manyToOne", "target": "api::career.career", "inversedBy": "courses" }
+  }
+}

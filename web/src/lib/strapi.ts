@@ -1,6 +1,8 @@
 import { cache } from "react";
 import { HUB, siteUrl, tenants, type Tenant } from "./tenants";
-import type { Announcement, Career, HomeData, Site, SiteLink, StrapiList } from "./types";
+import type {
+  Announcement, Career, CareerDetail, HomeData, Professor, Site, SiteInfo, SiteLink, StrapiList,
+} from "./types";
 
 // Solo servidor: STRAPI_URL (red privada) y STRAPI_API_TOKEN nunca llegan al navegador.
 async function strapi<T>(path: string, params: Record<string, string>): Promise<T> {
@@ -15,52 +17,81 @@ async function strapi<T>(path: string, params: Record<string, string>): Promise<
   return res.json();
 }
 
-const bySite = (slug: string) => ({ "filters[sites][slug][$eq]": slug, "pagination[pageSize]": "50" });
+const fields = (names: string[], prefix = "fields") =>
+  Object.fromEntries(names.map((n, i) => [`${prefix}[${i}]`, n]));
+// Filtra por la relación con el sitio resuelto y trae los sitios del registro (nombre + slug).
+const bySite = (slug: string, limit?: number) => ({
+  "filters[sites][slug][$eq]": slug,
+  "pagination[pageSize]": String(limit ?? 100),
+  ...fields(["name", "slug"], "populate[sites][fields]"),
+});
+
+const CAREER = ["slug", "name", "description", "duration", "degree", "modality", "imageUrl"];
+const PROFESSOR = ["name", "title", "specialty", "bio", "photoUrl"];
 
 export async function getSite(slug: string): Promise<Site> {
   const { data } = await strapi<StrapiList<Site>>("sites", {
     "filters[slug][$eq]": slug,
-    "fields[0]": "name", "fields[1]": "slug", "fields[2]": "title",
-    "fields[3]": "description", "fields[4]": "primaryColor", "fields[5]": "secondaryColor",
+    ...fields(["name", "slug", "title", "tagline", "description", "heroImage", "email", "address", "primaryColor", "secondaryColor"]),
   });
   if (!data[0]) throw new Error(`Site "${slug}" no existe o no está publicado en Strapi`);
   return data[0];
 }
 
-export async function getCareers(siteSlug: string): Promise<Career[]> {
-  const { data } = await strapi<StrapiList<Career>>("careers", {
-    ...bySite(siteSlug),
-    "fields[0]": "name", "fields[1]": "description", "fields[2]": "duration", "fields[3]": "degree",
-    sort: "name:asc",
-  });
+export async function getCareers(site: string, limit?: number): Promise<Career[]> {
+  const { data } = await strapi<StrapiList<Career>>("careers", { ...bySite(site, limit), ...fields(CAREER), sort: "name:asc" });
   return data;
 }
 
-export async function getAnnouncements(siteSlug: string): Promise<Announcement[]> {
+export async function getProfessors(site: string, limit?: number): Promise<Professor[]> {
+  const { data } = await strapi<StrapiList<Professor>>("professors", { ...bySite(site, limit), ...fields(PROFESSOR), sort: "name:asc" });
+  return data;
+}
+
+export async function getAnnouncements(site: string, limit?: number): Promise<Announcement[]> {
   const { data } = await strapi<StrapiList<Announcement>>("announcements", {
-    ...bySite(siteSlug),
-    "fields[0]": "title", "fields[1]": "description", "fields[2]": "date",
-    sort: "date:desc",
+    ...bySite(site, limit), ...fields(["title", "description", "date", "category", "imageUrl"]), sort: "date:desc",
   });
   return data;
 }
 
-// Nombres para los enlaces entre sitios (la universidad enlaza a las facultades; ellas, a la universidad).
+/** Detalle de una carrera del sitio, con malla curricular y solo los profesores de este sitio. null si no existe aquí. */
+export async function getCareer(site: string, careerSlug: string): Promise<CareerDetail | null> {
+  const { data } = await strapi<StrapiList<CareerDetail>>("careers", {
+    "filters[slug][$eq]": careerSlug,
+    "filters[sites][slug][$eq]": site,
+    ...fields([...CAREER, "overview"]),
+    ...fields(["code", "name", "semester", "credits"], "populate[courses][fields]"),
+    "populate[courses][sort]": "semester:asc",
+    ...fields(PROFESSOR, "populate[professors][fields]"),
+    "populate[professors][filters][sites][slug][$eq]": site,
+    ...fields(["name", "slug"], "populate[professors][populate][sites][fields]"),
+    ...fields(["name", "slug"], "populate[sites][fields]"),
+  });
+  return data[0] ?? null;
+}
+
+// La universidad enlaza a las facultades; las facultades, a la universidad.
 async function getLinks(slug: Tenant): Promise<SiteLink[]> {
   const wanted = slug === HUB ? Object.values(tenants).filter((t) => t !== HUB) : [HUB];
-  const params: Record<string, string> = { "fields[0]": "name", "fields[1]": "slug" };
+  const params: Record<string, string> = fields(["name", "slug", "tagline", "heroImage"]);
   wanted.forEach((s, i) => (params[`filters[slug][$in][${i}]`] = s));
-  const { data } = await strapi<StrapiList<Pick<Site, "name" | "slug">>>("sites", params);
-  return data.map((s) => ({ slug: s.slug as Tenant, name: s.name, url: siteUrl(s.slug as Tenant) }));
+  const { data } = await strapi<StrapiList<Omit<SiteLink, "url">>>("sites", params);
+  return data.map((s) => ({ ...s, url: siteUrl(s.slug as Tenant) }));
 }
 
-/** Una sola agregación para la home; las 4 peticiones a Strapi van en paralelo. */
-export async function getHomeData(slug: Tenant): Promise<HomeData> {
-  const [site, careers, announcements, links] = await Promise.all([
-    getSite(slug), getCareers(slug), getAnnouncements(slug), getLinks(slug),
+export async function getSiteInfo(slug: Tenant): Promise<SiteInfo> {
+  const [site, links] = await Promise.all([getSite(slug), getLinks(slug)]);
+  return { site, links };
+}
+
+/** Portada: una selección de cada colección, en paralelo. */
+export async function getHome(slug: Tenant): Promise<HomeData> {
+  const [careers, professors, announcements] = await Promise.all([
+    getCareers(slug, 6), getProfessors(slug, 4), getAnnouncements(slug, 3),
   ]);
-  return { site, careers, announcements, links };
+  return { careers, professors, announcements };
 }
 
-/** Deduplica por petición (la página y generateMetadata comparten el resultado). */
-export const getHomeDataCached = cache(getHomeData);
+/** Deduplica por petición (el layout y la página comparten el resultado). */
+export const getSiteInfoCached = cache(getSiteInfo);

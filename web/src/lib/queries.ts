@@ -1,11 +1,22 @@
-import type { HomeData } from "./types";
+import type { Tenant } from "./tenants";
 
-/** La clave incluye el tenant: cada sitio tiene su propia entrada de caché. */
-export const homeKey = (slug: string) => ["site-home", slug] as const;
+/** Todas las claves incluyen el tenant: cada sitio tiene su propia entrada de caché. */
+export const qk = {
+  site: (t: string) => ["site", t] as const,
+  home: (t: string) => ["home", t] as const,
+  careers: (t: string) => ["careers", t] as const,
+  career: (t: string, slug: string) => ["career", t, slug] as const,
+  professors: (t: string) => ["professors", t] as const,
+  announcements: (t: string) => ["announcements", t] as const,
+};
 
-/** Función del cliente: mismo origen, sin parámetros de tenant (lo decide el servidor por Host). */
-export async function fetchHome(): Promise<HomeData> {
-  const res = await fetch("/api/home");
-  if (!res.ok) throw new Error(`GET /api/home → ${res.status}`);
+export type ContentKind = "site" | "home" | "careers" | "career" | "professors" | "announcements";
+
+/** Cliente: siempre mismo origen; el tenant lo decide el servidor por Host, nunca el navegador. */
+export async function fetchContent<T>(kind: ContentKind, slug?: string): Promise<T> {
+  const res = await fetch(`/api/content/${kind}${slug ? `?slug=${encodeURIComponent(slug)}` : ""}`);
+  if (!res.ok) throw new Error(`GET /api/content/${kind} → ${res.status}`);
   return res.json();
 }
+
+export type { Tenant };
